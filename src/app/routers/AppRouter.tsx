@@ -1,12 +1,18 @@
 import { Grid } from '@chakra-ui/react';
 import { TopBarProvider } from 'app/AppTopBarContext';
 import { PrivateRoute } from 'app/PrivateRoute';
-import { supportedAppRoutes } from 'app/routes';
+import { AppRoutes, supportedAppRoutes } from 'app/routes';
 import AccountBanner from 'containers/AccountBanner/AccountBanner';
 import { useAccountBannerCases } from 'containers/AccountBanner/useAccountBanner';
 import { PageNotFound } from 'modules';
 import { useIsUsageExceeded } from 'modules/Consumption/helpers';
-import { Route, Switch } from 'react-router-dom';
+import {
+  Redirect,
+  Route,
+  Switch,
+  generatePath,
+  useLocation,
+} from 'react-router-dom';
 import { FeaturesRouter } from './FeaturesRouter';
 import { AngularApp } from './IframeOnly/AngularApp';
 import { useGetNotificationsQuery } from 'containers/AppSettings/Notifications/Usage/notifications.query';
@@ -17,7 +23,8 @@ const iframeRoutes = supportedAppRoutes.map(route => `/${route}`);
 
 export function AppRouter({ sideBarWidth }) {
   const { over, warning, remainingRpus } = useIsUsageExceeded();
-  const { selectedAccountId } = useCore();
+  const { selectedAccountId, envId } = useCore();
+  const { search } = useLocation();
   const { data: apiNotifications = [], isLoading: isLoadingNotifications } =
     useGetNotificationsQuery(
       { account: selectedAccountId },
@@ -40,7 +47,27 @@ export function AppRouter({ sideBarWidth }) {
         <AccountBanner sideBarWidth={sideBarWidth} state={state} />
         {isReactAppMode && <FeaturesRouter />}
         <Switch>
-          <PrivateRoute exact path="/" component={AngularApp} />
+          {/*
+           * Land on the React dashboard by default instead of the legacy
+           * old-app iframe. The iframe (`/ng`) has no host on a static/mock
+           * deploy, so at "/" it would render the hosting 404 page. Wait for
+           * account + env to resolve, then redirect to the dashboard route
+           * (which FeaturesRouter renders as React), preserving query flags
+           * such as ?leftnav / ?masthead.
+           */}
+          <Route exact path={AppRoutes.ROOT}>
+            {selectedAccountId && envId ? (
+              <Redirect
+                to={{
+                  pathname: generatePath(AppRoutes.DASHBOARD, {
+                    account: selectedAccountId,
+                    env: envId,
+                  }),
+                  search,
+                }}
+              />
+            ) : null}
+          </Route>
           <PrivateRoute path={iframeRoutes} component={AngularApp} />
           <Route path="*">
             <PageNotFound />
