@@ -61,6 +61,27 @@ VITE_PROXY=https://console.dev.rivery.in/
 
 With mocks off the app uses the real `LoginGuard` (you'll sign in normally) and live data.
 
+## Deploy (GitHub Pages)
+
+The prototype is deployed as a static, mock-backed build.
+
+**Live:** https://adamshriki-boomi.github.io/BDI-in-Boomi/
+
+- **Auto-deploys** on every push to `main` via `.github/workflows/pages.yml` (Node 18 →
+  `npm run build` with `VITE_USE_MOCKS=true` and `VITE_BASE_PATH=/BDI-in-Boomi/`, then
+  publishes `build/`). A deploy takes ~4–5 min.
+- **Sub-path aware:** Vite `base` = `VITE_BASE_PATH`; the router `basename` and the MSW
+  service-worker URL both derive from `import.meta.env.BASE_URL`, so everything resolves
+  under `/BDI-in-Boomi/`. The workflow copies `index.html` → `404.html` (SPA deep-link
+  fallback) and adds `.nojekyll`.
+- Toggle versions on the live site with the switcher or URL params, e.g.
+  `…/BDI-in-Boomi/?leftnav=exo&masthead=exo`.
+
+> The repo is **public** (required for GitHub Pages on this plan) and contains the full
+> `react_rivery` source — an interim host until the Bitbucket path is sorted. The 61 MB
+> `lambdaFiles/hyperexecute_mac` CI runner is gitignored and purged from history (kept
+> locally, not tracked).
+
 ---
 
 ## Where things live (prototype additions)
@@ -88,11 +109,17 @@ With mocks off the app uses the real `LoginGuard` (you'll sign in normally) and 
   `ExIconButton` + tokens, a token-styled env pill + nav tabs, the Boomi logo, and the
   Agent Studio mark recomposed from the Figma source layers. See `EXOSPHERE-CUSTOM.md`.
 - **In Both mode**, the leftnav drops its own brand + user row (the masthead carries them).
+- **Root redirect for static hosting** — at `/` the app used to render the legacy `/ng`
+  iframe, which has no host on a static/mock deploy (it showed the hosting 404 page in the
+  content area). `AppRouter.tsx` now redirects `/` → the Dashboard route once account + env
+  resolve, so the app lands on the React Dashboard just like local; the `?leftnav`/`?masthead`
+  flags are preserved through the redirect.
 
 ## Known limitations (by design for this prototype)
 
-- The main content area is the legacy **Angular `/ng` iframe**, which stays blank on the
-  mock backend (irrelevant to evaluating the nav/masthead chrome). Newer React surfaces
-  (e.g. the Dashboard) render normally.
+- The app lands on the React **Dashboard**, which renders fully on mocks. Legacy areas that
+  are still the **Angular `/ng` iframe** have no host on the static/mock deploy (an empty
+  frame locally, or the host's 404 page on Pages) — irrelevant to evaluating the nav/masthead
+  chrome.
 - The masthead's primary nav (Dashboard/Build/Deploy/Manage) and the Agent Studio icon are
   representative; deep data beyond the shell isn't mocked.
