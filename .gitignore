@@ -37,3 +37,5 @@ yarn-error.log*
 /.idea
 TODO.md
 .nyc*/
+# Large LambdaTest HyperExecute Mac CI runner (not needed for the prototype)
+lambdaFiles/hyperexecute_mac
