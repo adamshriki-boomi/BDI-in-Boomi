@@ -1,0 +1,34 @@
+{
+  "$schema": "./step.schema.json",
+  "hash_key_init": "ss",
+  "isEnabled": true,
+  "content": {
+    "use_standard_sql": false,
+    "sql_query": "",
+    "execute_sql_command": false,
+    "connection_id": {},
+    "type": "RECORD",
+    "drop_after": false,
+    "target_type": "table",
+    "file_type": "csv",
+    "block_type": "None",
+    "block_primary_type": "action",
+    "block_db_type": "snowflake",
+    "compression": "none",
+    "split_tables": "no",
+    "split_interval": "d",
+    "target_loading": "append",
+    "target_table": "",
+    "fields": [],
+    "query_priority": "interactive",
+    "label": "Action",
+    "action_id": "616d56341150422cee59b50c",
+    "connection_oid": "601fbfadf4e2d301d40afcbb"
+  },
+  "nodes": [
+    {
+      "hash_key_init": "dsadsa",
+      "isEnabled": true
+    }
+  ]
+}

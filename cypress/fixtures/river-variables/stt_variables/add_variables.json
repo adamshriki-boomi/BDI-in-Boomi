@@ -1,0 +1,21 @@
+{
+    "next_page": "",
+    "previous_page": null,
+    "page": 1,
+    "current_page_size": 20,
+    "total_items": 1,
+    "account_id": "account1",
+    "environment_id": "faked-env-1",
+    "items": [
+      {
+        "account": "account1",
+        "env_id": "faked-env-1",
+        "river_id": "63fe022f882b2c0012554eb0",
+        "name": "variable1",
+        "settings": {
+          "is_private": false
+        },
+        "value": ""
+      }
+    ]
+  }

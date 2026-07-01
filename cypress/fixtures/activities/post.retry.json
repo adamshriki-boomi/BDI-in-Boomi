@@ -1,0 +1,239 @@
+{
+    "_id": "caffeb411d7448bba5ca6ca1e47c84ff",
+    "account": "55bf7c4270fdca16cac18761",
+    "additional_data": {
+      
+    },
+    "api_migration": true,
+    "datasource_id": "fb_ads",
+    "env_id": "563f5b17b0a10e07a4ff4c33",
+    "error_description": null,
+    "error_id": null,
+    "expire_in": 1664475744,
+    "is_hidden": false,
+    "is_locked": true,
+    "is_manual": null,
+    "is_multi": true,
+    "is_retry": true,
+    "is_subriver": null,
+    "is_synchronized": true,
+    "is_warning": false,
+    "last_retry": [
+      {
+        "error_description": null,
+        "q_run_time": 1661845988128,
+        "q_update_time": 1661846001790
+      }
+    ],
+    "last_task_ordinal": 1,
+    "master_river_id": "62fffc4ff837a70011789a27",
+    "no_of_retries": 2,
+    "notification_type": "on_failure",
+    "q_end_time": 1661846001790,
+    "q_insert_time": 1661845983259,
+    "q_run_time": 1661845988128,
+    "q_update_time": 1661846001790,
+    "retry_activity_id": "4cd44f5c39b24a6e84fde4f2b086f552",
+    "retry_run_id": "a82989b66a1641319c77dca41bd97191",
+    "river_id": "62fffc4ff837a70011789a27",
+    "river_type_id": "src_to_trgt",
+    "run_date": 1661845983259,
+    "run_id": "34c226761f59454ca017cc802b487c4d",
+    "run_notification_timeout": null,
+    "run_timeout": null,
+    "run_group_id": "34c226761f59454ca017cc802b487c4d",
+    "source_name": null,
+    "target_name": "rivery_demo.dwh.fb_ads_ads",
+    "target_type_id": "snowflake",
+    "task_definition": {
+      "_id": "62fffc4ff837a70011789a29",
+      "additional_filters": {
+        
+      },
+      "connection_definition": {
+        "_id": "6231b0ad9e0a240010ee1a29",
+        "account": "55bf7c4270fdca16cac18761",
+        "account_name": "zn19366.eu-central-1",
+        "aws_access_key": "AKIAJCVMC3PRNC5S7EHA",
+        "aws_access_secret": "AQICAHiyT15wOIVZHyYujUaQA6nJRbRDk00DR1iSRdknyh4+zAH/V9yW45O9lq6s6zhJ06DYAAAAhzCBhAYJKoZIhvcNAQcGoHcwdQIBADBwBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDDWptmts8dLX1CsjZQIBEIBDFmOW0RVNQ5X6C40us2MbR72URveBbtVHqkGKo44wNM/VLv+KyA0B5RFmv6NKzryqVSSUh4Olpp3bHZP3F9aECJtfSg==",
+        "aws_access_secret_exists": true,
+        "connection_creation_time": "Wed, 16 Jun 2021 11:20:12 GMT",
+        "connection_name": "Rivery Dev file zone",
+        "connection_tests": [
+          "default warehouse test",
+          "get databases list",
+          "default db schemas list",
+          "default db table creation test"
+        ],
+        "connection_type": "aws",
+        "connection_type_name": "AWS",
+        "connection_update_by": "5e0c56bf567409664fa86c7f",
+        "connection_update_time": "Wed, 29 Dec 2021 12:26:17 GMT",
+        "cross_id": "60c9de6ca6c05d001d9a8c4f",
+        "custom_fz": true,
+        "default_bucket": "rivery-dev-tests",
+        "env_id": "563f5b17b0a10e07a4ff4c33",
+        "fz_connection_id": "60c9de6ca6c05d001d9a8c4f",
+        "fz_target_type_id": "s3",
+        "is_aws_access_secret_encrypted": true,
+        "is_default_fz": false,
+        "is_fz_connection": true,
+        "is_password_encrypted": true,
+        "is_test_connection": true,
+        "keys_to_decrypt": [
+          "password",
+          "aws_access_secret"
+        ],
+        "last_test_date": "Wed, 01 Jun 2022 15:46:48 GMT",
+        "password": "AQICAHiyT15wOIVZHyYujUaQA6nJRbRDk00DR1iSRdknyh4+zAE0HFQduR+H+u1k1tKzWi7rAAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMp+LNrsu19eZWR2vWAgEQgCQe9DpTgy54n7UDIzWTPEgmgxApJQu8dsxdOWpbCuqLXktGKzw=",
+        "password_exists": true,
+        "region": "us-east-2",
+        "s3_connection_method": "aws_keys",
+        "username": "eitam",
+        "valid": true,
+        "warehouse": "RIVERY_DEMO"
+      },
+      "connection_id": null,
+      "connection_tests": [
+        {
+          "_id": "default_warehouse_test",
+          "name": "Default warehouse test"
+        },
+        {
+          "_id": "get_databases_list",
+          "name": "Get databases list"
+        },
+        {
+          "_id": "default_db_schemas_list",
+          "name": "Befault DB schemas list"
+        },
+        {
+          "_id": "default_db_table_creation_test",
+          "name": "Default DB table creation test"
+        }
+      ],
+      "created_by": "628bf51c1651420011dd3871",
+      "current_workers_running": 1,
+      "database_name": "RIVERY_DEMO",
+      "datasource_id": "snowflake",
+      "delete_keys": [
+        
+      ],
+      "delimiter": ",",
+      "extract_method": "increment",
+      "feeder_lock_date": 1661845982,
+      "feeder_module": "rivery_feeders.feeders.load_to_snowflake_feeder",
+      "fix_invalid_characters": false,
+      "fz_bucket": "rivery-dev-tests",
+      "global_keys": {
+        "target_database": "task_config.target_database",
+        "target_name": "$.task_config.target_database+\".\"+$.task_config.target_schema+\".\"+$.task_config.target_table",
+        "target_schema": "task_config.target_schema"
+      },
+      "include_deleted_rows": false,
+      "is_default_fz": false,
+      "is_deleted": false,
+      "is_direct_load": false,
+      "is_feeder": true,
+      "is_feeder_lock": true,
+      "is_hidden": false,
+      "is_loading_from_stream": false,
+      "is_migration": true,
+      "is_predefined_reports": true,
+      "is_synchronized": true,
+      "is_target_task": true,
+      "is_worker_lock": true,
+      "merge_method": "switch_tables",
+      "move_as_is": true,
+      "next_task_arguments": {
+        
+      },
+      "next_task_for_run": {
+        
+      },
+      "ordinal": 1,
+      "pull_target": "cloud",
+      "pull_translate": {
+        "buckets": "get_buckets",
+        "database": "get_databases",
+        "schemas": "get_schemas",
+        "tables": "get_tables",
+        "warehouses": "get_warehouses"
+      },
+      "retry_activity_id": "4cd44f5c39b24a6e84fde4f2b086f552",
+      "retry_details": {
+        "task_definition_source": "task_definition.source",
+        "task_definition_update_after_success": "task_definition.update_after_success"
+      },
+      "retry_run_id": "a82989b66a1641319c77dca41bd97191",
+      "river_id": "62fffc4ff837a70011789a27",
+      "river_type_id": "src_to_trgt",
+      "schedule": {
+        "isEnabled": false,
+        "job_id": "62fffc4ff837a70011789a29"
+      },
+      "source": "eJyLVkq1SLU0Mk8zMTI3NzA0TE1JTDSxMEhMSTIwMEw1tUy2UIoFALM5Cbo=",
+      "source_connection_cross_id": "62b1b09e674295d91e7c746d",
+      "source_connection_id": "62b1b09e674295d91e7c746d",
+      "source_datasource_id": "fb_ads",
+      "source_format": "NEWLINE_DELIMITED_JSON",
+      "source_schema_id": "no_schema",
+      "source_table_id": "predefined_ads",
+      "sync_schema_back": true,
+      "table_changed_cols": "eJyrrgUAAXUA+Q==",
+      "table_loading_status": "tracked",
+      "target_database": "rivery_demo",
+      "target_loading": "merge",
+      "target_name": "rivery_demo.dwh.fb_ads_ads",
+      "target_schema": "DWH",
+      "target_table": "fb_ads_ads",
+      "target_type": "snowflake",
+      "task_config": {
+        "allow_jagged_rows": true,
+        "allow_quoted_new_line": true,
+        "compression": false,
+        "csvTypeMust": "json",
+        "delimiter": ",",
+        "file_columns": [
+          {
+            "id": 0,
+            "type": "STRING"
+          }
+        ],
+        "fz_batched": true,
+        "fz_path": "Liron_62fffc4ff837a70011789a27",
+        "header": 1,
+        "ignore_unknown_values": true,
+        "mapping_order": [
+          
+        ],
+        "max_bad_records": 0,
+        "quote": "\"",
+        "skip_loaded_files": false,
+        "source_format": "NEWLINE_DELIMITED_JSON",
+        "split_tables": "no",
+        "strip_outer_array": true,
+        "target_database": "RIVERY_DEMO",
+        "target_loading": "merge",
+        "target_schema": "DWH",
+        "use_rivery_metadata": true
+      },
+      "task_date_inserted": "Fri, 19 Aug 2022 21:10:39 GMT",
+      "task_date_updated": "Mon, 29 Aug 2022 08:01:52 GMT",
+      "task_display_name": "Loading from File Zone to Snowflake",
+      "task_label": "data_loading",
+      "task_method": "target_loading_v3",
+      "task_name": "load to snowflake by batches",
+      "task_process_module": "{processes_path}.load_to_snowflake",
+      "task_type_id": "fz2snowflake",
+      "task_type_name": "File Zone to Snowflake",
+      "task_workers_max_number": 1,
+      "update_after_success": {
+        
+      },
+      "updated_by": "621df3d4bb9a69001cf05ccd",
+      "version_id": "630c7270819a320012570dad"
+    },
+    "task_id": "62fffc4ff837a70011789a29",
+    "task_status": "E"
+  }

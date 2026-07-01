@@ -1,0 +1,25 @@
+{
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b17b0a10e07a4ff4c33",
+    "river_cross_id": "62fa39e763ce80000f3d21bc",
+    "run_id": "a4eefdec04854e56bfa50694f4e4c3d2",
+    "steps": {
+      "Logic Step(0)": {
+        "is_container": false,
+        "container_type": null,
+        "start_date_utc": "2022-08-31T22:03:54.229973",
+        "start_date_in_milliseconds": 1661983434229,
+        "end_date_utc": "2022-08-31T22:05:04.019739",
+        "end_date_in_milliseconds": 1661983504029,
+        "step_status": "succeeded" ,
+        "loop_iteration_number": 0,
+        "duration": "0:01:09.789760",
+        "step_execution_id": "a4eefdec04854e56bfa50694f4e4c3d2:99cd1e39efb943a1867dbbde3288d986:0",
+        "step_id": "99cd1e39efb943a1867dbbde3288d986",
+        "step_index": "0.0",
+        "error_description": null,
+        "logicode_statistics": null,
+        "block_type": "athena"
+      }
+    }
+  }

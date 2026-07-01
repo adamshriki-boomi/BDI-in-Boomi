@@ -1,0 +1,496 @@
+{
+  "next_page": "",
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 400,
+  "total_items": 14,
+  "items": [
+    {
+      "id": "s3",
+      "api_name": "s3",
+      "name": "Amazon S3",
+      "description": "Secure, Durable & Highly-Scalable Object Storage.\n",
+      "documentation_url": "https://docs.rivery.io/docs/amazon-s3-connection",
+      "section_id": "sec_storage",
+      "status": "enabled",
+      "segment": [
+        "source",
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/amazon-s3.png",
+      "connection_type": "aws",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": true,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": false
+      },
+      "labels": []
+    },
+    {
+      "id": "redshift",
+      "api_name": "redshift",
+      "name": "Amazon Redshift",
+      "description": "A Cloud managed, petabyte-scale data warehouse service.",
+      "documentation_url": "https://docs.rivery.io/docs/redshift-connection",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/redshift.png",
+      "connection_type": "redshift",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "gcs",
+      "api_name": "gcs",
+      "name": "Google Cloud Storage",
+      "description": "A powerful, simple cost effective object storage service.\n",
+      "documentation_url": "https://docs.rivery.io/docs/gcs",
+      "section_id": "sec_storage",
+      "status": "enabled",
+      "segment": [
+        "source",
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/gcs.png",
+      "connection_type": "gcloud",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "bq",
+      "api_name": "bigquery",
+      "name": "Google BigQuery",
+      "description": "Google's fully managed, NoOps, low cost analytics database.",
+      "documentation_url": "https://docs.rivery.io/docs/bq",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/bq.png",
+      "connection_type": "gcloud",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv",
+            "avro"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "azure_datalake",
+      "api_name": "azure_datalake",
+      "name": "Azure Data Lake",
+      "description": "Microsoft Azure Data Lake is a big data storage and analytics service",
+      "documentation_url": "https://docs.rivery.io/docs/azure-datalake",
+      "section_id": "sec_hidden",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_datalake.png",
+      "connection_type": "azure",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {},
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "target_email",
+      "api_name": "target_email",
+      "name": "Send By Email",
+      "description": "Get data straight to your email",
+      "documentation_url": null,
+      "section_id": "sec_organization",
+      "status": "enabled",
+      "segment": [
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/mail.png",
+      "connection_type": "target_email",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {},
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": false
+      },
+      "labels": []
+    },
+    {
+      "id": "snowflake",
+      "api_name": "snowflkae",
+      "name": "Snowflake",
+      "description": "Cloud data warehouse which delivers simplicity, concurrency and preformence. ",
+      "documentation_url": "https://docs.rivery.io/docs/connection-snowflake",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/snowflake.png",
+      "connection_type": "snowflake",
+      "data_source_type_settings": {
+        "is_new_interface": true,
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "azure_sql_dwh",
+      "api_name": "azure_sql_dwh",
+      "name": "Azure Synapse Analytics",
+      "description": "A cloud-based Enterprise Data Warehouse ",
+      "documentation_url": "https://docs.rivery.io/docs/walkthrough-azure-sql-dwh",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_sql_dwh.png",
+      "connection_type": "azure_sql_dwh",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "treasure_data",
+      "api_name": "treasure_data",
+      "name": "Treasure Data",
+      "description": "",
+      "documentation_url": "https://docs.rivery.io/docs/treasure-data",
+      "section_id": "sec_organization",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/treasure_data.png",
+      "connection_type": "treasure_data",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": false
+      },
+      "labels": []
+    },
+    {
+      "id": "postgres_rds",
+      "api_name": "postgres_rds",
+      "name": "Amazon RDS/Aurora for PostgreSQL",
+      "description": "An object-relational database management system (ORDBMS).",
+      "documentation_url": "https://docs.rivery.io/docs/setting-up-aws-rdsaurora-for-postgres-as-target",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "target",
+        "connections"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/pg.png",
+      "connection_type": "postgres",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {},
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "firebolt",
+      "api_name": "firebolt",
+      "name": "Firebolt",
+      "description": "Firebolt is a cloud data warehouse with extreme speed and elasticity at scale",
+      "documentation_url": "https://docs.rivery.io/docs/connection-firebolt",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/firebolt.png",
+      "connection_type": "firebolt",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "databricks",
+      "api_name": "databricks",
+      "name": "Databricks SQL",
+      "description": "A cloud based DWH based on Databricks' Delta.",
+      "documentation_url": "https://docs.rivery.io/docs/setting-up-databricks-sql-as-target",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/databricks.png",
+      "connection_type": "databricks",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": false,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "athena",
+      "api_name": "athena",
+      "name": "Amazon Athena",
+      "description": "A serverless, interactive query service to query data and analyze big data in Amazon S3 using standard SQL",
+      "documentation_url": "https://docs.rivery.io/docs/amazon-s3-connection",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "connections",
+        "target"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/athena.png",
+      "connection_type": "athena",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {
+          "bq": [
+            "json",
+            "csv",
+            "parquet"
+          ]
+        },
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    },
+    {
+      "id": "azure_sql",
+      "api_name": "azure_sql",
+      "name": "Azure SQL",
+      "description": "A relational database management system developed by Microsoft Azure.",
+      "documentation_url": "https://docs.rivery.io/docs/azure-sql-as-a-target",
+      "section_id": "sec_relational",
+      "status": "enabled",
+      "segment": [
+        "target",
+        "connections"
+      ],
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_sql.png",
+      "connection_type": "azure_sql",
+      "data_source_type_settings": {
+        "support_high_frequency": false,
+        "support_custom_table": false,
+        "support_predefined_reports": false,
+        "support_generic_ui": false,
+        "is_new_interface": false,
+        "is_connection_generic_pattern": true,
+        "supported_file_types_per_data_warehouse": {},
+        "logs_settings": {
+          "support_logs": false,
+          "logs_start_time": null
+        },
+        "increment_defaults": {},
+        "support_sub_rivers": true
+      },
+      "labels": []
+    }
+  ]
+}

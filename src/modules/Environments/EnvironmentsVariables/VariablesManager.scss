@@ -1,0 +1,21 @@
+.table-overflow {
+  max-height: 70vh;
+  overflow-x: auto;
+}
+
+.table-header {
+  z-index: 2 !important;
+  background-color: #f9fafb;
+
+  &>svg {
+    position: absolute;
+    right: 24px;
+  }
+}
+
+.sticky {
+  position: sticky !important;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}

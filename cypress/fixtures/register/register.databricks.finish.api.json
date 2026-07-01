@@ -1,0 +1,6 @@
+{
+  "is_sf": true,
+  "account": { "$oid": "fakedid" },
+  "is_registered": true,
+  "user_email": "briverytest123@databricks.com"
+}

@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "_id": "61bf29f3c2e403001dc01e07",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "my-new-dataframe",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/my-new-dataframe"
+    }
+  ]
+}

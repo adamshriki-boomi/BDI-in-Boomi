@@ -1,0 +1,94 @@
+{
+  "cross_id": "bp_river_legacy_1",
+  "account_id": "55bf7c4270fdca16cac18761",
+  "kind": "main_river",
+  "type": "source_to_target",
+  "name": "Legacy Blueprint River",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "environment_name": "Development",
+  "group_id": "58d7ae8f7bf88100f8412c1a",
+  "group_name": "Global",
+  "metadata": {
+    "created_by": "Tester",
+    "created_at": "2026-01-01T00:00:00",
+    "last_updated_by": "Tester",
+    "last_updated_at": "2026-01-01T00:00:00",
+    "description": "Legacy blueprint river with saved date_range",
+    "current_version_id": "640760bf21d9e30012ac0b78",
+    "river_status": "active"
+  },
+  "properties": {
+    "properties_type": "source_to_target",
+    "source": {
+      "name": "blueprint",
+      "connection_id": null,
+      "run_type": "multi_tables",
+      "additional_settings": {
+        "datasource_id": "blueprint",
+        "connection_type": "blueprint_custom",
+        "recipe_id": "bp_legacy_1",
+        "run_type": "multi_tables",
+        "extract_method": "incremental"
+      }
+    },
+    "target": {
+      "name": "snowflake",
+      "connection_id": "5f39192456740903078c509d",
+      "connection_name": "Rivery Snowflake",
+      "database_name": "rivery_demo",
+      "schema_name": "public",
+      "table_name": null,
+      "table_prefix": null,
+      "loading_method": "overwrite",
+      "file_zone_settings": null,
+      "additional_settings": {}
+    },
+    "schemas": [
+      {
+        "name": "no_schema",
+        "tables": [
+          {
+            "details": {
+              "name": "ListIssues",
+              "is_selected": true,
+              "schemaName": "no_schema",
+              "target_table": "ListIssues",
+              "extract_method": "incremental",
+              "incremental_field": "blueprint",
+              "date_range": {
+                "name": "date",
+                "type": "datetime",
+                "time_period": "custom",
+                "start_date": "2024-01-15T00:00:00",
+                "end_date": null,
+                "days_back": 0,
+                "utc_offset": 0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "run_timeout_seconds": 43200,
+    "notification": {
+      "warning": {
+        "email": "",
+        "is_enabled": false,
+        "execution_time_limit_seconds": null
+      },
+      "failure": {
+        "email": "",
+        "is_enabled": false,
+        "execution_time_limit_seconds": null
+      },
+      "run_threshold": {
+        "email": "",
+        "is_enabled": false,
+        "execution_time_limit_seconds": null
+      }
+    }
+  },
+  "schedulers": []
+}

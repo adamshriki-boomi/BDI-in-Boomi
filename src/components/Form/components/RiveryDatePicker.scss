@@ -1,0 +1,124 @@
+.rmdp-calendar {
+  padding: 0 !important;
+}
+
+.rmdp-wrapper.custom-date-picker {
+  background-color: var(--chakra-colors-gray-100) !important;
+}
+
+.rmdp-wrapper.custom-time-picker {
+  display: none;
+}
+
+.rmdp-arrow-container:hover {
+  background-color:var(--chakra-colors-purple-50) !important;
+  padding-top: 2px !important;
+}
+
+.rmdp-day-picker {
+  padding: 8px;
+
+  &>div:first-child {
+    margin-right: 30px !important;
+  }
+}
+
+.ep-arrow {
+  display: none;
+}
+
+.rmdp-input {
+  display: none;
+}
+
+.custom-input {
+  display: none;
+}
+
+.rmdp-week {
+  margin-bottom: 2px !important;
+}
+
+.rmdp-week-day {
+  color: var(--chakra-colors-textSecondary) !important;
+  font-weight: normal !important;
+}
+
+.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  background-color: var(--chakra-colors-purple-50) !important;
+  font-weight: 500 !important;
+}
+
+
+.rmdp-range {
+  background-color: var(--chakra-colors-purple-50) !important;
+  box-shadow: none !important;
+  color: var(--chakra-colors-font) !important;
+  :hover {
+    color: var(--chakra-colors-font) !important;
+  }
+
+  &>span {
+    font-weight: 500 !important;
+  }
+
+  &.start {
+    border-radius: 4px 0px 0px 4px !important;
+    color: #fff !important;
+    &:hover {
+      color: var(--chakra-colors-font) !important;
+    }
+    &>span {
+      background-color: var(--chakra-colors-purple-800) !important;
+    }
+  }
+
+  &.end {
+    border-radius: 0px 4px 4px 0px !important;
+    color: #fff !important;
+    &:hover {
+      color: var(--chakra-colors-font) !important;
+    }
+    &>span {
+      background-color: var(--chakra-colors-purple-800) !important;
+    }
+  }
+}
+
+.rmdp-day span {
+  font-weight: normal !important;
+  border-radius: 4px !important;
+  margin: 1px !important;
+  
+}
+
+.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  color: var(--chakra-colors-font) !important;
+}
+
+.rmdp-day.rmdp-today:not(.rmdp-range.start):not(.rmdp-range.end)>span {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid var(--chakra-colors-purple-800);
+}
+
+.rmdp-header {
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--chakra-colors-gray-300) !important;
+}
+
+.rmdp-header-values {
+  color: var(--chakra-colors-font) !important;
+  font-weight: 600 !important;
+}
+
+.rmdp-arrow {
+  border-color: var(--chakra-colors-purple-100) !important;
+}
+
+.custom-time-input {
+  width: 60px !important;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 1px var(--chakra-colors-gray-400) solid;
+}

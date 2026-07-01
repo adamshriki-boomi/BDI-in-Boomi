@@ -1,0 +1,16 @@
+{
+  "next_page": null,
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 20,
+  "total_items": 2,
+  "items": [
+    {
+      "_id": "60529871f5682c67e64084f0",
+      "is_active": true,
+      "account_name": "oiaoqa",
+      "owner_email": "oiaoqa@maxresistance.com",
+      "active_account_type": "client"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "total_pages":1,
+    "page_size":1000,
+    "total_filtered_entities":29,
+    "total_entities":29,
+    "data":[
+       {
+          "is_sub_rivers_src":false,
+          "entity_id":"61250caf0608a58c0f627f93",
+          "is_scheduled_src":null,
+          "group_name_src":null,
+          "source_src":null,
+          "env_id_trg":{
+             "$oid":"6267d17719694a63d6a11e0b"
+          },
+          "modified_by_name_src":"Meir Fox",
+          "modified_date_src":1629818047459,
+          "group_name_trg":null,
+          "is_scheduled_trg":null,
+          "env_trg_name":"Sales",
+          "source_trg":null,
+          "modified_by_src":{
+             "$oid":"601ab2a4f5682c675e4cdc43"
+          },
+          "group_id_src":"None",
+          "name_src":"Marketing Analytics B2C - from Kits",
+          "modified_date_trg":1650973897370,
+          "entity_type":"river_groups",
+          "env_src_name":"Default",
+          "target_src":null,
+          "group_id_trg":"None",
+          "type_trg":null,
+          "env_id_src":{
+             "$oid":"59143914b0ea183ea0e4d2b2"
+          },
+          "modified_by_trg":{
+             "$oid":"60abbcd7f5682c6149451a49"
+          },
+          "is_sub_rivers_trg":false,
+          "modified_by_name_trg":"Keith Maxwell",
+          "name_trg":"Marketing Analytics B2C - from Kits",
+          "type_src":null,
+          "target_trg":null
+       }
+    ],
+    "page":1
+ }

@@ -1,0 +1,14 @@
+{
+  "connection_type": "azure_sql_dwh",
+  "public_key": "ssh-rsa demo-hash-key",
+  "account": { "$oid": "55bf7c4270fdca16cac18761" },
+  "key_name": "confusion",
+  "created_at": { "$date": 1626278173238 },
+  "key_file_name": "{key_files_path}/55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_confusion.pem",
+  "prefix": "55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_confusion.pem",
+  "key_pair_id": { "$oid": "60ef091c115042513db50688" },
+  "user_created": { "$oid": "60152e0b115042307858a5b5" },
+  "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+  "_id": { "$oid": "60ef091c115042513db50688" },
+  "is_key_file": true
+}

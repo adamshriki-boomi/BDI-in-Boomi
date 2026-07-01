@@ -1,0 +1,62 @@
+{
+  "next_page": "https://api.dev.rivery.in/v1/accounts/fake/environments/fake/connections/fake/tables?schema_name=employees&next_page_id=646e169_fake_bfcf3238d36",
+  "previous_page": null,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "current_page_size": 3,
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "id": "or_test_epoch",
+      "increment_columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "incremental_type": "runningnumber",
+          "is_default": false
+        },
+        {
+          "name": "epoch",
+          "type": "FLOAT",
+          "incremental_type": "epoch",
+          "is_default": false
+        },
+        {
+          "name": "from_date",
+          "type": "DATE",
+          "incremental_type": "datetime",
+          "is_default": false
+        }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": {
+        "name": "employees",
+        "type": "mysql"
+      }
+    },
+    {
+      "id": "NewTable test space",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": {
+        "name": "employees",
+        "type": "mysql"
+      }
+    },
+    {
+      "id": "NewTable2",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": {
+        "name": "employees",
+        "type": "mysql"
+      }
+    }
+  ]
+}

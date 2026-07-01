@@ -1,0 +1,750 @@
+{
+  "$id": "logicStepV2",
+  "title": "logic step",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "isEnabled": {
+      "type": "boolean"
+    },
+    "isParallel": {
+      "type": "boolean"
+    },
+    "hash_key_init": {
+      "$ref": "#/$defs/NonEmptyString"
+    },
+    "container_running": {
+      "$ref": "#/$defs/ContainerRunningTypes"
+    },
+    "condition": {
+      "$ref": "#/$defs/Condition"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "#",
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "condition": {
+                  "properties": {
+                    "condition_then": {
+                      "not": {
+                        "const": "run_step"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "then": {},
+            "else": {
+              "properties": {
+                "content": {
+                  "$ref": "#/$defs/Content"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "condition": {
+                  "not": true
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "content": {
+                  "$ref": "#/$defs/Content"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "condition": {
+            "properties": {
+              "condition_then": {
+                "not": {
+                  "const": "run_step"
+                }
+              }
+            }
+          }
+        }
+      },
+      "then": {},
+      "else": {
+        "properties": {
+          "content": {
+            "$ref": "#/$defs/Content"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "condition": {
+            "not": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "content": {
+            "$ref": "#/$defs/Content"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "containsKey": {
+      "type": "array",
+      "contains": {
+        "type": "object",
+        "properties": {
+          "isKey": {
+            "type": "boolean",
+            "const": true
+          }
+        },
+        "required": [
+          "isKey"
+        ]
+      }
+    },
+    "NonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Number_range_2_100": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 100
+    },
+    "Condition": {
+      "properties": {
+        "operator": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "condition_name": {
+          "type": "string"
+        },
+        "condition_then": {
+          "type": "string"
+        }
+      }
+    },
+    "Content": {
+      "required": [
+        "block_type"
+      ],
+      "type": "object",
+      "properties": {
+        "block_type": {
+          "$ref": "#/$defs/NonEmptyString"
+        },
+        "block_primary_type": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "allOf": [
+        {
+          "$comment": "Target loading = Merge",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "target_type": {
+                "const": "table"
+              },
+              "execute_sql_command": {
+                "not": true
+              },
+              "target_loading": {
+                "const": "merge"
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "fields": {
+                "$ref": "#/$defs/containsKey"
+              }
+            },
+            "required": [
+              "fields",
+              "target_loading"
+            ]
+          }
+        },
+        {
+          "$comment": "River",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "river"
+              },
+              "block_type": {
+                "const": "river"
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "river_id": {
+                "$ref": "#/$defs/oidOrString"
+              }
+            },
+            "required": [
+              "river_id"
+            ]
+          }
+        },
+        {
+          "$comment": "Action",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "action"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "action_id": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "action_id"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "target_type": {
+                "const": "table"
+              },
+              "source_type": {
+                "not": {
+                  "const": "sql_script"
+                }
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "target_table": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "target_table"
+            ]
+          }
+        },
+        {
+          "$comment": "Logicode source",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "logicode"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "file_name": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "file_cross_id"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Variable",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "type": "string",
+                "pattern": "^(logicode|sql)$"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "const": "variable"
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variable_name": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "variable_name"
+            ]
+          }
+        },
+        {
+          "$comment": "Target FZ",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "target_type": {
+                "const": "files_export"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "file_path_destination",
+              "bucket_name"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table BigQuery",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "big_query_sql"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "not": {
+                  "const": "variable"
+                }
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "dataset_id": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "dataset_id"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table Athena",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "athena"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "buckets_number": {
+                "$ref": "#/$defs/Number_range_2_100"
+              }
+            },
+            "required": [
+              "buckets_number"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table Redshift, Azure Synaps, Postgres",
+          "if": {
+            "properties": {
+              "block_type": {
+                "type": "string",
+                "pattern": "^(redshift|azure_sql_dwh|postgres)$"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "const": "table"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "schema_id": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "schema_id"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table Snowflake",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "snowflake"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "const": "table"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "schema_id": {
+                "$ref": "#/$defs/NonEmptyString"
+              },
+              "database": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "schema_id",
+              "database"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table Snowflake and loading mode is merge an filter logical key is on",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "snowflake"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "const": "table"
+              },
+              "is_ordered_merge": {
+                "const": true
+              },
+              "target_loading": {
+                "const": "merge"
+              }
+            },
+            "required": [
+              "is_ordered_merge"
+            ]
+          },
+          "then": {
+            "required": [
+              "order_expression"
+            ]
+          }
+        },
+        {
+          "$comment": "Target FZ Snowflake",
+          "if": {
+            "properties": {
+              "block_type": {
+                "enum": [
+                  "snowflake",
+                  "redshift",
+                  "azure_sql_dwh",
+                  "azure_sql",
+                  "postgres"
+                ]
+              },
+              "target_type": {
+                "const": "files_export"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "fzConnection"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Table Databricks",
+          "if": {
+            "properties": {
+              "block_type": {
+                "const": "databricks"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              },
+              "target_type": {
+                "const": "table"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "database": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "database"
+            ]
+          }
+        },
+        {
+          "$comment": "Target Type",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "pattern": "^(sql|logicode)$"
+              },
+              "execute_sql_command": {
+                "not": {
+                  "const": true
+                }
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "target_type": {
+                "$ref": "#/$defs/TargetType"
+              }
+            },
+            "required": [
+              "target_type"
+            ]
+          }
+        },
+        {
+          "$comment": "SQL source",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "source_type": {
+                "not": {
+                  "const": "dataframe"
+                }
+              }
+            },
+            "required": [
+              "block_primary_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "gConnection": {
+                "$ref": "#/$defs/oidOrString"
+              },
+              "sql_query": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "gConnection",
+              "sql_query",
+              "source_type"
+            ],
+            "errorMessage": {
+              "required": {
+                "gConnection": "must have required property \"Connection\"",
+                "sql_query": "must have required property \"Sql Query\""
+              }
+            }
+          }
+        },
+        {
+          "$comment": "SQL source DataFrame",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "source_type": {
+                "const": "dataframe"
+              }
+            },
+            "required": [
+              "block_primary_type",
+              "source_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "gConnection": {
+                "$ref": "#/$defs/oidOrString"
+              },
+              "source_dataframe": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "gConnection",
+              "source_dataframe",
+              "source_type"
+            ],
+            "errorMessage": {
+              "required": {
+                "gConnection": "must have required property \"Connection\"",
+                "source_dataframe": "must have required property  \"Source Dataframe\""
+              }
+            }
+          }
+        },
+        {
+          "$comment": "Target Dataframe",
+          "if": {
+            "properties": {
+              "block_primary_type": {
+                "const": "sql"
+              },
+              "target_type": {
+                "const": "dataframe"
+              }
+            },
+            "required": [
+              "block_primary_type",
+              "target_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "gConnection": {
+                "$ref": "#/$defs/oidOrString"
+              },
+              "target_dataframe": {
+                "$ref": "#/$defs/NonEmptyString"
+              }
+            },
+            "required": [
+              "gConnection",
+              "target_dataframe"
+            ],
+            "errorMessage": {
+              "required": {
+                "gConnection": "must have required property \"Connection\"",
+                "target_dataframe": "must have required property  \"Target Dataframe\""
+              }
+            }
+          }
+        }
+      ]
+    },
+    "oid": {
+      "type": "object",
+      "properties": {
+        "$oid": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "required": [
+        "$oid"
+      ]
+    },
+    "oidOrString": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/oid"
+        },
+        {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      ]
+    },
+    "RunStatus": {
+      "type": "string",
+      "enum": [
+        "R",
+        "D",
+        "E",
+        "W",
+        "none",
+        ""
+      ]
+    },
+    "TargetType": {
+      "type": "string",
+      "enum": [
+        "table",
+        "variable",
+        "dataframe",
+        "files_export"
+      ]
+    },
+    "ContainerRunningTypes": {
+      "type": "string",
+      "enum": [
+        "run_once",
+        "loop_over",
+        "condition"
+      ]
+    }
+  }
+}

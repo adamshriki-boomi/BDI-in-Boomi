@@ -1,0 +1,6 @@
+{
+  "title": "Not sure how to start?",
+  "title_width": "306px",
+  "description": "Check out our tutorial videos and read about how to use Action Rivers to build your own custom connections or Reverse ETL data pipelines.",
+  "steps": [{"type": "video", "id": "Connector"}, {"type": "video", "id": "Reverse_ETL"}, {"type": "doc", "title":"Connect to any REST API using Action River", "href": "https://help.boomi.com/docs/Atomsphere/Data_Integration/Rivers/ActionRiver/action-rest-api-use-case"},  {"type": "doc", "title":"What is Reverse ETL?\nProcess & Examples", "href": "https://rivery.io/blog/what-is-reverse-etl-guide-for-data-teams/", "resolution": 1806}, {"type": "expert","title": "Book a live session to get the most out of Actions", "width": "215px"}]
+}

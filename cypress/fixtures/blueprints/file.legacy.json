@@ -1,0 +1,7 @@
+{
+  "filename": "legacy-github.yaml",
+  "presigned_url": "https://stub.invalid/blueprints/file_legacy_1.yaml",
+  "last_updated_at": "2026-01-01T00:00:00",
+  "cross_id": "file_legacy_1",
+  "last_updated_by": "tester"
+}

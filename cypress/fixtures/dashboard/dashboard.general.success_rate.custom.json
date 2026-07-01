@@ -1,0 +1,15 @@
+{
+  "account_id": "account1",
+  "metric": "success_rate",
+  "view": "general",
+  "data": [
+    { "run_date": 1772582400000, "success_rate": 0.644, "succeeded": 2900, "failed": 1600 },
+    { "run_date": 1772668800000, "success_rate": 0.643, "succeeded": 2700, "failed": 1500 },
+    { "run_date": 1772755200000, "success_rate": 0.644, "succeeded": 2800, "failed": 1550 }
+  ],
+  "previous_kpis": [
+    { "run_date": 1772236800000, "success_rate": 0.630, "succeeded": 2680, "failed": 1577 },
+    { "run_date": 1772323200000, "success_rate": 0.634, "succeeded": 2700, "failed": 1557 },
+    { "run_date": 1772409600000, "success_rate": 0.638, "succeeded": 2500, "failed": 1420 }
+  ]
+}

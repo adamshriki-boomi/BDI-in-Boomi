@@ -1,0 +1,15 @@
+
+{
+  "page": 1,
+  "current_page_size": 20,
+  "total_items": 2,
+  "items": [
+    {
+      "_id": "607ee20a115042074560b8bc",
+      "is_active": true,
+      "account_name": "Nuclear",
+      "owner_email": "lmpbwjrsmfmunb@nucleant.org",
+      "active_account_type": "client"
+    }
+  ]
+}

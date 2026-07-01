@@ -1,0 +1,16 @@
+{
+  "last_name": "Ancient",
+  "status_code": 200,
+  "is_super_admin": true,
+  "refresh_token": "fakeToken",
+  "first_name": "Dusty",
+  "user_id": {
+    "$oid": "fake"
+  },
+  "last_login": {
+    "$date": 1633539113480
+  },
+  "login_type": "google",
+  "registration_enabled": true,
+  "user_email": "riverytester@gmail.com"
+}

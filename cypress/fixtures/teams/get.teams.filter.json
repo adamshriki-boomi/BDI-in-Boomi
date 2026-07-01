@@ -1,0 +1,41 @@
+{
+    "next_page": "",
+    "previous_page": null,
+    "page": 1,
+    "current_page_size": 2,
+    "total_items": 2,
+    "account_id": "63ecd6d03ab57b000fe400df",
+    "items": [
+      {
+        "_id": "65eec95ceb9bae67952dc8a0",
+        "account_id": "63ecd6d03ab57b000fe400df",
+        "display_name": "Inara-Group",
+        "remote_display_name": "Inara-Group",
+        "description": "",
+        "environments": {
+          
+        },
+        "is_all_environment_admin": false,
+        "source": "active_directory",
+        "created_at": "2024-03-11T09:05:32.560000+00:00"
+      },
+      {
+        "_id": "65ed567b2a806acfc1b6ac03",
+        "account_id": "63ecd6d03ab57b000fe400df",
+        "display_name": "Inara-AD-Test",
+        "remote_display_name": "Inara-AD-Test",
+        "description": "",
+        "environments": {
+          "63ecd6d13ab57b000fe400e1": {
+            "role": "deployment_admin"
+          },
+          "63ecd6d13ab57b000fe400e2": {
+            "role": "deployment_admin"
+          }
+        },
+        "is_all_environment_admin": false,
+        "source": "active_directory",
+        "created_at": "2024-03-10T06:43:07.227000+00:00"
+      }
+    ]
+  }

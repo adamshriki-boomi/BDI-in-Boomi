@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>groups_icons/@tree</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="groups_icons/@tree" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="tree">
+            <g transform="translate(26.000000, 16.000000)">
+                <path d="M20.48,16.384 C20.48,8.384 16.384,0 10.24,0 C4.096,0 0,8.384 0,16.384 C0,23.872 3.584,30.016 8.512,31.232 L8.512,39.232 C8.512,40.256 9.216,40.96 10.24,40.96 C11.264,40.96 11.968,40.256 11.968,39.232 L11.968,31.04 C16.896,30.016 20.48,23.872 20.48,16.384 Z M11.968,27.456 L11.968,23.872 C11.968,22.848 11.264,22.144 10.24,22.144 C9.216,22.144 8.512,22.848 8.512,23.872 L8.512,27.456 C5.632,26.112 3.392,21.504 3.392,16.192 C3.392,9.728 6.784,3.392 10.24,3.392 C13.696,3.392 17.088,9.728 17.088,16.384 C17.088,21.696 14.848,26.304 11.968,27.456 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

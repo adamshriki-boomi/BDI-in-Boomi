@@ -1,0 +1,319 @@
+{
+    "cross_id": "63fe022f882b2c0012554eb0",
+    "account_id": "55bf7c4270fdca16cac18761",
+    "kind": "main_river",
+    "type": "source_to_target",
+    "name": "s2t demo",
+    "environment_id": "563f5b62b0a10e18f0808895",
+    "environment_name": "Development",
+    "group_id": "58d7ae8f7bf88100f8412c1a",
+    "group_name": "Global",
+    "metadata": {
+      "created_by": "John Doe",
+      "created_at": "2023-02-28T13:31:27.109000",
+      "last_updated_by": "John Doe",
+      "last_updated_at": "2023-03-07T16:05:19.165000",
+      "description": "this is a source to target river",
+      "current_version_id": "640760bf21d9e30012ac0b77",
+      "river_status": "disabled"
+    },
+    "properties": {
+      "properties_type": "source_to_target",
+      "source": {
+        "name": "mysql",
+        "connection_id": "629f1a45e85922000f0d82fa",
+        "connection_name": "rivery_demo",
+        "run_type": "multi_tables",
+        "additional_settings": {
+          "connection_type": "mysql",
+          "run_type": "multi_tables",
+          "extract_method": "all",
+          "datasource_id": "mysql",
+          "quote": "\"",
+          "incremental_type": "datetime",
+          "interval_time": "dont_split",
+          "delimiter": ",",
+          "fz_partition": "d",
+          "source_format": "CSV",
+          "fz_batched": true,
+          "fz_path": "s2t_demo_63fe022f882b2c0012554eb0",
+          "filters": [
+            {
+              "file_adjs": {},
+              "file_type": "csv",
+              "fields": [],
+              "csv_details": {
+                "quotechar": "\"",
+                "delimiter": ","
+              },
+              "has_headers": true,
+              "header_row": 1,
+              "required_tabs": 1
+            }
+          ],
+          "gzipTypeMust": null
+        }
+      },
+      "target": {
+        "name": "snowflake",
+        "connection_id": "5f39192456740903078c509d",
+        "connection_name": "Rivery Snowflake",
+        "database_name": "rivery_demo",
+        "schema_name": "public",
+        "table_name": null,
+        "table_prefix": null,
+        "loading_method": "merge",
+        "file_zone_settings": null,
+        "additional_settings": {
+          "escape_character": "\\\b"
+        }
+      },
+      "schemas": [
+        {
+          "name": "test2",
+          "tables": [
+            {"details":{ 
+              "is_selected": false,
+              "name": "NewTable2",
+              "extract_method": "incremental",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "order_expression": null,
+              "exporter_chunk_size": 30000,
+              "filter_expression": "",
+              "table_status": "waiting_for_migration",
+              "modified_columns": [],
+              "is_ordered_merge_key": false,
+              "additional_settings": {
+                "enforce_masking_policy": false,
+                "recreate_keys": false
+              }
+            }},
+            {"details":{
+              "is_selected": true,
+              "name": "or_test_epoch",
+              "extract_method": "incremental",
+              "incremental_field": "epoch",
+              "date_range": {
+                "time_period": "custom",
+                "start_date": null,
+                "end_date": null,
+                "days_back": 0
+              },
+              "running_number": {
+                "start_value": "15",
+                "end_value": "40",
+                "include_end_value": true,
+                "rows_in_chunk": 33333334
+              },
+              "order_expression": "the_filter",
+              "exporter_chunk_size": 30000,
+              "filter_expression": "",
+              "table_status": "migrating",
+              "modified_columns": [
+                {
+                  "is_selected": true,
+                  "type": "FLOAT",
+                  "name": "haken_fauna",
+                  "alias": "haken_fauna",
+                  "expression": "haken",
+                  "is_key": true,
+                  "is_sort_key": false,
+                  "sort_order": null
+                },
+                {
+                  "is_selected": true,
+                  "type": null,
+                  "name": "epoch",
+                  "alias": "epochTarget",
+                  "expression": null,
+                  "is_key": true,
+                  "is_sort_key": true,
+                  "sort_order": 2
+                },
+                {
+                  "is_selected": true,
+                  "type": null,
+                  "name": "id",
+                  "alias": "idTarget",
+                  "expression": null,
+                  "is_key": false,
+                  "is_sort_key": true,
+                  "sort_order": 3
+                },
+                {
+                  "is_selected": true,
+                  "type": "STRING",
+                  "name": "shiran2",
+                  "alias": "shiran2",
+                  "expression": "expt2",
+                  "is_key": false,
+                  "is_sort_key": false,
+                  "sort_order": null
+                },
+                {
+                  "is_selected": true,
+                  "type": "STRING",
+                  "name": "shiran1",
+                  "alias": "shiran1",
+                  "expression": "expt1",
+                  "is_key": true,
+                  "is_sort_key": true,
+                  "sort_order": 1
+                }
+              ],
+              "is_ordered_merge_key": true,
+              "additional_settings": {
+                "enforce_masking_policy": true,
+                "recreate_keys": true
+              }
+            }},
+            {"details":{
+              "is_selected": true,
+              "name": "NewTable test space",
+              "extract_method": "incremental",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "order_expression": null,
+              "exporter_chunk_size": 30003,
+              "filter_expression": "all_filters",
+              "table_status": "tracked",
+              "modified_columns": [
+                {
+                  "is_selected": true,
+                  "type": "INTEGER",
+                  "name": "Column1",
+                  "alias": null,
+                  "expression": null,
+                  "is_key": false,
+                  "is_sort_key": false,
+                  "sort_order": null
+                },
+                {
+                  "is_selected": true,
+                  "type": "TIMESTAMP",
+                  "name": "Column2",
+                  "alias": null,
+                  "expression": null,
+                  "is_key": false,
+                  "is_sort_key": false,
+                  "sort_order": null
+                }
+              ],
+              "is_ordered_merge_key": false,
+              "additional_settings": {
+                "enforce_masking_policy": false,
+                "recreate_keys": false
+              }
+            }}
+          ]
+        },
+        {
+          "name": "buddy",
+          "tables": []
+        },
+        {
+          "name": "sveta_test",
+          "tables": []
+        },
+        {
+          "name": "elesh",
+          "tables": []
+        },
+        {
+          "name": "employees",
+          "tables": [
+            {"details":{
+              "is_selected": true,
+              "name": "current_dept_emp",
+              "extract_method": "incremental",
+              "incremental_field": "from_date",
+              "date_range": {
+                "time_period": "custom",
+                "start_date": "2023-05-24 13:58:02",
+                "end_date": "2023-07-07 22:58:31",
+                "days_back": 3
+              },
+              "running_number": {
+                "start_value": null,
+                "end_value": null,
+                "include_end_value": true,
+                "rows_in_chunk": 100000
+              },
+              "order_expression": null,
+              "exporter_chunk_size": 30000,
+              "filter_expression": "",
+              "table_status": "tracked",
+              "modified_columns": [],
+              "is_ordered_merge_key": false,
+              "additional_settings": {
+                "enforce_masking_policy": false,
+                "recreate_keys": false
+              }
+            }},
+            {"details":{
+              "is_selected": true,
+              "name": "test_types_1",
+              "extract_method": "incremental",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "order_expression": null,
+              "exporter_chunk_size": 30000,
+              "filter_expression": "",
+              "table_status": "tracked",
+              "modified_columns": [],
+              "is_ordered_merge_key": false,
+              "additional_settings": {
+                "enforce_masking_policy": false,
+                "recreate_keys": false
+              }
+            }}
+          ]
+        },
+        {
+          "name": "db",
+          "tables": []
+        },
+        {
+          "name": "test",
+          "tables": []
+        },
+        {
+          "name": "employees_new",
+          "tables": []
+        },
+        {
+          "name": "db_adam",
+          "tables": []
+        },
+        {
+          "name": "db_alex",
+          "tables": []
+        }
+      ]
+    },
+    "settings": {
+      "run_timeout_seconds": 43200,
+      "notification": {
+        "warning": {
+          "email": "{Mail_Alert_Group}",
+          "is_enabled": false,
+          "execution_time_limit_seconds": null
+        },
+        "failure": {
+          "email": "henry@rivery.io",
+          "is_enabled": true,
+          "execution_time_limit_seconds": null
+        },
+        "run_threshold": {
+          "email": "test@test.io",
+          "is_enabled": true,
+          "execution_time_limit_seconds": 25200
+        }
+      }
+    },
+    "schedulers": [{"is_enabled": false, "cron_expression": "24 11 * * *" }]
+  }

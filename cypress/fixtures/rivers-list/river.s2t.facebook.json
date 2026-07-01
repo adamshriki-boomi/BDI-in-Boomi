@@ -1,0 +1,318 @@
+{
+  "cross_id": {
+    "$oid": "6409c534154e77001060456d"
+  },
+  "river_definitions": {
+    "version_id": {
+      "$oid": "6409c534154e770010604570"
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "group_id": {
+      "_id": {
+        "$oid": "58d7ae8f7bf88100f8412c1a"
+      }
+    },
+    "updated_by": {
+      "$oid": "615c07bc73b4e1001ddaa169"
+    },
+    "is_locked": false,
+    "shared_params": {
+      "migration_directive": false,
+      "no_schema_migration": true,
+      "is_predefined_reports": true,
+      "tables": {
+        "no_schema": {}
+      },
+      "report_key": "report",
+      "api_migration": true,
+      "target_id": "snowflake",
+      "target_type": "snowflake",
+      "prefix_name": "fb_ads",
+      "notifications": {
+        "on_warning": {},
+        "on_failure": {},
+        "on_run_threshold": {}
+      },
+      "var_fz_bucket": "{aws_file_zone}",
+      "multi_tables_ui_generic": true,
+      "is_migration": true,
+      "custom_fz_default_bucket": "",
+      "increment_defaults": {
+        "relative_delta": 30,
+        "last_days_back": 3
+      },
+      "add_custom_table_settings": true,
+      "fz_connection": {}
+    },
+    "river_date_updated": {
+      "$date": 1678361908052
+    },
+    "is_sub_river": false,
+    "river_name": "Untitled Data Flow 2023-03-09 11:36",
+    "source_type": "fb_ads",
+    "river_date_inserted": {
+      "$date": 1678361908052
+    },
+    "is_scheduled": false,
+    "created_by": {
+      "$oid": "615c07bc73b4e1001ddaa169"
+    },
+    "river_type": "src_to_trgt",
+    "cross_id": {
+      "$oid": "6409c534154e77001060456d"
+    },
+    "river_desc": "",
+    "_id": {
+      "$oid": "6409c534154e77001060456d"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "updated_by_name": "Oleksandr Baranov"
+  },
+  "tasks_definitions": [
+    {
+      "task_label": "data_loading",
+      "task_type_name": "Facebook Ads to File Zone",
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "use_s3_storage": true,
+      "created_by": {
+        "$oid": "615c07bc73b4e1001ddaa169"
+      },
+      "feeder_module": "{feeders_path}.facebook_ads_feeder",
+      "task_config": {
+        "connection_type": "fb",
+        "ad_account_type": "ad_accounts_ids",
+        "run_type": "multi_tables",
+        "extract_method": "all",
+        "datasource_id": "fb_ads",
+        "data_level": "ad_account",
+        "quote": "\"",
+        "time_resolution": "daily",
+        "required_mapping_flag": true,
+        "source_format": "NEWLINE_DELIMITED_JSON",
+        "fz_partition": "d",
+        "report": "insight_report",
+        "delimiter": ",",
+        "fz_batched": true,
+        "fz_path": "Untitled_River_2023_03_09_11_36_6409c534154e77001060456d",
+        "adsets_type": "adsets_ids",
+        "campaigns_type": "campaigns_ids",
+        "auto_complete": true,
+        "ad_accounts_ids": [],
+        "gzipTypeMust": null,
+        "ads_type": "ads_ids"
+      },
+      "task_type_id": "facebookads2fz",
+      "task_process_module": "{processes_path}.api_generic_gcs",
+      "is_target_task": false,
+      "river_id": {
+        "$oid": "6409c534154e77001060456d"
+      },
+      "ordinal": 0,
+      "move_as_is": true,
+      "datasource_id": "fb_ads",
+      "schedule": {
+        "isEnabled": false,
+        "sched": {
+          "hour": 11,
+          "min": 36,
+          "showCrontab": false,
+          "days": {
+            "days": 1
+          },
+          "month": {
+            "radioMon": 0,
+            "months": 1,
+            "days": 1,
+            "month": 1
+          },
+          "hours": {
+            "hours": 1,
+            "radioHour": 0
+          },
+          "year": {
+            "radioYear": 0,
+            "days": 1
+          },
+          "minutes": 15
+        },
+        "cronExp": "0 0 0/1 1/1 * ? *",
+        "currentTab": "Hourly"
+      },
+      "task_method": "api_master_v3",
+      "pull_translate": {
+        "ads": "get_ads",
+        "adsets": "get_adsets",
+        "mapping": "get_mapping",
+        "campaigns": "get_campaigns",
+        "adaccounts": "get_accounts",
+        "columns": "get_report_fields"
+      },
+      "connection_id": {
+        "$oid": "5bfbced356740957148379e3"
+      },
+      "version_id": {
+        "$oid": "6409c534154e770010604570"
+      },
+      "is_synchronized": true,
+      "retry_details": [
+        "task_definition.start_date",
+        "task_definition.end_date",
+        "task_definition.api_manager_data.api_query.interval_params.start_date",
+        "task_definition.api_manager_data.api_query.interval_params.end_date"
+      ],
+      "task_date_inserted": {
+        "$date": 1678361908054
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "api_name": "facebook",
+      "task_name": "facebook ads to file zone",
+      "task_display_name": "Loading from Facebook Ads Source to File Zone",
+      "pull_target": "api_master",
+      "connection_layer_tests": {
+        "private_link": {
+          "enabled": false
+        },
+        "ip_whitelist": {
+          "enabled": false
+        },
+        "ssh": {
+          "enabled": false
+        },
+        "ssl": {
+          "enabled": false
+        }
+      },
+      "_id": {
+        "$oid": "6409c534154e77001060456e"
+      }
+    },
+    {
+      "task_label": "data_loading",
+      "global_keys": {
+        "target_name": "$.task_config.target_database+\".\"+$.task_config.target_schema+\".\"+$.task_config.target_table",
+        "target_schema": "task_config.target_schema",
+        "target_database": "task_config.target_database"
+      },
+      "task_type_name": "File Zone to Snowflake",
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "use_s3_storage": true,
+      "created_by": {
+        "$oid": "615c07bc73b4e1001ddaa169"
+      },
+      "feeder_module": "{feeders_path}.load_to_snowflake_feeder",
+      "task_config": {
+        "allow_jagged_rows": true,
+        "compression": false,
+        "ignore_unknown_values": true,
+        "strip_outer_array": true,
+        "skip_loaded_files": false,
+        "allow_quoted_new_line": true,
+        "source_format": "NEWLINE_DELIMITED_JSON",
+        "csvTypeMust": "json",
+        "header": 1,
+        "delimiter": ",",
+        "fz_batched": true,
+        "fz_path": "Untitled_River_2023_03_09_11_36_6409c534154e77001060456d",
+        "max_bad_records": 0,
+        "quote": "\"",
+        "split_tables": "no",
+        "mapping_order": [],
+        "target_loading": "merge",
+        "use_rivery_metadata": true,
+        "file_columns": [
+          {
+            "fieldName": "",
+            "type": "STRING",
+            "id": 0,
+            "name": ""
+          }
+        ]
+      },
+      "task_type_id": "fz2snowflake",
+      "task_process_module": "{processes_path}.load_to_snowflake",
+      "is_target_task": true,
+      "river_id": {
+        "$oid": "6409c534154e77001060456d"
+      },
+      "ordinal": 1,
+      "move_as_is": true,
+      "datasource_id": "snowflake",
+      "schedule": {},
+      "task_method": "target_loading_v3",
+      "pull_translate": {
+        "tables": "get_tables",
+        "warehouses": "get_warehouses",
+        "schemas": "get_schemas",
+        "buckets": "get_buckets",
+        "database": "get_databases"
+      },
+      "connection_id": null,
+      "version_id": {
+        "$oid": "6409c534154e770010604570"
+      },
+      "connection_tests": [
+        {
+          "_id": "default_warehouse_test",
+          "name": "Default warehouse test"
+        },
+        {
+          "_id": "get_databases_list",
+          "name": "Get databases list"
+        },
+        {
+          "_id": "default_db_schemas_list",
+          "name": "Befault DB schemas list"
+        },
+        {
+          "_id": "default_db_table_creation_test",
+          "name": "Default DB table creation test"
+        }
+      ],
+      "retry_details": {
+        "task_definition_source": "task_definition.source",
+        "task_definition_update_after_success": "task_definition.update_after_success"
+      },
+      "task_date_inserted": {
+        "$date": 1678361908055
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "target_type": "snowflake",
+      "is_synchronized": true,
+      "task_name": "load to snowflake by batches",
+      "task_display_name": "Loading from File Zone to Snowflake",
+      "pull_target": "cloud",
+      "connection_layer_tests": {
+        "private_link": {
+          "enabled": false
+        },
+        "ip_whitelist": {
+          "enabled": false
+        },
+        "ssh": {
+          "enabled": false
+        },
+        "ssl": {
+          "enabled": false
+        }
+      },
+      "_id": {
+        "$oid": "6409c534154e77001060456f"
+      }
+    }
+  ],
+  "_id": {
+    "$oid": "6409c534154e77001060456d"
+  }
+}

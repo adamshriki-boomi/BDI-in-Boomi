@@ -1,0 +1,35 @@
+@import '../styles/index.scss';
+@import 'react-datepicker/dist/react-datepicker.css';
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(30px);
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 250ms ease-in;
+}
+.fade-exit {
+  opacity: 0;
+  display: none;
+}
+
+#beamerSelector {
+  display: none;
+}
+
+.highlighted-text {
+  background-color: yellow;
+}
+
+.decorationsOverviewRuler {
+  display: 'none';
+}
+
+#webWidget {
+  width: 520px !important;
+  
+}

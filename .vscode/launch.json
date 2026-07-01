@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-msedge",
+      "name": "💥 debug Rivery 💥",
+      "request": "launch",
+      "url": "https://localhost.rivery.in/rivers/55bf7c4270fdca16cac18761/563fa39cdf14e54426d464ea",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Rivery - local",
+      "url": "https://localhost.rivery.in/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

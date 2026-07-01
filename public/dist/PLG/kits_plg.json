@@ -1,0 +1,5 @@
+{
+  "title": "Move faster with Boomi Data Integration Kits",
+  "description": "Kits provide pre-engineered end-to-end workflow templates with data models, pipelines, transformations, Table schemas, and orchestration logic , which can be deployed in minutes.",
+  "steps": [{"type": "video", "id": "KitsVideo"}, {"type": "doc", "title":"How to use Boomi Data Integration Kits? All you need to know.","href":"https://help.boomi.com/docs/Atomsphere/Data_Integration/GettingStarted/kits-overview"}, {"type": "expert","title": "Book a live session to get the most out of Boomi Data Integration Kits"}]
+}

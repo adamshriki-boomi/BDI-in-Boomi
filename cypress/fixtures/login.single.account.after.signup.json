@@ -1,0 +1,50 @@
+{
+  "last_name": "test",
+  "refresh_token": "faked",
+  "first_name": "rivery",
+  "last_login": { "$date": 1618928982776 },
+  "user_id": { "$oid": "607ee1c8115042074560b8ba" },
+  "user_accounts": [
+    {
+      "disable_targets": false,
+      "phone_number": "223123131231",
+      "last_name": "test",
+      "owner_email": "lmpbwjrsmfmunb@nucleant.org",
+      "country_code": "+358",
+      "user_created": { "$oid": "607ee1c8115042074560b8ba" },
+      "env_id": { "$oid": "607ee20a115042074560b8be" },
+      "account_name": "Nuclear",
+      "first_name": "rivery",
+      "registration_target_type": null,
+      "state": null,
+      "user_registered": { "$oid": "607ee1c8115042074560b8ba" },
+      "company_name": "testing",
+      "user_name": "rivery test",
+      "zip_code": null,
+      "limitations": {
+        "units": 1000,
+        "days_trial": 14,
+        "trial_end_date": { "$date": 1620137741146 }
+      },
+      "account_type": "trial",
+      "is_trial": true,
+      "account_id": "Robert-Taylor-920",
+      "wp_referrer": null,
+      "registration_date": { "$date": 1618928138968 },
+      "is_active": true,
+      "step": 4,
+      "environments_enabled": true,
+      "first_referrer_url": "",
+      "first_url": null,
+      "registration_succeed": true,
+      "mfa_succeed": true,
+      "country": "Aland Islands",
+      "_id": { "$oid": "607ee20a115042074560b8bc" },
+      "job_title": "developerEngineer"
+    }
+  ],
+  "registration_enabled": true,
+  "login_type": "password",
+  "status_code": 200,
+  "user_email": "lmpbwjrsmfmunb@nucleant.org"
+}

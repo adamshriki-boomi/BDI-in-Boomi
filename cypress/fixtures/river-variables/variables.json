@@ -1,0 +1,8 @@
+{
+  "items":[
+    {"name": "oren", "value": "the king 🤴🏻", "settings": { "clear_value_on_start": true}},
+    {"name": "kids", "value": ["vv","bb","cc"], "settings": { "clear_value_on_start": true, "is_multi_value": true}},
+    {"name": "var-1", "value": "var-1", "settings": { "clear_value_on_start": true}},
+    {"name": "var-2", "value": "var-2", "settings": { "clear_value_on_start": true, "is_private": true}}
+]
+}

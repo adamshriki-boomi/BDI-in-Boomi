@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "dqt1",
+    "description": "The {column_name} column should be unique",
+    "schema": "list",
+    "test_type_name": "unique_values_test"
+  },
+  {
+    "_id": "dqt2",
+    "description": "The {column_name} column shouldn't be null",
+    "schema": "list",
+    "test_type_name": "not_null_test"
+  }
+]

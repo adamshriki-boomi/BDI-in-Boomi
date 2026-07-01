@@ -1,0 +1,88 @@
+{
+    "items": [
+      {
+        "run_group_id": "147dc1a66b564ad2bc957bfd4f2c2d13",
+        "status": "succeeded",
+        "units": 1.0,
+        "max_duration_in_milliseconds": 153000,
+        "run_date_epoch_milliseconds": 1657706716000,
+        "run_date_utc": "2022-07-13T10:05:16"
+      },
+      {
+        "run_group_id": "5dce4d7e5a8743609e0168038cf69d88",
+        "status": "succeeded",
+        "units": 1.0,
+        "max_duration_in_milliseconds": 137000,
+        "run_date_epoch_milliseconds": 1657706715000,
+        "run_date_utc": "2022-07-13T10:05:15"
+      },
+      {
+        "run_group_id": "a73a01540f1f4232bea48bee3f25770c",
+        "status": "succeeded",
+        "units": 1.0,
+        "max_duration_in_milliseconds": 95000,
+        "run_date_epoch_milliseconds": 1657706714000,
+        "run_date_utc": "2022-07-13T10:05:14"
+      },
+      {
+        "run_group_id": "f17b00a22a9e44ebad9fb124e5c31fd7",
+        "status": "succeeded",
+        "units": 1.0,
+        "max_duration_in_milliseconds": 109000,
+        "run_date_epoch_milliseconds": 1657706555000,
+        "run_date_utc": "2022-07-13T10:02:35"
+      },
+      {
+        "run_group_id": "c1e31fc94d4a4310a77d3f1c677cd47a",
+        "status": "succeeded",
+        "units": 1.0,
+        "max_duration_in_milliseconds": 68000,
+        "run_date_epoch_milliseconds": 1657706554000,
+        "run_date_utc": "2022-07-13T10:02:34"
+      },
+      {
+        "run_group_id": "4fc573c25a6545e2beef79d18b431013",
+        "status": "failed",
+        "units": 0.0,
+        "max_duration_in_milliseconds": 117000,
+        "run_date_epoch_milliseconds": 1657701804000,
+        "run_date_utc": "2022-07-13T08:43:24"
+      },
+      {
+        "run_group_id": "063d0e0a917b4308a953e9b47d8e145c",
+        "status": "failed",
+        "units": 0.0,
+        "max_duration_in_milliseconds": 5000,
+        "run_date_epoch_milliseconds": 1657701776000,
+        "run_date_utc": "2022-07-13T08:42:56"
+      },
+      {
+        "run_group_id": "5120675ce02b4ecba85b5636bfee5860",
+        "status": "failed",
+        "units": 0.0,
+        "max_duration_in_milliseconds": 12000,
+        "run_date_epoch_milliseconds": 1657701766000,
+        "run_date_utc": "2022-07-13T08:42:46"
+      },
+      {
+        "run_group_id": "6c37c310392a4048b383c5b3f1452157",
+        "status": "failed",
+        "units": 0.0,
+        "max_duration_in_milliseconds": 5000,
+        "run_date_epoch_milliseconds": 1657701663000,
+        "run_date_utc": "2022-07-13T08:41:03"
+      },
+      {
+        "run_group_id": "01f8475e5124498395c7b0afe007e3c2",
+        "status": "failed",
+        "units": 0.0,
+        "max_duration_in_milliseconds": 20000,
+        "run_date_epoch_milliseconds": 1657701316000,
+        "run_date_utc": "2022-07-13T08:35:16"
+      }
+    ],
+    "next_page": "",
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b62b0a10e18f0808895",
+    "river_cross_id": "62ce71f6c26495c5cb3124ba"
+  }

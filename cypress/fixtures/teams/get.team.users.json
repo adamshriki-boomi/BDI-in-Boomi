@@ -1,0 +1,81 @@
+{
+    "next_page": "",
+    "previous_page": null,
+    "page": 1,
+    "current_page_size": 4,
+    "total_items": 4,
+    "account_id": "63ecd6d03ab57b000fe400df",
+    "items": [
+      {
+        "user_id": "65eec95d2a806acfc1b868d6",
+        "user_email": "shayke@alonrvision.onmicrosoft.com",
+        "user_name": "Shayke Payke",
+        "environments": {
+          
+        },
+        "is_admin": false,
+        "status": "pending",
+        "created_at": "2024-03-11T09:05:33.858000",
+        "updated_at": "2024-03-11T09:05:33.858000",
+        "groups": [
+          "65eec95ceb9bae67952dc8a0",
+          "65ed55eb2a806acfc1b6ab49",
+          "65ed567b2a806acfc1b6ac03",
+          "65ed567a2a806acfc1b6ac02"
+        ],
+        "source": "active_directory",
+        "invited_by": null
+      },
+      {
+        "user_id": "65ed5675eb9bae67952c0c66",
+        "user_email": "a55@rivery.io",
+        "user_name": "sso user",
+        "environments": {
+          
+        },
+        "is_admin": false,
+        "status": "pending",
+        "created_at": "2024-03-10T06:43:01.412000",
+        "updated_at": "2024-03-10T06:43:01.412000",
+        "groups": [
+          "65ed567b2a806acfc1b6ac03"
+        ],
+        "source": "active_directory",
+        "invited_by": null
+      },
+      {
+        "user_id": "65ed56742a806acfc1b6abfe",
+        "user_email": "a17@alonrvision.onmicrosoft.com",
+        "user_name": "Dor Two",
+        "environments": {
+          
+        },
+        "is_admin": false,
+        "status": "pending",
+        "created_at": "2024-03-10T06:43:00.137000",
+        "updated_at": "2024-03-10T06:43:00.137000",
+        "groups": [
+          "65ed567b2a806acfc1b6ac03"
+        ],
+        "source": "active_directory",
+        "invited_by": null
+      },
+      {
+        "user_id": "65ed56712a806acfc1b6abf4",
+        "user_email": "a16@alonrvision.onmicrosoft.com",
+        "user_name": "Dor One",
+        "environments": {
+          
+        },
+        "is_admin": false,
+        "status": "pending",
+        "created_at": "2024-03-10T06:42:57.594000",
+        "updated_at": "2024-03-10T06:42:57.594000",
+        "groups": [
+          "65ed567b2a806acfc1b6ac03"
+        ],
+        "source": "active_directory",
+        "invited_by": null
+      }
+    ]
+  }

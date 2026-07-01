@@ -1,0 +1,5 @@
+{
+  "query_limit": 500,
+  "compiled_query": "select * from compiled script",
+  "results": []
+}

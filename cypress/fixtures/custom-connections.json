@@ -1,0 +1,234 @@
+[
+  {
+    "connection_creation_time": { "$date": 1499610504205 },
+    "connection_type": "custom",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "6036254865a402001ceaf9e7" },
+    "connection_update_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_description": "",
+    "deployment_definition": {
+      "deployment_settings": {
+        "add_related_groups": true,
+        "add_variable_values": true,
+        "templates_publish_email_list": "or@rivery.io,or@rivery.io",
+        "add_related_connections": true,
+        "only_deploy_new_connections": false,
+        "only_deploy_new_variables": false,
+        "notifications": { "on_deployment": { "enabled": false, "email": "" } },
+        "only_deploy_new_rivers": false,
+        "copy_connections_credentials": false,
+        "add_related_rivers": true,
+        "overwrite_dynamic_parameters": false,
+        "add_group_related_rivers": false
+      },
+      "package_name": "test1",
+      "updated_by_name": "Romi Rozhansky",
+      "created_by_name": "Romi Rozhansky",
+      "updated_at": { "$date": 1614164578753 },
+      "created_by": { "$oid": "5e68e3cba5b384310dddedef" },
+      "is_deployment_lock": true,
+      "excluded_entities": {
+        "connections": {
+          "587f9f27c762714fe9cb68fa": true,
+          "5f297ecfa5b38426f4c21a7e": true,
+          "5ea16aeda5b38452e4d973e6": true
+        },
+        "river_groups": { "58d7ae8f7bf88100f8412c1a": true },
+        "variables": {},
+        "rivers": {}
+      },
+      "deployed_by": "5e68e3cba5b384310dddedef",
+      "env_id_src": { "$oid": "563f5b62b0a10e18f0808895" },
+      "entities": {
+        "connections": {},
+        "river_groups": {},
+        "variables": {},
+        "rivers": {
+          "5fc8d86ecdf90d001c76f631": true,
+          "5fec5500fcb8ef001d2fe472": true
+        }
+      },
+      "env_id_trg": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+      "updated_by": { "$oid": "5e68e3cba5b384310dddedef" },
+      "env_src_name": "Test",
+      "account": { "$oid": "55bf7c4270fdca16cac18761" },
+      "is_prepared": true,
+      "created_at": { "$date": 1614163488877 },
+      "entities_total": {
+        "connections": 0,
+        "river_groups": 0,
+        "variables": 0,
+        "rivers": 2
+      },
+      "account_trg": { "$oid": "55bf7c4270fdca16cac18761" },
+      "account_src": { "$oid": "55bf7c4270fdca16cac18761" },
+      "deployment_id": "6036326265a402001ceafb06",
+      "_id": "60362e2065a402001ceafafd",
+      "env_trg_name": "Development"
+    },
+    "is_test_connection": false,
+    "deployed_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_name": "Mixpanel Rest",
+    "connection_desc": "",
+    "package_id": { "$oid": "60362e2065a402001ceafafd" },
+    "connection_code": 439,
+    "connection_type_name": "Custom Connection",
+    "cross_id": { "$oid": "59623d886b028e798df5ce6c" },
+    "env_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+    "deployment_id": { "$oid": "6036326265a402001ceafb06" },
+    "is_test_connect": true,
+    "deployed_at": { "$date": 1614164583469 },
+    "connection_update_time": { "$date": 1614164583469 },
+    "connection_details": [
+      { "is_password": false, "value": "", "key": "api_key" }
+    ]
+  },
+  {
+    "connection_creation_time": { "$date": 1614160796872 },
+    "connection_type": "custom",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "6036239c65a402001ceaf9d6" },
+    "connection_update_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_description": "",
+    "is_test_connection": false,
+    "deployed_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_name": "jira",
+    "connection_desc": "",
+    "package_id": { "$oid": "6036238286e1e3001c57c552" },
+    "connection_code": 4280,
+    "connection_type_name": "Custom Connection",
+    "cross_id": { "$oid": "5f3d082856d9ee4db0101332" },
+    "env_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+    "deployment_id": { "$oid": "6036239986e1e3001dc726be" },
+    "is_test_connect": true,
+    "deployed_at": { "$date": 1614160796872 },
+    "connection_update_time": { "$date": 1614160796872 },
+    "connection_details": [
+      { "is_password": false, "value": "", "key": "bi@dynamicyield.com" }
+    ]
+  },
+  {
+    "connection_type": "custom",
+    "connection_creation_time": { "$date": 1600273551044 },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "5f62311b4e62d1001d7cfe32" },
+    "connection_update_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_description": "",
+    "deployment_definition": {
+      "deployment_settings": {
+        "add_related_groups": true,
+        "add_variable_values": true,
+        "templates_publish_email_list": "or@rivery.io,or@rivery.io",
+        "add_related_connections": true,
+        "only_deploy_new_connections": false,
+        "only_deploy_new_variables": false,
+        "notifications": { "on_deployment": { "enabled": false, "email": "" } },
+        "only_deploy_new_rivers": false,
+        "copy_connections_credentials": false,
+        "add_related_rivers": true,
+        "overwrite_dynamic_parameters": false,
+        "add_group_related_rivers": false
+      },
+      "package_name": "rest2",
+      "updated_by_name": "Romi Rozhansky",
+      "created_by_name": "Romi Rozhansky",
+      "updated_at": { "$date": 1614161085644 },
+      "created_by": { "$oid": "5e68e3cba5b384310dddedef" },
+      "is_deployment_lock": true,
+      "excluded_entities": {
+        "connections": {},
+        "river_groups": { "58d7ae8f7bf88100f8412c1a": true },
+        "variables": {},
+        "rivers": {}
+      },
+      "deployed_by": "5e68e3cba5b384310dddedef",
+      "env_id_src": { "$oid": "563f5b62b0a10e18f0808895" },
+      "entities": {
+        "connections": {},
+        "river_groups": {},
+        "variables": {},
+        "rivers": {
+          "5f6236854e62d1001d7cfe3f": true,
+          "5f623195003111001ed0789d": true
+        }
+      },
+      "env_id_trg": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+      "updated_by": { "$oid": "5e68e3cba5b384310dddedef" },
+      "env_src_name": "Test",
+      "account": { "$oid": "55bf7c4270fdca16cac18761" },
+      "is_prepared": true,
+      "created_at": { "$date": 1614160997197 },
+      "entities_total": {
+        "connections": 0,
+        "river_groups": 0,
+        "variables": 0,
+        "rivers": 2
+      },
+      "account_trg": { "$oid": "55bf7c4270fdca16cac18761" },
+      "account_src": { "$oid": "55bf7c4270fdca16cac18761" },
+      "deployment_id": "603624bd86e1e3001dc726c6",
+      "_id": "6036246565a402001ceaf9d7",
+      "env_trg_name": "Development"
+    },
+    "is_test_connection": false,
+    "connection_name": "crimson",
+    "deployed_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_desc": "None",
+    "package_id": { "$oid": "6036246565a402001ceaf9d7" },
+    "connection_type_name": "Custom Connection",
+    "connection_details": [
+      { "key": "username", "value": "" },
+      { "is_password": false, "key": "password", "value": "" }
+    ],
+    "cross_id": { "$oid": "5f62311b4e62d1001d7cfe32" },
+    "env_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+    "deployment_id": { "$oid": "603624bd86e1e3001dc726c6" },
+    "is_test_connect": true,
+    "deployed_at": { "$date": 1614161090677 },
+    "connection_update_time": { "$date": 1614161090677 }
+  },
+  {
+    "connection_creation_time": { "$date": 1614165464610 },
+    "connection_type": "custom",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "603635d886e1e3001dc726f5" },
+    "connection_update_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_description": "",
+    "is_test_connection": false,
+    "deployed_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "connection_name": "reddit",
+    "connection_desc": "",
+    "package_id": { "$oid": "603635cd86e1e3001dc726f2" },
+    "connection_type_name": "Custom Connection",
+    "oauth2_show": false,
+    "cross_id": { "$oid": "5f6aec14f5682c6fa921c34c" },
+    "env_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+    "deployment_id": { "$oid": "603635d386e1e3001dc726f4" },
+    "is_test_connect": true,
+    "deployed_at": { "$date": 1614165464610 },
+    "connection_update_time": { "$date": 1614165464610 },
+    "connection_details": [
+      { "is_password": false, "value": "", "key": "code" },
+      { "is_password": false, "value": "", "key": "client_secret" },
+      { "value": "", "key": "client_id" }
+    ]
+  },
+  {
+    "connection_type": "custom",
+    "connection_creation_time": { "$date": 1625724506366 },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "connection_update_by": "5ded226d2c7a49017198f58d",
+    "is_test_connection": false,
+    "connection_name": "MS_CUSTOM_CONN",
+    "ds_name": "Rest API Source",
+    "connection_type_name": "Custom Connection",
+    "connection_details": [
+      { "key": "VAR 1", "value": "DDD" },
+      { "key": "var2", "value": "" }
+    ],
+    "cross_id": { "$oid": "60e6965a72e5b1001c8c1226" },
+    "env_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+    "_id": { "$oid": "60e6965a72e5b1001c8c1226" },
+    "connection_update_time": { "$date": 1625724506366 }
+  }
+]

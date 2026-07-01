@@ -1,0 +1,24 @@
+{
+  "account_id": "account1",
+  "metric": "success_rate",
+  "view": "general",
+  "data": [
+    { "run_date": 1772496000000, "success_rate": 0.634, "succeeded": 2600, "failed": 1500 },
+    { "run_date": 1772582400000, "success_rate": 0.644, "succeeded": 2900, "failed": 1600 },
+    { "run_date": 1772668800000, "success_rate": 0.643, "succeeded": 2700, "failed": 1500 },
+    { "run_date": 1772755200000, "success_rate": 0.644, "succeeded": 2800, "failed": 1550 },
+    { "run_date": 1772841600000, "success_rate": 0.639, "succeeded": 2750, "failed": 1550 },
+    { "run_date": 1772928000000, "success_rate": 0.636, "succeeded": 2650, "failed": 1515 },
+    { "run_date": 1773014400000, "success_rate": 0.640, "succeeded": 2720, "failed": 1530 },
+    { "run_date": 1773100800000, "success_rate": 0.643, "succeeded": 1480, "failed": 820 }
+  ],
+  "previous_kpis": [
+    { "run_date": 1771891200000, "success_rate": 0.639, "succeeded": 2730, "failed": 1543 },
+    { "run_date": 1771977600000, "success_rate": 0.634, "succeeded": 2710, "failed": 1561 },
+    { "run_date": 1772064000000, "success_rate": 0.632, "succeeded": 2700, "failed": 1571 },
+    { "run_date": 1772150400000, "success_rate": 0.637, "succeeded": 2720, "failed": 1551 },
+    { "run_date": 1772236800000, "success_rate": 0.630, "succeeded": 2680, "failed": 1577 },
+    { "run_date": 1772323200000, "success_rate": 0.634, "succeeded": 2700, "failed": 1557 },
+    { "run_date": 1772409600000, "success_rate": 0.638, "succeeded": 2500, "failed": 1420 }
+  ]
+}

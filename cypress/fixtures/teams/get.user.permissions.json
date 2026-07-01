@@ -1,0 +1,11 @@
+{
+    "environments": {
+      "faked-env-1": "deployment_admin",
+      "faked-env-2": "deployment_admin",
+      "65eea75930b4509361d83c30": "connection_viewer",
+      "65eea76130b4509361d83c32": "viewer",
+      "65eeeccfe1407c5db2688f53": "viewer",
+      "65eeecdce1407c5db2688f55": "viewer",
+      "65eeece7e1407c5db2688f57": "viewer"
+    }
+  }

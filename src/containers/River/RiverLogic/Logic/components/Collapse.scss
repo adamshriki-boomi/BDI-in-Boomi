@@ -1,0 +1,11 @@
+@keyframes slide-up-from-bottom {
+  0% {
+    transform: translateZ(50px) translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+

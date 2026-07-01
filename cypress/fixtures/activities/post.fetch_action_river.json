@@ -1,0 +1,241 @@
+{
+    "cross_id": {
+      "$oid": "62ab18a4372de5000f018956"
+    },
+    "river_definitions": {
+      "version_id": {
+        "$oid": "6303396b075b840011a907dc"
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "group_id": {
+        "_id": {
+          "$oid": "5f759bc28c205c001edbf21d"
+        }
+      },
+      "updated_by": {
+        "$oid": "621df3d4bb9a69001cf05ccd"
+      },
+      "is_locked": false,
+      "shared_params": {
+        "notifications": {
+          "on_warning": {
+            
+          },
+          "on_failure": {
+            
+          },
+          "on_run_threshold": {
+            
+          }
+        },
+        "fz_connection": {
+          
+        },
+        "action_type": "rest_action"
+      },
+      "river_date_updated": {
+        "$date": 1661155691238
+      },
+      "is_sub_river": false,
+      "river_name": "Untitled Data Flow 2022-06-16 14:48",
+      "source_type": "actions",
+      "is_scheduled": false,
+      "river_date_inserted": {
+        "$date": 1655380132476
+      },
+      "river_desc": "",
+      "created_by": {
+        "$oid": "6072d73331042700423db5fd"
+      },
+      "river_type": "actions",
+      "cross_id": {
+        "$oid": "62ab18a4372de5000f018956"
+      },
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "_id": {
+        "$oid": "62ab18a4372de5000f018956"
+      },
+      "updated_by_name": "dor@rivery.io"
+    },
+    "tasks_definitions": [
+      {
+        "task_label": "Actions",
+        "global_keys": {
+          "target_name": "Actions"
+        },
+        "task_type_name": "Actions Process",
+        "env_id": {
+          "$oid": "563f5b17b0a10e07a4ff4c33"
+        },
+        "created_by": {
+          "$oid": "6072d73331042700423db5fd"
+        },
+        "feeder_module": "{feeders_path}.actions_feeder",
+        "task_config": {
+          "action": {
+            "variables": [
+              
+            ],
+            "action_details": {
+              "request": {
+                "connection_type": "no_auth",
+                "api_url": "https://rest-mock-api.dev.rivery.in/pagination/next_page_in_response",
+                "validate_domain": true,
+                "headers": [
+                  
+                ],
+                "rest_params": [
+                  
+                ],
+                "replace_backslash": true,
+                "rest_method": "GET",
+                "interval_params": {
+                  "period_type": "date"
+                }
+              },
+              "results": {
+                "results_type": "data",
+                "keys_to_check_for_action": {
+                  "exit_action": {
+                    "value": "aaaa",
+                    "key": "Last User"
+                  },
+                  "sleep_action": {
+                    
+                  }
+                },
+                "results_details": {
+                  "results_structure": "json",
+                  "data_location": "users",
+                  "first_row_in_values_is_headers": true,
+                  "variables_to_return": [
+                    
+                  ]
+                },
+                "send_request_in_loop_details": {
+                  "sleep_between_requests": "5",
+                  "max_wait_time": "300"
+                },
+                "send_request_in_loop": false,
+                "stop_condition": {
+                  "page_size": "22",
+                  "when_to_stop": "page_size"
+                },
+                "keys_to_monitor": [
+                  
+                ],
+                "pagination_details": {
+                  "pagination_method": "paginate_by_page",
+                  "paginate_by_page": {
+                    "page_key": "aaaa"
+                  },
+                  "next_page_in_response": {
+                    "next_page_type": "static_url_with_param_from_response",
+                    "next_page_key_param": "a",
+                    "next_page_key": "a a",
+                    "next_page_in_new_url": "a"
+                  },
+                  "paginate_by_offset": {
+                    
+                  }
+                }
+              }
+            },
+            "private_vars": {
+              "connection": {
+                
+              },
+              "interval_params": {
+                
+              }
+            },
+            "action_type": "rest_action",
+            "action_name": "Untitled Data Flow 2022-06-16 14:48"
+          },
+          "fz_batched": true,
+          "datasource_id": "actions"
+        },
+        "task_type_id": "actions",
+        "task_process_module": "{processes_path}.actions_process",
+        "is_target_task": false,
+        "river_id": {
+          "$oid": "62ab18a4372de5000f018956"
+        },
+        "ordinal": 0,
+        "move_as_is": true,
+        "datasource_id": "actions",
+        "updated_by": {
+          "$oid": "621df3d4bb9a69001cf05ccd"
+        },
+        "schedule": {
+          "endDate": {
+            
+          },
+          "job_id": "62ab18a4372de5000f018957",
+          "isEnabled": false,
+          "cronExp": "0 undefined 0/1 1/1 * ? *",
+          "sched": {
+            "hour": 11,
+            "min": 48,
+            "showCrontab": false,
+            "days": {
+              "days": 1
+            },
+            "month": {
+              "radioMon": 0,
+              "months": 1,
+              "days": 1,
+              "month": 1
+            },
+            "hours": {
+              "hours": 1,
+              "radioHour": 0
+            },
+            "year": {
+              "radioYear": 0,
+              "days": 1
+            },
+            "minutes": 15
+          },
+          "currentTab": "Hourly"
+        },
+        "task_method": "actions_v3",
+        "pull_translate": {
+          "test_action": "test_action"
+        },
+        "connection_id": {
+          
+        },
+        "version_id": {
+          "$oid": "6303396b075b840011a907dc"
+        },
+        "is_synchronized": true,
+        "current_workers_running": 1,
+        "task_date_inserted": {
+          "$date": 1655380132479
+        },
+        "account": {
+          "$oid": "55bf7c4270fdca16cac18761"
+        },
+        "task_date_updated": {
+          "$date": 1661155691236
+        },
+        "is_deleted": false,
+        "is_feeder_lock": false,
+        "task_name": "Actions process",
+        "task_display_name": "Actions Process",
+        "pull_target": "actions",
+        "_id": {
+          "$oid": "62ab18a4372de5000f018957"
+        },
+        "is_worker_lock": true
+      }
+    ],
+    "_id": {
+      "$oid": "62ab18a4372de5000f018956"
+    }
+  }

@@ -1,0 +1,12 @@
+{
+  "status": "200",
+  "data": {
+    "max_snapshot_allowed": 10,
+    "regular_version_number": 2,
+    "max_regular_allowed": 70,
+    "max_bookmarked_allowed": 30,
+    "snapshot_number": 0,
+    "bookmarked_number": 5,
+    "river_id": "60d8b51f1150423f4f79354c"
+  }
+}

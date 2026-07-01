@@ -1,0 +1,6 @@
+[
+  {
+    "content": "\n    # Please insert your code here\n    # To use a dataframe, import it as follows (dataframe1 is your dataframe name):\n    # `from rivery_dataframe import dataframe1`\n    # You can use `append`, `empty` and other functions that appear in Rivery's documentation\n    \n    # To use a variable, import it as follows (variable1 is your variable name):\n    # `from rivery variables import variable1`\n    # To save your results to a target variable, please write the results to `results.csv` as appear in\n    # Rivery's documentation\n    ",
+    "title": "General Template"
+  }
+]

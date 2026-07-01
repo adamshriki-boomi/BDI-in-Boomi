@@ -1,0 +1,12 @@
+{
+  "skip_table_mapping": null,
+  "request_status": "D",
+  "results_list": [],
+  "run_id": "d3ec369332e24b74b5d127909081e419",
+  "is_start": null,
+  "_id": {
+    "$oid": "64a1532265d11100114d6aad"
+  },
+  "results": true,
+  "error_msg": null
+}

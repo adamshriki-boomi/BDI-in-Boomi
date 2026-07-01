@@ -1,0 +1,11 @@
+{
+  "update_time": 1623976033374,
+  "name": "cherry",
+  "color": "#ed9750",
+  "version_id": { "$oid": "60cbe8611150424c41b0b29e" },
+  "is_default": false,
+  "insert_time": 1623960847362,
+  "cross_id": { "$oid": "60ccb8411150424c3dc810e9" },
+  "_id": { "$oid": "60cbad0f1150424c3dc810e3" },
+  "icon": "smily"
+}

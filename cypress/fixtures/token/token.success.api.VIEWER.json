@@ -1,0 +1,37 @@
+{
+  "disable_targets": false,
+  "scopes": [
+    "variable:list",
+    "river:list",
+    "dashboard:list",
+    "connection:list",
+    "datasource:list",
+    "me:list",
+    "template:list",
+    "group:list",
+    "activity:list",
+    "dataframe:list",
+    "data_quality_test:list"
+  ],
+  "account_type": "blocked",
+  "is_active": true,
+  "is_super_admin": false,
+  "is_trial": true,
+  "main_target": null,
+  "env_id": "faked-env-1",
+  "partner": null,
+  "account_name": "Nuc Blocked",
+  "max_runs": 1000,
+  "token": "faked",
+  "role": "viewer",
+  "days_trial": -1,
+  "account_settings": {
+    "max_allowed_environments": "10",
+    "enable_bq_standard_sql": true,
+    "enable_copy_rivers_here": null,
+    "enable_kits": true,
+    "allow_sub_rivers": true,
+
+    "allow_logic_python": true
+  }
+}

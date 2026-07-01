@@ -1,0 +1,191 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgNotificationsEmpty = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={120}
+    height={120}
+    viewBox="0 0 120 120"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <g clipPath="url(#clip0_16085_1079)">
+      <rect
+        width={8}
+        height={8}
+        rx={1.0221}
+        transform="matrix(-1 0 0 1 63 17.6665)"
+        fill="#4B4FE2"
+      />
+      <rect
+        width={6}
+        height={6}
+        rx={1.0221}
+        transform="matrix(-1 0 0 1 113 38.333)"
+        fill="#0EC38B"
+      />
+      <path
+        d="M64.921 91.8957C74.6056 93.7902 85.0065 92.1031 93.9738 86.3626C108.891 76.8134 115.283 58.9655 110.978 42.7163"
+        stroke="url(#paint0_linear_16085_1079)"
+        strokeWidth={1.25}
+        strokeLinecap="round"
+        strokeDasharray="0.6 3.6"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M27.4611 16.5207C21.3974 16.8947 16.785 22.1133 17.159 28.1769C19.7554 70.2815 53.7169 103.881 95.9739 105.904C102.042 106.194 107.197 101.51 107.487 95.4422C107.778 89.374 103.094 84.2193 97.0257 83.9289C65.992 82.4435 41.024 57.7438 39.1172 26.8228C38.7433 20.7592 33.5247 16.1468 27.4611 16.5207Z"
+        fill="url(#paint1_linear_16085_1079)"
+      />
+      <mask
+        id="mask0_16085_1079"
+        style={{
+          maskType: 'alpha',
+        }}
+        maskUnits="userSpaceOnUse"
+        x={17}
+        y={16}
+        width={91}
+        height={90}
+      >
+        <path
+          opacity={0.2}
+          d="M27.4844 16.895C21.6275 17.2562 17.172 22.2969 17.5332 28.1538C20.1179 70.0678 53.9265 103.515 95.9922 105.529C101.853 105.809 106.832 101.285 107.112 95.4243C107.393 89.563 102.869 84.5838 97.0078 84.3032C65.7829 82.8087 40.6619 57.9577 38.7432 26.8462C38.382 20.9894 33.3412 16.534 27.4844 16.895Z"
+          stroke="url(#paint2_linear_16085_1079)"
+          strokeWidth={0.75}
+        />
+      </mask>
+      <g mask="url(#mask0_16085_1079)">
+        <g opacity={0.75} filter="url(#filter0_f_16085_1079)">
+          <rect
+            width={18}
+            height={18}
+            rx={1.0221}
+            transform="matrix(-1 0 0 1 46 16)"
+            fill="#4B4FE2"
+          />
+        </g>
+        <g opacity={0.5} filter="url(#filter1_f_16085_1079)">
+          <rect
+            width={14}
+            height={14}
+            rx={1.0221}
+            transform="matrix(-1 0 0 1 73 66)"
+            fill="#FF7C66"
+          />
+        </g>
+      </g>
+      <circle
+        cx={12}
+        cy={12}
+        r={12}
+        transform="matrix(-1 0 0 1 34 83)"
+        fill="url(#paint3_linear_16085_1079)"
+      />
+      <rect
+        width={4}
+        height={4}
+        rx={1.0221}
+        transform="matrix(-1 0 0 1 74.9995 57.667)"
+        fill="#FF7C66"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_f_16085_1079"
+        x={19}
+        y={7}
+        width={36}
+        height={36}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={4.5}
+          result="effect1_foregroundBlur_16085_1079"
+        />
+      </filter>
+      <filter
+        id="filter1_f_16085_1079"
+        x={51}
+        y={58}
+        width={30}
+        height={30}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={4}
+          result="effect1_foregroundBlur_16085_1079"
+        />
+      </filter>
+      <linearGradient
+        id="paint0_linear_16085_1079"
+        x1={92.7222}
+        y1={87.1055}
+        x2={110.942}
+        y2={41.8634}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.0782194} stopColor="#0EC38B" stopOpacity={0} />
+        <stop offset={0.935} stopColor="#0EC38B" />
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear_16085_1079"
+        x1={103.521}
+        y1={105.88}
+        x2={48.52}
+        y2={7.88285}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.332905} stopColor="#8395AA" stopOpacity={0.15} />
+        <stop offset={1} stopColor="#8395AA" stopOpacity={0.35} />
+      </linearGradient>
+      <linearGradient
+        id="paint2_linear_16085_1079"
+        x1={67.5}
+        y1={67}
+        x2={47}
+        y2={90}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#8395AA" />
+        <stop offset={0.956317} stopColor="#8395AA" stopOpacity={0.15} />
+      </linearGradient>
+      <linearGradient
+        id="paint3_linear_16085_1079"
+        x1={20.5}
+        y1={24}
+        x2={0.800264}
+        y2={2.92583}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.263689} stopColor="#8395AA" stopOpacity={0.15} />
+        <stop offset={1} stopColor="#8395AA" stopOpacity={0.35} />
+      </linearGradient>
+      <clipPath id="clip0_16085_1079">
+        <rect
+          width={120}
+          height={120}
+          fill="white"
+          transform="matrix(-1 0 0 1 120 0)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgNotificationsEmpty;

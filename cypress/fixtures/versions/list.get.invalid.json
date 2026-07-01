@@ -1,0 +1,167 @@
+{
+  "next_page": "",
+  "page": 1,
+  "current_page_size": 20,
+  "total_items": 4,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "statistics": {
+    "bookmarked_versions": 1,
+    "bookmarks_allowed": 30,
+    "total_versions": 4,
+    "snapshot_versions": 0,
+    "versions_allowed": 100
+  },
+  "items": [
+    {
+      "account_id": "55bf7c4270fdca16cac18761",
+      "user_info": {
+        "user_name": "Glam",
+        "user_email": "glam@rivery.io"
+      },
+      "environment_id": "563f5b62b0a10e18f0808895",
+      "insert_date": "FAKE",
+      "previous_version": "",
+      "created_by": "61e411c196e76e001df434ac",
+      "river_id": "64abb041d89b21001019281b",
+      "river": {
+        "river_definition": {
+          "_id": "64abb041d89b21001019281b",
+          "account": "55bf7c4270fdca16cac18761",
+          "group_id": {
+            "_id": "58d7ae8f7bf88100f8412c1a"
+          },
+          "updated_by": "61e411c196e76e001df434ac",
+          "source_type": "logic",
+          "shared_params": {
+            "run_timeout": 2400,
+            "notifications": {
+              "on_warning": {
+                "email": "{Mail_Alert_Group}"
+              },
+              "on_failure": {
+                "email": "{Mail_Alert_Group}"
+              },
+              "on_run_threshold": {
+                "email": "{Mail_Alert_Group}"
+              }
+            },
+            "fz_connection": {}
+          },
+          "river_date_updated": "2023-07-10 07:16:17.118000",
+          "is_sub_river": false,
+          "is_master_river": false,
+          "version_id": "64abb041d89b21001019281d",
+          "is_locked": false,
+          "river_date_inserted": "2023-07-10 07:16:17.118000",
+          "river_name": "Untitled Data Flow 7/10/2023, 10:13:05 AM",
+          "river_type": "logic",
+          "cross_id": "64abb041d89b21001019281b",
+          "river_desc": "",
+          "env_id": "563f5b62b0a10e18f0808895",
+          "created_by": "61e411c196e76e001df434ac",
+          "is_scheduled": false,
+          "is_deleted": false,
+          "schedulers": [],
+          "is_api_v2": false,
+          "river_status": "active",
+          "deployment_definition": {}
+        },
+        "source_task_config": {
+          "_id": "64abb041d89b21001019281f",
+          "account": "55bf7c4270fdca16cac18761",
+          "created_by": "61e411c196e76e001df434ac",
+          "env_id": "563f5b62b0a10e18f0808895",
+          "insert_date": "2023-07-10T07:16:17.136000",
+          "previous_version": "",
+          "river_id": "64abb041d89b21001019281b",
+          "task_definition": {
+            "_id": "64abb041d89b21001019281c",
+            "ordinal": 0,
+            "account": "55bf7c4270fdca16cac18761",
+            "env_id": "563f5b62b0a10e18f0808895",
+            "river_id": "64abb041d89b21001019281b",
+            "version_id": "64abb041d89b21001019281d",
+            "connection_id": {},
+            "feeder_module": "{feeders_path}.logic_feeder",
+            "pull_target": "logic",
+            "move_as_is": true,
+            "task_process_module": "{processes_path}.logic_process",
+            "task_config": {
+              "logic_steps": [
+                {
+                  "isParallel": false,
+                  "isEnabled": true,
+                  "container_running": "run_once",
+                  "content": {
+                    "block_type": "snowflake",
+                    "compression": "none",
+                    "file_type": "csv",
+                    "block_primary_type": "sql",
+                    "target_loading": "append",
+                    "connection_id": {},
+                    "drop_after": false,
+                    "target_type": "table",
+                    "block_db_type": "snowflake",
+                    "split_interval": "d",
+                    "fields": [],
+                    "split_tables": "no",
+                    "sql_query": "",
+                    "target_table": ""
+                  },
+                  "step_name": "Logic Step",
+                  "nodes": []
+                }
+              ],
+              "condition_name_counter": 0,
+              "variables": {},
+              "datasource_id": "logic",
+              "fz_batched": true,
+              "container_name_counter": 0,
+              "step_name_counter": 1
+            },
+            "task_type_id": "logic",
+            "task_type_name": "Logic Process",
+            "task_method": "logic_v3",
+            "is_deleted": false,
+            "datasource_id": "logic",
+            "is_worker_lock": false,
+            "is_feeder_lock": false,
+            "schedule": {
+              "endDate": {},
+              "isEnabled": false,
+              "sched": {
+                "hour": 11,
+                "min": 16,
+                "showCrontab": false,
+                "days": {
+                  "days": 1
+                },
+                "month": {
+                  "radioMon": 0,
+                  "months": 1,
+                  "days": 1,
+                  "month": 1
+                },
+                "hours": {
+                  "hours": 1,
+                  "radioHour": 0
+                },
+                "year": {
+                  "radioYear": 0,
+                  "days": 1
+                },
+                "minutes": 15
+              },
+              "cronExp": "0 0 0/1 * * ? *"
+            },
+            "deployment_definition": {}
+          },
+          "task_id": "64abb041d89b21001019281c",
+          "update_date": "2023-07-10T07:16:17.136000",
+          "version_id": "64abb041d89b21001019281d"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgKitsIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={28}
+    height={28}
+    viewBox="0 0 28 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M14 2.31311L17.5627 9.90339L25.4082 11.1021L19.7348 16.9168L21.0868 25.2048L14 21.2873L6.91316 25.2048L8.26516 16.9168L2.59183 11.1021L10.4374 9.90339L14 2.31311ZM14 7.02016L11.7944 11.7193L6.74151 12.4913L10.4016 16.2425L9.55017 21.4618L14 19.002L18.4498 21.4618L17.5984 16.2425L21.2585 12.4913L16.2056 11.7193L14 7.02016Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+export default SvgKitsIcon;

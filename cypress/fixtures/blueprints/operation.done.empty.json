@@ -1,0 +1,19 @@
+{
+  "operation_id": "op_empty_result_1",
+  "operation_type": "get_source_metadata",
+  "status": "D",
+  "result": {
+    "no_schema": {
+      "ListIssues": {
+        "table_name": "ListIssues",
+        "target_table": "ListIssues",
+        "increment_cols": [],
+        "schema": "no_schema",
+        "db_name": "no_db",
+        "db_type": "recipe",
+        "columns": []
+      }
+    }
+  },
+  "error_message": null
+}

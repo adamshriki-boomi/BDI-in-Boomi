@@ -1,0 +1,68 @@
+{
+  "next_page": null,
+  "previous_page": null,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "current_page_size": 6,
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "id": "table_cdc_eligible",
+      "object_type": "TABLE",
+      "resolved_object_type": null,
+      "increment_columns": [
+        { "name": "updated_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": false }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_cdc_synonym_eligible",
+      "object_type": "SYNONYM",
+      "resolved_object_type": "TABLE",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_cdc_synonym_ev_eligible",
+      "object_type": "SYNONYM",
+      "resolved_object_type": "EDITIONING_VIEW",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_cdc_null_type_eligible",
+      "object_type": null,
+      "resolved_object_type": null,
+      "increment_columns": [
+        { "name": "created_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": false }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_cdc_view_ineligible",
+      "object_type": "VIEW",
+      "resolved_object_type": null,
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_cdc_synonym_ineligible",
+      "object_type": "SYNONYM",
+      "resolved_object_type": "VIEW",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    }
+  ]
+}

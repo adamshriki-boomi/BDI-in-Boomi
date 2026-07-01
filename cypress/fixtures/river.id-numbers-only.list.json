@@ -1,0 +1,230 @@
+{
+    "cross_id": {
+      "$oid": "641111126b3bb50004351650"
+    },
+    "river_definitions": {
+      "version_id": {
+        "$oid": "6411efd26b3bb5000fcc1652"
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "group_id": {
+        "_id": {
+          "$oid": "58d7ae8f7bf88100f8412c1a"
+        }
+      },
+      "updated_by": {
+        "$oid": "61e411c196e76e001df434ac"
+      },
+      "is_locked": false,
+      "shared_params": {
+        "notifications": {
+          "on_warning": {
+            "email": "{Mail_Alert_Group}"
+          },
+          "on_failure": {
+            "email": "{Mail_Alert_Group}"
+          },
+          "on_run_threshold": {
+            "email": "{Mail_Alert_Group}"
+          }
+        },
+        "fz_connection": {
+          
+        }
+      },
+      "river_date_updated": {
+        "$date": 1678897106489
+      },
+      "is_sub_river": false,
+      "river_name": "Untitled Data Flow 3/15/2023, 6:18:21 PM",
+      "source_type": "logic",
+      "river_date_inserted": {
+        "$date": 1678897106489
+      },
+      "is_scheduled": false,
+      "created_by": {
+        "$oid": "61e411c196e76e001df434ac"
+      },
+      "river_type": "logic",
+      "cross_id": {
+        "$oid": "6411efd26b3bb5000fcc1650"
+      },
+      "river_desc": "",
+      "_id": {
+        "$oid": "6411efd26b3bb5000fcc1650"
+      },
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "updated_by_name": "Inara"
+    },
+    "tasks_definitions": [
+      {
+        "task_label": "logic",
+        "related": {
+          "connections": [
+            
+          ],
+          "files": [
+            
+          ],
+          "dataframes": [
+            
+          ],
+          "rivers": [
+            
+          ]
+        },
+        "global_keys": {
+          "target_name": "Logic"
+        },
+        "should_expose_logs": [
+          true
+        ],
+        "task_type_name": "Logic Process",
+        "env_id": {
+          "$oid": "563f5b17b0a10e07a4ff4c33"
+        },
+        "use_s3_storage": true,
+        "created_by": {
+          "$oid": "61e411c196e76e001df434ac"
+        },
+        "feeder_module": "{feeders_path}.logic_feeder",
+        "task_config": {
+          "logic_steps": [
+            {
+              "isParallel": false,
+              "hash_key_init": "hU3-6hM0hPGKBrVIlGBFS",
+              "isEnabled": true,
+              "container_running": "run_once",
+              "content": {
+                "sql_query": "",
+                "execute_sql_command": false,
+                "block_type": "snowflake",
+                "compression": "none",
+                "file_type": "csv",
+                "block_primary_type": "sql",
+                "connection_id": {
+                  
+                },
+                "drop_after": false,
+                "target_type": "table",
+                "source_type": "sql_query",
+                "block_db_type": "snowflake",
+                "split_interval": "d",
+                "fields": [
+                  
+                ],
+                "split_tables": "no",
+                "target_loading": "append",
+                "target_table": ""
+              },
+              "step_name": "Logic Step",
+              "step_id": "1d7924ddacbf4dcbbc866f7878edb7c6",
+              "nodes": [
+                
+              ]
+            }
+          ],
+          "condition_name_counter": 0,
+          "step_name_counter": 1,
+          "variables": {
+            
+          },
+          "fz_batched": true,
+          "container_name_counter": 0,
+          "datasource_id": "logic"
+        },
+        "task_type_id": "logic",
+        "task_process_module": "{processes_path}.logic_process",
+        "is_target_task": false,
+        "river_id": {
+          "$oid": "6411efd26b3bb5000fcc1650"
+        },
+        "ordinal": 0,
+        "move_as_is": true,
+        "datasource_id": "logic",
+        "schedule": {
+          "sched": {
+            "hour": 11,
+            "min": 16,
+            "year": {
+              "radioYear": 0,
+              "days": 1
+            },
+            "days": {
+              "days": 1
+            },
+            "month": {
+              "radioMon": 0,
+              "months": 1,
+              "days": 1,
+              "month": 1
+            },
+            "hours": {
+              "hours": 1,
+              "radioHour": 0
+            },
+            "showCrontab": false,
+            "minutes": 15
+          },
+          "isEnabled": false,
+          "endDate": {
+            
+          },
+          "cronExp": "0 0 0/1 * * ? *"
+        },
+        "task_method": "logic_v3",
+        "pull_translate": {
+          "tables": "get_tables",
+          "datasets": "get_datasets",
+          "fields": "get_result_columns",
+          "buckets": "get_buckets",
+          "run_step": "run_step",
+          "results": "get_results",
+          "build_image": "build_image",
+          "databases": "get_databases",
+          "delete_dataframe": "delete_dataframe",
+          "schemas": "get_schemas"
+        },
+        "connection_id": {
+          
+        },
+        "version_id": {
+          "$oid": "6411efd26b3bb5000fcc1652"
+        },
+        "is_synchronized": true,
+        "task_date_inserted": {
+          "$date": 1678897106491
+        },
+        "account": {
+          "$oid": "55bf7c4270fdca16cac18761"
+        },
+        "task_name": "Logic process",
+        "task_display_name": "Logic Process",
+        "pull_target": "logic",
+        "connection_layer_tests": {
+          "private_link": {
+            "enabled": false
+          },
+          "ip_whitelist": {
+            "enabled": false
+          },
+          "ssh": {
+            "enabled": false
+          },
+          "ssl": {
+            "enabled": false
+          }
+        },
+        "_id": {
+          "$oid": "6411efd26b3bb5000fcc1651"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "641111126b3bb50004351650"
+    }
+  }

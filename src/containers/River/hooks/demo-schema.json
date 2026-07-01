@@ -1,0 +1,55 @@
+
+{
+    "source": {
+        "fields": [
+            {
+                "id": "connection_name",
+                "type": "select",
+                "label": "Connection Name",
+                "row": 0
+            }
+        ]   
+    },
+    "target": {
+        "fields": [
+            {
+                "id": "connection_name",
+                "type": "select",
+                "label": "Connection Name",
+                "row": 0
+            },
+            {
+                "id": "database_name",
+                "type": "select",
+                "label": "Select DB",
+                "row": 1
+            },
+            {
+                "id": "schema_name",
+                "type": "select",
+                "label": "Select Schema",
+                "row": 2
+            },
+            {
+                "id": "advanced_settings",
+                "type": "collapse",
+                "label": "Advanced Settings",
+                "row": 3,
+                "fields": [
+                    {
+                        "id": "table_name",
+                        "type": "select",
+                        "label": "Select Table",
+                        "row": 0
+                    },
+                    {
+                        "id": "column_name",
+                        "type": "select",
+                        "label": "Select Column",
+                        "row": 1
+                    }
+                ]
+            }
+        ]   
+    }
+}

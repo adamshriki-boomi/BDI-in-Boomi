@@ -1,0 +1,38 @@
+{
+    "account_id": "account1",
+    "environment_id": "faked-env-1",
+    "river_cross_id": "faked-env-1",
+    "run_id": "99e0364726fb43deb0a713e4ed7584e0",
+    "items": [
+      {
+        "duration": 5599,
+        "error_description": null,
+        "start_date_utc": "2023-07-19T06:22:48.401000",
+        "start_date_in_milliseconds": 1689747768401,
+        "end_date_utc": null,
+        "end_date_in_milliseconds": null,
+        "source": "MySQL",
+        "task_id": "64b3f8abfc5c92cfbcd43975",
+        "task_name": "MySQL to Amazon S3",
+        "task_status": "succeeded",
+        "task_type": "src_to_trgt",
+        "input_parameters": [
+          {
+            "name": "Start Date",
+            "value": "1900-01-01T00:00:00"
+          },
+          {
+            "name": "End Date",
+            "value": "2023-07-19T06:22:48.380392"
+          }
+        ],
+        "target": "Amazon S3",
+        "target_table": null,
+        "size": 0.0,
+        "size_formatted": {
+          "size": 0.0,
+          "units": "B"
+        }
+      }
+    ]
+  }

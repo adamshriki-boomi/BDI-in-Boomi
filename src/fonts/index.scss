@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'ModelicaBold';
+  src: local('ModelicaSS01Bold'), url(./ModelicaSS01Bold.otf) format('opentype'),
+    url(./ModelicaSS01Bold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'ModelicaExtraBold';
+  src: local('ModelicaSS01ExtraBold'),
+    url(./ModelicaSS01ExtraBold.otf) format('opentype'),
+    url(./ModelicaSS01ExtraBold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Modelica';
+  src: local('ModelicaSS01MediumItalic'),
+    url(./ModelicaSS01MediumItalic.otf) format('opentype'),
+    url(./ModelicaSS01MediumItalic.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Modelica';
+  src: local('ModelicaSS01Medium'),
+    url(./ModelicaSS01Medium.otf) format('opentype'),
+    url(./ModelicaSS01Medium.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Modelica';
+  src: local('ModelicaSS01Regular'),
+    url(./ModelicaSS01Regular.otf) format('opentype'),
+    url(./ModelicaSS01Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}

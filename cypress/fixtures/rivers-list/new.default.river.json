@@ -1,0 +1,120 @@
+{
+  "cross_id": { "$oid": "61945cf819694a47056a73ce" },
+  "river_definitions": {
+    "version_id": { "$oid": "61945cf819694a47056a73d0" },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "61945cf819694a47056a73ce" },
+    "updated_by": { "$oid": "610680cef5682c6e6335ea60" },
+    "is_locked": false,
+    "shared_params": {
+      "notifications": {
+        "on_warning": {},
+        "on_failure": {},
+        "on_run_threshold": {}
+      },
+      "fz_connection": {}
+    },
+    "river_date_updated": { "$date": 1637113080821 },
+    "is_sub_river": false,
+    "river_name": "Untitled Data Flow 11/16/2021, 8:37:56 PM",
+    "source_type": "logic",
+    "river_date_inserted": { "$date": 1637113080821 },
+    "is_scheduled": false,
+    "created_by": { "$oid": "610680cef5682c6e6335ea60" },
+    "river_type": "logic",
+    "cross_id": { "$oid": "61945cf819694a47056a73ce" },
+    "river_desc": "",
+    "group_id": { "_id": { "$oid": "58d7ae8f7bf88100f8412c1a" } },
+    "env_id": { "$oid": "563f5b62b0a10e18f0808895" },
+    "updated_by_name": "Oren Farhi"
+  },
+  "tasks_definitions": [
+    {
+      "task_type_name": "Logic Process",
+      "related": { "connections": [], "rivers": [] },
+      "global_keys": { "target_name": "Logic" },
+      "task_label": "logic",
+      "env_id": { "$oid": "563f5b62b0a10e18f0808895" },
+      "created_by": { "$oid": "610680cef5682c6e6335ea60" },
+      "feeder_module": "{feeders_path}.logic_feeder",
+      "task_config": {
+        "logic_steps": [
+          {
+            "isParallel": false,
+            "hash_key_init": "94GI5DkFadv-24pdaSzIH",
+            "isEnabled": true,
+            "container_running": "run_once",
+            "content": {
+              "sql_query": "",
+              "execute_sql_command": false,
+              "block_type": "snowflake",
+              "compression": "none",
+              "file_type": "csv",
+              "block_primary_type": "sql",
+              "connection_id": {},
+              "drop_after": false,
+              "target_type": "table",
+              "block_db_type": "snowflake",
+              "split_interval": "d",
+              "type": "RECORD",
+              "fields": [],
+              "split_tables": "no",
+              "use_standard_sql": false,
+              "target_loading": "append",
+              "target_table": "",
+              "query_priority": "interactive"
+            },
+            "step_name": "Logic Step",
+            "nodes": []
+          }
+        ],
+        "condition_name_counter": 0,
+        "step_name_counter": 1,
+        "variables": {},
+        "fz_batched": true,
+        "container_name_counter": 0,
+        "datasource_id": "logic"
+      },
+      "task_type_id": "logic",
+      "task_process_module": "{processes_path}.logic_process",
+      "is_target_task": false,
+      "river_id": { "$oid": "61945cf819694a47056a73ce" },
+      "ordinal": 0,
+      "move_as_is": true,
+      "datasource_id": "logic",
+      "schedule": {
+        "sched": {
+          "hour": 11,
+          "min": 16,
+          "year": { "radioYear": 0, "days": 1 },
+          "days": { "days": 1 },
+          "month": { "radioMon": 0, "months": 1, "days": 1, "month": 1 },
+          "hours": { "hours": 1, "radioHour": 0 },
+          "showCrontab": false,
+          "minutes": 15
+        },
+        "isEnabled": false,
+        "endDate": {},
+        "cronExp": "0 0 0/1 * * ? *"
+      },
+      "task_method": "logic_v3",
+      "pull_translate": {
+        "fields": "get_result_columns",
+        "datasets": "get_datasets",
+        "schemas": "get_schemas",
+        "results": "get_results",
+        "databases": "get_databases"
+      },
+      "connection_id": {},
+      "version_id": { "$oid": "61945cf819694a47056a73d0" },
+      "is_synchronized": true,
+      "task_date_inserted": { "$date": 1637113080822 },
+      "account": { "$oid": "55bf7c4270fdca16cac18761" },
+      "task_name": "Logic process",
+      "task_display_name": "Logic Process",
+      "pull_target": "logic",
+      "_id": { "$oid": "61945cf819694a47056a73cf" }
+    }
+  ],
+  "_id": { "$oid": "61945cf819694a47056a73ce" }
+}

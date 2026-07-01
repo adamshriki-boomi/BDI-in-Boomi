@@ -1,0 +1,36 @@
+{
+  "operation_id": "op_with_results_1",
+  "operation_type": "get_source_metadata",
+  "status": "D",
+  "result": {
+    "no_schema": {
+      "ListIssues": {
+        "table_name": "ListIssues",
+        "target_table": "ListIssues",
+        "increment_cols": [],
+        "schema": "no_schema",
+        "db_name": "no_db",
+        "db_type": "recipe",
+        "columns": [
+          {
+            "name": "sha",
+            "fieldName": "sha",
+            "type": "STRING",
+            "alias": "sha",
+            "mode": "NULLABLE",
+            "length": 64
+          },
+          {
+            "name": "node_id",
+            "fieldName": "node_id",
+            "type": "STRING",
+            "alias": "node_id",
+            "mode": "NULLABLE",
+            "length": 128
+          }
+        ]
+      }
+    }
+  },
+  "error_message": null
+}

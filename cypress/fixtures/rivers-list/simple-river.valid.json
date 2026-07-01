@@ -1,0 +1,120 @@
+{
+  "cross_id": {
+    "$oid": "60755555548271001df7a3c4"
+  },
+  "river_definitions": {
+    "shared_params": {
+      "notifications": {
+        "on_warning": {},
+        "on_failure": {},
+        "on_run_threshold": {}
+      },
+      "fz_connection": {}
+    },
+    "river_name": "Simple Valid River",
+    "river_type": "logic",
+    "version_id": { "$oid": "60ae8a33c8d725001e186b83" },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "group_id": { "_id": { "$oid": "607432da8b14d2001c32f6ce" } },
+    "updated_by": { "$oid": "60152e0b115042307858a5b5" }
+  },
+  "tasks_definitions": [
+    {
+      "task_label": "logic",
+      "task_config": {
+        "logic_steps": [
+          {
+            "nodes": [],
+            "hash_key_init": "FsklzT5RcpNevhAC33sWG",
+            "container_running": "run_once",
+            "isEnabled": true,
+            "isParallel": false,
+            "step_name": "Logic Step",
+            "content": {
+              "use_standard_sql": false,
+              "sql_query": "aaa",
+              "execute_sql_command": false,
+              "connection_id": {},
+              "type": "RECORD",
+              "drop_after": false,
+              "target_type": "table",
+              "file_type": "csv",
+              "block_type": "big_query_sql",
+              "block_primary_type": "sql",
+              "block_db_type": "big_query_sql",
+              "compression": "none",
+              "split_tables": "no",
+              "split_interval": "d",
+              "target_loading": "append",
+              "target_table": "test",
+              "fields": [],
+              "query_priority": "interactive",
+              "dataset_id": "ddd",
+              "variable_name": "aaaa",
+              "bucket_name": "eee",
+              "file_path_destination": "",
+              "load_into_one_file": false,
+              "csv_details": {
+                "delimiter": "",
+                "quote": ""
+              },
+              "action_id": "3333",
+              "include_header": false,
+              "gConnection": {
+                "$oid": "5f62f4ca80d37e001c52bde4"
+              },
+              "udf_source": [],
+              "billing_tier": ""
+            }
+          }
+        ],
+        "condition_name_counter": 0,
+        "step_name_counter": 1,
+        "variables": {
+          "aaaa": {
+            "clear_value_on_start": true,
+            "is_multi_value": false,
+            "value": ""
+          }
+        },
+        "fz_batched": true,
+        "container_name_counter": 0,
+        "datasource_id": "logic"
+      },
+      "task_type_id": "logic",
+      "schedule": {
+        "endDate": {},
+        "isEnabled": false,
+        "sched": {
+          "hour": 11,
+          "min": 16,
+          "showCrontab": false,
+          "days": {
+            "days": 1
+          },
+          "month": {
+            "radioMon": 0,
+            "months": 1,
+            "days": 1,
+            "month": 1
+          },
+          "hours": {
+            "hours": 1,
+            "radioHour": 0
+          },
+          "year": {
+            "radioYear": 0,
+            "days": 1
+          },
+          "minutes": 15
+        },
+        "cronExp": "0 0 0/1 1/1 * ? *"
+      },
+      "connection_id": {},
+      "is_synchronized": true
+    }
+  ],
+  "_id": {
+    "$oid": "60755555548271001df7a3c4"
+  }
+}

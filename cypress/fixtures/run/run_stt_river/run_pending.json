@@ -1,0 +1,16 @@
+{
+    "run_id": "99e0364726fb43deb0a713e4ed7584e0",
+    "datasource_id": "mysql",
+    "error_description": null,
+    "units": 0.0,
+    "run_group_id": "99e0364726fb43deb0a713e4ed7584e0",
+    "status": "pending",
+    "source_name": "mysql",
+    "target_name": null,
+    "start_date_utc": "2023-07-19T05:41:33",
+    "start_date_in_milliseconds": 1689745293000,
+    "end_date_utc": null,
+    "end_date_in_milliseconds": null,
+    "sub_river_id": null,
+    "is_sub_river_run": false
+  }

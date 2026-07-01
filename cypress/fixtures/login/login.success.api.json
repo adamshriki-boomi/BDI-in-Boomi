@@ -1,0 +1,50 @@
+{
+  "last_name": "cohen",
+  "refresh_token": "faked",
+  "first_name": "shiran",
+  "last_login": null,
+  "user_id": { "$oid": "605360d9f5682c3a80f778e2" },
+  "user_accounts": [
+    {
+      "disable_targets": false,
+      "limitations": {
+        "units": 1000,
+        "days_trial": 14,
+        "trial_end_date": { "$date": 1617305639452 }
+      },
+      "last_name": "faked",
+      "owner_email": "riverytest.40@gmail.com",
+      "country_code": "N/A",
+      "env_id": { "$oid": "605360d9f5682c3a80f778e4" },
+      "user_created": { "$oid": "605360d9f5682c3a80f778e2" },
+      "partner": "sf",
+      "account_name": "Rivery_Partner22132.Snowflakecomputing.Com",
+      "first_name": "fake",
+      "registration_target_type": "snowflake",
+      "state": "N/A",
+      "user_registered": { "$oid": "605360d9f5682c3a80f778e2" },
+      "company_name": "Testing",
+      "zip_code": 999999,
+      "phone_number": null,
+      "account_type": "trial",
+      "is_trial": true,
+      "account_id": "rivery_partner22132.snowflakecomputing.com",
+      "registration_date": { "$date": 1616077017191 },
+      "is_active": true,
+      "is_technical_registration": false,
+      "step": 4,
+      "environments_enabled": true,
+      "first_referrer_url": "rivery_partner22132.snowflakecomputing.com.snowflakecomputing.com",
+      "registration_succeed": true,
+      "mfa_succeed": true,
+      "country": "N/A",
+      "affiliate": "sf_connect",
+      "_id": { "$oid": "605360d9f5682c3a80f778e3" },
+      "job_title": "architect"
+    }
+  ],
+  "registration_enabled": true,
+  "login_type": "password",
+  "status_code": 200,
+  "user_email": "riverytest.40@gmail.com"
+}

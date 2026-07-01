@@ -1,0 +1,16 @@
+{
+    "run_id": "def2980ed4764a37bffd6e739d24b2cd",
+    "datasource_id": "actions",
+    "error_description": "An internal error occurred while running this data flow. Please wait for some time and try again.",
+    "units": 0.0,
+    "run_group_id": "def2980ed4764a37bffd6e739d24b2cd",
+    "status": "failed",
+    "source_name": "actions",
+    "target_name": null,
+    "start_date_utc": "2022-08-22T07:43:54",
+    "start_date_in_milliseconds": 1661154234000,
+    "end_date_utc": "2022-08-22T07:43:58",
+    "end_date_in_milliseconds": 1661154238000,
+    "sub_river_id": null,
+    "is_sub_river_run": false
+  }

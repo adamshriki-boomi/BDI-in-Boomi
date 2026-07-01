@@ -1,0 +1,16 @@
+.modal.🔌 {
+  --connection-max-width: 500px;
+  --connection-header-height: 115px;
+  bottom: 0;
+  .connection-header{
+    height: var(--connection-header-height);
+  }
+  .connection-content {
+    grid-template-columns: minmax(45%, var(--connection-max-width)) 1fr;
+    height: calc(100% - var(--connection-header-height));
+  }
+}
+.modal.without-header.🔌 {
+  top: 3rem;
+}
+

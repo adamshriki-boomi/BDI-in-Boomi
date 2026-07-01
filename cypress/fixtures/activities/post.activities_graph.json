@@ -1,0 +1,585 @@
+{
+    "items": [
+      {
+        "river_id": "62e7dcaa2c13160013dc399b",
+        "last_runs": [
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 227000,
+            "run_group_id": "26f9e56a049f45eab39ee9deeee0b412",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 127000,
+            "run_group_id": "baa61ec8ade24487acdd545276a59d94",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 198000,
+            "run_group_id": "c216b5e4d44542a68a0e115fdd4ea0e0",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 257000,
+            "run_group_id": "d7e47866bacf44f9a209d167148f34da",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62e6a3323890880011ff1e8e",
+        "last_runs": [
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 989000,
+            "run_group_id": "35ce6476a1584a15ac3e5968fe3e37c4",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 11489000,
+            "run_group_id": "594388a6ad894aa3a259e7e33054988d",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 10748000,
+            "run_group_id": "a8e59c361182418b91f8e586ac1ba8f1",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 9884000,
+            "run_group_id": "213d603bd87e4d85be37cd0a16e068b1",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 9123000,
+            "run_group_id": "ab600b94024c45a58199372fe9be6437",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 8537000,
+            "run_group_id": "d944d23d7891466e96a26b289bfde7c1",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 7641000,
+            "run_group_id": "12a4077fd43b4bd6acb652810306b710",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62e900c42c13160013dc3a72",
+        "last_runs": [
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 208000,
+            "run_group_id": "06fa5cb6fad049329d2753f62bc55a2d",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 231000,
+            "run_group_id": "87b3a342ce2e49228286f075692b00ea",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 188000,
+            "run_group_id": "6b4966b4151745c196ab8de3a99ddb53",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 200000,
+            "run_group_id": "ccbc2088652f443d88b501c90510fff0",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 206000,
+            "run_group_id": "6f6bbd4085df4cb6807e3bc5dbe73ab9",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 159000,
+            "run_group_id": "ca190dbc26264e778c9352a5cb807057",
+            "units": 0.0
+          },
+          {
+            "status": "partially succeeded",
+            "max_run_duration_milliseconds": 251000,
+            "run_group_id": "62aec40a99f9431d92426fc5570126c5",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62e2789e9f1dd60011bad1fc",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 16000,
+            "run_group_id": "f5025dcea64d46cebe0cb826d8d083d9",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 20000,
+            "run_group_id": "505f2ab65b604ac39510278a0169c0ed",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 18000,
+            "run_group_id": "b88ed930b9b6443e9aa3942ea0ab9ca1",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62e3f2e53890880011ff1c45",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 20000,
+            "run_group_id": "082c0b05a3ea480a9c4e3ade231c2126",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 13000,
+            "run_group_id": "5ecb1affceba40a7b5936e5065a99faf",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 58000,
+            "run_group_id": "53ec9905dd134ddd993a768d421df41c",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 26000,
+            "run_group_id": "f9d635362f4b4dfba1f4e4173f471a14",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 23000,
+            "run_group_id": "b419d87da07246da942287268deb8a0a",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 19000,
+            "run_group_id": "6c3a7201f0324de3954e09f1b5ec5aad",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 34000,
+            "run_group_id": "155d42c900974971ad2769cfc2dd5c1d",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62ba1acb30d45c000fe6336b",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 79000,
+            "run_group_id": "4b22b4b8fb4a4b31963034e0956c3e00",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 70000,
+            "run_group_id": "1fbc1ec5f21f449fa75875216395f8a8",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 83000,
+            "run_group_id": "24a1bdd49a184631aa82c29a6a5a75a3",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 74000,
+            "run_group_id": "ba0c6d0674ac4bb7892a69cbc3d90ad7",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 69000,
+            "run_group_id": "b01d650b76bb4596bf6e54dc1c197426",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 71000,
+            "run_group_id": "2cfe096f37224bee8e8a44c36bb109d5",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 80000,
+            "run_group_id": "e6128e87a043449db10a26658e96a786",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "6295c727e0a8310011f584d4",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 17000,
+            "run_group_id": "e203edb4687842d393b55623dba90512",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 29000,
+            "run_group_id": "6641165d1598430eb788680ae07fdc77",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 16000,
+            "run_group_id": "f42992a7e8e048b2b2e7413043df0ae0",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "62caaaa7535b390011cd01f8",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 115000,
+            "run_group_id": "a600a53c0cf741e0a65f5a531966d4dc",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 155000,
+            "run_group_id": "6c119d795317490885f94d84132fa8c9",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 93000,
+            "run_group_id": "22a1439e5ead4fe99017502fefabdf3d",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 261000,
+            "run_group_id": "9e36a72479404a849da4971d25f81ce6",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 129000,
+            "run_group_id": "d523bdb9393946a8a388a1e04d7e6fe6",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 218000,
+            "run_group_id": "c098b9e7ff7b4e2185738cb7a4c8c032",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 94000,
+            "run_group_id": "69d241a6bfaf4c17b6a3eea300c441e9",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 100000,
+            "run_group_id": "0d209246dddb4db898d1fb6289df6506",
+            "units": 1.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 127000,
+            "run_group_id": "127260771d524180be9afafd1715e44a",
+            "units": 1.0
+          }
+        ]
+      },
+      {
+        "river_id": "62c2b4791e5077001101d5cc",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 169000,
+            "run_group_id": "ae4d78f9b4c64cbeb09760b907ebefa7",
+            "units": 5.500000042957254e-05
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 193000,
+            "run_group_id": "1c9a105697db40d4b19c3cbb5c5f90ca",
+            "units": 5.500000042957254e-05
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 96000,
+            "run_group_id": "0e909f3a3a314a77bc64456ded31c862",
+            "units": 5.500000042957254e-05
+          }
+        ]
+      },
+      {
+        "river_id": "62b8017e17cca100103ec17a",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 302000,
+            "run_group_id": "acfbbc6dc0524854b10fb85bd94fcc26",
+            "units": 0.18064099550247192
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 266000,
+            "run_group_id": "80f995b6a2914ad4a2a87e04eb871c59",
+            "units": 0.11490900069475174
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 315000,
+            "run_group_id": "faa207e5912a44c9b656af97ab5f312a",
+            "units": 9.999999974752427e-07
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 184000,
+            "run_group_id": "f3514d8baf124027a462472ac6536a9d",
+            "units": 9.999999974752427e-07
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 242000,
+            "run_group_id": "3ed2663333644ac9a5cc411ca026da32",
+            "units": 9.999999974752427e-07
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 238000,
+            "run_group_id": "7521b5c29c5647bf8f62b4dc8cec7d55",
+            "units": 0.0006840000278316438
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 250000,
+            "run_group_id": "3695ed0d6c3b46f8958fb0926a62a760",
+            "units": 0.08888799697160721
+          }
+        ]
+      },
+      {
+        "river_id": "6310618b4c38430010918ed9",
+        "last_runs": [
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 191000,
+            "run_group_id": "7c1fa6a17a3a4672b7b94233e4b5b56a",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 206000,
+            "run_group_id": "658a7833249b4fd09a9a34acc9e8ec00",
+            "units": 0.0
+          }
+  
+        ]
+      },
+      {
+        "river_id": "62fffc4ff837a70011789a27",
+        "last_runs": [
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 72000,
+            "run_group_id": "876362d6f4674242920d198942367fe1",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 56000,
+            "run_group_id": "19a67e0c2cb04f06bb172c675eb66e7d",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 65000,
+            "run_group_id": "4ca1fb1189e14dbdbcf956e74b951931",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 76000,
+            "run_group_id": "c65387a99efc4f8e8dc722b5206cbce9",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 29000,
+            "run_group_id": "50e7b810a5634dbd9b7b1ef7da317473",
+            "units": 0.0
+          },
+          {
+            "status": "failed",
+            "max_run_duration_milliseconds": 37000,
+            "run_group_id": "7731c9dca52e48f6b3323a1812b1c0cc",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "61f67c868f25aec60aad2530",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 377000,
+            "run_group_id": "085c8f2758174bcc861e479c8b93f419",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 406000,
+            "run_group_id": "b9f77024c6d842c5af846ae5162f0d54",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 318000,
+            "run_group_id": "03e82cb36c54491bb029f2c6ae2ebe4b",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 389000,
+            "run_group_id": "4e31385d2e2e4db48da9836508d88e1f",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 345000,
+            "run_group_id": "ca7b0e5f32ef4e8aa4f01cf591f8f0f9",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 305000,
+            "run_group_id": "12ca2bc32e26488fb350cce9a5397d75",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 388000,
+            "run_group_id": "1bfc52d863b646769bb75709fc588b0b",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 382000,
+            "run_group_id": "b59d147297574a3aa5e99b337cccd834",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 368000,
+            "run_group_id": "7305b10fbd924a7b9e7db55639767d47",
+            "units": 0.0
+          }
+        ]
+      },
+      {
+        "river_id": "630bc5c8819a320012570d91",
+        "last_runs": [
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 157000,
+            "run_group_id": "c7f464e140c2449295a29c5eb13c8b53",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 143000,
+            "run_group_id": "1ffb9f233914451bbb941aa311e0b1f7",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 172000,
+            "run_group_id": "8922e722b254441592e93cf927834204",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 131000,
+            "run_group_id": "f0328b16206d45948f1b9cf185c9cfc4",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 128000,
+            "run_group_id": "b17158cecdaa439ba564af45967cb49a",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 89000,
+            "run_group_id": "6fc06e68b56a46abb63a5c85cefee8ad",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 144000,
+            "run_group_id": "bee25af77858490f95a356f79b88f294",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 73000,
+            "run_group_id": "b124cb7fb0804b3984dd14ea40034b39",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 148000,
+            "run_group_id": "546a9d2b3769447db025978445c24586",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 67000,
+            "run_group_id": "2343a52b629f4779aa50f1f587b1a62c",
+            "units": 0.0
+          },
+          {
+            "status": "succeeded",
+            "max_run_duration_milliseconds": 76000,
+            "run_group_id": "429de4f7a06f42d88f42f74f8ac2a6fc",
+            "units": 0.0
+          }
+        ]
+      }
+    ]
+  }

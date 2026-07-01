@@ -1,0 +1,195 @@
+{
+  "name": "react_rivery",
+  "version": "26.12.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "overrides": {
+    "headers-polyfill": "3.0.4"
+  },
+  "dependencies": {
+    "@boomi/exosphere": "7.10.0",
+    "@chakra-ui/react": "2.4.2",
+    "@chakra-ui/styled-system": "2.12.0",
+    "@chakra-ui/theme": "3.3.0",
+    "@chakra-ui/theme-tools": "2.1.1",
+    "@dnd-kit/core": "3.1.1",
+    "@dnd-kit/modifiers": "3.0.0",
+    "@dnd-kit/sortable": "3.1.0",
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@monaco-editor/react": "4.4.6",
+    "@reduxjs/toolkit": "1.8.6",
+    "@tanstack/react-virtual": "3.0.0-beta.36",
+    "@testing-library/dom": "8.20.1",
+    "@types/lodash": "4.17.13",
+    "ajv": "8.6.2",
+    "ajv-errors": "3.0.0",
+    "axios": "1.7.9",
+    "browser-cookies": "1.2.0",
+    "clsx": "1.2.1",
+    "cron-parser": "4.9.0",
+    "cronstrue": "1.122.0",
+    "d3": "7.9.0",
+    "date-fns": "4.1.0",
+    "date-fns-tz": "3.2.0",
+    "debounce": "1.2.1",
+    "env-cmd": "10.1.0",
+    "eslint": "8.31.0",
+    "framer-motion": "7.6.15",
+    "html-to-image": "1.11.13",
+    "jspdf": "3.0.4",
+    "markdown-to-jsx": "^7.3.2",
+    "monaco-editor": "0.32.1",
+    "prettier": "2.8.0",
+    "query-string": "6.14.1",
+    "react": "18.2.0",
+    "react-datepicker": "8.0.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "3.1.4",
+    "react-google-recaptcha": "3.1.0",
+    "react-gtm-module": "2.0.11",
+    "react-hook-form": "7.33.0",
+    "react-icons": "4.7.1",
+    "react-multi-date-picker": "3.3.4",
+    "react-redux": "8.0.5",
+    "react-reflex": "4.0.9",
+    "react-router-dom": "5.3.0",
+    "react-select": "5.6.1",
+    "react-step-wizard": "5.3.11",
+    "react-table": "7.8.0",
+    "react-use": "17.4.0",
+    "recharts": "2.7.2",
+    "yup": "1.4.0"
+  },
+  "scripts": {
+    "build-storybook": "build-storybook -s public",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' vite build",
+    "e2e:build": "npx cypress open",
+    "e2e:ci:features": "npx cypress run --spec 'cypress/integration/features/**/*' --config baseUrl=https://localhost.rivery.in",
+    "e2e:ci:local": "npx cypress run --config video=false --config baseUrl=https://localhost.rivery.in/ --spec 'cypress/e2e/dev-mocks/**/*'",
+    "e2e:ci:prod": "npx cypress run --config baseUrl=https://console.rivery.io  --env v1_path=https://api.rivery.io/v1/** --spec 'cypress/e2e/prod/**/*' ",
+    "e2e:ci:vr": "npx cypress run --env updateSnapshots=true --spec 'cypress/integration/common/**/*,cypress/integration/hybrid/**/*'",
+    "e2e:ci": "npx cypress run --config video=false",
+    "e2e:dev": "npx cypress open --config baseUrl=http://localhost:4000",
+    "e2e:port": "npx cypress open --config baseUrl=https://localhost.rivery.in:3000",
+    "e2e:prod": "npx cypress run --config baseUrl=https://console.rivery.io --env v1_path=https://api.rivery.io/v1/** ",
+    "e2e:dev-mocks": "npx cypress run --config baseUrl=https://localhost:8000  --env v1_path=https://api.rivery.io/v1/** ",
+    "e2e": "npx cypress open --config baseUrl=https://localhost.rivery.in",
+    "gen:theme-typings": "chakra-cli tokens ./src/theme/components/index.ts --out src/theme/index",
+    "lint-staged": "lint-staged --config lint-staged.js",
+    "lint:fix": "eslint '*/**/*.{ts,tsx, scss}' --fix",
+    "lint": "eslint '*/**/*.{ts,tsx}'",
+    "postinstall": "npm run gen:theme-typings",
+    "postversion": "node scripts/tagger.js",
+    "prepare": "husky install",
+    "report": "node cucumber.report.js",
+    "serve:build": "node server.js",
+    "start:test": "env-cmd -f ./.env.test npm start",
+    "start": "vite --host",
+    "start:debug": "vite --debug",
+    "storybook": "start-storybook -p 6006",
+    "build:svg": "rm -rf src/components/Icons/components && npx @svgr/cli --out-dir  src/components/Icons/components --no-svgo --typescript --jsx-runtime classic -- src/components/Icons/icons && eslint 'src/components/Icons/components/index.ts' --fix",
+    "icons": "vite -c ./icons/vite.config.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "ignorePatterns": [
+      "cypress"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "overrides": [
+      {
+        "files": [
+          "src/**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@badeball/cypress-cucumber-preprocessor": "20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.4",
+    "esbuild": "^0.20.0",
+    "@chakra-ui/cli": "2.2.0",
+    "@nabla/vite-plugin-eslint": "1.5.0",
+    "@storybook/addon-actions": "6.5.9",
+    "@storybook/react": "6.5.9",
+    "@storybook/testing-library": "0.0.13",
+    "@testing-library/cypress": "10.0.3",
+    "@types/node": "14.14.22",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-redux": "7.1.24",
+    "@types/react-router-dom": "5.3.3",
+    "@types/react-select": "5.0.1",
+    "@vitejs/plugin-react": "4.0.0",
+    "cypress": "13.17.0",
+    "cypress-real-events": "1.13.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "express": "4.18.2",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
+    "msw": "0.44.2",
+    "msw-storybook-addon": "1.6.3",
+    "prop-types": "15.8.1",
+    "sass": "1.56.1",
+    "simple-git": "3.15.0",
+    "typescript": "4.7.4",
+    "vite": "4.3.9",
+    "vite-plugin-checker": "0.6.0",
+    "vite-plugin-mkcert": "1.15.0",
+    "vite-plugin-svgr": "3.2.0",
+    "vite-tsconfig-paths": "4.2.0",
+    "yargs": "17.7.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix"
+    ],
+    "src/*.{ts,tsx,scss}": [
+      "eslint --fix"
+    ]
+  },
+  "msw": {
+    "workerDirectory": "public"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": [
+      "cypress/e2e/dev-mocks/**/*.ts",
+      "cypress/e2e/prod/**/*.ts"
+    ]
+  }
+}

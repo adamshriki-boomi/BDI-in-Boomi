@@ -1,0 +1,31 @@
+{
+  "account_id": "account1",
+  "metric": "success_rate",
+  "view": "source",
+  "data": [
+    { "run_date": 1772496000000, "datasource_id": "hubspot", "success_rate": 0.750, "succeeded": 900, "failed": 300 },
+    { "run_date": 1772496000000, "datasource_id": "salesforce", "success_rate": 0.611, "succeeded": 1100, "failed": 700 },
+    { "run_date": 1772496000000, "datasource_id": "google_ads", "success_rate": 0.545, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772582400000, "datasource_id": "hubspot", "success_rate": 0.741, "succeeded": 1000, "failed": 350 },
+    { "run_date": 1772582400000, "datasource_id": "salesforce", "success_rate": 0.615, "succeeded": 1200, "failed": 750 },
+    { "run_date": 1772582400000, "datasource_id": "google_ads", "success_rate": 0.583, "succeeded": 700, "failed": 500 },
+    { "run_date": 1772668800000, "datasource_id": "hubspot", "success_rate": 0.760, "succeeded": 950, "failed": 300 },
+    { "run_date": 1772668800000, "datasource_id": "salesforce", "success_rate": 0.622, "succeeded": 1150, "failed": 700 },
+    { "run_date": 1772668800000, "datasource_id": "google_ads", "success_rate": 0.545, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772755200000, "datasource_id": "hubspot", "success_rate": 0.754, "succeeded": 980, "failed": 320 },
+    { "run_date": 1772755200000, "datasource_id": "salesforce", "success_rate": 0.621, "succeeded": 1180, "failed": 720 },
+    { "run_date": 1772755200000, "datasource_id": "google_ads", "success_rate": 0.557, "succeeded": 640, "failed": 510 },
+    { "run_date": 1772841600000, "datasource_id": "hubspot", "success_rate": 0.750, "succeeded": 960, "failed": 320 },
+    { "run_date": 1772841600000, "datasource_id": "salesforce", "success_rate": 0.620, "succeeded": 1160, "failed": 710 },
+    { "run_date": 1772841600000, "datasource_id": "google_ads", "success_rate": 0.548, "succeeded": 630, "failed": 520 },
+    { "run_date": 1772928000000, "datasource_id": "hubspot", "success_rate": 0.748, "succeeded": 920, "failed": 310 },
+    { "run_date": 1772928000000, "datasource_id": "salesforce", "success_rate": 0.622, "succeeded": 1120, "failed": 680 },
+    { "run_date": 1772928000000, "datasource_id": "google_ads", "success_rate": 0.538, "succeeded": 610, "failed": 525 },
+    { "run_date": 1773014400000, "datasource_id": "hubspot", "success_rate": 0.748, "succeeded": 950, "failed": 320 },
+    { "run_date": 1773014400000, "datasource_id": "salesforce", "success_rate": 0.622, "succeeded": 1150, "failed": 700 },
+    { "run_date": 1773014400000, "datasource_id": "google_ads", "success_rate": 0.549, "succeeded": 620, "failed": 510 },
+    { "run_date": 1773100800000, "datasource_id": "hubspot", "success_rate": 0.743, "succeeded": 520, "failed": 180 },
+    { "run_date": 1773100800000, "datasource_id": "salesforce", "success_rate": 0.620, "succeeded": 620, "failed": 380 },
+    { "run_date": 1773100800000, "datasource_id": "google_ads", "success_rate": 0.567, "succeeded": 340, "failed": 260 }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key_name": "facelift",
+  "prefix": "5df27de26b028e749a882094/azure_sql_dwh/5df27de26b028e749a882094_facelift.pem",
+  "key_pair_id": { "$oid": "60ef0373f5682c7201a2fd03" },
+  "user_created": { "$oid": "603506c8f5682c11171536e1" },
+  "env_id": { "$oid": "5f75a623f5682c13c9ceec35" },
+  "is_key_file": true,
+  "connection_type": "azure_sql_dwh",
+  "public_key": "ssh-rsa fake create-key_pair",
+  "account": { "$oid": "5df27de26b028e749a882094" },
+  "created_at": { "$date": 1626276723438 },
+  "key_file_name": "{key_files_path}/5df27de26b028e749a882094/azure_sql_dwh/5df27de26b028e749a882094_facelift.pem",
+  "_id": { "$oid": "60ef0373f5682c7201a2fd03" }
+}

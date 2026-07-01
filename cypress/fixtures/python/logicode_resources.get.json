@@ -1,0 +1,52 @@
+{"logicode": [
+  {
+    "_id": "1",
+    "name": "Extra Small",
+    "ram": 0.5,
+    "cpu": 0.25,
+    "network_units_sec": 0.00390625,
+    "compute_units_sec": 0.000342849991284,
+    "description": "Simple Computing",
+    "alias": "XS"
+  },
+  {
+    "_id": "2",
+    "name": "Small",
+    "ram": 1,
+    "cpu": 0.5,
+    "network_units_sec": 0.00390625,
+    "compute_units_sec": 0.000685690029059,
+    "description": "Transformation",
+    "alias": "S"
+  },
+  {
+    "_id": "3",
+    "name": "Medium",
+    "ram": 2,
+    "cpu": 1,
+    "network_units_sec": 0.00390625,
+    "compute_units_sec": 0.001371388905682,
+    "description": "Advanced Computing",
+    "alias": "M"
+  },
+  {
+    "_id": "4",
+    "name": "Large",
+    "ram": 4,
+    "cpu": 2,
+    "network_units_sec": 0.00390625,
+    "compute_units_sec": 0.002742777811363,
+    "description": "TBD",
+    "alias": "L"
+  },
+  {
+    "_id": "5",
+    "name": "Extra Large",
+    "ram": 8,
+    "cpu": 4,
+    "network_units_sec": 0.00390625,
+    "compute_units_sec": 0.005485555622727,
+    "description": "TBD",
+    "alias": "XL"
+  }
+]}

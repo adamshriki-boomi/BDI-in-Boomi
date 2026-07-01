@@ -1,0 +1,15 @@
+@mixin create-max-w-form($unit) {
+  .max-w-form {
+    max-width: $unit;
+  }
+  .min-w-form {
+    min-width: $unit;
+  }
+}
+
+@media (min-width: 850px) {
+  @include create-max-w-form(360px);
+}
+@media (min-width: 1000px) {
+  @include create-max-w-form(590px);
+}

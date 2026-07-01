@@ -1,0 +1,50 @@
+[
+  {
+    "connection_type": "azure_sql_dwh",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "key_name": "confusion",
+    "created_at": { "$date": 1626278173238 },
+    "key_file_name": "{key_files_path}/55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_confusion.pem",
+    "prefix": "55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_confusion.pem",
+    "key_pair_id": { "$oid": "60ef091c115042513db50688" },
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "_id": { "$oid": "60ef091c115042513db50688" },
+    "is_key_file": true
+  },
+  {
+    "connection_type": "azure_sql_dwh",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "key_name": "orentest",
+    "created_at": { "$date": 1626161533248 },
+    "key_file_name": "{key_files_path}/55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_orentest.pem",
+    "prefix": "55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_orentest.pem",
+    "key_pair_id": { "$oid": "60ed417c11504227b80da37a" },
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "_id": { "$oid": "60ed417c11504227b80da37a" },
+    "is_key_file": true
+  },
+  {
+    "connection_type": "redshift",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "key_name": "test",
+    "created_at": { "$date": 1625472568887 },
+    "key_file_name": "{key_files_path}/55bf7c4270fdca16cac18761/redshift/55bf7c4270fdca16cac18761_test.pem",
+    "prefix": "55bf7c4270fdca16cac18761/redshift/55bf7c4270fdca16cac18761_test.pem",
+    "key_pair_id": { "$oid": "60e2be3872e5b1001c8c11da" },
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "_id": { "$oid": "60e2be3872e5b1001c8c11da" },
+    "is_key_file": true
+  },
+  {
+    "connection_type": "postgres",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "key_name": "rivery-pub",
+    "created_at": { "$date": 1596631256424 },
+    "key_file_name": "{key_files_path}/55bf7c4270fdca16cac18761/postgres/55bf7c4270fdca16cac18761_rivery-pub.pem",
+    "prefix": "55bf7c4270fdca16cac18761/postgres/55bf7c4270fdca16cac18761_rivery-pub.pem",
+    "key_pair_id": { "$oid": "5f2aa8d8a5b38430ba013896" },
+    "env_id": { "$oid": "563f5b62b0a10e18f0808895" },
+    "_id": { "$oid": "5f2aa8d8a5b38430ba013896" },
+    "is_key_file": true
+  }
+]

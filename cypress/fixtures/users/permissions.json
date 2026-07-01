@@ -1,0 +1,8 @@
+{
+    "environments": {
+      "5a4a2f0e633356423130e886": "viewer",
+      "5f7b2f60f4e56301082b92f4": "deployment_admin",
+      "6546ca0e723b26000f2cc15c": "viewer",
+      "6546cab41e2c3400112db57a": "deployment_admin"
+    }
+  }

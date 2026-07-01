@@ -1,0 +1,32 @@
+{
+  "next_page": null,
+  "previous_page": "https://api.dev.rivery.in/v1/accounts/fake/environments/fake/connections/fake/tables?schema_name=employees&previous_page_id=646e169bfcf3238d37",
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "current_page_size": 3,
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "id": "the_day_the_world",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": {
+        "name": "employees",
+        "type": "mysql"
+      }
+    },
+    {
+      "id": "breaks_down",
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": {
+        "name": "employees",
+        "type": "mysql"
+      }
+    }
+  ]
+}

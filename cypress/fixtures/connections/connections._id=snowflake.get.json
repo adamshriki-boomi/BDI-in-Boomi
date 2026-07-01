@@ -1,0 +1,30 @@
+[
+  {
+    "username": "RiveryIo",
+    "connection_creation_time": { "$date": 1601318833583 },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "_id": { "$oid": "5f722fb102afed001c8a15ce" },
+    "connection_update_by": "5f6b80bdc42790001eceadef",
+    "fz_connection_id": {
+      "$oid": "faked"
+    },
+    "custom_fz": true,
+    "cross_id": { "$oid": "5f722fb102afed001c8a15ce" },
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "connection_name": "TEST_Rivery Snowflake_ZC",
+    "warehouse": "RIVERY_DEMO",
+    "valid": false,
+    "connection_type_name": "Snowflake",
+    "last_test_date": { "$date": 1613918604332 },
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "connection_type": "snowflake",
+    "oauth2": true,
+    "credentials": true,
+    "credentials_exists": true,
+    "is_credentials_encrypted": true,
+    "account_name": "zn19366.eu-central-1",
+    "connection_update_time": { "$date": 1601318833583 },
+    "last_test_error": "Snowflake connection Problem. Please check the connection details or your credentials in Snowflake"
+  }
+]

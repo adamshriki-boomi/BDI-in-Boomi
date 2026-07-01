@@ -1,0 +1,16 @@
+  {
+    "run_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+    "datasource_id": "jira",
+    "error_description": null,
+    "units": 1.0,
+    "run_group_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+    "status": "succeeded",
+    "source_name": "predefined_project",
+    "target_name": "jira_project",
+    "start_date_utc": "2022-09-01T07:40:33",
+    "start_date_in_milliseconds": 1662018033000,
+    "end_date_utc": "2022-09-01T07:40:45",
+    "end_date_in_milliseconds": 1662018045000,
+    "sub_river_id": null,
+    "is_sub_river_run": false
+  }

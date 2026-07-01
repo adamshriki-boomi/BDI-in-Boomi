@@ -1,0 +1,48 @@
+[
+    {
+      "scopes": {
+        "64632e55c57e36000fbaf776": [
+          "river:execute",
+          "river:list",
+          "me:list",
+          "datasource:list",
+          "activity:list",
+          "activity:log",
+          "dataframe:list",
+          "dataframe:write",
+          "dataframe:delete",
+          "data_quality_test:list",
+          "data_quality_test:write",
+          "logicode:list",
+          "operations:list",
+          "environment:list",
+          "account:list",
+          "connection:list",
+          "connection:edit",
+          "connection:delete",
+          "connection:test",
+          "river:edit",
+          "river:delete",
+          "file:edit",
+          "river:write",
+          "plan:list",
+          "audit:list"
+        ]
+      },
+      "update_time": {
+        "$date": 1688020367132
+      },
+      "last_used_at": "",
+      "updated_by": "63e497867d37dd001010f195",
+      "insert_time": {
+        "$date": 1688020367132
+      },
+      "expiration_date": {
+        "$date": 2003380367000
+      },
+      "updated_by_name": "Sefi Piscon",
+      "token_id": "d8c47f9333cc4093bee24c24a50fdb39",
+      "token_name": "jhgjghghjj",
+      "user": "63e497867d37dd001010f195"
+    }
+  ]

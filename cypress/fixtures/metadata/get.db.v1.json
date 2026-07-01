@@ -1,0 +1,26 @@
+{
+    "operation_id": "652ceb6a8443681b071e72ea",
+    "operation_type": "get_databases",
+    "last_update_date": "2023-10-16T07:51:32.333000",
+    "status": "D",
+    "result": [
+      "BENCHMARK_DATABASE",
+      "CATALYST",
+      "DEMO_DB",
+      "E2E_TESTING",
+      "HEAP_MAIN_PRODUCTION",
+      "INTERNAL",
+      "INTERNAL_SANDBOX",
+      "PRODUCT",
+      "RIVERY_DEMO",
+      "SHLOMI_TEST",
+      "SNOWFLAKE",
+      "SNOWFLAKE_ACCOUNT_USAGE",
+      "SNOWFLAKE_CONNECT_SHARE_DB",
+      "SNOWFLAKE_SAMPLE_DATA",
+      "SOLUTIONS",
+      "SUPPORT",
+      "TESTING_DB"
+    ],
+    "error_message": ""
+  }

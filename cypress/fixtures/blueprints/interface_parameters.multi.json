@@ -1,0 +1,63 @@
+{
+  "global_params": {
+    "standard": [
+      { "name": "owner", "type": "string", "value": null },
+      { "name": "repo", "type": "string", "value": null }
+    ],
+    "authentication": {
+      "type": "bearer",
+      "fields": [
+        {
+          "name": "bearer_token",
+          "type": "string",
+          "value": null,
+          "is_password": true,
+          "is_hidden": false
+        }
+      ]
+    },
+    "date_range": {},
+    "required_params": []
+  },
+  "reports": {
+    "ListPullRequests": {
+      "standard": [
+        { "name": "state", "type": "string", "value": "closed" }
+      ],
+      "authentication": {},
+      "date_range": {},
+      "required_params": ["state"]
+    },
+    "ListIssues": {
+      "standard": [
+        { "name": "state", "type": "string", "value": null }
+      ],
+      "authentication": {},
+      "date_range": {
+        "name": "date",
+        "type": "datetime",
+        "start_date": null,
+        "end_date": null
+      },
+      "required_params": ["state", "date_range"]
+    },
+    "ListOrganizationRepositories": {
+      "standard": [],
+      "authentication": {},
+      "date_range": {},
+      "required_params": []
+    },
+    "ListCommits": {
+      "standard": [],
+      "authentication": {},
+      "date_range": {
+        "name": "date",
+        "type": "datetime",
+        "start_date": "2022-11-28T00:00:00",
+        "end_date": null
+      },
+      "required_params": ["date_range"]
+    }
+  },
+  "blueprint_type": "multi_report"
+}

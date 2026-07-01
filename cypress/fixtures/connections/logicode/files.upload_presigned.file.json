@@ -1,0 +1,4 @@
+{
+  "cross_id": { "$oid": "faked-oid" },
+  "presigned_url": "https://logicode-binaries-prod.s3.us-east-2.amazonaws.com/aws-upload-url"
+}

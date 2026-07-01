@@ -1,0 +1,16 @@
+{
+    "run_group_id": "201dcf8182ad4a59868cb41b957fdc8d",
+    "status": "string",
+    "units": 2.1,
+    "max_duration_in_milliseconds": 0,
+    "run_date_epoch_milliseconds": 0,
+    "run_date_utc": "2023-08-02T15:18:53.707Z",
+    "run_end_date_epoch_milliseconds": 1658774335000,
+    "run_end_date_utc": "2022-07-25T18:38:55.640Z",
+    "running": 0,
+    "canceled": 0,
+    "pending": 0,
+    "failed": 0,
+    "succeeded": 4,
+    "skipped": 0
+  }

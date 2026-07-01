@@ -1,0 +1,50 @@
+{
+  "last_name": "test",
+  "refresh_token": "faked",
+  "first_name": "rivery",
+  "last_login": null,
+  "user_id": { "$oid": "60529810f5682c4c34ce1e2a" },
+  "user_accounts": [
+    {
+      "disable_targets": false,
+      "phone_number": "2013334455",
+      "last_name": "test",
+      "owner_email": "oiaoqa@maxresistance.com",
+      "country_code": "+1",
+      "user_created": { "$oid": "60529810f5682c4c34ce1e2a" },
+      "env_id": { "$oid": "60529871f5682c67e64084f2" },
+      "account_name": "oiaoqa",
+      "first_name": "rivery",
+      "registration_target_type": null,
+      "state": "Alaska",
+      "user_registered": { "$oid": "60529810f5682c4c34ce1e2a" },
+      "company_name": "oiaoqa",
+      "user_name": "rivery test",
+      "zip_code": null,
+      "limitations": {
+        "units": 1000,
+        "days_trial": 14,
+        "trial_end_date": { "$date": 1617235314586 }
+      },
+      "account_type": "trial",
+      "is_trial": true,
+      "account_id": "Frances-Jacob-7188",
+      "wp_referrer": null,
+      "registration_date": { "$date": 1616025713162 },
+      "is_active": true,
+      "step": 4,
+      "environments_enabled": true,
+      "first_referrer_url": null,
+      "first_url": null,
+      "registration_succeed": true,
+      "mfa_succeed": true,
+      "country": "United States",
+      "_id": { "$oid": "60529871f5682c67e64084f0" },
+      "job_title": "developerEngineer"
+    }
+  ],
+  "registration_enabled": true,
+  "login_type": "password",
+  "status_code": 200,
+  "user_email": "oiaoqa@maxresistance.com"
+}

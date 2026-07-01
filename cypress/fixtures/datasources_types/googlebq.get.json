@@ -1,0 +1,397 @@
+[
+  {
+    "section_datasources": [
+      {
+        "connection_type": "gcloud",
+        "status": "enabled",
+        "is_fz_connection": true,
+        "doc_url": "https://docs.rivery.io/docs/gcs",
+        "fz_bucket": "{gcs_file_zone}",
+        "description": "A powerful, simple cost effective object storage service.\n",
+        "icon": "https://static-assets.console.rivery.io/gcs.png",
+        "ui_inputs_rows": null,
+        "size": 32,
+        "is_test_connection": true,
+        "section_id": [
+          "sec_storage"
+        ],
+        "ui_rows": [
+          {
+            "placeholder": "Connection Name",
+            "display_name": "Connection Name",
+            "name": "connection_name",
+            "type": "text"
+          },
+          [
+            {
+              "display_name": "Project Id",
+              "type": "text",
+              "name": "project_id"
+            }
+          ],
+          [ {
+            "id": "credentials",
+            "type": "connect_with",
+            "display_name": "Google",
+            "is_credentials": true
+          }],
+          [
+            {
+              "display_name": "Region",
+              "type": "gcloud_component",
+              "name": "region",
+              "options": [
+                {
+                  "id": "us",
+                  "name": "USA"
+                },
+                {
+                  "id": "eu",
+                  "name": "Europe"
+                },
+                {
+                  "id": "asia",
+                  "name": "Asia"
+                },
+                {
+                  "id": "us-central1",
+                  "name": "Iowa"
+                },
+                {
+                  "id": "us-east1",
+                  "name": "South Carolina"
+                },
+                {
+                  "id": "us-east4",
+                  "name": "Northern Virginia"
+                },
+                {
+                  "id": "us-west1",
+                  "name": "Oregon"
+                },
+                {
+                  "id": "us-west2",
+                  "name": "Los Angeles"
+                },
+                {
+                  "id": "us-west3",
+                  "name": "Salt Lake City"
+                },
+                {
+                  "id": "us-west4",
+                  "name": "Las Vegas"
+                },
+                {
+                  "id": "europe-central2",
+                  "name": "Warsaw"
+                },
+                {
+                  "id": "europe-north1",
+                  "name": "Finland"
+                },
+                {
+                  "id": "europe-west1",
+                  "name": "Belgium"
+                },
+                {
+                  "id": "europe-west2",
+                  "name": "London"
+                },
+                {
+                  "id": "europe-west3",
+                  "name": "Frankfurt"
+                },
+                {
+                  "id": "europe-west4",
+                  "name": "Netherlands"
+                },
+                {
+                  "id": "europe-west6",
+                  "name": "Zurich"
+                },
+                {
+                  "id": "southamerica-east1",
+                  "name": "Sao Paulo"
+                },
+                {
+                  "id": "asia-east1",
+                  "name": "Taiwan"
+                },
+                {
+                  "id": "asia-east2",
+                  "name": "Hong Kong"
+                },
+                {
+                  "id": "asia-northeast1",
+                  "name": "Tokyo"
+                },
+                {
+                  "id": "asia-northeast2",
+                  "name": "Osaka"
+                },
+                {
+                  "id": "asia-northeast3",
+                  "name": "Seoul"
+                },
+                {
+                  "id": "asia-south1",
+                  "name": "Mumbai"
+                },
+                {
+                  "id": "asia-south2",
+                  "name": "Delhi"
+                },
+                {
+                  "id": "asia-southeast1",
+                  "name": "Singapore"
+                },
+                {
+                  "id": "asia-southeast2",
+                  "name": "Jakarta"
+                },
+                {
+                  "id": "australia-southeast1",
+                  "name": "Sydney"
+                },
+                {
+                  "id": "australia-southeast2",
+                  "name": "Melbourne"
+                },
+                {
+                  "id": "northamerica-northeast1",
+                  "name": "Montreal"
+                },
+                {
+                  "id": "northamerica-northeast2",
+                  "name": "Toronto"
+                }
+              ]
+            }
+          ]
+        ],
+        "force_custom_fz": false,
+        "defaults": {},
+        "disable_check_and_save": false,
+        "file_types": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "_id": "gcs",
+        "segment": [
+          "source",
+          "connections",
+          "target"
+        ],
+        "name": "Google Cloud Storage"
+      }
+    ],
+    "section_name": "Storage",
+    "section_description": "Storage type family"
+  },
+  {
+    "section_datasources": [
+      {
+        "connection_type": "gcloud",
+        "status": "enabled",
+        "is_fz_connection": true,
+        "doc_url": "https://docs.rivery.io/docs/bq",
+        "fz_bucket": "{gcs_file_zone}",
+        "description": "Google's fully managed, NoOps, low cost analytics database.",
+        "icon": "https://static-assets.console.rivery.io/bq.png",
+        "ui_inputs_rows": null,
+        "is_test_connection": true,
+        "size": 36,
+        "source_doc_url": "https://docs.rivery.io/docs/bq",
+        "section_id": [
+          "sec_relational"
+        ],
+        "whitelist_ip_msg": true,
+        "ui_rows": [
+          {
+            "placeholder": "Connection Name",
+            "display_name": "Connection Name",
+            "name": "connection_name",
+            "type": "text"
+          },
+          [ {
+            "id": "credentials",
+            "display_name": "Google",
+            "id": "credentials",
+            "type": "connect_with",
+            "is_credentials": true
+          }],
+          [
+            {
+              "display_name": "Project Id",
+              "type": "text",
+              "required": true,
+              "name": "project_id"
+            }
+          ],
+          [
+            {
+              "display_name": "Port",
+              "type": "number",
+              "required": false,
+              "name": "port"
+            }
+          ],
+          [
+            {
+              "display_name": "Region",
+              "type": "gcloud_component",
+              "name": "region",
+              "options": [
+                {
+                  "id": "us",
+                  "name": "USA"
+                },
+                {
+                  "id": "eu",
+                  "name": "Europe"
+                },
+                {
+                  "id": "asia",
+                  "name": "Asia"
+                },
+                {
+                  "id": "us-central1",
+                  "name": "Iowa"
+                },
+                {
+                  "id": "us-east1",
+                  "name": "South Carolina"
+                },
+                {
+                  "id": "us-east4",
+                  "name": "Northern Virginia"
+                },
+                {
+                  "id": "us-west1",
+                  "name": "Oregon"
+                },
+                {
+                  "id": "us-west2",
+                  "name": "Los Angeles"
+                },
+                {
+                  "id": "us-west3",
+                  "name": "Salt Lake City"
+                },
+                {
+                  "id": "us-west4",
+                  "name": "Las Vegas"
+                },
+                {
+                  "id": "europe-central2",
+                  "name": "Warsaw"
+                },
+                {
+                  "id": "europe-north1",
+                  "name": "Finland"
+                },
+                {
+                  "id": "europe-west1",
+                  "name": "Belgium"
+                },
+                {
+                  "id": "europe-west2",
+                  "name": "London"
+                },
+                {
+                  "id": "europe-west3",
+                  "name": "Frankfurt"
+                },
+                {
+                  "id": "europe-west4",
+                  "name": "Netherlands"
+                },
+                {
+                  "id": "europe-west6",
+                  "name": "Zurich"
+                },
+                {
+                  "id": "southamerica-east1",
+                  "name": "Sao Paulo"
+                },
+                {
+                  "id": "asia-east1",
+                  "name": "Taiwan"
+                },
+                {
+                  "id": "asia-east2",
+                  "name": "Hong Kong"
+                },
+                {
+                  "id": "asia-northeast1",
+                  "name": "Tokyo"
+                },
+                {
+                  "id": "asia-northeast2",
+                  "name": "Osaka"
+                },
+                {
+                  "id": "asia-northeast3",
+                  "name": "Seoul"
+                },
+                {
+                  "id": "asia-south1",
+                  "name": "Mumbai"
+                },
+                {
+                  "id": "asia-south2",
+                  "name": "Delhi"
+                },
+                {
+                  "id": "asia-southeast1",
+                  "name": "Singapore"
+                },
+                {
+                  "id": "asia-southeast2",
+                  "name": "Jakarta"
+                },
+                {
+                  "id": "australia-southeast1",
+                  "name": "Sydney"
+                },
+                {
+                  "id": "australia-southeast2",
+                  "name": "Melbourne"
+                },
+                {
+                  "id": "northamerica-northeast1",
+                  "name": "Montreal"
+                },
+                {
+                  "id": "northamerica-northeast2",
+                  "name": "Toronto"
+                }
+              ]
+            }
+          ]
+        ],
+        "sub_rivers": true,
+        "force_custom_fz": false,
+        "defaults": {},
+        "disable_check_and_save": false,
+        "file_types": {
+          "bq": [
+            "json",
+            "csv",
+            "avro"
+          ]
+        },
+        "_id": "bq",
+        "segment": [
+          "connections",
+          "target"
+        ],
+        "name": "Google BigQuery"
+      }
+    ],
+    "section_name": "Relational Database",
+    "section_description": "A relational database (RDB) is a collective set of multiple data sets organized by tables, records and columns.\n"
+  }
+]

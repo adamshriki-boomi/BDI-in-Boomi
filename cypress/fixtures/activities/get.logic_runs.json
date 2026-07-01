@@ -1,0 +1,16 @@
+{
+    "run_id": "a4eefdec04854e56bfa50694f4e4c3d2",
+    "datasource_id": "logic",
+    "error_description": "Step Logic Step failed: Performing snowflake job failed. Error: Query Failed: 000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command. - ",
+    "units": 0.0,
+    "run_group_id": "a4eefdec04854e56bfa50694f4e4c3d2",
+    "status": "failed",
+    "source_name": "Logic",
+    "target_name": "Logic",
+    "start_date_utc": "2023-01-22T06:30:41",
+    "start_date_in_milliseconds": 1674369041000,
+    "end_date_utc": "2023-01-22T06:30:47",
+    "end_date_in_milliseconds": 1674369047000,
+    "sub_river_id": null,
+    "is_sub_river_run": false
+  }

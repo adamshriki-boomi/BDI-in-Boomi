@@ -1,0 +1,624 @@
+{
+  "groups": [
+    {
+      "update_time": 1623960847362,
+      "name": "pineapple",
+      "color": "#ffd300",
+      "is_default": false,
+      "insert_time": 1623960847362,
+      "cross_id": { "$oid": "60cbad0f1150424c3dc810e3" },
+      "_id": { "$oid": "60cbad0f1150424c3dc810e3" },
+      "icon": "crown"
+    },
+    {
+      "update_time": 1623976033374,
+      "name": "cherry",
+      "color": "#ed9750",
+      "version_id": { "$oid": "60cbe8611150424c41b0b29e" },
+      "is_default": false,
+      "insert_time": 1623960847362,
+      "cross_id": { "$oid": "60ccb8411150424c3dc810e9" },
+      "_id": { "$oid": "60cbad0f1150424c3dc810e3" },
+      "icon": "smily"
+    },
+    {
+      "update_time": 1623956239371,
+      "name": "lunatic soul 2",
+      "color": "#76eb84",
+      "is_default": false,
+      "insert_time": 1623954703415,
+      "cross_id": { "$oid": "60cb950f1150424c42083b89" },
+      "_id": { "$oid": "60cb950f1150424c42083b89" },
+      "icon": "ballons"
+    },
+    {
+      "update_time": 1623953290458,
+      "name": "deploy group",
+      "color": "#de7bc9",
+      "is_default": false,
+      "insert_time": 1622549451041,
+      "cross_id": { "$oid": "60b623a6b89c865104e168e4" },
+      "_id": { "$oid": "60b623cb1e397f001cff177c" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1623952722909,
+      "name": "e2e testing",
+      "color": "#01837b",
+      "is_default": false,
+      "insert_time": 1623934157544,
+      "cross_id": { "$oid": "60cb44cd828be2001d31c9c7" },
+      "_id": { "$oid": "60cb44cd828be2001d31c9c7" },
+      "icon": "star"
+    },
+    {
+      "update_time": 1623218148166,
+      "name": "currencies flow _",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622459924194,
+      "cross_id": { "$oid": "60b4c6098040d0d5732e22f5" },
+      "_id": { "$oid": "60b4c614a21570001ddd19b7" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1622961448840,
+      "name": "Predefined Reports",
+      "color": "#de7bc9",
+      "is_default": false,
+      "insert_time": 1622961429287,
+      "cross_id": { "$oid": "60bc6d152e4ee1001c9a7b7c" },
+      "_id": { "$oid": "60bc6d152e4ee1001c9a7b7c" },
+      "icon": "smily"
+    },
+    {
+      "update_time": 1622459873021,
+      "name": "multi table to deploy",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622459873021,
+      "cross_id": { "$oid": "60b4c5b01be73ca468ce5f14" },
+      "_id": { "$oid": "60b4c5e13507d8001d029c86" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1622445389734,
+      "name": "deploy_group",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622445389734,
+      "cross_id": { "$oid": "60b48d1b5af7b542325974db" },
+      "_id": { "$oid": "60b48d4d3507d8001d029c0b" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1622442040471,
+      "name": "new publish group",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622442040471,
+      "cross_id": { "$oid": "60b4801505a19b4cd6a521f6" },
+      "_id": { "$oid": "60b480383507d8001d029bca" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1622410294382,
+      "name": "deploy_group",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622410294382,
+      "cross_id": { "$oid": "60b404269daa6c844c2e17a7" },
+      "_id": { "$oid": "60b40436a21570001ddd18ff" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1622355426727,
+      "name": "multi table to deploy",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1622355426727,
+      "cross_id": { "$oid": "60b32dc4bf9f0088901d446f" },
+      "_id": { "$oid": "60b32de21150425c3084b872" },
+      "icon": "tshirt"
+    },
+    {
+      "update_time": 1618989642688,
+      "name": "ultimate guitars",
+      "color": "#a0a8ff",
+      "is_default": true,
+      "insert_time": 1618817098242,
+      "cross_id": { "$oid": "607d304adc72cc001c48c153" },
+      "_id": { "$oid": "607d304adc72cc001c48c153" },
+      "icon": "ballons"
+    },
+    {
+      "update_time": 1618817523424,
+      "name": "new group",
+      "color": "#ffd300",
+      "is_default": false,
+      "insert_time": 1618817115722,
+      "cross_id": { "$oid": "607d305bdc72cc001c48c158" },
+      "_id": { "$oid": "607d305bdc72cc001c48c158" },
+      "icon": "camera"
+    },
+    {
+      "update_time": 1618817098634,
+      "name": "new_group",
+      "color": "#26114d",
+      "is_default": false,
+      "insert_time": 1618816819448,
+      "cross_id": { "$oid": "607d2f33507b6d001c6f8520" },
+      "_id": { "$oid": "607d2f33507b6d001c6f8520" },
+      "icon": "spray"
+    },
+    {
+      "update_time": 1618816948603,
+      "name": "hi new groupdd4",
+      "color": "#00b9ad",
+      "is_default": false,
+      "insert_time": 1618304408481,
+      "cross_id": { "$oid": "60755d98bf938d001cee98bc" },
+      "_id": { "$oid": "60755d98bf938d001cee98bc" }
+    },
+    {
+      "update_time": 1618816928578,
+      "name": "guitars",
+      "color": "#eeb9e3",
+      "is_default": false,
+      "insert_time": 1618227930082,
+      "cross_id": { "$oid": "607432da8b14d2001c32f6ce" },
+      "_id": { "$oid": "607432da8b14d2001c32f6ce" }
+    },
+    {
+      "update_time": 1618816820481,
+      "name": "tests12",
+      "color": "#ffc493",
+      "is_default": false,
+      "insert_time": 1618224857974,
+      "cross_id": { "$oid": "607426d98b14d2001c32f6b2" },
+      "_id": { "$oid": "607426d98b14d2001c32f6b2" }
+    },
+    {
+      "update_time": 1618816352379,
+      "name": "rest action group2",
+      "color": "#ffc493",
+      "is_default": false,
+      "insert_time": 1617621867666,
+      "cross_id": { "$oid": "606af36b60898f001e451075" },
+      "_id": { "$oid": "606af36b60898f001e451075" }
+    },
+    {
+      "update_time": 1618816308494,
+      "name": "shiran test1",
+      "color": "#eeb9e3",
+      "is_default": false,
+      "insert_time": 1618224513569,
+      "cross_id": { "$oid": "607425818b14d2001c32f6ab" },
+      "_id": { "$oid": "607425818b14d2001c32f6ab" }
+    },
+    {
+      "update_time": 1618814307419,
+      "name": "multi table to deploy",
+      "color": "#00b9ad",
+      "is_default": false,
+      "insert_time": 1615284061723,
+      "cross_id": { "$oid": "6047475c9698ea35c558d1de" },
+      "_id": { "$oid": "6047475d53a0f0001e0c02f1" }
+    },
+    {
+      "update_time": 1618317161452,
+      "name": "Global",
+      "color": "#00b9ad",
+      "is_default": false,
+      "insert_time": 1615281558468,
+      "cross_id": { "$oid": "60473d95a22811511c94eddc" },
+      "_id": { "$oid": "60473d9619dc41001d66d853" }
+    },
+    {
+      "update_time": 1618306454108,
+      "name": "Amazing",
+      "color": "#ffd300",
+      "is_default": false,
+      "insert_time": 1618299645829,
+      "cross_id": { "$oid": "60754afd548271001df7a3bf" },
+      "_id": { "$oid": "60754afd548271001df7a3bf" },
+      "icon": "crown"
+    },
+    {
+      "update_time": 1618225056437,
+      "name": "tests13",
+      "color": "#a0a8ff",
+      "is_default": false,
+      "insert_time": 1618224911743,
+      "cross_id": { "$oid": "6074270f8b14d2001c32f6b5" },
+      "_id": { "$oid": "6074270f8b14d2001c32f6b5" }
+    },
+    {
+      "update_time": 1618219127560,
+      "name": "test",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1618219127560,
+      "cross_id": { "$oid": "60741077e5250d0020cc7dc7" },
+      "_id": { "$oid": "60741077e5250d0020cc7dc7" }
+    },
+    {
+      "update_time": 1617627376449,
+      "name": "default",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1603190358851,
+      "cross_id": { "$oid": "5f8ebe565c7a70001e7ea69a" },
+      "_id": { "$oid": "5f8ebe565c7a70001e7ea69a" }
+    },
+    {
+      "update_time": 1615274260466,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615274260466,
+      "cross_id": { "$oid": "60472113b6dae0f436a93be4" },
+      "_id": { "$oid": "6047211453a0f0001e0c026d" }
+    },
+    {
+      "update_time": 1615214651973,
+      "name": "deploy_group",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615214651973,
+      "cross_id": { "$oid": "6046383a4551971f360884df" },
+      "_id": { "$oid": "6046383b72a5ab001c90cb26" }
+    },
+    {
+      "update_time": 1615207733605,
+      "name": "multi table to deploy",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615207733605,
+      "cross_id": { "$oid": "60461d345aaa5ce25d9b2f87" },
+      "_id": { "$oid": "60461d35952af1001ca528bf" }
+    },
+    {
+      "update_time": 1615207700100,
+      "name": "deploy_group",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615207700100,
+      "cross_id": { "$oid": "60461d134a6c205101a18400" },
+      "_id": { "$oid": "60461d145e3c72001eb55ac9" }
+    },
+    {
+      "update_time": 1615207290767,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615207290767,
+      "cross_id": { "$oid": "60461b79242639ee62bb75b0" },
+      "_id": { "$oid": "60461b7a952af1001ca528a6" }
+    },
+    {
+      "update_time": 1615203547163,
+      "name": "multi table to deploy",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615203547163,
+      "cross_id": { "$oid": "60460cda63ea60012bb00b13" },
+      "_id": { "$oid": "60460cdb952af1001ca5282e" }
+    },
+    {
+      "update_time": 1615203079252,
+      "name": "topublish1",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615203028231,
+      "cross_id": { "$oid": "60460ad3db9016538f0aef82" },
+      "_id": { "$oid": "60460ad4952af1001ca527fa" }
+    },
+    {
+      "update_time": 1615202891933,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615202891933,
+      "cross_id": { "$oid": "60460a4a44d04c88f082dde0" },
+      "_id": { "$oid": "60460a4b952af1001ca527ef" }
+    },
+    {
+      "update_time": 1615198417507,
+      "name": "multi table to deploy",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615198417507,
+      "cross_id": { "$oid": "6045f8d0cda00388cc070cd7" },
+      "_id": { "$oid": "6045f8d18e7cf9001dbbb79e" }
+    },
+    {
+      "update_time": 1615193397976,
+      "name": "currencies flow",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615193397976,
+      "cross_id": { "$oid": "6045e5346eefdf76e724aab0" },
+      "_id": { "$oid": "6045e5355a4a8d001ee368cf" }
+    },
+    {
+      "update_time": 1615193189269,
+      "name": "deploy_group",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615193189269,
+      "cross_id": { "$oid": "6045e463926e6412434ea625" },
+      "_id": { "$oid": "6045e4655a4a8d001ee368c3" }
+    },
+    {
+      "update_time": 1615190302138,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615190302138,
+      "cross_id": { "$oid": "6045d91d2598af4c618148e0" },
+      "_id": { "$oid": "6045d91e5a4a8d001ee36884" }
+    },
+    {
+      "update_time": 1615190052013,
+      "name": "currencies flow",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615190052013,
+      "cross_id": { "$oid": "6045d82378a7509686630a0f" },
+      "_id": { "$oid": "6045d8245a4a8d001ee36878" }
+    },
+    {
+      "update_time": 1615188927957,
+      "name": "deploy_group",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615188927957,
+      "cross_id": { "$oid": "6045d3bef86ef2a95747cf90" },
+      "_id": { "$oid": "6045d3bf5a4a8d001ee36857" }
+    },
+    {
+      "update_time": 1615188800257,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615188800257,
+      "cross_id": { "$oid": "6045d33f49d8d47b972a00c6" },
+      "_id": { "$oid": "6045d3408e7cf9001dbbb720" }
+    },
+    {
+      "update_time": 1615188212594,
+      "name": "multi table to deploy",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615188212594,
+      "cross_id": { "$oid": "6045d0f3b164445f9c022d92" },
+      "_id": { "$oid": "6045d0f48e7cf9001dbbb710" }
+    },
+    {
+      "update_time": 1615188201728,
+      "name": "multi table to deploy",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615188201728,
+      "cross_id": { "$oid": "6045d0e8a98a4595455b0ba3" },
+      "_id": { "$oid": "6045d0e98e7cf9001dbbb70a" }
+    },
+    {
+      "update_time": 1615111751860,
+      "name": "currencies flow",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615111751860,
+      "cross_id": { "$oid": "6044a6460ac1d20b7d3806be" },
+      "_id": { "$oid": "6044a6478597d8001e318f0c" }
+    },
+    {
+      "update_time": 1615109788092,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109788092,
+      "cross_id": { "$oid": "60449e9bb0e24f07b0fa2c0c" },
+      "_id": { "$oid": "60449e9c7d64b6001c596281" }
+    },
+    {
+      "update_time": 1615109477586,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109477586,
+      "cross_id": { "$oid": "60449d64dc82d4713a707468" },
+      "_id": { "$oid": "60449d657d64b6001c596270" }
+    },
+    {
+      "update_time": 1615109418514,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109418514,
+      "cross_id": { "$oid": "60449d294902dcf4179bd06f" },
+      "_id": { "$oid": "60449d2a7d64b6001c59625f" }
+    },
+    {
+      "update_time": 1615109356399,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109356399,
+      "cross_id": { "$oid": "60449ceb8311281b9fc41d9e" },
+      "_id": { "$oid": "60449cec7d64b6001c59624d" }
+    },
+    {
+      "update_time": 1615109338732,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109338732,
+      "cross_id": { "$oid": "60449cd90d1c2cdd80840986" },
+      "_id": { "$oid": "60449cda6c0b12001d81a9d2" }
+    },
+    {
+      "update_time": 1615109031962,
+      "name": "topublish",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1615109031962,
+      "cross_id": { "$oid": "60449ba6e22358f5fa82a27a" },
+      "_id": { "$oid": "60449ba77d64b6001c59622b" }
+    },
+    {
+      "update_time": 1612963853507,
+      "name": "jonathansnewtamplate",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612963853507,
+      "cross_id": { "$oid": "6023e00d44174c001cb353e8" },
+      "_id": { "$oid": "6023e00d44174c001cb353e8" }
+    },
+    {
+      "update_time": 1612963834940,
+      "name": "jonathanstemplates",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612948765214,
+      "cross_id": { "$oid": "6023a51d3ff315001e6f9fff" },
+      "_id": { "$oid": "6023a51d3ff315001e6f9fff" }
+    },
+    {
+      "update_time": 1612904805624,
+      "name": "taylortemplate",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612904805624,
+      "cross_id": { "$oid": "6022f9653ff315001e6f9fd8" },
+      "_id": { "$oid": "6022f9653ff315001e6f9fd8" }
+    },
+    {
+      "update_time": 1612701672950,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612701672950,
+      "cross_id": { "$oid": "601fdfe70eb7ffcd6a54dfbe" },
+      "_id": { "$oid": "601fdfe83ff315001e6f9df7" }
+    },
+    {
+      "update_time": 1612695902698,
+      "name": "check connections",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612695902698,
+      "cross_id": { "$oid": "601fc95e44174c001cb34d3a" },
+      "_id": { "$oid": "601fc95e44174c001cb34d3a" }
+    },
+    {
+      "update_time": 1612693423208,
+      "name": "romi",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612693423208,
+      "cross_id": { "$oid": "601fbfadf4e2d301d40afcbc" },
+      "_id": { "$oid": "601fbfaf44174c001cb34d31" }
+    },
+    {
+      "update_time": 1612691811436,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612691811436,
+      "cross_id": { "$oid": "601fb962b695997bdd4343eb" },
+      "_id": { "$oid": "601fb9633ff315001e6f9d27" }
+    },
+    {
+      "update_time": 1612438877959,
+      "name": "currencies flow",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1612438877959,
+      "cross_id": { "$oid": "601bc72744174c001cb34bd2" },
+      "_id": { "$oid": "601bdd5d44174c001cb34c1e" }
+    },
+    {
+      "update_time": 1610300076150,
+      "name": "Vardit Test",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1610300076150,
+      "cross_id": { "$oid": "5ffb3aac1150421563b6a735" },
+      "_id": { "$oid": "5ffb3aac1150421563b6a735" }
+    },
+    {
+      "update_time": 1603793929397,
+      "name": "new group env",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1600332949653,
+      "cross_id": { "$oid": "5f2fe0aea5b3843be50e628e" },
+      "_id": { "$oid": "5f632495688b58001c4e886e" }
+    },
+    {
+      "update_time": 1603793929376,
+      "name": "Global",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1599812636238,
+      "cross_id": { "$oid": "58d7ae8f7bf88100f8412c1a" },
+      "_id": { "$oid": "5f5b341caa055e141d4cec21" }
+    },
+    {
+      "update_time": 1603190360326,
+      "name": "romi",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1600332949704,
+      "cross_id": { "$oid": "5f2ad319a5b38430ba0140f8" },
+      "_id": { "$oid": "5f632495688b58001c4e8871" }
+    },
+    {
+      "update_time": 1602757176673,
+      "name": "Internal1",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1600333626174,
+      "cross_id": { "$oid": "5f297ec7a5b38426f4c21a77" },
+      "_id": { "$oid": "5f63273a688b58001c4e888c" }
+    },
+    {
+      "update_time": 1602154912657,
+      "name": "Global2",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1602154717501,
+      "cross_id": { "$oid": "5f297ee6a5b38426f4c21bb1" },
+      "_id": { "$oid": "5f7ef0ddf792ea001d2a4bf1" }
+    },
+    {
+      "update_time": 1601473734186,
+      "name": "MR22",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1599812632977,
+      "cross_id": { "$oid": "5b2a10e3a5b38416f1158308" },
+      "_id": { "$oid": "5f5b3418aa055e141d4cec20" }
+    },
+    {
+      "update_time": 1601045318302,
+      "name": "ZC TEST ENV",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1601045318302,
+      "cross_id": { "$oid": "5f6e01a1d6fa4f001d10575c" },
+      "_id": { "$oid": "5f6e0346c9bc08002341de63" }
+    },
+    {
+      "update_time": 1600336093313,
+      "name": "Social Analytics - SF",
+      "color": "#00FFFFFF",
+      "is_default": false,
+      "insert_time": 1600333626836,
+      "cross_id": { "$oid": "5f297f29a5b38426f4c21c4a" },
+      "_id": { "$oid": "5f63273a688b58001d3499ae" }
+    }
+  ]
+}

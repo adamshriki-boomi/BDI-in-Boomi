@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "account": {
+        "$oid": "607ee20a115042074560b8bc"
+      },
+      "environment_id": "Nuclear",
+      "color": "#e1f1ff",
+      "variables": {
+        "aws_file_zone": "Nuclear-rivery",
+        "gcs_file_zone": "Nuclear-rivery",
+        "hours_offset": 0,
+        "Mail_Alert_Group": "lmpbwjrsmfmunb@nucleant.org",
+        "days_ago": 0
+      },
+      "environment_name": "Default",
+      "is_default": true,
+      "cross_id": {
+        "$oid": "faked-env-2"
+      },
+      "_id": {
+        "$oid": "faked-env-2"
+      }
+    }
+  ]
+}

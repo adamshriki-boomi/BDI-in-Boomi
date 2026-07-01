@@ -1,0 +1,18 @@
+{
+    "add_group_related_rivers": false, 
+    "add_related_connections": true, 
+    "add_related_connections_from_connections": true, 
+    "add_related_dataframes": false, 
+    "add_related_groups": true, 
+    "add_related_rivers": true, 
+    "add_templates_group_related_rivers": true, 
+    "add_variable_values": true, 
+    "copy_connections_credentials": false, 
+    "notifications": {}, 
+    "only_deploy_new_connections": true, 
+    "only_deploy_new_rivers": false, 
+    "only_deploy_new_variables": false, 
+    "overwrite_dynamic_parameters": false, 
+    "templates_publish_email_list": "taylor.mcgrath@rivery.io"
+  }
+  

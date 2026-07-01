@@ -1,0 +1,14 @@
+{
+    "total_datasources": 4,
+    "total_rivers": 10,
+    "total_dry_runs": 0,
+    "total_units": 454.5,
+    "total_success": 463,
+    "unit": "MB",
+    "total_failed": 17,
+    "total_logic_steps": 0,
+    "total_size": 394.06,
+    "total_actions": 0,
+    "total_logics": 2,
+    "total_size_MB": 394
+  }

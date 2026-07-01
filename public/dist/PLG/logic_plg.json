@@ -1,0 +1,6 @@
+{
+  "title": "Not sure how to start?",
+  "title_width": "250px",
+  "description": "Check out our tutorials and learn how to use Logic River to transform and orchestrate your data using SQL and Python.",
+  "steps": [{"type": "video", "id": "Logic"}, {"type": "video", "id": "SQL_Transformation"}, {"type": "video", "id": "Webinar"}, {"type": "expert","title": "Book a live session to get the most out of Logic Rivers"}]
+}

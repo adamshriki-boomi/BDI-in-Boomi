@@ -1,0 +1,18 @@
+{
+    "user_id": "65e41f6cc6cfa9c7f0554864",
+    "user_email": "a12@alonrvision.onmicrosoft.com",
+    "user_name": "Alon Reznik",
+    "environments": {
+      
+    },
+    "status": "pending",
+    "created_at": "2024-03-06T07:27:33",
+    "updated_at": null,
+    "groups": [],
+    "source": "rivery",
+    "is_super_admin": true,
+    "is_super_admin_creator": false,
+    "allow_login_password": true,
+    "allow_login_google": false,
+    "allow_login_sso": false
+  }

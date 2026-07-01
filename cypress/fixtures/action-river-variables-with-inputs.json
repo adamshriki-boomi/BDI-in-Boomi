@@ -1,0 +1,23 @@
+{
+  "original_variables": {
+    "output_variables": ["{OUTPUT_VAR1}", "output_var2"],
+    "file_type": null,
+    "action_variables": [
+      { "name": "INPUT_VARIABLE_1", "value": "1" },
+      { "name": "ANOTHER_VAR_2", "value": "222" }
+    ],
+    "connection": {
+      "cross_id": "60e6965a72e5b1001c8c1226",
+      "connection_id": "60e6965a72e5b1001c8c1226",
+      "connection_name": "MS_CUSTOM_CONN"
+    },
+    "connection_details": [
+      { "name": "VAR 1", "value": "DDD" },
+      { "name": "var2", "value": "" }
+    ],
+    "interval_params": [
+      { "name": "start_date", "value": { "$date": 1634515200000 } }
+    ]
+  },
+  "action_type": "rest_action"
+}

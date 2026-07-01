@@ -1,0 +1,9 @@
+{
+  "update_time": 1623976033374,
+  "name": "test-new-group",
+  "color": "#ed9750",
+  "is_default": false,
+  "icon": "smily",
+  "cross_id": { "$oid": "6128b7e211504244edc3250b" },
+  "_id": { "$oid": "6128b7e211504244edc3250b" }
+}

@@ -1,0 +1,58 @@
+version: 0.1
+globalTimeout: 120
+testSuiteTimeout: 120
+testSuiteStep: 90
+parallelism: 40
+autosplit: true
+runson: linux
+concurrency: 40
+retryCount: 2
+retryOnFailure: true
+
+cacheKey: '{{ checksum "package.json" }}'
+cacheDirectories:
+  - node_modules
+  - cypressCache
+env:
+  CYPRESS_EMAIL: ${{.secrets.cypress_email}}
+  CYPRESS_PASSWORD: ${{.secrets.cypress_password}}
+  CYPRESS_USER_TYPE: "admin"
+  # Replaced by Harness/GitHub sed: <ENV_NAME> -> prod | prod-eu | dev-mocks | ...
+  ENV_NAME: <ENV_NAME>
+  XDG_RUNTIME_DIR: "/tmp/runtime"
+  DISPLAY: ":99"
+  ALSA_CARD: "-1"
+
+background:
+  - npm run serve:build
+
+cypress: true
+cypressOps:
+  Build: "Hyperexecute Cypress Rivery <ENV_NAME> Build ${BUILD_NUMBER}"
+  Tags: ["HYP-Cypress", "Linux", "Autosplit", "Accessibility"]
+  BuildTags: ["HYP-Cypress-v10"]
+  Network: false
+  FullHar: false
+  video: true
+
+pre:
+  - mkdir -p /tmp/runtime
+  - chmod 700 /tmp/runtime
+  - npm install cypress@13.17.0 --save-dev
+  - npm install
+  - npm run build
+
+# Discover specs by ENV_NAME (no extra npm scripts required).
+# prod, prod-eu, prod-il, prod-au -> cypress/e2e/prod; dev-mocks -> cypress/e2e/dev-mocks
+testDiscovery:
+  mode: static
+  type: raw
+  shell: bash
+  # <ENV_NAME> is replaced by sed before HyperExecute runs; env vars are not passed to discovery
+  command: bash -c "case \"<ENV_NAME>\" in dev-mocks) find cypress/e2e/dev-mocks -type f -name '*.feature' ;; prod|prod-eu|prod-il|prod-au) find cypress/e2e/prod -type f -name '*.feature' ;; *) echo \"Unknown ENV_NAME=<ENV_NAME>\" >&2; exit 1 ;; esac"
+
+# Map ENV_NAME -> baseUrl + v1_path here so Harness only adds allowedValues + sed; no package.json changes needed.
+# <ENV_NAME> is replaced by sed; env vars may not be passed to runner
+testRunnerCommand: bash -c "case \"<ENV_NAME>\" in prod) B='https://console.rivery.io'; A='https://api.rivery.io/v1/**' ;; prod-eu) B='https://eu-west-1.console.rivery.io'; A='https://api.eu-west-1.rivery.io/v1/**' ;; prod-il) B='https://il-central-1.console.rivery.io'; A='https://api.il-central-1.rivery.io/v1/**' ;; prod-au) B='https://ap-southeast-2.console.rivery.io'; A='https://api.ap-southeast-2.rivery.io/v1/**' ;; dev-mocks) B='https://localhost:8000'; A='https://api.rivery.io/v1/**' ;; *) echo \"Unsupported ENV_NAME=<ENV_NAME>\" >&2; exit 1 ;; esac; npx cypress run --config \"baseUrl=\$B\" --env \"v1_path=\$A\" --headed --browser chrome latest --spec \$test"
+
+jobLabel: ["Rivery_Cypress_<ENV_NAME>"]

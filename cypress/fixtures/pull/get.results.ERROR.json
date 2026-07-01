@@ -1,0 +1,6 @@
+{
+  "query_limit": 500,
+  "compiled_query": "select * from compiled script",
+  "results": [],
+  "error_message": "results error for step \"Logic Step\":"
+}

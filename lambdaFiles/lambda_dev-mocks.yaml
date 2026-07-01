@@ -1,0 +1,56 @@
+version: 0.1
+globalTimeout: 120
+testSuiteTimeout: 120
+testSuiteStep: 90
+parallelism: 40
+autosplit: true
+runson: linux
+concurrency: 40
+retryCount: 2
+retryOnFailure: true
+
+cacheKey: '{{ checksum "package.json" }}'
+cacheDirectories:
+  - node_modules
+  - cypressCache
+env: 
+  CYPRESS_EMAIL: ${{.secrets.cypress_email}}
+  CYPRESS_PASSWORD: ${{.secrets.cypress_password}}
+  CYPRESS_USER_TYPE: "admin"
+  ENV_NAME: dev-mocks
+  XDG_RUNTIME_DIR: "/tmp/runtime"
+  DISPLAY: ":99"
+  ALSA_CARD: "-1"
+
+background:
+  - npm run serve:build
+  
+cypress: true
+cypressOps:
+  Build: "Hyperexecute Cypress Rivery dev-mocks Build "
+  Tags: ["HYP-Cypress", "Linux", "Autosplit", "Accessibility"]
+  BuildTags: ["HYP-Cypress-v10"]
+  Network: false
+  FullHar: false
+  video: true
+
+
+pre:
+  - mkdir -p /tmp/runtime
+  - chmod 700 /tmp/runtime
+  - npm install cypress@13.17.0 --save-dev
+  - npm install
+  - npm run build
+
+
+ 
+testDiscovery:
+  mode: dynamic
+  type: raw
+  shell: bash
+  command: find cypress/e2e/dev-mocks -type f -name "*.feature"
+  
+
+testRunnerCommand: npm run e2e:dev-mocks -- --headed --browser chrome --spec cypress/e2e/dev-mocks/Account/Account_Switcher.feature
+
+jobLabel: ["Rivery_Cypress_dev-mocks"]

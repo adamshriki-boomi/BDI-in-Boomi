@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "irongeek.vscode-env",
+    "gruntfuggly.todo-tree",
+    "zignd.html-css-class-completion",
+    "johnpapa.vscode-peacock",
+    "alexkrechik.cucumberautocomplete"
+  ]
+}

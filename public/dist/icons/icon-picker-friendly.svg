@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>groups_icons/@friendly</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="groups_icons/@friendly" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="emoji-friendly">
+            <g transform="translate(16.000000, 16.000000)">
+                <path d="M20.48,0 C9.216,0 0,9.216 0,20.48 C0,31.744 9.216,40.96 20.48,40.96 C31.744,40.96 40.96,31.744 40.96,20.48 C40.96,9.216 31.744,0 20.48,0 Z M20.48,37.568 C11.072,37.568 3.392,29.888 3.392,20.48 C3.392,11.072 11.072,3.392 20.48,3.392 C29.888,3.392 37.568,11.072 37.568,20.48 C37.568,29.888 29.888,37.568 20.48,37.568 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="12.8" cy="14.528" r="2.56"></circle>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="28.16" cy="14.528" r="2.56"></circle>
+                <path d="M31.936,20.16 C30.912,20.16 30.208,20.864 30.208,21.888 C30.208,26.496 26.432,30.272 21.824,30.272 C20.8,30.272 20.096,30.976 20.096,32 C20.096,33.024 20.8,33.728 21.824,33.728 C28.288,33.728 33.6,28.416 33.6,21.952 C33.6,20.8 32.768,20.16 31.936,20.16 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

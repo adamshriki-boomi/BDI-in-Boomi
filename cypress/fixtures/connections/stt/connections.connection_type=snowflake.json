@@ -1,0 +1,1383 @@
+[
+  {
+    "username": "RIVERYIO",
+    "cross_id": {
+      "$oid": "5f39192456740903078c509d"
+    },
+    "custom_fz": false,
+    "package_id": {
+      "$oid": "5f734de7738ea7001c3a4e99"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "deployed_by": {
+      "$oid": "58b820a0c762711d8c2f60c7"
+    },
+    "connection_desc": "None",
+    "connection_type_name": "Snowflake",
+    "role": "SYSADMIN",
+    "warehouse": "RIVERY_DEMO",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1655037697432
+    },
+    "connection_creation_time": {
+      "$date": 1601392654103
+    },
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "password_exists": true,
+    "deployed_at": {
+      "$date": 1601392654103
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "big_modal": true,
+    "connection_name": "Rivery Snowflake",
+    "last_test_date": {
+      "$date": 1621859384600
+    },
+    "deployment_id": {
+      "$oid": "5f735009738ea7001c3a4eda"
+    },
+    "_id": {
+      "$oid": "5f73500e01a7c5001e8c780b"
+    },
+    "valid": true,
+    "default_bucket": "rivery-dev-tests"
+  },
+  {
+    "custom_fz": true,
+    "package_id": {
+      "$oid": "6217d6bf1566a9001db2a336"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "authentication_type": "basic",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "deployed_by": {
+      "$oid": "620ed07a2b4fa6002049d3c4"
+    },
+    "connection_desc": "",
+    "template_type": "download",
+    "connection_type_name": "Snowflake",
+    "role": "test",
+    "connection_update_time": {
+      "$date": 1676815037838
+    },
+    "connection_creation_time": {
+      "$date": 1645729492499
+    },
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "fz_target_type_id": null,
+    "connection_tests": [
+      "default_warehouse_test",
+      "get_databases_list",
+      "default_db_schemas_list",
+      "default_db_table_creation_test"
+    ],
+    "deployed_at": {
+      "$date": 1645729492499
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Snowflake - from Kits",
+    "cross_id": {
+      "$oid": "6217d6c8938d45aa0d674665"
+    },
+    "deployment_id": {
+      "$oid": "6217d6cc1566a9001db2a339"
+    },
+    "_id": {
+      "$oid": "6217d6d4088535001fbb099f"
+    },
+    "template_id": {
+      "$oid": "6044d14465aa13001d008afa"
+    },
+    "default_bucket": "rivery-dev-tests"
+  },
+  {
+    "username": "RiveryIO",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "6104e56d2eff0a001e48fd8a",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "connection_type_name": "Snowflake",
+    "role": "",
+    "warehouse": "RIVERY_DEMO",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1652898510658
+    },
+    "connection_creation_time": {
+      "$date": 1646138576141
+    },
+    "fz_connection_id": {
+      "$oid": "61cc3b00536e1db0467f304f"
+    },
+    "password_exists": true,
+    "connection_tests": [
+      "default_warehouse_test",
+      "get_databases_list",
+      "default_db_schemas_list",
+      "default_db_table_creation_test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "SF",
+    "cross_id": {
+      "$oid": "621e14d0bb9a69001cf05d41"
+    },
+    "_id": {
+      "$oid": "621e14d0bb9a69001cf05d41"
+    },
+    "default_bucket": "rivery-dev-tests"
+  },
+  {
+    "connection_creation_time": {
+      "$date": 1646141705692
+    },
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "_id": {
+      "$oid": "621e2109bb9a69001cf05da7"
+    },
+    "connection_update_by": "61545a40139061001c9ce4e5",
+    "fz_connection_id": {
+      "$oid": "6239b00bc695740012b3ac34"
+    },
+    "cross_id": {
+      "$oid": "621e2109bb9a69001cf05da7"
+    },
+    "username": "TOMER",
+    "is_test_connection": true,
+    "custom_fz": false,
+    "connection_name": "Tomer_Sf",
+    "authentication_type": "basic",
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "default_bucket": "aaaa",
+    "warehouse": "RIVERY_DEMO",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_update_time": {
+      "$date": 1673961606249
+    }
+  },
+  {
+    "username": "eitam",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "621df3d4bb9a69001cf05ccd",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "warehouse": "RIVERY_DEMO",
+    "connection_update_time": {
+      "$date": 1667479398548
+    },
+    "connection_creation_time": {
+      "$date": 1647423661062
+    },
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "cross_id": {
+      "$oid": "6231b0ad9e0a240010ee1a29"
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "password_exists": true,
+    "connection_name": "Rivery Snowflake - Eitam fz-s3",
+    "fz_target_type_id": "s3",
+    "_id": {
+      "$oid": "6231b0ad9e0a240010ee1a29"
+    },
+    "default_bucket": "dortest123"
+  },
+  {
+    "username": "tests",
+    "connection_creation_time": {
+      "$date": 1649761399797
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "62555c7790097a0011e9b0ca"
+    },
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "connection_name": "test",
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "custom_fz": true,
+    "connection_type_name": "Snowflake",
+    "connection_update_time": {
+      "$date": 1649761399797
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62555c7790097a0011e9b0ca"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "default_bucket": "{aws_file_zone}"
+  },
+  {
+    "username": "tests",
+    "connection_creation_time": {
+      "$date": 1649761401719
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "62555c7990097a0011e9b0cb"
+    },
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "fz_connection_id": {
+      "$oid": "62601b754e50d2000f8e55ff"
+    },
+    "cross_id": {
+      "$oid": "62555c7990097a0011e9b0cb"
+    },
+    "connection_name": "test1212",
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "custom_fz": true,
+    "fz_target_type_id": null,
+    "connection_type_name": "Snowflake",
+    "role": "SYSADMIN",
+    "connection_update_time": {
+      "$date": 1654000264673
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "warehouse": "RIVERY_DEMO",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "account_name": "zn19366.eu-central-1",
+    "default_bucket": "{aws_file_zone}"
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1650372498044
+    },
+    "is_fz_connection": true,
+    "_id": {
+      "$oid": "625eaf920c3a830011f20143"
+    },
+    "connection_update_by": {
+      "$oid": "5a4a2e1856740970103455d8"
+    },
+    "template_id": {
+      "$oid": "604a7004f5682c5eb2f1b1e0"
+    },
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Snowflake - from Kits",
+    "package_id": "625eae9af4e56354d84bb248",
+    "connection_type_name": "Snowflake",
+    "deployed_by": {
+      "$oid": "5a4a2e1856740970103455d8"
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "625eaebf600306642b2c7af9"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "deployment_id": "625eaf6bf4e56354d84bb24b",
+    "connection_desc": "",
+    "deployed_at": {
+      "$date": 1650372498044
+    },
+    "connection_update_time": {
+      "$date": 1650372498044
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1650441329716
+    },
+    "is_fz_connection": true,
+    "_id": {
+      "$oid": "625fbc7117964e00118061ee"
+    },
+    "connection_update_by": {
+      "$oid": "5a4a2e1856740970103455d8"
+    },
+    "template_id": {
+      "$oid": "604a7004f5682c5eb2f1b1e0"
+    },
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Snowflake - from Kits",
+    "package_id": "625fbc5d17964e000f18b5cf",
+    "connection_type_name": "Snowflake",
+    "deployed_by": {
+      "$oid": "5a4a2e1856740970103455d8"
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "625fbc636c5145e6f4b62197"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "deployment_id": "625fbc67d9f476000f44346c",
+    "connection_desc": "",
+    "deployed_at": {
+      "$date": 1650441329716
+    },
+    "connection_update_time": {
+      "$date": 1650441329716
+    }
+  },
+  {
+    "custom_fz": true,
+    "package_id": "625fceda9a2323000fdb2749",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "deployed_by": {
+      "$oid": "625fca19f72ec0000f9be6f6"
+    },
+    "connection_desc": "",
+    "connection_type_name": "Snowflake",
+    "connection_update_time": {
+      "$date": 1654002865003
+    },
+    "connection_creation_time": {
+      "$date": 1650446068543
+    },
+    "fz_connection_id": {
+      "$oid": "627a5147bea36d000f47f78c"
+    },
+    "cross_id": {
+      "$oid": "625fcee0d911878892793e8a"
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "deployed_at": {
+      "$date": 1650446068543
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Snowflake - from Kits",
+    "fz_target_type_id": "blob_storage",
+    "deployment_id": "625fcee4f72ec0000f9be6fd",
+    "_id": {
+      "$oid": "625fcef49a2323000fdb274b"
+    },
+    "template_id": {
+      "$oid": "604a7004f5682c5eb2f1b1e0"
+    },
+    "default_bucket": "a"
+  },
+  {
+    "username": "Inara connection ",
+    "connection_creation_time": {
+      "$date": 1650877319187
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "62666387a1912800111d023c"
+    },
+    "connection_update_by": "6104e56d2eff0a001e48fd8a",
+    "fz_connection_id": {},
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "connection_name": "Test connection",
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62666387a1912800111d023c"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "connection_update_time": {
+      "$date": 1652898237273
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "username": "test",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "fz_connection_id": {
+      "$oid": "61cc3b00536e1db0467f304f"
+    },
+    "cross_id": {
+      "$oid": "6295d33f1a7753000fc59d7b"
+    },
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "not working",
+    "connection_creation_time": {
+      "$date": 1653986111848
+    },
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "custom_fz": true,
+    "connection_update_time": {
+      "$date": 1654001839163
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "fz_target_type_id": null,
+    "is_password_encrypted": true,
+    "_id": {
+      "$oid": "6295d33f1a7753000fc59d7b"
+    },
+    "default_bucket": "cf-templates-ia28hvfx5ueb-ca-central-1"
+  },
+  {
+    "username": "eitam",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "6104e56d2eff0a001e48fd8a",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "warehouse": "RIVERY_DEMO",
+    "connection_update_time": {
+      "$date": 1654200846653
+    },
+    "connection_creation_time": {
+      "$date": 1654199690493
+    },
+    "fz_connection_id": {
+      "$oid": "627a5147bea36d000f47f78c"
+    },
+    "cross_id": {
+      "$oid": "6299158a4eadb3000f55e5f5"
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "password_exists": true,
+    "connection_name": "Rivery snowflake - Eitam fz-blob",
+    "fz_target_type_id": "blob_storage",
+    "_id": {
+      "$oid": "6299158a4eadb3000f55e5f5"
+    },
+    "default_bucket": "rivery-israel-test"
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1655034401728
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "ss",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62a5d2218bd6253642ec44f5"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62a5d2218bd6253642ec44f5"
+    },
+    "connection_update_time": {
+      "$date": 1655034401728
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1655034477830
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "aa",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62a5d26d8bd6253642ec44f6"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62a5d26d8bd6253642ec44f6"
+    },
+    "connection_update_time": {
+      "$date": 1655034477830
+    }
+  },
+  {
+    "connection_creation_time": {
+      "$date": 1655034594729
+    },
+    "cross_id": {
+      "$oid": "62a5d2e28bd6253642ec44f7"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "warehouse": "RIVERY_DEMO",
+    "connection_update_time": {
+      "$date": 1655730861356
+    },
+    "username": "dddd",
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "password_exists": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "ddd",
+    "fz_target_type_id": "s3",
+    "_id": {
+      "$oid": "62a5d2e28bd6253642ec44f7"
+    },
+    "default_bucket": "rivery-dev-tests"
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1655034744981
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Q12",
+    "username": "RIVERYIO",
+    "cross_id": {
+      "$oid": "62a5d3788bd6253642ec44f8"
+    },
+    "connection_type_name": "Snowflake",
+    "custom_fz": false,
+    "connection_update_time": {
+      "$date": 1655038235324
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "warehouse": "RIVERY_DEMO",
+    "role": "SYSADMIN",
+    "_id": {
+      "$oid": "62a5d3788bd6253642ec44f8"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "default_bucket": "rivery-dev-tests"
+  },
+  {
+    "connection_type": "snowflake",
+    "username": "RIVERYIO",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "ddd",
+    "connection_creation_time": {
+      "$date": 1655628517636
+    },
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62aee2e50a2506000fca2da9"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62aee2e50a2506000fca2da9"
+    },
+    "warehouse": "fdsfds",
+    "account_name": "fd",
+    "connection_update_time": {
+      "$date": 1655629188943
+    }
+  },
+  {
+    "username": "s",
+    "connection_creation_time": {
+      "$date": 1655643046750
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "62af1ba6b94efe0010f52bd8"
+    },
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "connection_name": "s",
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62af1ba6b94efe0010f52bd8"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "connection_update_time": {
+      "$date": 1655643059729
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1655643084146
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "aa",
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62af1bcc0a2506000fca2e41"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62af1bcc0a2506000fca2e41"
+    },
+    "connection_update_time": {
+      "$date": 1655643120785
+    }
+  },
+  {
+    "username": "s",
+    "connection_creation_time": {
+      "$date": 1655730891694
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "62b072cb7aab29001063a1a2"
+    },
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "connection_name": "ss",
+    "password_exists": false,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62b072cb7aab29001063a1a2"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "connection_type": "snowflake",
+    "connection_update_time": {
+      "$date": 1655730950383
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1660224421896
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "6180fe6db80ae20022c328be",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "62f503a561999c000f12bd43"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62f503a561999c000f12bd43"
+    },
+    "connection_update_time": {
+      "$date": 1660224421896
+    }
+  },
+  {
+    "username": "key_user",
+    "connection_creation_time": {
+      "$date": 1661161142795
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "63034eb6075b840011a907ff"
+    },
+    "connection_update_by": "62c2f13b1709fc0013dc64c7",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "is_fz_connection": true,
+    "connection_name": "Key pair test",
+    "authentication_type": "key_pair",
+    "cross_id": {
+      "$oid": "63034eb6075b840011a907ff"
+    },
+    "connection_type_name": "Snowflake",
+    "role": "",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "warehouse": "RIVERY_DEMO",
+    "key_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/snowflake/169e6f5e21fe11edb024a2bd39f3d3f1_rsa_key.p8",
+    "connection_type": "snowflake",
+    "account_name": "zn19366.eu-central-1",
+    "connection_update_time": {
+      "$date": 1661167240017
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1663483529121
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "authentication_type": "key_pair",
+    "connection_type_name": "Snowflake",
+    "key_file_content": "sdsdsd",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "6326be894f94420012efc087"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "6326be894f94420012efc087"
+    },
+    "connection_update_time": {
+      "$date": 1663483529121
+    }
+  },
+  {
+    "connection_creation_time": {
+      "$date": 1664181568666
+    },
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "62c2f0bdbe0fe700130fdd80",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "username": "RiveryIo",
+    "cross_id": {
+      "$oid": "633165407512af000f2ad94d"
+    },
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "Snowflake | Sveta",
+    "authentication_type": "basic",
+    "password_exists": true,
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "warehouse": "RIVERY_DEMO",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "633165407512af000f2ad94d"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_update_time": {
+      "$date": 1664181568666
+    }
+  },
+  {
+    "username": "dor_cohen",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "621df3d4bb9a69001cf05ccd",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "is_password_encrypted": true,
+    "warehouse": "RIVERY_DEMO",
+    "role": "SYSADMIN",
+    "connection_update_time": {
+      "$date": 1667480634965
+    },
+    "connection_creation_time": {
+      "$date": 1667479647212
+    },
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "connection_name": "dor snowflake",
+    "cross_id": {
+      "$oid": "6363b85f731c5800114d9d91"
+    },
+    "_id": {
+      "$oid": "6363b85f731c5800114d9d91"
+    },
+    "default_bucket": "dortest123"
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1668413168713
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "sdasda",
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "6371f6f004188f00105f0e01"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "6371f6f004188f00105f0e01"
+    },
+    "connection_update_time": {
+      "$date": 1668413168713
+    }
+  },
+  {
+    "username": "SUN",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "tr61858.eu-west-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "6180fe6db80ae20022c328be",
+    "is_test_connection": true,
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "role": "ACCOUNTADMIN",
+    "warehouse": "TESTING_WAREHOUSE",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1669730317578
+    },
+    "connection_creation_time": {
+      "$date": 1669730317578
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "connection_name": "Rivery - Enterprise account SF",
+    "cross_id": {
+      "$oid": "6386100db1fce4000fd81f3e"
+    },
+    "_id": {
+      "$oid": "6386100db1fce4000fd81f3e"
+    }
+  },
+  {
+    "username": "RIVERY_RV_U1",
+    "cross_id": {
+      "$oid": "639a5955ce8d000013b1ed1a"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "persistent_partner.us-east-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "is_test_connection": true,
+    "custom_fz": true,
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "role": "RIVERY_RV_R1",
+    "warehouse": "RIVERY_RV_VW_XSmall",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1676828790370
+    },
+    "connection_creation_time": {
+      "$date": 1671059797991
+    },
+    "fz_connection_id": {
+      "$oid": "60c9de6ca6c05d001d9a8c4f"
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "connection_name": "RIVERY_RV_U1 - Snowflake Company",
+    "fz_target_type_id": null,
+    "_id": {
+      "$oid": "639a5955ce8d000013b1ed1a"
+    },
+    "default_bucket": "aa"
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1672570891970
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "ddd",
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "63b1680bdd04b900115c59a0"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "63b1680bdd04b900115c59a0"
+    },
+    "connection_update_time": {
+      "$date": 1672570891970
+    }
+  },
+  {
+    "connection_creation_time": {
+      "$date": 1674034468740
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account_name": "zn19366.eu-central-1",
+    "connection_type": "snowflake",
+    "is_fz_connection": true,
+    "connection_update_by": "5f799cc30fb2c9001dcff9a7",
+    "is_test_connection": true,
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "role": "SYSADMIN",
+    "warehouse": "RIVERY_DEMO",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1674035048482
+    },
+    "username": "RiveryIo",
+    "has_key_file": true,
+    "password_exists": true,
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "connection_name": "Snowflake w/ default FZ - Using Access Point",
+    "cross_id": {
+      "$oid": "63c7bd2467eeb7001271b8b7"
+    },
+    "_id": {
+      "$oid": "63c7bd2467eeb7001271b8b7"
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1676798267573
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "dsfds",
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "63f1e93bfcf31000132a5452"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "63f1e93bfcf31000132a5452"
+    },
+    "connection_update_time": {
+      "$date": 1676798267573
+    }
+  },
+  {
+    "connection_type": "snowflake",
+    "connection_creation_time": {
+      "$date": 1676798314638
+    },
+    "is_fz_connection": true,
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pem",
+      "pub",
+      "p8"
+    ],
+    "has_key_file": true,
+    "is_test_connection": true,
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_name": "dsf",
+    "authentication_type": "basic",
+    "connection_type_name": "Snowflake",
+    "custom_fz": true,
+    "connection_update_time": {
+      "$date": 1676798314638
+    },
+    "connection_tests": [
+      "default warehouse test",
+      "get databases list",
+      "default db schemas list",
+      "default db table creation test"
+    ],
+    "cross_id": {
+      "$oid": "63f1e96aea0eee000fa137fa"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "63f1e96aea0eee000fa137fa"
+    },
+    "default_bucket": "{aws_file_zone}"
+  }
+]

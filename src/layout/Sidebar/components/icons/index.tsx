@@ -1,0 +1,14 @@
+export { ReactComponent as ApiTokensIcon } from './api-tokens.svg';
+export { ReactComponent as AuditLogIcon } from './AuditLogIcon.svg';
+export { ReactComponent as BriefCaseIcon } from './BriefCaseIcon.svg';
+export { ReactComponent as CashIcon } from './CashIcon.svg';
+export { ReactComponent as ChartBarIcon } from './ChartBarIcon.svg';
+export { ReactComponent as CogWheel } from './cog.svg';
+export { ReactComponent as ConnectionsIcon } from './ConnectionsIcon.svg';
+export { ReactComponent as DocumentationIcon } from './DocumentationIcon.svg';
+export { ReactComponent as EnvelopeIcon } from './EnvelopeIcon.svg';
+export { ReactComponent as MonitoringIcon } from './MonitoringIcon.svg';
+export { ReactComponent as RestartIcon } from './RestartIcon.svg';
+export { ReactComponent as RiversIcon } from './RiversIcon.svg';
+export { ReactComponent as SupportTicketIcon } from './SupportTicketIcon.svg';
+export { ReactComponent as UserGroupIcon } from './UserGroupIcon.svg';

@@ -1,0 +1,23 @@
+{
+  "account": {
+    "$oid": "60592cb111504212a314b6e2"
+  },
+  "environment_id": "sirilo4883",
+  "color": "#e1f1ff",
+  "variables": {
+    "variable123": "",
+    "aws_file_zone": "sirilo4883-rivery1234",
+    "gcs_file_zone": "sirilo4883-rivery",
+    "hours_offset": 0,
+    "Mail_Alert_Group": "mymail@TestSirilo4883.com",
+    "days_ago": 0
+  },
+  "environment_name": "Default",
+  "is_default": true,
+  "cross_id": {
+    "$oid": "faked-env-1"
+  },
+  "_id": {
+    "$oid": "faked-env-1"
+  }
+}

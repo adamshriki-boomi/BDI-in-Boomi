@@ -1,0 +1,24 @@
+{
+  "account_id": "account1",
+  "metric": "bdu",
+  "view": "general",
+  "data": [
+    { "run_date": 1772496000000, "units": 30, "bdu": 30, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772582400000, "units": 38, "bdu": 38, "succeeded": 700, "failed": 500 },
+    { "run_date": 1772668800000, "units": 37, "bdu": 37, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772755200000, "units": 37, "bdu": 37, "succeeded": 640, "failed": 510 },
+    { "run_date": 1772841600000, "units": 40, "bdu": 40, "succeeded": 630, "failed": 520 },
+    { "run_date": 1772928000000, "units": 40, "bdu": 40, "succeeded": 610, "failed": 525 },
+    { "run_date": 1773014400000, "units": 38, "bdu": 38, "succeeded": 620, "failed": 510 },
+    { "run_date": 1773100800000, "units": 20, "bdu": 20, "succeeded": 340, "failed": 260 }
+  ],
+  "previous_kpis": [
+    { "run_date": 1771891200000, "units": 28, "bdu": 28, "succeeded": 580, "failed": 500 },
+    { "run_date": 1771977600000, "units": 30, "bdu": 30, "succeeded": 590, "failed": 500 },
+    { "run_date": 1772064000000, "units": 32, "bdu": 32, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772150400000, "units": 31, "bdu": 31, "succeeded": 595, "failed": 500 },
+    { "run_date": 1772236800000, "units": 29, "bdu": 29, "succeeded": 585, "failed": 500 },
+    { "run_date": 1772323200000, "units": 30, "bdu": 30, "succeeded": 590, "failed": 500 },
+    { "run_date": 1772409600000, "units": 25, "bdu": 25, "succeeded": 540, "failed": 460 }
+  ]
+}

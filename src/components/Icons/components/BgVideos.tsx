@@ -1,0 +1,20 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgBgVideos = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={343}
+    height={152}
+    viewBox="0 0 343 152"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M21.6133 102.036C21.6133 119.778 28.5302 136.122 40.156 149.163H273.13C301.968 135.958 321.616 109.741 321.616 79.5553C321.616 36.0843 280.87 0.843994 230.606 0.843994C210.732 0.843994 192.347 6.35299 177.381 15.7033C168.866 21.0222 161.457 27.5831 155.51 35.0798C142.749 28.7111 127.998 24.9934 112.262 24.7948C111.82 24.7895 111.378 24.7864 110.934 24.7864C61.604 24.7864 21.6133 59.3718 21.6133 102.036Z"
+      fill="currentColor"
+      fillOpacity={0.15}
+    />
+    <rect x={0.614746} y={149} width={342} height={3} rx={1.5} fill="#D9D9D9" />
+  </svg>
+);
+export default SvgBgVideos;

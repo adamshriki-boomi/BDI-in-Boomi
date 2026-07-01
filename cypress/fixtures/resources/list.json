@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 1,
+    "compute_units_sec": 0.00034284722642,
+    "cpu": 0.25,
+    "description": "Simple Computing",
+    "name": "Extra Small",
+    "network_units_sec": 0.00390625,
+    "ram": 0.5
+  },
+  {
+    "_id": 2,
+    "compute_units_sec": 0.000685694452841,
+    "cpu": 0.5,
+    "description": "Transformation",
+    "name": "Small",
+    "network_units_sec": 0.00390625,
+    "ram": 1.0
+  },
+  {
+    "_id": 3,
+    "compute_units_sec": 0.001371388905682,
+    "cpu": 1.0,
+    "description": "Advanced Computing",
+    "name": "Medium",
+    "network_units_sec": 0.00390625,
+    "ram": 2.0
+  },
+  {
+    "_id": 4,
+    "compute_units_sec": 0.002742777811363,
+    "cpu": 2.0,
+    "description": "TBD",
+    "name": "Large",
+    "network_units_sec": 0.00390625,
+    "ram": 4.0
+  },
+  {
+    "_id": 5,
+    "compute_units_sec": 0.005485555622727,
+    "cpu": 4.0,
+    "description": "TBD",
+    "name": "Extra Large",
+    "network_units_sec": 0.00390625,
+    "ram": 8.0
+  }
+]

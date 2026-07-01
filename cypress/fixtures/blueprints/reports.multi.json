@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "ListPullRequests",
+      "report_id": "ListPullRequests",
+      "report_name": "ListPullRequests"
+    },
+    {
+      "id": "ListIssues",
+      "report_id": "ListIssues",
+      "report_name": "ListIssues"
+    },
+    {
+      "id": "ListOrganizationRepositories",
+      "report_id": "ListOrganizationRepositories",
+      "report_name": "ListOrganizationRepositories"
+    },
+    {
+      "id": "ListCommits",
+      "report_id": "ListCommits",
+      "report_name": "ListCommits"
+    }
+  ]
+}

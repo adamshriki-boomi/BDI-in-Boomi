@@ -1,0 +1,85 @@
+[
+  {
+    "cross_id": { "$oid": "608507d5dc72cc001c48c213" },
+    "river_definitions": {
+      "schedule": {},
+      "updated_by_name": "",
+      "river_type_title": "Action",
+      "river_name": "Doomsday Destiny",
+      "is_scheduled": false,
+      "river_type_id": "actions",
+      "target": null,
+      "river_modified_date": { "$date": 1629105917642 },
+      "river_time_created": { "$date": 1619331029324 },
+      "river_type_icon_url": "dist/images/riverTypes/logic.png ",
+      "source": {
+        "size": 32,
+        "name": "Actions",
+        "icon": "dist/images/riverTypes/actions.png "
+      },
+      "river_insert_date": { "$date": 1619331029324 },
+      "river_time_updated": { "$date": 1629105917642 },
+      "river_desc": "",
+      "group_id": { "_id": { "$oid": "607d304adc72cc001c48c153" } }
+    },
+    "_id": { "$oid": "608507d5dc72cc001c48c213" }
+  },
+  {
+    "cross_id": { "$oid": "60d472b6441316001d9437d9" },
+    "river_definitions": {
+      "schedule": {},
+      "updated_by_name": "",
+      "river_type_title": "Action",
+      "river_name": "New Jerusalem",
+      "is_scheduled": false,
+      "river_type_id": "actions",
+      "target": null,
+      "river_modified_date": { "$date": 1624535734691 },
+      "river_time_created": { "$date": 1624535734691 },
+      "river_type_icon_url": "dist/images/riverTypes/logic.png ",
+      "source": {
+        "size": 32,
+        "name": "Actions",
+        "icon": "dist/images/riverTypes/actions.png "
+      },
+      "river_insert_date": { "$date": 1624535734691 },
+      "river_time_updated": { "$date": 1624535734691 },
+      "river_desc": "",
+      "group_id": { "_id": { "$oid": "607d304adc72cc001c48c153" } }
+    },
+    "_id": { "$oid": "60d472b6441316001d9437d9" }
+  },
+  {
+    "cross_id": { "$oid": "60b4801505a19b4cd6a521ee" },
+    "river_definitions": {
+      "schedule": {},
+      "updated_by_name": "",
+      "river_type_title": "Action",
+      "river_name": "Alive Again",
+      "is_scheduled": false,
+      "river_type_id": "actions",
+      "target": null,
+      "river_modified_date": { "$date": 1622442040580 },
+      "river_time_created": { "$date": 1622442040580 },
+      "river_type_icon_url": "dist/images/riverTypes/logic.png ",
+      "source": {
+        "size": 32,
+        "name": "Actions",
+        "icon": "dist/images/riverTypes/actions.png "
+      },
+      "river_insert_date": { "$date": 1622442040580 },
+      "river_time_updated": { "$date": 1622442040580 },
+      "river_desc": "",
+      "group_id": {
+        "update_time": 1615302515811,
+        "name": "new publish group",
+        "color": "#00FFFFFF",
+        "is_default": false,
+        "insert_time": 1615302515811,
+        "cross_id": { "$oid": "60b4801505a19b4cd6a521f6" },
+        "_id": { "$oid": "60b4801505a19b4cd6a521f6" }
+      }
+    },
+    "_id": { "$oid": "60b48038a21570001ddd1908" }
+  }
+]

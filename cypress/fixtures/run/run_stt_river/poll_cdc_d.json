@@ -1,0 +1,65 @@
+{
+    "operation_id": "6559afb38f592045c5056eb8",
+    "operation_type": "enable",
+    "last_update_date": "2023-11-19T06:48:51.933000",
+    "status": "D",
+    "result": {
+      "response": [
+        {
+          "datasource_id": "mysql",
+          "pull_id": null,
+          "last_state": "DONE",
+          "river_id": "6559ad4c8f592045c5056ea5",
+          "states": {
+            "DONE": {
+              "state": "DONE",
+              "timestamp": 1700376531919.178
+            },
+            "INIT": {
+              "state": "INIT",
+              "timestamp": 1700376505664.7637
+            },
+            "SINK_CREATE_FINISH": {
+              "state": "SINK_CREATE_FINISH",
+              "timestamp": 1700376531902.8525
+            },
+            "SINK_CREATE_START": {
+              "state": "SINK_CREATE_START",
+              "timestamp": 1700376528328.2678
+            },
+            "SINK_DELETE_FINISH": {
+              "state": "SINK_DELETE_FINISH",
+              "timestamp": 1700376528320.0967
+            },
+            "SINK_DELETE_START": {
+              "state": "SINK_DELETE_START",
+              "timestamp": 1700376528294.5261
+            },
+            "SINK_HANDLE_FINISH": {
+              "state": "SINK_HANDLE_FINISH",
+              "timestamp": 1700376531911.1963
+            },
+            "SINK_HANDLE_START": {
+              "state": "SINK_HANDLE_START",
+              "timestamp": 1700376528286.1543
+            },
+            "SOURCE_HANDLE_FINISH": {
+              "state": "SOURCE_HANDLE_FINISH",
+              "timestamp": 1700376528276.6194
+            },
+            "SOURCE_HANDLE_START": {
+              "state": "SOURCE_HANDLE_START",
+              "timestamp": 1700376507191.6301
+            }
+          },
+          "timestamp": 1700376505618.787,
+          "_id": "6559afb38f592045c5056eb8",
+          "account": "55bf7c4270fdca16cac18761",
+          "log_enabled": null,
+          "is_cdc": true,
+          "fz_id": "s3"
+        }
+      ]
+    },
+    "error_message": ""
+  }

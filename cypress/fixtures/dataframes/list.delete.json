@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "_id": "61bcd3b670778820ba0a7fb3",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "dataframe_2",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/gilad23"
+    },
+    {
+      "_id": "61bf29f5c2e403001dc01e02",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "last_data_frame",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/ffff"
+    }
+  ]
+}

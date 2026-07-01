@@ -1,0 +1,1065 @@
+[ {
+    "deployment_settings":{
+       "only_deploy_new_connections":false,
+       "add_variable_values":false,
+       "add_related_connections":true,
+       "add_related_groups":false,
+       "only_deploy_new_variables":false,
+       "notifications":{
+          
+       },
+       "only_deploy_new_rivers":false,
+       "add_related_connections_from_connections":true,
+       "copy_connections_credentials":false,
+       "add_related_rivers":true,
+       "overwrite_dynamic_parameters":true,
+       "add_group_related_rivers":true
+    },
+    "package_name":"reverted",
+    "run_id":"0c946289e1f245459ee432cd0bd67437",
+    "modified_at":{
+       "$date":1656516622320
+    },
+    "package_id":"62b97e42654af20012ae234e",
+    "env_trg_name":"Partner-Demo",
+    "is_hidden":false,
+    "reverted_at":{
+       "$date":1656516622306
+    },
+    "deployed_by_name":"Elesh Mistry",
+    "reverted_by_name":"Inara Singat",
+    "deployed_by":"6225e6f819694a53a532ea2f",
+    "env_id_src":"601aa0984bd20a001dcf492f",
+    "template_type":"download",
+    "host_src":"console.rivery.io",
+    "delete_in":1656326339167,
+    "host_trg":"console.rivery.io",
+    "deployment_status":"succeeded",
+    "env_id_trg":"62273f5419694a53a532f28c",
+    "insert_timestamp":{
+       "$date":1656323660000
+    },
+    "reverted_by":"61e3d11019694a02d94ac2f4",
+    "finished_deploy_at":{
+       "$date":1656323675125
+    },
+    "env_src_name":"Public Kits",
+    "deployed_at":{
+       "$date":1656323660767
+    },
+    "account":"55bf7c4270fdca16cac18761",
+    "entities_total_deployed":{
+       "templates":0,
+       "files":0,
+       "variables":0,
+       "dataframes":0,
+       "rivers":9,
+       "connections":2,
+       "river_groups":1
+    },
+    "insert_epoch_time":1656323660767,
+    "run_id_revert":"4ca4c49582fe46479dc8f350b9ae525c",
+    "modified_at_epoch":1656516622320,
+    "entities_total":{
+       "templates":0,
+       "files":0,
+       "variables":0,
+       "dataframes":0,
+       "rivers":9,
+       "connections":2,
+       "river_groups":1
+    },
+    "account_trg":"55bf7c4270fdca16cac18761",
+    "account_src":"601aa0004bd20a001dcf4928",
+    "deployment_id":"62b97e4b654af20012ae2350",
+    "revert_status":"succeeded"
+ },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "a9fac3a501c143dc9ae16ed7d15bbaed",
+        "modified_at_epoch": 1655968127396,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655970754347,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655968075000
+        },
+        "finished_deploy_at": {
+            "$date": 1655968127396
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655968075947
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655968075947,
+        "modified_at": {
+            "$date": 1655968127396
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b4114a17cca100103ec022"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "ef5be8f1903d4cf8b9cd6aef0d28ea74",
+        "modified_at_epoch": 1655898539422,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655901190729,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655898512000
+        },
+        "finished_deploy_at": {
+            "$date": 1655898539422
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655898512329
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655898512329,
+        "modified_at": {
+            "$date": 1655898539422
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b3018f6591870011ba02ef"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "0aaa76ec76014669942c768ba9b26b5c",
+        "modified_at_epoch": 1655898459110,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655901094670,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655898416000
+        },
+        "finished_deploy_at": {
+            "$date": 1655898459110
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655898416270
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655898416270,
+        "modified_at": {
+            "$date": 1655898459110
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b3012e6591870011ba02e3"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "3d184b3c64c34d2b8deaa6ed04007717",
+        "modified_at_epoch": 1655897857048,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Shiran",
+        "deployed_by": "61942174d625dc001dd8593a",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655900510569,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897832000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897857048
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897832169
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897832169,
+        "modified_at": {
+            "$date": 1655897857048
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fee66591870011ba02d8"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": false,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "sdcdwc",
+        "run_id": "a3ba852ab8db43bea4688800e1a914e5",
+        "modified_at_epoch": 1655897802194,
+        "package_id": "62af80930a2506000fca2ec0",
+        "env_trg_name": "delete me shiran",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655900455368,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "61b5e0e64d8e7e001cea7c13",
+        "insert_timestamp": {
+            "$date": 1655897776000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897802194
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897776968
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 2,
+            "dataframes": 0,
+            "rivers": 3,
+            "connections": 0,
+            "river_groups": 3
+        },
+        "insert_epoch_time": 1655897776968,
+        "modified_at": {
+            "$date": 1655897802194
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 2,
+            "dataframes": 0,
+            "rivers": 3,
+            "connections": 0,
+            "river_groups": 3
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2feaf8ecc47000f212c8e"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "efc35a925f514a9a9ba3f61ee1e71a64",
+        "modified_at_epoch": 1655897726275,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Shiran",
+        "deployed_by": "61942174d625dc001dd8593a",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655900357902,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897679000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897726275
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897679502
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897679502,
+        "modified_at": {
+            "$date": 1655897726275
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fe4d6591870011ba02cc"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "b776f104a104448dbdf8e44547a2fe0f",
+        "modified_at_epoch": 1655897564742,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655900216988,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897538000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897564742
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897538588
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897538588,
+        "modified_at": {
+            "$date": 1655897564742
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fdc16591870011ba02c4"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "4d1e20a6fa5c461dbea9bf7631fa5913",
+        "modified_at_epoch": 1655897339385,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899962111,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897283000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897339385
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897283711
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897283711,
+        "modified_at": {
+            "$date": 1655897339385
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fcc23dcaa50011cb6847"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "1407972b69234d3cb299e1d208c10a71",
+        "modified_at_epoch": 1655897241757,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899884118,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897205000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897241757
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897205718
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897205718,
+        "modified_at": {
+            "$date": 1655897241757
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fc748ecc47000f212c6e"
+    },
+    {
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": false,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io,wfcwf@gmail.com"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "omer",
+        "run_id": "7a3ba0f52e33402fb731a112c24e9fbc",
+        "modified_at_epoch": 1655897128051,
+        "package_id": "62b022ee0a2506000fca2f3e",
+        "env_trg_name": "delete me shiran",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899795770,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "61b5e0e64d8e7e001cea7c13",
+        "insert_timestamp": {
+            "$date": 1655897117000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897128051
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897117370
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "insert_epoch_time": 1655897117370,
+        "modified_at": {
+            "$date": 1655897128051
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fc1b6591870011ba02b6"
+    },
+    {
+        "is_prevent_revert": true,
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": true,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "Shiran1",
+        "run_id": "78f5ff5378cf44f6a882dc97b667250a",
+        "modified_at_epoch": 1655897065167,
+        "package_id": "62b2efb26591870011ba0252",
+        "env_trg_name": "test12",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899685908,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "627e62bb8bd625d35d520cbf",
+        "insert_timestamp": {
+            "$date": 1655897007000
+        },
+        "finished_deploy_at": {
+            "$date": 1655897065167
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655897007508
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "insert_epoch_time": 1655897007508,
+        "modified_at": {
+            "$date": 1655897065167
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 7,
+            "connections": 0,
+            "river_groups": 2
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fbad65918700131a3362"
+    },
+    {
+        "is_prevent_revert": true,
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": false,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io,wfcwf@gmail.com"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "omer",
+        "run_id": "ba92ef577b0f49bda5d0c00a55a93aaf",
+        "modified_at_epoch": 1655896758851,
+        "package_id": "62b022ee0a2506000fca2f3e",
+        "env_trg_name": "delete me shiran",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899364731,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "61b5e0e64d8e7e001cea7c13",
+        "insert_timestamp": {
+            "$date": 1655896686000
+        },
+        "finished_deploy_at": {
+            "$date": 1655896758851
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655896686331
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "insert_epoch_time": 1655896686331,
+        "modified_at": {
+            "$date": 1655896758851
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2fa6d8ecc47000f212c60"
+    },
+    {
+        "is_prevent_revert": true,
+        "deployment_settings": {
+            "only_deploy_new_connections": true,
+            "add_variable_values": true,
+            "add_related_connections": false,
+            "add_related_groups": true,
+            "only_deploy_new_variables": false,
+            "notifications": {
+                "on_deployment": {
+                    "enabled": true,
+                    "email": "romi.rozhansky@rivery.io,wfcwf@gmail.com"
+                }
+            },
+            "only_deploy_new_rivers": false,
+            "copy_connections_credentials": true,
+            "add_related_rivers": true,
+            "overwrite_dynamic_parameters": true,
+            "add_group_related_rivers": false
+        },
+        "package_name": "omer",
+        "run_id": "c1304a2a6c364704b1373e810252cef5",
+        "modified_at_epoch": 1655896452277,
+        "package_id": "62b022ee0a2506000fca2f3e",
+        "env_trg_name": "delete me shiran",
+        "is_hidden": false,
+        "deployed_by_name": "Inara",
+        "deployed_by": "61e411c196e76e001df434ac",
+        "env_id_src": "563f5b17b0a10e07a4ff4c33",
+        "host_src": "console.dev.rivery.in",
+        "delete_in": 1655899088403,
+        "host_trg": "console.dev.rivery.in",
+        "deployment_status": "succeeded",
+        "env_id_trg": "61b5e0e64d8e7e001cea7c13",
+        "insert_timestamp": {
+            "$date": 1655896410000
+        },
+        "finished_deploy_at": {
+            "$date": 1655896452277
+        },
+        "env_src_name": "Production",
+        "deployed_at": {
+            "$date": 1655896410003
+        },
+        "account": "55bf7c4270fdca16cac18761",
+        "entities_total_deployed": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "insert_epoch_time": 1655896410003,
+        "modified_at": {
+            "$date": 1655896452277
+        },
+        "entities_total": {
+            "templates": 0,
+            "files": 0,
+            "variables": 1,
+            "dataframes": 0,
+            "rivers": 0,
+            "connections": 0,
+            "river_groups": 0
+        },
+        "account_trg": "55bf7c4270fdca16cac18761",
+        "account_src": "55bf7c4270fdca16cac18761",
+        "deployment_id": "62b2f9588ecc47000f212c5a"
+    },
+    {
+        "deployment_settings":{
+           "only_deploy_new_variables":false,
+           "add_related_groups":true,
+           "add_templates_group_related_rivers":true,
+           "add_variable_values":true,
+           "templates_publish_email_list":"taylor.mcgrath@rivery.io",
+           "add_related_connections":true,
+           "only_deploy_new_connections":true,
+           "add_related_dataframes":false,
+           "notifications":{
+              "on_deployment":{
+                 "enabled":true,
+                 "email":"inara@rivery.io, inara+test123@rivery.io"
+              }
+           },
+           "only_deploy_new_rivers":false,
+           "add_related_connections_from_connections":true,
+           "copy_connections_credentials":false,
+           "add_related_rivers":true,
+           "overwrite_dynamic_parameters":false,
+           "add_group_related_rivers":false
+        },
+        "package_name":"Failed revert",
+        "run_id":"89c365a2177c47de903ba14bd5a4785f",
+        "modified_at_epoch":1656082560476,
+        "package_id":"62b5d056654af20012ae137d",
+        "env_trg_name":"Staging",
+        "is_hidden":false,
+        "deployed_by_name":"Elesh Mistry",
+        "deployed_by":"6225e6f819694a53a532ea2f",
+        "env_id_src":"563f5b17b0a10e07a4ff4c33",
+        "host_src":"console.rivery.io",
+        "delete_in":1656085227991,
+        "host_trg":"console.rivery.io",
+        "deployment_status":"succeeded",
+        "env_id_trg":"563fa39cdf14e54426d464ea",
+        "insert_timestamp":{
+           "$date":1656082549000
+        },
+        "finished_deploy_at":{
+           "$date":1656082560476
+        },
+        "env_src_name":"Dev",
+        "deployed_at":{
+           "$date":1656082549591
+        },
+        "account":"55bf7c4270fdca16cac18761",
+        "entities_total_deployed":{
+           "templates":0,
+           "files":0,
+           "variables":2,
+           "dataframes":0,
+           "rivers":7,
+           "connections":2,
+           "river_groups":1
+        },
+        "insert_epoch_time":1656082549591,
+        "modified_at":{
+           "$date":1656082560476
+        },
+        "entities_total":{
+           "templates":0,
+           "files":0,
+           "variables":2,
+           "dataframes":0,
+           "rivers":7,
+           "connections":2,
+           "river_groups":1
+        },
+        "account_trg":"55bf7c4270fdca16cac18761",
+        "account_src":"55bf7c4270fdca16cac18761",
+        "deployment_id":"62b5d074c796ee00131c1a7d",
+        "revert_status":"failed"
+     }
+]

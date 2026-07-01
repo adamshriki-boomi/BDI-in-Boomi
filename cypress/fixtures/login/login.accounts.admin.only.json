@@ -1,0 +1,106 @@
+{
+  "last_name": "Doe",
+  "status_code": 200,
+  "is_super_admin": false,
+  "refresh_token": "faked-token",
+  "first_name": "John",
+  "user_id": {
+    "$oid": "60152e0b115042307858a5b5"
+  },
+  "last_login": {
+    "$date": 1618408179096
+  },
+  "account_settings": {
+    "allow_sub_rivers": true,
+    "allow_logic_python": true,
+    "allow_new_run_river_api": true
+  },
+  "login_type": "password",
+  "registration_enabled": true,
+  "user_email": "tester@rivery.io",
+  "user_accounts": [
+    {
+      "disable_targets": false,
+      "running_workers": 3,
+      "disabled_environments_at": {
+        "$date": 1604403329611
+      },
+      "account_id": "Rivery",
+      "registration_events": 44,
+      "owner_email": "tester@rivery.io",
+      "is_active": true,
+      "max_workers": 3,
+      "snowflake_disable_merge_method": true,
+      "environments_enabled": true,
+      "is_rivery_account": true,
+      "environments_enabled_at": {
+        "$date": 1604403441791
+      },
+      "env_id": {
+        "$oid": "faked-env-1"
+      },
+      "_id": {
+        "$oid": "account1"
+      },
+      "account_name": "Rivery",
+      "account_settings": {
+        "allow_sub_rivers": true,
+        "allow_logic_python": true,
+        "allow_new_run_river_api": true
+      }
+    },
+    {
+      "disable_targets": false,
+      "phone_number": "111111111",
+      "last_name": "test",
+      "owner_email": "mzgzzkotrd@maxresistance.com",
+      "account_settings": {
+        "allow_sub_rivers": true,
+        "allow_logic_python": true,
+        "allow_new_run_river_api": true
+      },
+      "country_code": "+355",
+      "user_created": {
+        "$oid": "60592f889e237e001d57e474"
+      },
+      "env_id": {
+        "$oid": "faked-env-1"
+      },
+      "account_name": "mzgzzkotrd",
+      "first_name": "rivery",
+      "registration_target_type": null,
+      "state": null,
+      "user_registered": {
+        "$oid": "60592f889e237e001d57e474"
+      },
+      "company_name": "mzgzzkotrd",
+      "user_name": "rivery test",
+      "zip_code": null,
+      "limitations": {
+        "units": 1000,
+        "days_trial": 14,
+        "trial_end_date": {
+          "$date": 1617667263165
+        }
+      },
+      "account_type": "active",
+      "account_id": "sirilo4883",
+      "wp_referrer": null,
+      "registration_date": {
+        "$date": 1616457661364
+      },
+      "is_active": true,
+      "step": 4,
+      "environments_enabled": true,
+      "first_referrer_url": null,
+      "first_url": null,
+      "registration_succeed": true,
+      "mfa_succeed": true,
+      "country": "Albania",
+      "_id": {
+        "$oid": "account2"
+      },
+      "job_title": "consultant"
+    }
+  ]
+}

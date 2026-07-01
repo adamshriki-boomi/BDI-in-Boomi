@@ -1,0 +1,5 @@
+{
+  "Code": 402,
+  "message": "There are some rivers that their log couldnt be disabled. Please manually disable the log in the rivers and modify the connection again ",
+  "rivers": "[{\"_id\": {\"$oid\": \"639707227c1b2400129ce4af\"}, \"river_name\": \"DatabaseTest03\"}, {\"_id\": {\"$oid\": \"63a44b6791ac3000110fc01f\"}, \"river_name\": \"Untitled Data Flow 2022-12-22 12:19\"}, {\"_id\": {\"$oid\": \"63f34cb7b049c20011b35e78\"}, \"river_name\": \"DatabaseTest02\"}]"
+}

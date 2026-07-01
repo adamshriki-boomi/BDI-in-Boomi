@@ -1,0 +1,26 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgSuccessIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M12 22C6.47727 22 2 17.5227 2 12C2 6.47727 6.47727 2 12 2C17.5227 2 22 6.47727 22 12C22 17.5227 17.5227 22 12 22Z"
+      fill="#00B9AD"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M9.12473 12.2191C8.69347 11.8741 8.06418 11.9441 7.71917 12.3753C7.37416 12.8066 7.44408 13.4359 7.87534 13.7809L10.3753 15.7809C10.789 16.1118 11.389 16.0627 11.7433 15.669L16.2433 10.669C16.6128 10.2585 16.5795 9.62617 16.169 9.25671C15.7585 8.88726 15.1262 8.92053 14.7567 9.33104L10.8879 13.6297L9.12473 12.2191Z"
+      fill="white"
+    />
+  </svg>
+);
+export default SvgSuccessIcon;

@@ -1,0 +1,40 @@
+{
+    "items": [
+      {
+        "run_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+        "datasource_id": "jira",
+        "error_description": null,
+        "units": 1.0,
+        "run_group_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+        "status": "succeeded",
+        "source_name": "predefined_project",
+        "target_name": "jira_project",
+        "start_date_utc": "2022-09-01T07:40:33",
+        "start_date_in_milliseconds": 1662018033000,
+        "end_date_utc": "2022-09-01T07:40:45",
+        "end_date_in_milliseconds": 1662119041000,
+        "sub_river_id": null,
+        "is_sub_river_run": false
+      },
+      {
+        "run_id": "c988899965964a8396c53cc3854c0eac",
+        "datasource_id": "jira",
+        "error_description": null,
+        "units": 1.0,
+        "run_group_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+        "status": "succeeded",
+        "source_name": "predefined_group_users",
+        "target_name": "jira_group_users",
+        "start_date_utc": "2022-09-01T07:39:11",
+        "start_date_in_milliseconds": 1662017951000,
+        "end_date_utc": "2022-09-01T07:40:31",
+        "end_date_in_milliseconds": 1662018031000,
+        "sub_river_id": null,
+        "is_sub_river_run": false
+      }
+    ],
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b17b0a10e07a4ff4c33",
+    "river_cross_id": "6310618b4c38430010918ed9",
+    "next_page": ""
+  }

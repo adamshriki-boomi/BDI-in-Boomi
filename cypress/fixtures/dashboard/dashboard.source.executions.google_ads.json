@@ -1,0 +1,15 @@
+{
+  "account_id": "account1",
+  "metric": "executions",
+  "view": "source",
+  "data": [
+    { "run_date": 1772496000000, "datasource_id": "google_ads", "runs": 1100, "executions": 1100, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772582400000, "datasource_id": "google_ads", "runs": 1200, "executions": 1200, "succeeded": 700, "failed": 500 },
+    { "run_date": 1772668800000, "datasource_id": "google_ads", "runs": 1100, "executions": 1100, "succeeded": 600, "failed": 500 },
+    { "run_date": 1772755200000, "datasource_id": "google_ads", "runs": 1150, "executions": 1150, "succeeded": 640, "failed": 510 },
+    { "run_date": 1772841600000, "datasource_id": "google_ads", "runs": 1150, "executions": 1150, "succeeded": 630, "failed": 520 },
+    { "run_date": 1772928000000, "datasource_id": "google_ads", "runs": 1135, "executions": 1135, "succeeded": 610, "failed": 525 },
+    { "run_date": 1773014400000, "datasource_id": "google_ads", "runs": 1130, "executions": 1130, "succeeded": 620, "failed": 510 },
+    { "run_date": 1773100800000, "datasource_id": "google_ads", "runs": 600, "executions": 600, "succeeded": 340, "failed": 260 }
+  ]
+}

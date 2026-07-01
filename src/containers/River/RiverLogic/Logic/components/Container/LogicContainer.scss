@@ -1,0 +1,38 @@
+.logic-container {
+  .is-parallel{
+    .step-margin {
+      margin-bottom: 16px;
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .is-parallel {
+      grid-template-columns: 1fr 1fr;
+      display: grid;
+      grid-template-rows: 1fr;
+
+    }
+  }
+  @media screen and (max-width: 1279px) {
+    .is-parallel {
+      .step-margin {
+        margin-bottom: 16px;
+        max-width: 540px;
+      }
+    }
+  }
+  .is-parallel {
+    grid-gap: 1rem;
+  }
+  .logic-container {
+    .is-parallel {
+      display: block;
+    }
+  }
+  .is-disabled {
+    opacity: 0.7;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,18 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgSortRight = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7.37727 4.07959C7.14594 4.21005 7 4.47921 7 4.77312V19.7265C7 20.0205 7.14594 20.2896 7.37727 20.4201C7.4726 20.4737 7.57516 20.5 7.67773 20.5C7.82366 20.5 7.9687 20.4464 8.08888 20.3412L16.6734 12.8645C16.8415 12.718 16.94 12.4911 16.94 12.2498C16.94 12.0085 16.8415 11.7816 16.6734 11.6352L8.08888 4.15848C7.88421 3.98007 7.6086 3.95016 7.37727 4.07959Z"
+      fill="#485159"
+    />
+  </svg>
+);
+export default SvgSortRight;

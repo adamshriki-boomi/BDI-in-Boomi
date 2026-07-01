@@ -1,0 +1,25 @@
+{
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b17b0a10e07a4ff4c33",
+  "river_cross_id": "62fffc4ff837a70011789a27",
+  "run_id": "374a2f7981ae4d7380b2cc911fa2131d",
+  "items": [
+    {
+      "duration": 19000,
+      "error_description": "Connection to Snowflake failed. Please check your credentials, your warehouse permissions and your account preferences in Snowflake.",
+      "start_date_utc": "2022-08-30T10:05:58.000000",
+      "start_date_in_milliseconds": 1661853958000,
+      "end_date_utc": "2022-08-30T10:06:17.000000",
+      "end_date_in_milliseconds": 1661853977000,
+      "source": "fb_ads",
+      "task_id": "62fffc4ff837a70011789a28",
+      "task_name": "fb_ads to rivery_demo.dwh.fb_ads_ads",
+      "task_status": "failed",
+      "task_type": "src_to_trgt",
+      "input_parameters": [],
+      "target": "rivery_demo.dwh.fb_ads_ads",
+      "target_table": "fb_ads_ads",
+      "size": 0.0
+    }
+  ]
+}

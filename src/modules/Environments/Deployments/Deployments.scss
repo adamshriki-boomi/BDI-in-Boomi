@@ -1,0 +1,33 @@
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow-x: auto !important;
+}
+
+.transitions {
+  overflow: hidden;
+}
+
+.accordion-transform[aria-expanded='true'] .accordion-indicator {
+  transform: rotate(90deg);
+}
+
+.modal-backdrop {
+  z-index: 1400 !important;
+}
+.modal {
+  z-index: 1400 !important;
+}
+
+.rsw_2f{
+  height: calc(100% - 45px);
+}
+
+.rsw_2Y{
+  height: 100%;
+}
+
+[aria-label='env_id_src.$oid options list'],
+[aria-label='env_id_trg.$oid options list'] {
+  .select-form-group__menu-list {
+    max-height: 185px !important;
+  }
+}

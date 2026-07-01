@@ -1,0 +1,49 @@
+{
+  "status": true,
+  "fz_connection_type": [{ "connection_type": "aws", "_id": "s3" }],
+  "Code": 200,
+  "fz_connections": [
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "57d6b402c762714bacc75d75" },
+      "_id": { "$oid": "5f5b342aaa055e141d4cec24" },
+      "is_test_connection": true,
+      "connection_name": "s3 testing1"
+    },
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "5a82991fa5b3844c8405beb9" },
+      "_id": { "$oid": "5f5b3426aa055e141d4cec23" },
+      "is_test_connection": true,
+      "connection_name": "s3 dev1"
+    },
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "5e4130a96b028e64648e15da" },
+      "_id": { "$oid": "6086bc01661ec9001ff69cbe" },
+      "is_test_connection": true,
+      "connection_name": "AWS S3"
+    },
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "5fc8acfc5d0dbb001ea7a203" },
+      "_id": { "$oid": "5fc8acfc5d0dbb001ea7a203" },
+      "is_test_connection": true,
+      "connection_name": "RIvery Filezone"
+    },
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "602917003395c5001c7e637e" },
+      "_id": { "$oid": "602917003395c5001c7e637e" },
+      "is_test_connection": true,
+      "connection_name": "Flashtalking"
+    },
+    {
+      "connection_type": "aws",
+      "cross_id": { "$oid": "6122140c221f5d001cd44352" },
+      "_id": { "$oid": "6122140c221f5d001cd44352" },
+      "is_test_connection": true,
+      "connection_name": "Rivery Dev S3"
+    }
+  ]
+}

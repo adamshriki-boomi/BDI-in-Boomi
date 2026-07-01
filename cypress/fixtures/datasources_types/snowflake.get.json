@@ -1,0 +1,120 @@
+[
+  {
+    "section_datasources": [
+      {
+        "connection_type": "snowflake",
+        "status": "enabled",
+        "is_fz_connection": true,
+        "doc_url": "https://docs.rivery.io/docs/connection-snowflake",
+        "fz_bucket": "{aws_file_zone}",
+        "description": "Cloud data warehouse that provides simplicity, concurrency, and performance",
+        "icon": "https://static-assets.console.rivery.io/snowflake.png",
+        "ui_inputs_rows": null,
+        "is_test_connection": true,
+        "size": 32,
+        "source_doc_url": "https://docs.rivery.io/docs/walkthrough-snowflake",
+        "section_id": ["sec_relational"],
+        "disable_check_and_save": false,
+        "ui_rows": [
+          [
+            {
+              "display_name": "Username",
+              "type": "text",
+              "name": "username"
+            }
+          ],
+          [ {
+            "id": "credentials",
+            "type": "connect_with",
+            "display_name": "Google",
+            "is_credentials": true
+          }],
+          [
+            {
+              "display_name": "Password",
+              "type": "password",
+              "name": "password"
+            }
+          ],
+          [
+            {
+              "display_name": "Warehouse",
+              "type": "text",
+              "name": "warehouse"
+            },
+            {
+              "display_name": "TestCondition",
+              "type": "text",
+              "name": "TestCondition",
+              "condition": {"equals": "RIVERY_DEMO", "field_name": "warehouse"}
+            },
+            {
+              "display_name": "Role",
+              "type": "text",
+              "name": "role",
+              "placeholder": "Leave empty for default role"
+            }
+          ],
+          [
+            {
+              "display_name": "Account Name",
+              "type": "text",
+              "name": "account_name",
+              "label": "Account name"
+            }
+          ],
+          [{
+            "display_name": "SSL Options",
+            "type": "collapse",
+            "controls": [
+              {
+                "display_name": "SSL Mode",
+                "type": "list_single_options",
+                "name": "sslmode",
+                "options": [
+                  {
+                    "id": "disable",
+                    "name": "Disable"
+                  },
+                  {
+                    "id": "allow",
+                    "name": "Allow"
+                  },
+                  {
+                    "id": "prefer",
+                    "name": "Prefer"
+                  },
+                  {
+                    "id": "require",
+                    "name": "Require"
+                  },
+                  {
+                    "id": "verify-ca",
+                    "name": "Verify-CA"
+                  },
+                  {
+                    "id": "verify-full",
+                    "name": "Verify-Full"
+                  }
+                ]
+              },
+              {
+                "file_type": "pem",
+                "type": "file",
+                "name": "key_file_path"
+              }
+            ]
+          }]
+        ],
+        "sub_rivers": true,
+        "force_custom_fz": false,
+        "file_types": { "bq": ["json", "csv"] },
+        "_id": "snowflake",
+        "segment": ["connections", "target"],
+        "name": "Snowflake"
+      }
+    ],
+    "section_name": "Databases",
+    "section_description": "A database (DB) is a collective set of multiple data sets organized by tables, records and columns..\n"
+  }
+]

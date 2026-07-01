@@ -1,0 +1,21 @@
+{
+  "original_variables": {
+    "output_variables": [],
+    "file_type": null,
+    "action_variables": [],
+    "connection": {
+      "cross_id": "5f62311b4e62d1001d7cfe32",
+      "connection_id": "5f69fdb60f0ea1001cf14788",
+      "connection_name": "crimson"
+    },
+    "connection_details": [
+      { "name": "username", "value": "lucas.borges@ab-inbev.com" },
+      { "name": "password", "value": "*********" }
+    ],
+    "interval_params": [
+      { "name": "start_date", "value": { "$date": 1634774400000 } },
+      { "name": "end_date", "value": { "$date": 1634688000000 } }
+    ]
+  },
+  "action_type": "rest_action"
+}

@@ -1,0 +1,15 @@
+export const LoginRoutes = {
+  LOGIN_ROOT: '/',
+  ACCOUNTS: '/accounts',
+  FORGOT_PASSWORD: '/forgot-password',
+  SIGNUP: '/signup',
+  CONFIRM_ACCOUNT: '/confirm-account',
+  ONBOARDING: '/onboarding',
+  ONBOARDING_GETTING_STARTED: '/onboarding/signup',
+  SIGNUP_PARTNER: '/partner-signup',
+  CREATE_ACCOUNT: '/create-account',
+  REGISTER_NEW_USER: '/register',
+  CREATE_CONNECTION: '/create-connection',
+  SET_PASSWORD: '/set-password',
+  RESET_PASSWORD: '/reset-password',
+};

@@ -1,0 +1,21 @@
+{
+  "page": 1,
+  "current_page_size": 20,
+  "total_items": 2,
+  "items": [
+    {
+      "_id": "account1",
+      "is_active": true,
+      "account_name": "Rivery",
+      "owner_email": "tester@rivery.io",
+      "active_account_type": "internal"
+    },
+    {
+      "_id": "account2",
+      "is_active": true,
+      "account_name": "mzgzzkotrd",
+      "owner_email": "mzgzzkotrd@maxresistance.com",
+      "active_account_type": "client"
+    }
+  ]
+}

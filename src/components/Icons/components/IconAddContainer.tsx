@@ -1,0 +1,19 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgIconAddContainer = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <rect x={4} y={6} width={16} height={12} strokeWidth={2} />
+    <line x1={8} y1={9} x2={8} y2={15} strokeWidth={2} />
+    <line x1={12} y1={9} x2={12} y2={15} strokeWidth={2} />
+    <line x1={16} y1={9} x2={16} y2={15} strokeWidth={2} />
+  </svg>
+);
+export default SvgIconAddContainer;

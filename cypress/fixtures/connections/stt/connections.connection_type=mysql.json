@@ -1,0 +1,800 @@
+[
+  {
+    "username": "rooj",
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/mysql/6d280430003c11e9b3d5020efb218125_rivery3.pem",
+    "package_id": {
+      "$oid": "5f734922efd68e001ee1e6db"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": {
+      "$oid": "5f730a70ad36f8fc376823ba"
+    },
+    "is_test_connection": true,
+    "deployed_by": {
+      "$oid": "5f730a70ad36f8fc376823ba"
+    },
+    "connection_type_name": "MySQL",
+    "connection_update_time": {
+      "$date": 1601390901305
+    },
+    "connection_creation_time": {
+      "$date": 1601390901305
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "host": "rooj-customers-us1-us-east-1b.cj8lp6c15clu.us-east-1.rds.amazonaws.com",
+    "deployed_at": {
+      "$date": 1601390901305
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "ssh_remote_host": "35.174.153.129",
+    "db_type": "mysql",
+    "database": "att_audience",
+    "connection_name": "Customers US - ATT",
+    "cross_id": {
+      "$oid": "5b81d3c76b028e5ed095a28b"
+    },
+    "deployment_id": {
+      "$oid": "5f73492eefd68e001ee1e6dd"
+    },
+    "_id": {
+      "$oid": "5f7349351eedde001c1e54f5"
+    }
+  },
+  {
+    "connection_creation_time": {
+      "$date": 1601392475788
+    },
+    "package_id": {
+      "$oid": "5f734de7738ea7001c3a4e99"
+    },
+    "host": "riverydemodb.cyaie4xhe0v4.us-east-2.rds.amazonaws.com",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": {
+      "$oid": "58b820a0c762711d8c2f60c7"
+    },
+    "is_test_connection": true,
+    "deployed_by": {
+      "$oid": "58b820a0c762711d8c2f60c7"
+    },
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1601392475788
+    },
+    "username": "rivery",
+    "has_key_file": true,
+    "last_test_date": {
+      "$date": 1660051608297
+    },
+    "password_exists": true,
+    "deployed_at": {
+      "$date": 1601392475788
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "database": "employees",
+    "db_type": "mysql",
+    "connection_name": "Rivery Employees",
+    "cross_id": {
+      "$oid": "5ea7ec635674092377189712"
+    },
+    "deployment_id": {
+      "$oid": "5f734f56738ea7001c3a4ec5"
+    },
+    "_id": {
+      "$oid": "5f734f5b01a7c5001e8c7801"
+    },
+    "valid": false,
+    "last_test_error": "Connection Error to riverydemodb.cyaie4xhe0v4.us-east-2.rds.amazonaws.com. Please check the connection variables or the credentials in your server. Error: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'riverydemodb.cyaie4xhe0v4.us-east-2.rds.amazonaws.com' ([Errno -2] Name or service not known)\") (Background on this error at: http://sqlalche.me/e/e3q8)"
+  },
+  {
+    "username": "rivery",
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/mysql/ec15626e77ae11eca0fe0242ac110002_RiveryDemoDataKP.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "615c5d54171e63001e3b7e79",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1642435691115
+    },
+    "connection_creation_time": {
+      "$date": 1642435206713
+    },
+    "is_ssh_tunnel": false,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "employees",
+    "last_test_date": {
+      "$date": 1642435388470
+    },
+    "db_type": "mysql",
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "connection_name": "test-timeout",
+    "cross_id": {
+      "$oid": "61e59286f582570020fa734d"
+    },
+    "_id": {
+      "$oid": "61e59286f582570020fa734d"
+    },
+    "valid": true
+  },
+  {
+    "username": "rivery",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "611a5e4b6ec0d6382ad29743",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1643101555557
+    },
+    "connection_creation_time": {
+      "$date": 1641141371856
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "ext-prod-read.cio30lfrnfne.us-east-1.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "metaflowdb",
+    "last_test_date": {
+      "$date": 1652703637763
+    },
+    "db_type": "mysql",
+    "connection_name": "prod-mysql-external",
+    "connection_type_name": "MySQL",
+    "cross_id": {
+      "$oid": "61efbd7320a8c3d9fde3a0bf"
+    },
+    "_id": {
+      "$oid": "61efbd7320a8c3d9fde3a0bf"
+    }
+  },
+  {
+    "username": "admin",
+    "cross_id": {
+      "$oid": "62122d5a2f79c90020b0e680"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "60cf2d42b4c128001eeff8a0",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1645358426413
+    },
+    "connection_creation_time": {
+      "$date": 1645358426413
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "cdc-test-mysql.cqvgyp3n1jvu.us-east-2.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "eitamcdc",
+    "db_type": "mysql",
+    "connection_name": "cdc-test-mysql",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1645358448702
+    },
+    "_id": {
+      "$oid": "62122d5a2f79c90020b0e680"
+    }
+  },
+  {
+    "username": "admin",
+    "cross_id": {
+      "$oid": "62139f552f79c90020b0ea2c"
+    },
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/mysql/33658940932111ecbd4c0242ac110004_RiveryKeyPairDev.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "61cdb9b74e05a8001c450dd2",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "ssh_auto_generate": false,
+    "connection_update_time": {
+      "$date": 1645453191688
+    },
+    "connection_creation_time": {
+      "$date": 1645453141511
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "cdc-test-mysql.cqvgyp3n1jvu.us-east-2.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "eitamcdc",
+    "db_type": "mysql",
+    "ssh_remote_host": "52.15.128.12",
+    "connection_name": "mysql-cdc-test-ssh-tunnel",
+    "last_test_date": {
+      "$date": 1645460368672
+    },
+    "_id": {
+      "$oid": "62139f552f79c90020b0ea2c"
+    },
+    "valid": true
+  },
+  {
+    "username": "admin",
+    "cross_id": {
+      "$oid": "6213ada74ee1a7001c3cb8c5"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "60cf2d42b4c128001eeff8a0",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1645456807351
+    },
+    "connection_creation_time": {
+      "$date": 1645456807351
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "aurora-cdc-instance-1.cqvgyp3n1jvu.us-east-2.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "test",
+    "db_type": "mysql",
+    "connection_name": "aurora-cdc-instance-1",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1652777731814
+    },
+    "_id": {
+      "$oid": "6213ada74ee1a7001c3cb8c5"
+    }
+  },
+  {
+    "username": "admin",
+    "cross_id": {
+      "$oid": "624042741e17f00013ce5b49"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6072d73331042700423db5fd",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1648378484065
+    },
+    "connection_creation_time": {
+      "$date": 1648378484065
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "aurora-cdc.cluster-cqvgyp3n1jvu.us-east-2.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "test",
+    "db_type": "mysql",
+    "connection_name": "aurora-cdc.cluster-cqvgyp3n1jvu.us-east-2.rds.amazonaws.com",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1666782794112
+    },
+    "_id": {
+      "$oid": "624042741e17f00013ce5b49"
+    }
+  },
+  {
+    "username": "gsm_superuser",
+    "cross_id": {
+      "$oid": "62581d0475cf89adba026bbf"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6075802bf5682c27080455a9",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1649941764778
+    },
+    "connection_creation_time": {
+      "$date": 1649332073359
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "35.246.12.181",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "adyen_dev",
+    "db_type": "mysql",
+    "connection_name": "data-workspace-prod",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1649941811365
+    },
+    "_id": {
+      "$oid": "62581d0475cf89adba026bbf"
+    }
+  },
+  {
+    "username": "hubcluster",
+    "cross_id": {
+      "$oid": "6293982cfe60b8991c16f601"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "628492f9c7c1f7001216749e",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1653839916140
+    },
+    "connection_creation_time": {
+      "$date": 1652861124746
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "hub-staging5.cmfzcjtnlqyf.us-west-2.rds.amazonaws.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "hub",
+    "db_type": "mysql",
+    "connection_name": "Hub",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1653454585696
+    },
+    "_id": {
+      "$oid": "6293982cfe60b8991c16f601"
+    }
+  },
+  {
+    "username": "rivery",
+    "cross_id": {
+      "$oid": "629f1a45e85922000f0d82fa"
+    },
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/mysql/6430c4b0e64411ec8ed2dee0aea210a4_RiveryDemoDataKP_9.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "614738273374b0001eaa1add",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "ssh_auto_generate": false,
+    "connection_update_time": {
+      "$date": 1654594317151
+    },
+    "connection_creation_time": {
+      "$date": 1654594117239
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "employees",
+    "db_type": "mysql",
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "connection_name": "rivery_demo",
+    "last_test_date": {
+      "$date": 1669640175726
+    },
+    "_id": {
+      "$oid": "629f1a45e85922000f0d82fa"
+    },
+    "valid": true
+  },
+  {
+    "username": "service.rivery",
+    "cross_id": {
+      "$oid": "629f50acac4b9c896f5b0524"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6261c6d719694a57df3283ad",
+    "is_test_connection": true,
+    "valid": true,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1654608044317
+    },
+    "connection_creation_time": {
+      "$date": 1651684481787
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "replica01.prod02.twinhealth.com",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "twins",
+    "db_type": "mysql",
+    "connection_name": "twins - US - Source - MySQL",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1654055080733
+    },
+    "_id": {
+      "$oid": "629f50acac4b9c896f5b0524"
+    }
+  },
+  {
+    "connection_type": "mysql",
+    "connection_creation_time": {
+      "$date": 1659280671663
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "connection_update_by": "61942174d625dc001dd8593a",
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "ikioi",
+    "has_key_file": true,
+    "db_type": "mysql",
+    "is_test_connection": true,
+    "connection_name": "kjkj",
+    "host": "kjkj",
+    "connection_type_name": "MySQL",
+    "cross_id": {
+      "$oid": "62e69d1f3890880011ff1e89"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "_id": {
+      "$oid": "62e69d1f3890880011ff1e89"
+    },
+    "port": 3306,
+    "connection_update_time": {
+      "$date": 1659280671663
+    }
+  },
+  {
+    "username": "rivery",
+    "cross_id": {
+      "$oid": "62fa531fe29f360013e254c9"
+    },
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/mysql/952f8a521ca311edba90b614a318f52e_RiveryDemoDataKP_1.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6072d73331042700423db5fd",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1666783903908
+    },
+    "connection_creation_time": {
+      "$date": 1660572447891
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "employees",
+    "db_type": "mysql",
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "connection_name": "barak_mySQL",
+    "last_test_date": {
+      "$date": 1669729909142
+    },
+    "_id": {
+      "$oid": "62fa531fe29f360013e254c9"
+    },
+    "valid": true
+  },
+  {
+    "username": "rivery",
+    "cross_id": {
+      "$oid": "63860d88b1fce4000fd81f35"
+    },
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6180fe6db80ae20022c328be",
+    "is_test_connection": true,
+    "valid": false,
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1669729672359
+    },
+    "connection_creation_time": {
+      "$date": 1669726319349
+    },
+    "has_key_file": true,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "employees",
+    "db_type": "mysql",
+    "connection_name": "rivery - MySQL",
+    "connection_type_name": "MySQL",
+    "last_test_date": {
+      "$date": 1669731024649
+    },
+    "_id": {
+      "$oid": "63860d88b1fce4000fd81f35"
+    },
+    "last_test_error": "Connection Error to mysql.demo.rivery.in. Please check the connection variables or the credentials in your server. Error: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'mysql.demo.rivery.in' ([Errno 110] Connection timed out)\") (Background on this error at: http://sqlalche.me/e/e3q8)"
+  },
+  {
+    "username": "rivery",
+    "cross_id": {
+      "$oid": "63d8fe04db7a0d0a30c13fda"
+    },
+    "ssh_pkey_file_path": "{key_files_path}/6308d7435772a700130599fc/mysql/670d527e5f5311ed827b26f493c81159_RiveryDemoDataKP.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "6164974119694a6a679c5014",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1675165188762
+    },
+    "connection_creation_time": {
+      "$date": 1667904743778
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "test",
+    "db_type": "mysql",
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "connection_name": "Support_Demo_MySQL",
+    "last_test_date": {
+      "$date": 1675165160173
+    },
+    "_id": {
+      "$oid": "63d8fe04db7a0d0a30c13fda"
+    },
+    "valid": true
+  },
+  {
+    "username": "rivery",
+    "ssh_pkey_file_path": "{key_files_path}/62c2fb1fbe0fe700130fe35c/mysql/5b9273ec901411edb1c5d20ca5247d13_RiveryDemoDataKP.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "62c2f0bdbe0fe700130fdd80",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "ssh_auto_generate": false,
+    "connection_update_time": {
+      "$date": 1678705364573
+    },
+    "connection_creation_time": {
+      "$date": 1673265363871
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "database": "employees",
+    "db_type": "mysql",
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "connection_name": "MySQL 5.7 - Dev (with SSH)",
+    "cross_id": {
+      "$oid": "640f02d418be6c000f991bc4"
+    },
+    "_id": {
+      "$oid": "640f02d418be6c000f991bc4"
+    }
+  },
+  {
+    "username": "rivery",
+    "ssh_pkey_file_path": "{key_files_path}/62c2fb1fbe0fe700130fe35c/mysql/a927a420926b11ed915b76be27c29b33_RiveryDemoDataKP.pem",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "port": 3306,
+    "connection_type": "mysql",
+    "connection_update_by": "62c2f0bdbe0fe700130fdd80",
+    "is_test_connection": true,
+    "connection_type_name": "MySQL",
+    "is_password_encrypted": true,
+    "connection_update_time": {
+      "$date": 1678705440401
+    },
+    "connection_creation_time": {
+      "$date": 1673522686357
+    },
+    "is_ssh_tunnel": true,
+    "ssh_remote_user": "ec2-user",
+    "has_key_file": true,
+    "ssh_remote_port": 22,
+    "password_exists": true,
+    "host": "mysql-8.demo.rivery.in",
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "allowed_file_extensions": [
+      "pub",
+      "pem",
+      "crt"
+    ],
+    "ssh_remote_host": "rivery-ssh-tunnel.demo.rivery.in",
+    "db_type": "mysql",
+    "database": "employees",
+    "connection_name": "MySQL 8.0 - DEV (with SSH)",
+    "cross_id": {
+      "$oid": "640f0320efc78000108d0a8b"
+    },
+    "_id": {
+      "$oid": "640f0320efc78000108d0a8b"
+    }
+  }
+]

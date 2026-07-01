@@ -1,0 +1,100 @@
+{
+  "cross_id": { "$oid": "60755555548271001df7a3c4" },
+  "river_definitions": {
+    "version_id": { "$oid": "60ae8a33c8d725001e186b83" },
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "updated_by": { "$oid": "60152e0b115042307858a5b5" },
+    "is_locked": false,
+    "shared_params": {
+      "notifications": {
+        "on_warning": {},
+        "on_failure": {
+          "enabled": false,
+          "email": "{Mail_Alert_Group}"
+        },
+        "on_run_threshold": {
+          "enabled": false,
+          "email": "{Threshold_Mail_Alert_Group}"
+        }
+      },
+      "run_notification_timeout": 2400,
+      "fz_connection": {}
+    },
+    "river_date_updated": { "$date": 1622051379211 },
+    "is_sub_river": false,
+    "river_name": "Simple River Logic Example",
+    "source_type": "logic",
+    "is_scheduled": false,
+    "river_date_inserted": { "$date": 1618302293444 },
+    "river_desc": "This is the description",
+    "river_type_id": "logic",
+    "created_by": { "$oid": "5e68e3cba5b384310dddedef" },
+    "river_type": "logic",
+    "cross_id": { "$oid": "60755555548271001df7a3c4" },
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "_id": { "$oid": "60755555548271001df7a3c4" },
+    "updated_by_name": "john doe"
+  },
+  "tasks_definitions": [
+    {
+      "task_label": "logic",
+      "related": {
+        "connections": [{ "$oid": "587f9f27c762714fe9cb68fa" }],
+        "rivers": [
+          { "$oid": "609a8d91d410df001eda181f" },
+          "607d3181dc72cc001c48c15d"
+        ]
+      },
+      "global_keys": { "target_name": "Logic" },
+      "task_type_name": "Logic Process",
+      "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+      "created_by": { "$oid": "5e68e3cba5b384310dddedef" },
+      "feeder_module": "{feeders_path}.logic_feeder",
+      "task_type_id": "logic",
+      "task_process_module": "{processes_path}.logic_process",
+      "is_target_task": false,
+      "river_id": { "$oid": "60755555548271001df7a3c4" },
+      "ordinal": 0,
+      "move_as_is": true,
+      "datasource_id": "logic",
+      "updated_by": { "$oid": "60152e0b115042307858a5b5" },
+      "schedule": {
+        "endDate_beforeSave": "2021-05-26T12:30:39.758Z",
+        "endDate": {},
+        "job_id": "60755555548271001df7a3c5",
+        "isEnabled": false,
+        "cronExp": "0 0 0/1 * * * *",
+        "sched": {
+          "hour": 8,
+          "min": 24,
+          "showCrontab": false,
+          "days": { "days": 1 },
+          "month": { "radioMon": 0, "months": 1, "days": 1, "month": 1 },
+          "hours": { "hours": 1, "radioHour": 0 },
+          "year": { "radioYear": 0, "days": 1 },
+          "minutes": 15
+        }
+      },
+      "task_method": "logic_v3",
+      "pull_translate": {
+        "fields": "get_result_columns",
+        "databases": "get_databases",
+        "datasets": "get_datasets",
+        "results": "get_results",
+        "schemas": "get_schemas"
+      },
+      "connection_id": {},
+      "version_id": { "$oid": "60ae8a33c8d725001e186b83" },
+      "is_synchronized": true,
+      "is_mapping_lock": false,
+      "task_date_inserted": { "$date": 1618302293446 },
+      "account": { "$oid": "55bf7c4270fdca16cac18761" },
+      "task_date_updated": { "$date": 1622051379210 },
+      "is_deleted": false,
+      "task_name": "Logic process",
+      "task_display_name": "Logic Process",
+      "pull_target": "logic",
+      "_id": { "$oid": "60755555548271001df7a3c5" }
+    }
+  ]
+}

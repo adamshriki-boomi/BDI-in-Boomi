@@ -1,0 +1,24 @@
+{
+  "operation_id": "652cf6cd8443681b071e746b",
+  "operation_type": "get_schemas",
+  "last_update_date": "2023-10-16T08:40:10.543000",
+  "status": "D",
+  "result": [
+    "ASCEND__ASCENDLEARNING__SNOWPARK_TEST",
+    "ASCEND__ASCENDLEARNING__SNOWPARK_TEST_2",
+    "DEMO_SCHEMA",
+    "INFORMATION_SCHEMA",
+    "MONGO_SAMPLE_MIGRATION_DATA",
+    "PARTNER_SCHEMA",
+    "PUBLIC",
+    "RESTORED_SCHEMA",
+    "RESTORED_SCHEMA_PUBLIC",
+    "RESTORED_SCHEMA_UK",
+    "RESTORED_SCHEMA_UK_DEMO",
+    "RESTORED_SCHEMA_UK_DEMO_2",
+    "RESTORED_SCHEMA_UK_DEMO_3",
+    "UK_DEMO",
+    "UK_DEMO_PUBLIC"
+  ],
+  "error_message": ""
+}

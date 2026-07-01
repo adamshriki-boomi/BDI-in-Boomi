@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "quality_test_66",
+    "data_quality_test_type_id": "61ae284f83e52d8237fe8346",
+    "is_active": true,
+    "test_name": "unique values",
+    "test_type_name": "unique_values_test",
+    "test_schema": ["a", "b", "c"],
+    "updated_at": "2022-02-14T22:59:32.522056"
+  }
+]

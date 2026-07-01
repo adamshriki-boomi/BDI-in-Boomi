@@ -1,0 +1,9 @@
+{
+  "errors": null,
+  "has_composite_fields": false,
+  "excluded_fields": null,
+  "mapping": { "source": [{}], "target": [], "is_source_mapping": true },
+  "request_status": "E",
+  "_id": { "$oid": "60eeccda115042513bd4c51b" },
+  "error_msg": "mapping error for step \"Logic Step\": Bigquery Sql Mapping Failed: Table name \"users\" cannot be resolved: dataset name is missing."
+}

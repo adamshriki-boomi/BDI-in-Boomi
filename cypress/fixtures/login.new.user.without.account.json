@@ -1,0 +1,12 @@
+{
+  "last_name": "test",
+  "registration_enabled": true,
+  "first_name": "rivery",
+  "last_login": null,
+  "user_id": { "$oid": "6050aee0f5682c1bea9a7b0a" },
+  "user_accounts": [],
+  "msg_to_present": "Thank you for your registration. We've got your request, and will contact you soon.",
+  "login_type": "password",
+  "status_code": 200,
+  "user_email": "mtjdstivvbkbi@maxresistance.com"
+}

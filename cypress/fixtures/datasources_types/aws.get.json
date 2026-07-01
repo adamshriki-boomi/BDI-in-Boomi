@@ -1,0 +1,137 @@
+[
+  {
+    "section_datasources": [
+      {
+        "connection_type": "aws",
+        "status": "enabled",
+        "is_fz_connection": false,
+        "_id": "s3",
+        "fz_bucket": "{aws_file_zone}",
+        "name": "Amazon S3",
+        "icon": "https://static-assets.console.rivery.io/amazon-s3.png",
+        "ui_inputs_rows": null,
+        "is_test_connection": true,
+        "description": "Secure, Durable & Highly-Scalable Object Storage.\n",
+        "force_custom_fz": false,
+        "source_doc_url": "https://docs.rivery.io/docs/amazon-s3-walkthrough",
+        "section_id": [
+          "sec_storage"
+        ],
+        "ui_rows": [
+          {
+            "placeholder": "Connection Name",
+            "display_name": "Connection Name",
+            "name": "connection_name",
+            "type": "text"
+          },
+          [
+            {
+              "display_name": "Region",
+              "type": "list_single_options",
+              "name": "region",
+              "options": [
+                {
+                  "name": "US East (N. Virginia)",
+                  "id": "us-east-1"
+                },
+                {
+                  "name": "US East (Ohio)",
+                  "id": "us-east-2"
+                },
+                {
+                  "name": "US West (N. California)",
+                  "id": "us-west-1"
+                },
+                {
+                  "name": "US West (Oregon)",
+                  "id": "us-west-2"
+                },
+                {
+                  "name": "Canada (Central)",
+                  "id": "ca-central-1"
+                },
+                {
+                  "name": "EU (Frankfurt)",
+                  "id": "eu-central-1"
+                },
+                {
+                  "name": "EU (Ireland)",
+                  "id": "eu-west-1"
+                },
+                {
+                  "name": "EU (London)",
+                  "id": "eu-west-2"
+                },
+                {
+                  "name": "EU (Paris)",
+                  "id": "eu-west-3"
+                },
+                {
+                  "name": "EU (Stockholm)",
+                  "id": "eu-north-1"
+                },
+                {
+                  "name": "Asia Pacific (Hong Kong)",
+                  "id": "ap-east-1"
+                },
+                {
+                  "name": "Asia Pacific (Tokyo)",
+                  "id": "ap-northeast-1"
+                },
+                {
+                  "name": "Asia Pacific (Seoul)",
+                  "id": "ap-northeast-2"
+                },
+                {
+                  "name": "Asia Pacific (Osaka-Local)",
+                  "id": "ap-northeast-3"
+                },
+                {
+                  "name": "Asia Pacific (Singapore)",
+                  "id": "ap-southeast-1"
+                },
+                {
+                  "name": "Asia Pacific (Sydney)",
+                  "id": "ap-southeast-2"
+                },
+                {
+                  "name": "Asia Pacific (Mumbai)",
+                  "id": "ap-south-1"
+                },
+                {
+                  "name": "South America (Sao Paulo)",
+                  "id": "sa-east-1"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "aws_component",
+              "name": "s3_connection_method"
+            }
+          ]
+        ],
+        "defaults": {
+          "s3_connection_method": "aws_keys"
+        },
+        "disable_check_and_save": false,
+        "file_types": {
+          "bq": [
+            "json",
+            "csv"
+          ]
+        },
+        "doc_url": "https://docs.rivery.io/docs/connection-s3",
+        "segment": [
+          "source",
+          "connections",
+          "target"
+        ],
+        "size": 32
+      }
+    ],
+    "section_name": "Storage",
+    "section_description": "Storage type family"
+  }
+]

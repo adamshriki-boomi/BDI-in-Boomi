@@ -1,0 +1,11 @@
+export * as TargetAthena from './TargetAthena';
+export * as TargetAzureDataLake from './TargetAzureDataLake';
+export * as TargetAzureSql from './TargetAzureSql';
+export * as TargetAzureSynapse from './TargetAzureSynapse';
+export * as TargetBigQuery from './TargetBigQuery';
+export * as TargetDatabricks from './TargetDatabricks';
+export * as TargetFirebolt from './TargetFirebolt';
+export * as TargetPostgres from './TargetPostgres';
+export * as TargetRedshift from './TargetRedshift';
+export * as TargetSnowflake from './TargetSnowflake';
+export * as TargetOneLake from './TargetOneLake';

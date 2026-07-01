@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "icons": [
+        "../src/components/Icons/components"
+      ],
+      "billing": [
+        "../src/modules/Billing/icons"
+      ],
+      "sidebar": [
+        "../src/layout/Sidebar/components/icons"
+      ],
+    }
+  },
+  "include": [
+    "../src/components/Icons/components",
+    "../src/layout/Sidebar/components/icons",
+    "../src/containers/AuditLog/icons",
+    "../src/modules/Billing/icons",
+    "../node_modules",
+  ]
+}

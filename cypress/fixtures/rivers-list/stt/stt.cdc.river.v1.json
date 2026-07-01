@@ -1,0 +1,111 @@
+{
+    "cross_id": "677ce12e5c226b3ddf8dda16",
+    "account_id": "668fa2a601ea28168f6a6af5",
+    "kind": "main_river",
+    "type": "source_to_target",
+    "name": "s2t demo",
+    "environment_id": "668fa2a601ea28168f6a6af7",
+    "environment_name": "Production",
+    "group_id": "668fa2a601ea28168f6a6af9",
+    "group_name": "Global",
+    "metadata": {
+        "description": "",
+        "river_status": "active",
+        "current_version_id": "67856400800dec9637104352",
+        "created_by": "Nastia Super Admin",
+        "last_updated_by": "shiran cohen",
+        "created_at": "2025-01-07T08:09:18.514000Z",
+        "last_updated_at": "2025-01-13T19:06:14.924000Z",
+        "is_deleted": false
+    },
+    "properties": {
+        "properties_type": "source_to_target",
+        "source": {
+            "name": "mysql",
+            "connection_id": "670bddd5c6e9da613b54d4f1",
+            "connection_name": "Nast",
+            "run_type": "multi_tables",
+            "cdc_settings": {
+                "default_tables_migration_option": "RUN_INITIAL_MIGRATION",
+                "include_snapshot_tables": true,
+                "datasource_id": "mysql"
+            },
+            "additional_settings": {
+                "run_type": "multi_tables",
+                "datasource_id": "mysql",
+                "connection_type": "mysql",
+                "quote": "\"",
+                "source_format": "CSV",
+                "fz_partition": "d",
+                "delimiter": ",",
+                "fz_batched": true,
+                "filters": [
+                    {
+                        "file_type": "csv",
+                        "csv_details": {
+                            "quotechar": "\"",
+                            "delimiter": ","
+                        },
+                        "has_headers": true,
+                        "required_tabs": 1,
+                        "header_row": 1
+                    }
+                ],
+                "fz_path": "mysql_bigquery_cdc_legacy__river_id_",
+                "extract_method": "log",
+                "log_based_version": "v2",
+                "cdc_override": {
+                    "default_tables_migration_option": "RUN_INITIAL_MIGRATION",
+                    "include_snapshot_tables": true
+                }
+            }
+        },
+        "target": {
+            "name": "snowflake",
+            "connection_id": "5f39192456740903078c509d",
+            "connection_name": "Rivery Snowflake",
+            "database_name": "rivery_demo",
+            "schema_name": "public",
+            "table_name": null,
+            "table_prefix": null,
+            "loading_method": "merge",
+            "file_zone_settings": null,
+            "additional_settings": {
+              "escape_character": "\\\b"
+            }
+          },
+        "schemas": [
+            {
+                "name": "nast_db",
+                "tables":[]
+                
+            }
+        ]
+    },
+    "settings": {
+        "run_timeout_seconds": 43200,
+        "notification": {
+            "warning": {
+                "email": "{Mail_Alert_Group}",
+                "is_enabled": false,
+                "execution_time_limit_seconds": null
+            },
+            "failure": {
+                "email": "{Mail_Alert_Group}",
+                "is_enabled": false,
+                "execution_time_limit_seconds": null
+            },
+            "run_threshold": {
+                "email": "{Mail_Alert_Group}",
+                "is_enabled": false,
+                "execution_time_limit_seconds": 0
+            }
+        }
+    },
+    "schedulers": [
+        {
+            "cron_expression": "8 8 1/1 * *",
+            "is_enabled": true
+        }
+    ]
+}

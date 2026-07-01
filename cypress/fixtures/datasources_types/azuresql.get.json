@@ -1,0 +1,51 @@
+[
+  {
+    "section_datasources": [
+      {
+        "connection_type": "azure_sql_dwh",
+        "status": "enabled",
+        "is_fz_connection": true,
+        "doc_url": "https://docs.rivery.io/docs/connection-azure-sql-dwh",
+        "fz_bucket": null,
+        "description": "A cloud-based Enterprise Data Warehouse ",
+        "icon": "https://static-assets.console.rivery.io/azure_sql_dwh.png",
+        "ui_inputs_rows": null,
+        "is_test_connection": true,
+        "size": 46,
+        "source_doc_url": "https://docs.rivery.io/docs/walkthrough-azure-sql-dwh",
+        "section_id": ["sec_relational"],
+        "whitelist_ip_msg": true,
+        "disable_check_and_save": false,
+        "ui_rows": [
+          [
+            {
+              "display_name": "Host",
+              "type": "text",
+              "name": "host",
+              "placeholder": "<myhost>.database.windows.net"
+            }
+          ],
+          [{ "display_name": "Port", "type": "number", "name": "port" }],
+          [{ "display_name": "Database", "type": "text", "name": "database" }],
+          [{ "display_name": "Username", "type": "text", "name": "username" }],
+          [
+            {
+              "display_name": "Password",
+              "type": "password",
+              "name": "password"
+            }
+          ],
+          [{ "type": "generic_ssh", "name": "ssh_remote_host" }]
+        ],
+        "sub_rivers": true,
+        "force_custom_fz": false,
+        "file_types": { "bq": ["json", "csv"] },
+        "_id": "azure_sql_dwh",
+        "segment": ["connections", "target"],
+        "name": "Azure Synapse Analytics"
+      }
+    ],
+    "section_name": "Databases",
+    "section_description": "A database (DB) is a collective set of multiple data sets organized by tables, records and columns..\n"
+  }
+]

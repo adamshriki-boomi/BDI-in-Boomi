@@ -1,0 +1,16 @@
+{
+  "run_id": "6a8797aa073448788069fe270a8d7dca",
+  "datasource_id": "logic",
+  "error_description": null,
+  "units": 0.2,
+  "run_group_id": "6a8797aa073448788069fe270a8d7dca",
+  "status": "succeeded",
+  "source_name": "Logic",
+  "target_name": "Logic",
+  "start_date_utc": "2023-08-27T07:01:53",
+  "start_date_in_milliseconds": 1693119713000,
+  "end_date_utc": "2023-08-27T07:03:45",
+  "end_date_in_milliseconds": 1693119825000,
+  "sub_river_id": "64e733ecb0688f000ed8eb8a",
+  "is_sub_river_run": true
+}

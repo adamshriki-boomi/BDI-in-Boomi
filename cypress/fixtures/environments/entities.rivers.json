@@ -1,0 +1,671 @@
+{
+    "total_pages": 17,
+    "page_size": 20,
+    "total_filtered_entities": 336,
+    "total_entities": 336,
+    "data": [
+        {
+            "type_name_src": "Azure Blob Storage",
+            "is_sub_rivers_src": false,
+            "entity_id": "5958c84a6b028e2245aae1cc",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "azureblob",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1521473660544
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Blob Storage",
+            "source_name_src": "Azure Blob Storage",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/azureblob.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Blob Storage",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Mixpanel",
+            "is_sub_rivers_src": false,
+            "entity_id": "592673006b028e5498047f71",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "mixpanel",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1495692286581
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Mixpanel segmentation to BQ",
+            "source_name_src": "Mixpanel",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/mixpanel.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Mixpanel segmentation to BQ",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Action River",
+            "is_sub_rivers_src": false,
+            "entity_id": "5ea095086b028e6f91d9cbab",
+            "is_scheduled_src": false,
+            "group_name_src": "General",
+            "source_src": "actions",
+            "modified_by_name_src": "Or",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1587582938559
+            },
+            "target_name_src": null,
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "5a4cec4960c3a928c90fae25"
+            },
+            "group_id_src": "59b6a574b0a10e3840539e6e",
+            "name_src": "updat emp",
+            "source_name_src": "Actions",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": null,
+            "type_name_trg": null,
+            "type_icon_url_src": "dist/images/riverTypes/actions.png ",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "updat emp",
+            "type_src": "actions"
+        },
+        {
+            "type_name_src": "Currency Service",
+            "is_sub_rivers_src": false,
+            "entity_id": "592158516b028e0b27a7d2bf",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "ecb",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1498985024205
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Currencies to BQ",
+            "source_name_src": "Currency Service",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/ecb.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Currencies to BQ",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "60c1cb2450d8b4a3f701c737",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads - From Kits",
+            "source_src": "fb_ads",
+            "modified_by_name_src": "Meir Fox",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1623313189764
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "601ab2a4f5682c675e4cdc43"
+            },
+            "group_id_src": "60c1cb2450d8b4a3f701c744",
+            "name_src": "Facebook Ads - Ad Account",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Ad Account",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Google Analytics",
+            "is_sub_rivers_src": false,
+            "entity_id": "619b8c8e19694a58f6de3658",
+            "is_scheduled_src": false,
+            "group_name_src": "JAF",
+            "source_src": "ganalytics",
+            "modified_by_name_src": "Jose Antonio",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1645112547529
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "61322cc019694a476385fa11"
+            },
+            "group_id_src": "620e6bce19694a5551c05944",
+            "name_src": "JAF Google Analytics to BigQuery",
+            "source_name_src": "Google Analytics",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/google-analytics.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "JAF Google Analytics to BigQuery",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "MongoDB",
+            "is_sub_rivers_src": false,
+            "entity_id": "593e431c6b028e5f91145f64",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "mongodb",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1497252649001
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Mongo parallel test p 7",
+            "source_name_src": "MongoDB",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/mongodb.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Mongo parallel test p 7",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "MongoDB",
+            "is_sub_rivers_src": false,
+            "entity_id": "593e434f6b028e5f91145f6d",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "mongodb",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1497260794642
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Mongo parallel test p 10",
+            "source_name_src": "MongoDB",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/mongodb.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Mongo parallel test p 10",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Google Analytics",
+            "is_sub_rivers_src": false,
+            "entity_id": "592c1e6f6b028e5ce6c5b524",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "ganalytics",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1497975081962
+            },
+            "target_name_src": "Amazon Redshift",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Google analytics with custom fields to Redshift",
+            "source_name_src": "Google Analytics",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "redshift",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/google-analytics.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Google analytics with custom fields to Redshift",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "60c1cb2450d8b4a3f701c73b",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads - From Kits",
+            "source_src": "fb_ads",
+            "modified_by_name_src": "Meir Fox",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1623313189915
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "601ab2a4f5682c675e4cdc43"
+            },
+            "group_id_src": "60c1cb2450d8b4a3f701c744",
+            "name_src": "Facebook Ads - Adsets",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Adsets",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "60c1cb2450d8b4a3f701c739",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads - From Kits",
+            "source_src": "fb_ads",
+            "modified_by_name_src": "Meir Fox",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1623313189894
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "601ab2a4f5682c675e4cdc43"
+            },
+            "group_id_src": "60c1cb2450d8b4a3f701c744",
+            "name_src": "Facebook Ads - Campaigns",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Campaigns",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "60b3720f1fadbae7d2ec369f",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads - From Kits",
+            "source_src": "fb_ads",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1622372881171
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "6090021df5682c0ec383ca3e"
+            },
+            "group_id_src": "60b3720f1fadbae7d2ec36ac",
+            "name_src": "Facebook Ads - Ad Account",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Ad Account",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "604f2ff0920cb107dae1adf1",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads",
+            "source_src": "fb_ads",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1615802354960
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "5f5ddcf2f5682c32f99bf36f"
+            },
+            "group_id_src": "604f2ff0920cb107dae1adfe",
+            "name_src": "Facebook Ads - Ad Account",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Ad Account",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "AppsFlyer",
+            "is_sub_rivers_src": false,
+            "entity_id": "592433176b028e1efac28dcb",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "appflyer",
+            "modified_by_name_src": "Itai Valach",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1641735900601
+            },
+            "target_name_src": "Amazon Redshift",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "6148412e19694a0b14201d93"
+            },
+            "group_id_src": "None",
+            "name_src": "appsflyer to Redshift",
+            "source_name_src": "AppsFlyer",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "redshift",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/apps-flyer-rec.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "appsflyer to Redshift",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Facebook Ads",
+            "is_sub_rivers_src": false,
+            "entity_id": "60c1cb2450d8b4a3f701c735",
+            "is_scheduled_src": false,
+            "group_name_src": "Facebook Ads - From Kits",
+            "source_src": "fb_ads",
+            "modified_by_name_src": "Meir Fox",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1623313189759
+            },
+            "target_name_src": "Snowflake",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "601ab2a4f5682c675e4cdc43"
+            },
+            "group_id_src": "60c1cb2450d8b4a3f701c744",
+            "name_src": "Facebook Ads - Insights",
+            "source_name_src": "Facebook Ads",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "snowflake",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/facebook_ads.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Facebook Ads - Insights",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Linkedin",
+            "is_sub_rivers_src": false,
+            "entity_id": "61dc67e519694a49b4b41b65",
+            "is_scheduled_src": false,
+            "group_name_src": "JAF",
+            "source_src": "linkedin",
+            "modified_by_name_src": "Jose Antonio",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1645112475562
+            },
+            "target_name_src": "Google Cloud Storage",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "61322cc019694a476385fa11"
+            },
+            "group_id_src": "620e6bce19694a5551c05944",
+            "name_src": "JAF LinkedIn Ads a GCP",
+            "source_name_src": "Linkedin",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "gcs",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/linkedin.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "JAF LinkedIn Ads a GCP",
+            "type_src": "src_to_fz"
+        },
+        {
+            "type_name_src": "Logic River",
+            "is_sub_rivers_src": false,
+            "entity_id": "5922ee606b028e6826dd6869",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "logic",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1521473715045
+            },
+            "target_name_src": null,
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "logic runs adwords and facebook",
+            "source_name_src": "Logic",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": null,
+            "type_name_trg": null,
+            "type_icon_url_src": "dist/images/riverTypes/logic.png ",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "logic runs adwords and facebook",
+            "type_src": "logic"
+        },
+        {
+            "type_name_src": "Logic River",
+            "is_sub_rivers_src": false,
+            "entity_id": "620e900319694a555488573b",
+            "is_scheduled_src": false,
+            "group_name_src": "JAF",
+            "source_src": "logic",
+            "modified_by_name_src": "Ophir Prusak",
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1645121539405
+            },
+            "target_name_src": null,
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": {
+                "$oid": "61308b5219694a1d530da127"
+            },
+            "group_id_src": "620e6bce19694a5551c05944",
+            "name_src": "Python Test",
+            "source_name_src": "Logic",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": null,
+            "type_name_trg": null,
+            "type_icon_url_src": "dist/images/riverTypes/logic.png ",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Python Test",
+            "type_src": "logic"
+        },
+        {
+            "type_name_src": "MySQL",
+            "is_sub_rivers_src": false,
+            "entity_id": "593e59fe6b028e5f91145f7e",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "mysql",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1497258506110
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "MySQL to BQ test p4",
+            "source_name_src": "MySQL",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/mysql.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "MySQL to BQ test p4",
+            "type_src": "src_to_trgt"
+        },
+        {
+            "type_name_src": "Currency Service",
+            "is_sub_rivers_src": false,
+            "entity_id": "5938e7716b028e6ca91b18cd",
+            "is_scheduled_src": false,
+            "group_name_src": null,
+            "source_src": "ecb",
+            "modified_by_name_src": null,
+            "type_icon_url_trg": null,
+            "modified_date_src": {
+                "$date": 1497366914038
+            },
+            "target_name_src": "Google BigQuery",
+            "group_name_trg": null,
+            "source_name_trg": null,
+            "env_trg_name": null,
+            "target_name_trg": null,
+            "modified_by_src": null,
+            "group_id_src": "None",
+            "name_src": "Test River Currency",
+            "source_name_src": "Currency Service",
+            "entity_type": "rivers",
+            "env_src_name": "Default",
+            "target_src": "bq",
+            "type_name_trg": null,
+            "type_icon_url_src": "https://static-assets.console.rivery.io/ecb.png",
+            "env_id_src": {
+                "$oid": "59143914b0ea183ea0e4d2b2"
+            },
+            "name_trg": "Test River Currency",
+            "type_src": "src_to_trgt"
+        }
+    ],
+    "page": 1
+}

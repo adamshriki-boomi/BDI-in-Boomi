@@ -1,0 +1,6 @@
+{
+  "title": "Not sure how to start?",
+  "title_width": "250px",
+  "description": "Check out our tutorial video and learn how CDC (Change Data Capture) is different than standard SQL Data Extraction.",
+  "steps": [{"type": "video", "id": "CDC"}, {"type": "doc", "title":"What is CDC? Definitions, examples and benefits.", "href": "https://rivery.io/blog/what-is-change-data-capture-cdc/"},  {"type": "doc", "title":"CDC vs. Standard Extraction: when to use each?", "href": "https://rivery.io/blog/cdc-sql-database-data-extraction/"}, {"type": "expert","title": "Book a live session to get the most out of CDC Data Flows"}]
+}

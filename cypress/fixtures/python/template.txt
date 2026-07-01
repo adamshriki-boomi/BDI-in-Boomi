@@ -1,0 +1,74 @@
+### Quick start examples ###
+# Please visit Boomi Data Integration documentation for more info https://help.boomi.com/docs/Atomsphere/Data_Integration/Rivers/LogicRiver/LogicSteps/Python/
+
+#################
+### Variables ###
+#################
+
+
+## Basic Import  
+## Replace VARIABLE_NAME to your desire variable use
+## Code:
+#from rivery_variables import VARIABLE_NAME
+#print(VARIABLE_NAME)
+
+
+## Save 
+## Replace VARIABLE_NAME to your desire variable use
+## Replace CONTENT to your content you wish to save 
+## Code:
+#from rivery_variables import VARIABLE_NAME
+#VARIABLE_NAME.save("CONTENT")
+
+
+##################
+### DataFrames ###
+##################
+
+
+## Basic Import 
+## Replace DATAFRAME_NAME to your desire dataframe use
+## Code:
+#from rivery_dataframes import DATAFRAME_NAME
+#print(DATAFRAME_NAME)
+
+
+## Save a new Dataframe using Pandas 
+## Replace DATAFRAME_NAME to your desire dataframe use
+## Replace PANDAS_DATAFRAME using this documentation https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
+## Code:
+#import pandas as pd
+#from rivery_dataframes import DATAFRAME_NAME
+#new_dataframe = pd.Dataframe(PANDAS_DATAFRAME)
+#DATAFRAME_NAME.save(new_dataframe)
+
+
+## Empty 
+## Replace EXISTED_DATAFRAME to your desire dataframe use
+## EXISTED_DATAFRAME can be already with context from other steps
+## Code:
+#from rivery_dataframes import EXISTED_DATAFRAME
+#EXISTED_DATAFRAME.empty()
+
+
+## Extract and save csv 
+## NEW_DATAFRAME: Replace to your desire dataframe to save the new Dataframe
+## CSV_URL: Replace to the source url that contain valid csv file
+## Code:
+#from rivery_dataframes import NEW_DATAFRAME
+#print(f"Download csv from {CSV_URL}")
+#csv = requests.get(CSV_URL)
+#print("Convert csv to dataframe")
+#new_dataframe = pd.read_csv(csv)
+#NEW_DATAFRAME.save(new_dataframe)
+
+
+## Import using chunks (Solution for a big size of data)
+## Replace DATAFRAME_NAME to your desire dataframe use
+## Replace NUMBER_OF_CHUNKS to the number of chunk you 
+## wish to get every loop iteration
+## Code:
+#from rivery_dataframes import DATAFRAME_NAME
+#DATAFRAME_NAME.chunked = NUMBER_OF_CHUNKS
+#for df in DATAFRAME_NAME:
+#   print(df)

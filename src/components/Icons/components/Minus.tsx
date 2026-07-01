@@ -1,0 +1,20 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgMinus = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={12}
+    height={13}
+    viewBox="0 0 12 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M3 6.50002C3 6.34089 3.06321 6.18828 3.17574 6.07576C3.28826 5.96324 3.44087 5.90002 3.6 5.90002H8.4C8.55913 5.90002 8.71174 5.96324 8.82426 6.07576C8.93679 6.18828 9 6.34089 9 6.50002C9 6.65915 8.93679 6.81177 8.82426 6.92429C8.71174 7.03681 8.55913 7.10002 8.4 7.10002H3.6C3.44087 7.10002 3.28826 7.03681 3.17574 6.92429C3.06321 6.81177 3 6.65915 3 6.50002Z"
+      fill="white"
+    />
+  </svg>
+);
+export default SvgMinus;

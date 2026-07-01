@@ -1,0 +1,57 @@
+{
+  "next_page": "",
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 400,
+  "total_items": 3,
+  "items": [
+    {
+      "data_source_section": {
+        "id": "sec_storage",
+        "name": "Storage",
+        "description": "Storage type family",
+        "ordinal": 9,
+        "target_ordinal": 2
+      },
+      "data_source_types": [
+        "s3",
+        "gcs",
+        "blob_storage"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_organization",
+        "name": "Organization",
+        "description": "Typical office data sources\n",
+        "ordinal": 4,
+        "target_ordinal": 3
+      },
+      "data_source_types": [
+        "target_email",
+        "treasure_data"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_relational",
+        "name": "Relational Database",
+        "description": "A relational database (RDB) is a collective set of multiple data sets organized by tables, records and columns.\n",
+        "ordinal": 8,
+        "target_ordinal": 1
+      },
+      "data_source_types": [
+        "redshift",
+        "bq",
+        "snowflake",
+        "azure_sql_dwh",
+        "postgres_rds",
+        "firebolt",
+        "databricks",
+        "treasure_data",
+        "athena",
+        "azure_sql"
+      ]
+    }
+  ]
+}

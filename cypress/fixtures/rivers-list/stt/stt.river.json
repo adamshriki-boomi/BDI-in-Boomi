@@ -1,0 +1,365 @@
+{
+  "cross_id": {
+    "$oid": "63fe022f882b2c0012554eb0"
+  },
+  "river_definitions": {
+    "updated_by": {
+      "$oid": "61799cc9a36161001c6f1524"
+    },
+    "schedule": null,
+    "updated_by_name": "John Doe",
+    "shared_params": {
+      "migration_directive": true,
+      "fz_bucket": "",
+      "tables": {
+        "buddy": {},
+        "sveta_test": {},
+        "elesh": {},
+        "employees": {},
+        "db": {},
+        "test": {},
+        "employees_new": {},
+        "db_adam": {},
+        "db_alex": {}
+      },
+      "target_id": "snowflake",
+      "api_migration": false,
+      "target_type": "snowflake",
+      "notifications": {
+        "on_warning": {},
+        "on_failure": {},
+        "on_run_threshold": {}
+      },
+      "var_fz_bucket": "{aws_file_zone}",
+      "is_migration": true,
+      "custom_fz_default_bucket": "",
+      "fz_connection": {
+        "$oid": "5f39192456740903078c509d"
+      }
+    },
+    "f{table_key}": {
+      "sync_schema_back": false,
+      "target_loading": "merge"
+    },
+    "version_id": {
+      "$oid": "640760bf21d9e30012ac0b77"
+    },
+    "source_type": "mysql",
+    "is_sub_river": false,
+    "is_scheduled": true,
+    "river_name": "s2t demo",
+    "env_id": {
+      "$oid": "563f5b17b0a10e07a4ff4c33"
+    },
+    "account": {
+      "$oid": "55bf7c4270fdca16cac18761"
+    },
+    "_id": {
+      "$oid": "63fe022f882b2c0012554eb0"
+    },
+    "is_locked": false,
+    "river_date_updated": {
+      "$date": 1678205119165
+    },
+    "created_by": {
+      "$oid": "61799cc9a36161001c6f1524"
+    },
+    "river_date_inserted": {
+      "$date": 1677591087109
+    },
+    "river_type": "src_to_trgt",
+    "cross_id": {
+      "$oid": "63fe022f882b2c0012554eb0"
+    },
+    "river_desc": "this is a source to target river",
+    "group_id": {
+      "_id": {
+        "$oid": "58d7ae8f7bf88100f8412c1a"
+      }
+    }
+  },
+  "tasks_definitions": [
+    {
+      "task_type_name": "MySQL to FileZone",
+      "task_label": "data_loading",
+      "should_dynamodb_store_files_in_s3": true,
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "use_s3_storage": true,
+      "is_feeder_lock": false,
+      "created_by": {
+        "$oid": "61799cc9a36161001c6f1524"
+      },
+      "feeder_module": "{feeders_path}.rdbms_feeder",
+      "task_config": {
+        "connection_type": "mysql",
+        "run_type": "multi_tables",
+        "extract_method": "all",
+        "datasource_id": "mysql",
+        "quote": "\"",
+        "incremental_type": "datetime",
+        "interval_time": "dont_split",
+        "source_format": "CSV",
+        "fz_partition": "d",
+        "delimiter": ",",
+        "fz_batched": true,
+        "fz_path": "st2_demo_63fe022f882b2c0012554eb0",
+        "filters": [
+          {
+            "file_adjs": {},
+            "file_type": "csv",
+            "fields": [],
+            "csv_details": {
+              "quotechar": "\"",
+              "delimiter": ","
+            },
+            "has_headers": true,
+            "header_row": 1,
+            "required_tabs": 1
+          }
+        ],
+        "gzipTypeMust": null
+      },
+      "task_type_id": "mysql2fz",
+      "task_process_module": "{processes_path}.api_generic_gcs",
+      "expose_rivery_metadata": true,
+      "river_id": {
+        "$oid": "63fe022f882b2c0012554eb0"
+      },
+      "ordinal": 0,
+      "move_as_is": true,
+      "datasource_id": "mysql",
+      "updated_by": {
+        "$oid": "61799cc9a36161001c6f1524"
+      },
+      "schedule": {
+        "sched": {
+          "hour": 13,
+          "min": 30,
+          "showCrontab": false,
+          "days": {
+            "days": 1
+          },
+          "month": {
+            "radioMon": 0,
+            "months": 1,
+            "days": 1,
+            "month": 1
+          },
+          "hours": {
+            "hours": 1,
+            "minu": 0,
+            "radioHour": 0
+          },
+          "year": {
+            "radioYear": 0,
+            "days": 1
+          },
+          "minutes": 15
+        },
+        "job_id": "63fe022f882b2c0012554eb1",
+        "isEnabled": true,
+        "cronExp": "0 30 13 ? * MON *",
+        "daysStr": [
+          "MON"
+        ],
+        "endDate": {},
+        "daysOnWeek": {
+          "MON": true
+        },
+        "currentTab": "Weekly"
+      },
+      "task_method": "api_master_v3",
+      "pull_translate": {
+        "tables": "get_tables",
+        "enable": "enable",
+        "inc_fields": "get_inc_fields",
+        "disable": "disable",
+        "schemas": "get_schemas",
+        "metadata": "get_db_metadata"
+      },
+      "connection_id": {
+        "$oid": "629f1a45e85922000f0d82fa"
+      },
+      "version_id": {
+        "$oid": "640760bf21d9e30012ac0b77"
+      },
+      "is_synchronized": true,
+      "retry_details": [
+        "task_definition.start_date",
+        "task_definition.end_date",
+        "task_definition.start_value",
+        "task_definition.end_value"
+      ],
+      "current_workers_running": 3,
+      "is_target_task": false,
+      "task_date_inserted": {
+        "$date": 1677591087113
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "task_date_updated": {
+        "$date": 1678205118139
+      },
+      "is_deleted": false,
+      "api_name": "mysql_rdbms",
+      "task_name": "MySQL To File Zone",
+      "task_display_name": "Loading from MySQL DB to File Zone",
+      "pull_target": "rdbms",
+      "connection_layer_tests": {
+        "private_link": {
+          "enabled": false
+        },
+        "ip_whitelist": {
+          "enabled": false
+        },
+        "ssh": {
+          "enabled": true
+        },
+        "ssl": {
+          "enabled": false
+        }
+      },
+      "_id": {
+        "$oid": "63fe022f882b2c0012554eb1"
+      },
+      "is_worker_lock": true
+    },
+    {
+      "task_type_name": "File Zone to Snowflake",
+      "global_keys": {
+        "target_name": "$.task_config.target_database+\".\"+$.task_config.target_schema+\".\"+$.task_config.target_table",
+        "target_schema": "task_config.target_schema",
+        "target_database": "task_config.target_database"
+      },
+      "task_label": "data_loading",
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "use_s3_storage": true,
+      "created_by": {
+        "$oid": "61799cc9a36161001c6f1524"
+      },
+      "feeder_module": "{feeders_path}.load_to_snowflake_feeder",
+      "task_config": {
+        "allow_jagged_rows": true,
+        "compression": false,
+        "ignore_unknown_values": true,
+        "delimiter": ",",
+        "strip_outer_array": true,
+        "skip_loaded_files": false,
+        "quote": "\"",
+        "source_format": "CSV",
+        "target_prefix": "john",
+        "csvTypeMust": "csv",
+        "header": 1,
+        "target_schema": "public",
+        "fz_batched": true,
+        "fz_path": "st2_demo_63fe022f882b2c0012554eb0",
+        "max_bad_records": 0,
+        "allow_quoted_new_line": true,
+        "split_tables": "no",
+        "mapping_order": [],
+        "target_loading": "merge",
+        "target_database": "rivery_demo",
+        "file_columns": [
+          {
+            "type": "STRING",
+            "fieldName": "",
+            "id": 0,
+            "name": ""
+          }
+        ]
+      },
+      "task_type_id": "fz2snowflake",
+      "task_process_module": "{processes_path}.load_to_snowflake",
+      "is_target_task": true,
+      "river_id": {
+        "$oid": "63fe022f882b2c0012554eb0"
+      },
+      "ordinal": 1,
+      "move_as_is": true,
+      "datasource_id": "snowflake",
+      "updated_by": {
+        "$oid": "61799cc9a36161001c6f1524"
+      },
+      "schedule": {
+        "isEnabled": false,
+        "job_id": "63fe022f882b2c0012554eb2"
+      },
+      "task_method": "target_loading_v3",
+      "pull_translate": {
+        "tables": "get_tables",
+        "warehouses": "get_warehouses",
+        "schemas": "get_schemas",
+        "buckets": "get_buckets",
+        "database": "get_databases"
+      },
+      "connection_id": null,
+      "version_id": {
+        "$oid": "640760bf21d9e30012ac0b77"
+      },
+      "connection_tests": [
+        {
+          "_id": "default_warehouse_test",
+          "name": "Default warehouse test"
+        },
+        {
+          "_id": "get_databases_list",
+          "name": "Get databases list"
+        },
+        {
+          "_id": "default_db_schemas_list",
+          "name": "Befault DB schemas list"
+        },
+        {
+          "_id": "default_db_table_creation_test",
+          "name": "Default DB table creation test"
+        }
+      ],
+      "retry_details": {
+        "task_definition_source": "task_definition.source",
+        "task_definition_update_after_success": "task_definition.update_after_success"
+      },
+      "current_workers_running": 1,
+      "task_date_inserted": {
+        "$date": 1677591087114
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "task_date_updated": {
+        "$date": 1678205119162
+      },
+      "is_deleted": false,
+      "target_type": "snowflake",
+      "is_synchronized": true,
+      "task_name": "load to snowflake by batches",
+      "task_display_name": "Loading from File Zone to Snowflake",
+      "pull_target": "cloud",
+      "connection_layer_tests": {
+        "private_link": {
+          "enabled": false
+        },
+        "ip_whitelist": {
+          "enabled": false
+        },
+        "ssh": {
+          "enabled": false
+        },
+        "ssl": {
+          "enabled": false
+        }
+      },
+      "_id": {
+        "$oid": "63fe022f882b2c0012554eb2"
+      },
+      "is_worker_lock": true
+    }
+  ],
+  "_id": {
+    "$oid": "63fe022f882b2c0012554eb0"
+  }
+}

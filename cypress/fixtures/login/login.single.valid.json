@@ -1,0 +1,37 @@
+{
+  "last_name": "Tester",
+  "status_code": 200,
+  "is_super_admin": false,
+  "refresh_token": "faketoken",
+  "first_name": "EndToEnd",
+  "user_id": { "$oid": "fake3345621id" },
+  "user_accounts": [
+    {
+      "disable_targets": false,
+      "account_id": "AlonTest",
+      "is_parallel_enabled": true,
+      "max_push_manual_tasks": 1.0,
+      "activated_at": { "$date": 1558546089642 },
+      "is_active": true,
+      "max_workers": 10,
+      "applications": {
+        "ganalytics": {
+          "app_ids": ["rivery-cloud-2017"],
+          "current_application": "rivery-cloud-2017"
+        }
+      },
+      "environments_enabled": true,
+      "is_rivery_account": true,
+      "environments_enabled_at": { "$date": 1611751039002 },
+      "is_push": true,
+      "env_id": { "$oid": "56817b1e964cdd6841d0956d" },
+      "no_of_workers": 100,
+      "_id": { "$oid": "56643e6770ec07e624d43351" },
+      "account_name": "AlonTest"
+    }
+  ],
+  "last_login": { "$date": 1637336599838 },
+  "login_type": "password",
+  "registration_enabled": true,
+  "user_email": "fake.user@rivery.io"
+}

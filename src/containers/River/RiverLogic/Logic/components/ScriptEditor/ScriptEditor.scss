@@ -1,0 +1,28 @@
+.margin-view-overlays {
+  background-color: var(--chakra-colors-gray-100);
+}
+
+.results-stats {
+  grid-area: stats;
+}
+
+.results-controls-panel {
+  grid-template-columns: auto 1fr auto;
+}
+
+.resizer {
+  padding: 2px 0;
+
+  .resizer-handle {
+    height: 2px;
+    width: 22px;
+
+    &.mb-0-h {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.flex-basis-custom {
+  flex-basis: var(--fraction);
+}

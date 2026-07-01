@@ -1,0 +1,147 @@
+{
+  "cross_id": "63fe022f882b2c0012554eb0",
+  "account_id": "55bf7c4270fdca16cac18761",
+  "kind": "main_river",
+  "type": "source_to_target",
+  "name": "s2t demo",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "environment_name": "Development",
+  "group_id": "58d7ae8f7bf88100f8412c1a",
+  "group_name": "Global",
+  "metadata": {
+    "created_by": "John Doe",
+    "created_at": "2023-02-28T13:31:27.109000",
+    "last_updated_by": "John Doe",
+    "last_updated_at": "2023-03-07T16:05:19.165000",
+    "description": "",
+    "current_version_id": "640760bf21d9e30012ac0b77",
+    "river_status": "active"
+  },
+  "properties": {
+    "properties_type": "source_to_target",
+    "source": {
+      "name": "mysql",
+      "connection_id": "629f1a45e85922000f0d82fa",
+      "connection_name": "rivery_demo",
+      "run_type": "multi_tables",
+      "additional_settings": {
+        "connection_type": "mysql",
+        "run_type": "multi_tables",
+        "extract_method": "all",
+        "datasource_id": "mysql",
+        "quote": "\"",
+        "incremental_type": "datetime",
+        "interval_time": "dont_split",
+        "delimiter": ",",
+        "fz_partition": "d",
+        "source_format": "CSV",
+        "fz_batched": true,
+        "fz_path": "s2t_cdc_filter_test",
+        "filters": [
+          {
+            "file_type": "csv",
+            "csv_details": { "quotechar": "\"", "delimiter": "," },
+            "has_headers": true,
+            "header_row": 1,
+            "required_tabs": 1
+          }
+        ]
+      }
+    },
+    "target": {
+      "name": "snowflake",
+      "connection_id": "5f39192456740903078c509d",
+      "connection_name": "Rivery Snowflake",
+      "database_name": "rivery_demo",
+      "schema_name": "public",
+      "table_name": null,
+      "table_prefix": null,
+      "loading_method": "merge",
+      "file_zone_settings": null,
+      "additional_settings": {
+        "escape_character": "\\\b"
+      }
+    },
+    "schemas": [
+      {
+        "name": "crown",
+        "tables": [
+          {
+            "details": {
+              "name": "table_cdc_eligible",
+              "target_table": "table_cdc_eligible",
+              "is_selected": true,
+              "object_type": "TABLE",
+              "resolved_object_type": null,
+              "extract_method": "all",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "filter_expression": "",
+              "modified_columns": []
+            }
+          },
+          {
+            "details": {
+              "name": "table_cdc_synonym_eligible",
+              "target_table": "table_cdc_synonym_eligible",
+              "is_selected": true,
+              "object_type": "SYNONYM",
+              "resolved_object_type": "TABLE",
+              "extract_method": "all",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "filter_expression": "",
+              "modified_columns": []
+            }
+          },
+          {
+            "details": {
+              "name": "table_cdc_view_ineligible",
+              "target_table": "table_cdc_view_ineligible",
+              "is_selected": true,
+              "object_type": "VIEW",
+              "resolved_object_type": null,
+              "extract_method": "all",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "filter_expression": "",
+              "modified_columns": []
+            }
+          },
+          {
+            "details": {
+              "name": "table_cdc_synonym_ineligible",
+              "target_table": "table_cdc_synonym_ineligible",
+              "is_selected": true,
+              "object_type": "SYNONYM",
+              "resolved_object_type": "VIEW",
+              "extract_method": "all",
+              "incremental_field": null,
+              "date_range": null,
+              "running_number": null,
+              "filter_expression": "",
+              "modified_columns": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "run_timeout_seconds": 43200,
+    "notification": {
+      "warning": { "email": "", "is_enabled": false },
+      "failure": { "email": "", "is_enabled": false },
+      "run_threshold": { "email": "", "is_enabled": false, "execution_time_limit_seconds": 0 }
+    }
+  },
+  "schedulers": [
+    {
+      "cron_expression": "8 8 1/1 * *",
+      "is_enabled": true
+    }
+  ]
+}

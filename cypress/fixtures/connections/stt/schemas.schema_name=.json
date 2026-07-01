@@ -1,0 +1,36 @@
+{
+  "next_page": null,
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 2,
+  "total_items": 0,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b17b0a10e07a4ff4c33",
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "tables_count": 89,
+      "name": "crown",
+      "database_properties": {
+        "name": "database",
+        "type": "mysql"
+      }
+    },
+    {
+      "tables_count": 35,
+      "name": "crown_of_thornes",
+      "database_properties": {
+        "name": "database",
+        "type": "mysql"
+      }
+    },
+    {
+      "tables_count": 25,
+      "name": "crownlands",
+      "database_properties": {
+        "name": "database",
+        "type": "mysql"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Not sure how to start?",
+  "title_width": "240px",
+  "description": "Check out our video tutorial and learn how to use Environments and moving your content using deployments.",
+  "steps": [{"type": "video", "id": "Env_Deployment"},  {"type": "doc", "title":"What are Environments and how do they work?", "href": "https://help.boomi.com/docs/Atomsphere/Data_Integration/GettingStarted/environments-deployments"},  {"type": "doc", "title":"Use Environments to better manage DataOps", "href": "https://rivery.io/blog/rivery-environments-manage-every-phase-of-dataops-from-start-to-finish/"}, {"type": "expert","title": "Book a live session to get the most out of Environments"}]
+}

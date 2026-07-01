@@ -1,0 +1,27 @@
+{
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b17b0a10e07a4ff4c33",
+    "river_cross_id": "6310618b4c38430010918ed9",
+    "run_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+    "items": [
+      {
+        "duration": 96484,
+        "error_description": null,
+        "start_date_utc": "2022-09-01T07:39:08.589000",
+        "start_date_in_milliseconds": 1662017948589,
+        "end_date_utc": "2022-09-01T07:40:45.073000",
+        "end_date_in_milliseconds": 1662018045073,
+        "source": "Jira",
+        "task_id": "6310618b4c38430010918eda",
+        "task_name": "Jira to Send By Email",
+        "task_status": "succeeded",
+        "task_type": "src_to_trgt",
+        "input_parameters": [
+          
+        ],
+        "target": "Send By Email",
+        "target_table": null,
+        "size": 0.0
+      }
+    ]
+  }

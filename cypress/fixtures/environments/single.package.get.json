@@ -1,0 +1,81 @@
+{
+    "env_id_trg": {
+        "$oid": "60c6eeec56d9ee3ec80dacd6"
+    },
+    "account": {
+        "$oid": "57690e509703971420f8ec9d"
+    },
+    "is_prepared": false,
+    "deployment_settings": {
+        "add_related_groups": true,
+        "add_templates_group_related_rivers": true,
+        "add_variable_values": true,
+        "add_related_connections": true,
+        "only_deploy_new_connections": true,
+        "only_deploy_new_variables": false,
+        "notifications": {
+            "on_deployment": {
+                "enabled": false
+            }
+        },
+        "only_deploy_new_rivers": false,
+        "add_related_connections_from_connections": true,
+        "copy_connections_credentials": true,
+        "add_related_rivers": true,
+        "overwrite_dynamic_parameters": false,
+        "add_group_related_rivers": false
+    },
+    "updated_by": {
+        "$oid": "5d997e22567409764143ef11"
+    },
+    "package_name": "Test1",
+    "updated_by_name": "Tsila hamer",
+    "created_by_name": "Tsila hamer",
+    "created_at": {
+        "$date": 1623650125384
+    },
+    "env_trg_name": "Test Env",
+    "updated_at": {
+        "$date": 1623653233344
+    },
+    "env_id_src": {
+        "$oid": "57690f589703971420f8eca4"
+    },
+    "entities": {
+        "connections": {},
+        "river_groups": {},
+        "variables": {},
+        "templates": {},
+        "rivers": {
+            "60c1e2cf56d9ee2610b1e084": true
+        }
+    },
+    "entities_total": {
+        "connections": 0,
+        "river_groups": 0,
+        "variables": 0,
+        "templates": 0,
+        "rivers": 1
+    },
+    "created_by": {
+        "$oid": "5d997e22567409764143ef11"
+    },
+    "account_trg": {
+        "$oid": "57690e509703971420f8ec9d"
+    },
+    "is_deployment_lock": true,
+    "account_src": {
+        "$oid": "57690e509703971420f8ec9d"
+    },
+    "_id": {
+        "$oid": "60c6ef4d56d9ee3ec80dacd8"
+    },
+    "env_src_name": "TsilaTest",
+    "excluded_entities": {
+        "connections": {},
+        "river_groups": {},
+        "variables": {},
+        "templates": {},
+        "rivers": {}
+    }
+}

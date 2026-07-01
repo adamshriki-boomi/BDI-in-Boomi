@@ -1,0 +1,15 @@
+{
+  "account_id": "account1",
+  "metric": "executions",
+  "view": "general",
+  "data": [
+    { "run_date": 1772582400000, "runs": 4500, "executions": 4500, "succeeded": 2900, "failed": 1600 },
+    { "run_date": 1772668800000, "runs": 4200, "executions": 4200, "succeeded": 2700, "failed": 1500 },
+    { "run_date": 1772755200000, "runs": 4350, "executions": 4350, "succeeded": 2800, "failed": 1550 }
+  ],
+  "previous_kpis": [
+    { "run_date": 1772236800000, "runs": 4257, "executions": 4257, "succeeded": 2680, "failed": 1577 },
+    { "run_date": 1772323200000, "runs": 4257, "executions": 4257, "succeeded": 2700, "failed": 1557 },
+    { "run_date": 1772409600000, "runs": 3920, "executions": 3920, "succeeded": 2500, "failed": 1420 }
+  ]
+}

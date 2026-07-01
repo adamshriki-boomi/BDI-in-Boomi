@@ -1,0 +1,36 @@
+{
+  "disable_targets": false,
+  "scopes": [
+    "connection:list",
+    "river:list",
+    "group:list",
+    "variable:list",
+    "environment:list",
+    "user:list",
+    "token:list",
+    "dashboard:list",
+    "datasource:list"
+  ],
+  "account_type": "enterprise",
+  "is_active": true,
+  "is_super_admin": false,
+  "is_global_operator": true,
+  "main_target": null,
+  "env_id": "faked-env-1",
+  "partner": null,
+  "account_name": "sirilo4883",
+  "max_runs": 1000,
+  "token": "faked",
+  "role": "global_operator",
+  "plan": "enterprise",
+  "days_trial": 14,
+  "account_settings": {
+    "max_allowed_environments": "1000",
+    "enable_bq_standard_sql": true,
+    "enable_copy_rivers_here": null,
+    "enable_kits": true,
+    "allow_sub_rivers": true,
+    "allow_new_run_river_api": true,
+    "allow_logic_python": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "next_page": null,
+  "previous_page": null,
+  "items": [
+    {
+      "id": "table_no_increment",
+      "no_increment": true,
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    }
+  ]
+}

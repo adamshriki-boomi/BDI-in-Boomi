@@ -1,0 +1,40 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  VITE_IFRAME_URL: string;
+  VITE_API_PREFIX: string;
+  VITE_API_VERSION: string;
+  VITE_GAPI_REDIRECT_URL_HANDLER_PREFIX: string;
+  VITE_API_BASE_URL: string;
+  VITE_API_BASE_URL_DEFAULT: string;
+  VITE_GAPI_REDIRECT_URL_HANDLER_SUFFIX: string;
+  VITE_GAPI_CLIENT_ID: string;
+  VITE_HUBSPOT_PORTAL_ID: string;
+  VITE_NODE_ENV: string;
+  VITE_IMAGES_PATH: string;
+  VITE_SUPPORT_FORM: string;
+  VITE_HUBSPOT_EXTEND_TRIAL_FORM: string;
+  VITE_HUBSPOT_MEETINGS_LINK: string;
+  VITE_DOCS_LINK: string;
+  VITE_BILLING_SITE: string;
+  VITE_ENABLED_DOMAINS: string;
+  VITE_KITS_DISABLED_DOMAINS: string;
+  VITE_HEAP_APPS: string;
+  VITE_HUBSPOT_CONTACT_FORM: string;
+  VITE_GOOGLE_CAPTCHA: string;
+  VITE_LOGS_PATH: string;
+  VITE_CORALOGIX_DOMAIN: string;
+  VITE_BEAMER_PRODUCT_ID: string;
+  VITE_MODE: string;
+  VITE_CONTACT_EMAIL: string;
+  PUBLIC_URL: string;
+  BROWSER: string;
+  GENERATE_SOURCEMAP: string;
+  VITE_FEATURE_QUALITY_TESTS: string;
+  VITE_FEATURE_CREATE_STT: string;
+  VITE_EXO_THEME: string;
+  // BDI prototype
+  VITE_USE_MOCKS: string;
+  VITE_BDI_LEFTNAV: string;
+  VITE_BDI_MASTHEAD: string;
+}

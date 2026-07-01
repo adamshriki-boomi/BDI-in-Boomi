@@ -1,0 +1,8 @@
+{
+  "message": "The account created successfully",
+  "ok": true,
+  "user_email": "demon@ofthe.fall",
+  "needVerification": false,
+  "login_method": "password",
+  "account_id": "string"
+}

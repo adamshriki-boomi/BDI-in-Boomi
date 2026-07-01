@@ -1,0 +1,18 @@
+{
+  "original_variables": {
+    "output_variables": [],
+    "file_type": null,
+    "action_variables": [],
+    "connection": {
+      "cross_id": "60e6965a72e5b1001c8c1226",
+      "connection_id": "60e6965a72e5b1001c8c1226",
+      "connection_name": "MS_CUSTOM_CONN"
+    },
+    "connection_details": [
+      { "name": "VAR 1", "value": "DDD" },
+      { "name": "var2", "value": "" }
+    ],
+    "interval_params": []
+  },
+  "action_type": "rest_action"
+}

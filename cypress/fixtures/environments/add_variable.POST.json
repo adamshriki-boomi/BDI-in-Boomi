@@ -1,0 +1,13 @@
+{
+  "account": { "$oid": "55bf7c4270fdca16cac18761" },
+  "environment_id": "Rivery1",
+  "color": "#faf2cc",
+  "variables": {
+    "FOR_GIANTS": ""
+  },
+  "environment_name": "Dev",
+  "updated_at": 1644530734,
+  "is_default": false,
+  "cross_id": { "$oid": "563f5b17b0a10e07a4ff4c33" },
+  "_id": { "$oid": "563f5b17b0a10e07a4ff4c33" }
+}

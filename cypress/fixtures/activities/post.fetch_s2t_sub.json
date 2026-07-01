@@ -1,0 +1,924 @@
+{
+    "cross_id": {
+      "$oid": "62ce71f6c26495c5cb3124ba"
+    },
+    "river_definitions": {
+      "updated_by": {
+        "$oid": "6072d73331042700423db5fd"
+      },
+      "schedule": null,
+      "updated_by_name": "Eitam Ring",
+      "shared_params": {
+        "tables": {
+          "no_schema": {
+            
+          }
+        },
+        "fz_bucket": "",
+        "task1_id_backup": {
+          "$oid": "62ce71fac26495c5cb3124be"
+        },
+        "migration_directive": true,
+        "target_id": "snowflake",
+        "target_type": "snowflake",
+        "notifications": {
+          "on_warning": {
+            
+          },
+          "on_failure": {
+            
+          },
+          "on_run_threshold": {
+            
+          }
+        },
+        "var_fz_bucket": "{aws_file_zone}",
+        "custom_fz_default_bucket": "",
+        "fz_connection": {
+          "$oid": "61c8948f0c0745001de9d9e7"
+        },
+        "flow_mode": "individual"
+      },
+      "is_sub_river": false,
+      "version_id": {
+        "$oid": "62ce8e94cb8c74000f87f960"
+      },
+      "source_type": "fb_ads",
+      "is_scheduled": false,
+      "river_name": "Source to target with sub river",
+      "env_id": {
+        "$oid": "563f5b62b0a10e18f0808895"
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "_id": {
+        "$oid": "62ce71f6c26495c5cb3124ba"
+      },
+      "subrivers": {
+        "enabled": true,
+        "columns": [
+          {
+            "scope": "target",
+            "key": "target_table"
+          },
+          {
+            "scope": "source",
+            "key": "accounts"
+          },
+          {
+            "scope": "source",
+            "key": "date_period"
+          }
+        ]
+      },
+      "is_locked": false,
+      "river_date_updated": {
+        "$date": 1657706709860
+      },
+      "created_by": {
+        "$oid": "60ec4e20f5682c5653920ddf"
+      },
+      "river_date_inserted": {
+        "$date": 1656522873119
+      },
+      "river_type": "src_to_trgt",
+      "cross_id": {
+        "$oid": "62ce71f6c26495c5cb3124ba"
+      },
+      "river_desc": "",
+      "group_id": {
+        "_id": {
+          "$oid": "58d7ae8f7bf88100f8412c1a"
+        }
+      }
+    },
+    "tasks_definitions": [
+      {
+        "task_label": "data_loading",
+        "task_type_name": "Facebook Ads to File Zone",
+        "env_id": {
+          "$oid": "563f5b62b0a10e18f0808895"
+        },
+        "is_mapping_lock": false,
+        "is_feeder_lock": false,
+        "created_by": {
+          "$oid": "60ec4e20f5682c5653920ddf"
+        },
+        "feeder_module": "{feeders_path}.facebook_ads_feeder",
+        "task_config": {
+          "ad_account_type": "ad_accounts_ids",
+          "is_ignore_exceptions": false,
+          "run_type": "regular",
+          "ad_accounts_ac": [
+            {
+              "id": "597123660817791",
+              "name": "365Scores"
+            }
+          ],
+          "fz_partition": "d",
+          "connection_type": "fb",
+          "interval_time": "daily",
+          "last_days": 2,
+          "source_format": "NEWLINE_DELIMITED_JSON",
+          "interval_size": 1,
+          "fz_path": "DUP_TEST_FBSUBRIVERISSUE_62bc88795667a2000f1c6dd2",
+          "auto_complete": true,
+          "gzipTypeMust": null,
+          "start_date": {
+            "$date": 1657558931705
+          },
+          "action_attribution_windows": [
+            "1d_view",
+            "7d_view",
+            "28d_view",
+            "1d_click",
+            "7d_click",
+            "28d_click"
+          ],
+          "report_columns": [
+            "account_name",
+            "actions",
+            "account_id",
+            "adset_name",
+            "adset_id",
+            "ad_id",
+            "account_currency",
+            "action_values",
+            "ad_name",
+            "cost_per_unique_action_type",
+            "cost_per_action_type",
+            "video_p100_watched_actions",
+            "video_thruplay_watched_actions",
+            "inline_link_clicks",
+            "date_stop",
+            "clicks",
+            "impressions",
+            "frequency",
+            "campaign_id",
+            "campaign_name",
+            "date_start",
+            "spend",
+            "unique_clicks"
+          ],
+          "utc_offset": 0,
+          "datasource_id": "fb_ads",
+          "data_level": "ads",
+          "end_date": null,
+          "quote": "\"",
+          "required_mapping_flag": false,
+          "campaigns_type": "campaigns_ids",
+          "fz_batched": true,
+          "time_resolution": "daily",
+          "report": "insight_report",
+          "time_period": "date_range",
+          "unified_attribution_setting_level": "",
+          "ads_type": "ads_ids",
+          "breakdowns": [
+            "publisher_platform"
+          ],
+          "undefined": "daily",
+          "adsets_type": "adsets_ids",
+          "delimiter": ",",
+          "update_increment_on_failures": true,
+          "keep_deleted_records": false
+        },
+        "task_type_id": "facebookads2fz",
+        "task_process_module": "{processes_path}.api_generic_gcs",
+        "is_target_task": false,
+        "river_id": {
+          "$oid": "62ce71f6c26495c5cb3124ba"
+        },
+        "ordinal": 0,
+        "move_as_is": true,
+        "datasource_id": "fb_ads",
+        "updated_by": {
+          "$oid": "6072d73331042700423db5fd"
+        },
+        "schedule": {
+          "endDate": {
+            
+          },
+          "job_id": "62ce71fac26495c5cb3124bd",
+          "isEnabled": false,
+          "cronExp": "0 undefined 0/1 1/1 * ? *",
+          "sched": {
+            "hour": 7,
+            "min": 22,
+            "showCrontab": false,
+            "days": {
+              "days": 1
+            },
+            "month": {
+              "radioMon": 0,
+              "months": 1,
+              "days": 1,
+              "month": 1
+            },
+            "hours": {
+              "hours": 1,
+              "radioHour": 0
+            },
+            "year": {
+              "radioYear": 0,
+              "days": 1
+            },
+            "minutes": 15
+          },
+          "currentTab": "Hourly"
+        },
+        "task_method": "api_master_v3",
+        "pull_translate": {
+          "ads": "get_ads",
+          "adsets": "get_adsets",
+          "mapping": "get_mapping",
+          "campaigns": "get_campaigns",
+          "adaccounts": "get_accounts",
+          "columns": "get_report_fields"
+        },
+        "connection_id": {
+          "$oid": "62ce71fac26495c5cb3124bc"
+        },
+        "version_id": {
+          "$oid": "62ce8e94cb8c74000f87f960"
+        },
+        "is_synchronized": true,
+        "retry_details": [
+          "task_definition.start_date",
+          "task_definition.end_date",
+          "task_definition.api_manager_data.api_query.interval_params.start_date",
+          "task_definition.api_manager_data.api_query.interval_params.end_date"
+        ],
+        "current_workers_running": 1,
+        "task_date_inserted": {
+          "$date": 1656522873122
+        },
+        "account": {
+          "$oid": "55bf7c4270fdca16cac18761"
+        },
+        "task_date_updated": {
+          "$date": 1657706709849
+        },
+        "is_deleted": false,
+        "api_name": "facebook",
+        "task_name": "facebook ads to file zone",
+        "task_display_name": "Loading from Facebook Ads Source to File Zone",
+        "pull_target": "api_master",
+        "_id": {
+          "$oid": "62ce71fac26495c5cb3124bd"
+        },
+        "is_worker_lock": true
+      },
+      {
+        "connection_tests": [
+          {
+            "_id": "default_warehouse_test",
+            "name": "Default warehouse test"
+          },
+          {
+            "_id": "get_databases_list",
+            "name": "Get databases list"
+          },
+          {
+            "_id": "default_db_schemas_list",
+            "name": "Befault DB schemas list"
+          },
+          {
+            "_id": "default_db_table_creation_test",
+            "name": "Default DB table creation test"
+          }
+        ],
+        "task_label": "data_loading",
+        "global_keys": {
+          "target_name": "$.task_config.target_database+\".\"+$.task_config.target_schema+\".\"+$.task_config.target_table",
+          "target_schema": "task_config.target_schema",
+          "target_database": "task_config.target_database"
+        },
+        "task_type_name": "File Zone to Snowflake",
+        "env_id": {
+          "$oid": "563f5b62b0a10e18f0808895"
+        },
+        "created_by": {
+          "$oid": "60ec4e20f5682c5653920ddf"
+        },
+        "feeder_module": "{feeders_path}.load_to_snowflake_feeder",
+        "task_config": {
+          "allow_jagged_rows": true,
+          "strip_outer_array": true,
+          "skip_loaded_files": false,
+          "target_table": "eitam_test",
+          "header": 1,
+          "target_schema": "TEST",
+          "max_bad_records": 0,
+          "allow_quoted_new_line": true,
+          "compression": false,
+          "target_database": "RIVERY_DEMO",
+          "sync_schema_back": true,
+          "source_format": "NEWLINE_DELIMITED_JSON",
+          "fz_path": "DUP_TEST_FBSUBRIVERISSUE_62bc88795667a2000f1c6dd2",
+          "file_columns": [
+            {
+              "name": "_ad_id",
+              "fields": [
+                
+              ],
+              "alias": "_ad_id",
+              "fieldName": "_ad_id",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_ad_id"
+            },
+            {
+              "name": "_cost_per_unique_action_type",
+              "fields": [
+                
+              ],
+              "alias": "_cost_per_unique_action_type",
+              "fieldName": "_cost_per_unique_action_type",
+              "mode": "REPEATED",
+              "type": "STRING",
+              "id": "_cost_per_unique_action_type"
+            },
+            {
+              "name": "_adset_name",
+              "fields": [
+                
+              ],
+              "alias": "_adset_name",
+              "fieldName": "_adset_name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_adset_name"
+            },
+            {
+              "name": "_account_id",
+              "fields": [
+                
+              ],
+              "alias": "_account_id",
+              "fieldName": "_account_id",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_account_id"
+            },
+            {
+              "name": "_account_name",
+              "fields": [
+                
+              ],
+              "alias": "_account_name",
+              "fieldName": "_account_name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_account_name"
+            },
+            {
+              "name": "_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_clicks",
+              "fieldName": "_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_clicks"
+            },
+            {
+              "name": "_frequency",
+              "fields": [
+                
+              ],
+              "alias": "_frequency",
+              "fieldName": "_frequency",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_frequency"
+            },
+            {
+              "name": "_campaign_id",
+              "fields": [
+                
+              ],
+              "alias": "_campaign_id",
+              "fieldName": "_campaign_id",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_campaign_id"
+            },
+            {
+              "name": "_adset_id",
+              "fields": [
+                
+              ],
+              "alias": "_adset_id",
+              "fieldName": "_adset_id",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_adset_id"
+            },
+            {
+              "name": "_inline_link_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_inline_link_clicks",
+              "fieldName": "_inline_link_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_inline_link_clicks"
+            },
+            {
+              "name": "_actions",
+              "fields": [
+                
+              ],
+              "alias": "_actions",
+              "fieldName": "_actions",
+              "mode": "REPEATED",
+              "type": "STRING",
+              "id": "_actions"
+            },
+            {
+              "name": "_campaign_name",
+              "fields": [
+                
+              ],
+              "alias": "_campaign_name",
+              "fieldName": "_campaign_name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_campaign_name"
+            },
+            {
+              "name": "_date_start",
+              "fields": [
+                
+              ],
+              "alias": "_date_start",
+              "fieldName": "_date_start",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_date_start"
+            },
+            {
+              "name": "_impressions",
+              "fields": [
+                
+              ],
+              "alias": "_impressions",
+              "fieldName": "_impressions",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_impressions"
+            },
+            {
+              "name": "_date_stop",
+              "fields": [
+                
+              ],
+              "alias": "_date_stop",
+              "fieldName": "_date_stop",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_date_stop"
+            },
+            {
+              "name": "_spend",
+              "fields": [
+                
+              ],
+              "alias": "_spend",
+              "fieldName": "_spend",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_spend"
+            },
+            {
+              "name": "_unique_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_unique_clicks",
+              "fieldName": "_unique_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_unique_clicks"
+            },
+            {
+              "name": "_account_currency",
+              "fields": [
+                
+              ],
+              "alias": "_account_currency",
+              "fieldName": "_account_currency",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_account_currency"
+            },
+            {
+              "name": "_ad_name",
+              "fields": [
+                
+              ],
+              "alias": "_ad_name",
+              "fieldName": "_ad_name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_ad_name"
+            },
+            {
+              "name": "_publisher_platform",
+              "fields": [
+                
+              ],
+              "alias": "_publisher_platform",
+              "fieldName": "_publisher_platform",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_publisher_platform"
+            },
+            {
+              "name": "_currency",
+              "fields": [
+                
+              ],
+              "alias": "_currency",
+              "fieldName": "_currency",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "id": "_currency"
+            },
+            {
+              "name": "_video_p100_watched_actions",
+              "fields": [
+                
+              ],
+              "alias": "_video_p100_watched_actions",
+              "fieldName": "_video_p100_watched_actions",
+              "mode": "REPEATED",
+              "type": "STRING",
+              "id": "_video_p100_watched_actions"
+            },
+            {
+              "name": "_video_thruplay_watched_actions",
+              "fields": [
+                
+              ],
+              "alias": "_video_thruplay_watched_actions",
+              "fieldName": "_video_thruplay_watched_actions",
+              "mode": "REPEATED",
+              "type": "STRING",
+              "id": "_video_thruplay_watched_actions"
+            },
+            {
+              "name": "_cost_per_action_type",
+              "fields": [
+                
+              ],
+              "alias": "_cost_per_action_type",
+              "fieldName": "_cost_per_action_type",
+              "mode": "REPEATED",
+              "type": "STRING",
+              "id": "_cost_per_action_type"
+            }
+          ],
+          "distributionField": null,
+          "quote": "\"",
+          "csvTypeMust": "json",
+          "fz_batched": true,
+          "split_tables": "no",
+          "mapping_order": [
+            
+          ],
+          "ignore_unknown_values": true,
+          "delimiter": ",",
+          "target_loading": "overwrite",
+          "source_mapping": [
+            {
+              "name": "_ad_id",
+              "fields": [
+                
+              ],
+              "alias": "_ad_id",
+              "length": 32,
+              "fieldName": "_ad_id",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_cost_per_unique_action_type",
+              "fields": [
+                
+              ],
+              "alias": "_cost_per_unique_action_type",
+              "length": 4096,
+              "fieldName": "_cost_per_unique_action_type",
+              "mode": "REPEATED",
+              "type": "STRING"
+            },
+            {
+              "name": "_adset_name",
+              "fields": [
+                
+              ],
+              "alias": "_adset_name",
+              "length": 64,
+              "fieldName": "_adset_name",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_account_id",
+              "fields": [
+                
+              ],
+              "alias": "_account_id",
+              "length": 16,
+              "fieldName": "_account_id",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_account_name",
+              "fields": [
+                
+              ],
+              "alias": "_account_name",
+              "length": 16,
+              "fieldName": "_account_name",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_clicks",
+              "length": 8,
+              "fieldName": "_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_frequency",
+              "fields": [
+                
+              ],
+              "alias": "_frequency",
+              "length": 8,
+              "fieldName": "_frequency",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_campaign_id",
+              "fields": [
+                
+              ],
+              "alias": "_campaign_id",
+              "length": 32,
+              "fieldName": "_campaign_id",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_adset_id",
+              "fields": [
+                
+              ],
+              "alias": "_adset_id",
+              "length": 32,
+              "fieldName": "_adset_id",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_inline_link_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_inline_link_clicks",
+              "length": 8,
+              "fieldName": "_inline_link_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_actions",
+              "fields": [
+                
+              ],
+              "alias": "_actions",
+              "length": 4096,
+              "fieldName": "_actions",
+              "mode": "REPEATED",
+              "type": "STRING"
+            },
+            {
+              "name": "_campaign_name",
+              "fields": [
+                
+              ],
+              "alias": "_campaign_name",
+              "length": 32,
+              "fieldName": "_campaign_name",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_date_start",
+              "fields": [
+                
+              ],
+              "alias": "_date_start",
+              "length": 16,
+              "fieldName": "_date_start",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_impressions",
+              "fields": [
+                
+              ],
+              "alias": "_impressions",
+              "length": 8,
+              "fieldName": "_impressions",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_date_stop",
+              "fields": [
+                
+              ],
+              "alias": "_date_stop",
+              "length": 16,
+              "fieldName": "_date_stop",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_spend",
+              "fields": [
+                
+              ],
+              "alias": "_spend",
+              "length": 8,
+              "fieldName": "_spend",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_unique_clicks",
+              "fields": [
+                
+              ],
+              "alias": "_unique_clicks",
+              "length": 8,
+              "fieldName": "_unique_clicks",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_account_currency",
+              "fields": [
+                
+              ],
+              "alias": "_account_currency",
+              "length": 4,
+              "fieldName": "_account_currency",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_ad_name",
+              "fields": [
+                
+              ],
+              "alias": "_ad_name",
+              "length": 64,
+              "fieldName": "_ad_name",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_publisher_platform",
+              "fields": [
+                
+              ],
+              "alias": "_publisher_platform",
+              "length": 32,
+              "fieldName": "_publisher_platform",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_currency",
+              "fields": [
+                
+              ],
+              "alias": "_currency",
+              "length": 4,
+              "fieldName": "_currency",
+              "mode": "NULLABLE",
+              "type": "STRING"
+            },
+            {
+              "name": "_video_p100_watched_actions",
+              "fields": [
+                
+              ],
+              "alias": "_video_p100_watched_actions",
+              "length": 64,
+              "fieldName": "_video_p100_watched_actions",
+              "mode": "REPEATED",
+              "type": "STRING"
+            },
+            {
+              "name": "_video_thruplay_watched_actions",
+              "fields": [
+                
+              ],
+              "alias": "_video_thruplay_watched_actions",
+              "length": 256,
+              "fieldName": "_video_thruplay_watched_actions",
+              "mode": "REPEATED",
+              "type": "STRING"
+            },
+            {
+              "name": "_cost_per_action_type",
+              "fields": [
+                
+              ],
+              "alias": "_cost_per_action_type",
+              "length": 1024,
+              "fieldName": "_cost_per_action_type",
+              "mode": "REPEATED",
+              "type": "STRING"
+            }
+          ]
+        },
+        "task_type_id": "fz2snowflake",
+        "task_process_module": "{processes_path}.load_to_snowflake",
+        "delete_in": {
+          "$date": 1657956581974
+        },
+        "is_target_task": true,
+        "river_id": {
+          "$oid": "62ce71f6c26495c5cb3124ba"
+        },
+        "ordinal": 1,
+        "move_as_is": true,
+        "datasource_id": "snowflake",
+        "updated_by": {
+          "$oid": "6072d73331042700423db5fd"
+        },
+        "schedule": {
+          "isEnabled": false,
+          "job_id": "62ce71fac26495c5cb3124be"
+        },
+        "task_method": "target_loading_v3",
+        "pull_translate": {
+          "tables": "get_tables",
+          "warehouses": "get_warehouses",
+          "schemas": "get_schemas",
+          "buckets": "get_buckets",
+          "database": "get_databases"
+        },
+        "connection_id": null,
+        "version_id": {
+          "$oid": "62ce8e94cb8c74000f87f960"
+        },
+        "is_synchronized": true,
+        "retry_details": {
+          "task_definition_source": "task_definition.source",
+          "task_definition_update_after_success": "task_definition.update_after_success"
+        },
+        "current_workers_running": 1,
+        "task_date_inserted": {
+          "$date": 1656522873124
+        },
+        "account": {
+          "$oid": "55bf7c4270fdca16cac18761"
+        },
+        "task_date_updated": {
+          "$date": 1657706709857
+        },
+        "is_deleted": false,
+        "target_type": "snowflake",
+        "max_no_of_files": 250,
+        "task_name": "load to snowflake by batches",
+        "task_display_name": "Loading from File Zone to Snowflake",
+        "pull_target": "cloud",
+        "_id": {
+          "$oid": "62ce71fac26495c5cb3124be"
+        },
+        "is_worker_lock": true
+      }
+    ],
+    "_id": {
+      "$oid": "62ce71f6c26495c5cb3124ba"
+    }
+  }

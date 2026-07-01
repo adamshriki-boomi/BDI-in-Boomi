@@ -1,0 +1,33 @@
+[
+  {
+    "username": "user",
+    "ssh_remote_password_exists": true,
+    "ssh_pkey_file_path": "{key_files_path}/55bf7c4270fdca16cac18761/azure_sql_dwh/55bf7c4270fdca16cac18761_confusion.pem",
+    "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+    "is_ssh_remote_password_encrypted": true,
+    "port": "1433",
+    "connection_type": "azure_sql_dwh",
+    "is_fz_connection": true,
+    "connection_update_by": "60152e0b115042307858a5b5",
+    "is_test_connection": true,
+    "connection_type_name": "Azure Synapse Analytics",
+    "is_password_encrypted": true,
+    "ssh_auto_generate": true,
+    "connection_update_time": { "$date": 1626278221819 },
+    "connection_creation_time": { "$date": 1626161537460 },
+    "ssh_remote_user": "sshuser",
+    "fz_connection_id": {},
+    "has_key_file": true,
+    "ssh_remote_port": "22",
+    "password_exists": false,
+    "host": "host",
+    "account": { "$oid": "55bf7c4270fdca16cac18761" },
+    "allowed_file_extensions": ["pem", "pub"],
+    "database": "db",
+    "db_type": "mssql",
+    "ssh_remote_host": "sshhost",
+    "connection_name": "oren_test",
+    "cross_id": { "$oid": "60ed418111504227bd77e439" },
+    "_id": { "$oid": "60ed418111504227bd77e439" }
+  }
+]

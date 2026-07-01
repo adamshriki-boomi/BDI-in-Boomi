@@ -1,0 +1,36 @@
+{
+  "global_params": {
+    "standard": [
+      { "name": "owner", "type": "string", "value": null },
+      { "name": "repo", "type": "string", "value": null }
+    ],
+    "authentication": {
+      "type": "bearer",
+      "fields": [
+        {
+          "name": "bearer_token",
+          "type": "string",
+          "value": null,
+          "is_password": true,
+          "is_hidden": false
+        }
+      ]
+    },
+    "date_range": {
+      "name": "date",
+      "type": "datetime",
+      "start_date": null,
+      "end_date": null
+    },
+    "required_params": []
+  },
+  "reports": {
+    "ListIssues": {
+      "standard": [],
+      "authentication": {},
+      "date_range": {},
+      "required_params": []
+    }
+  },
+  "blueprint_type": "legacy"
+}

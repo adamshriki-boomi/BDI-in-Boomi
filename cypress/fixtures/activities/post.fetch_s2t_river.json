@@ -1,0 +1,216 @@
+{
+    "cross_id": {
+      "$oid": "6310618b4c38430010918ed9"
+    },
+    "river_definitions": {
+      "version_id": {
+        "$oid": "6310618b4c38430010918edb"
+      },
+      "account": {
+        "$oid": "55bf7c4270fdca16cac18761"
+      },
+      "group_id": {
+        "_id": {
+          "$oid": "58d7ae8f7bf88100f8412c1a"
+        }
+      },
+      "updated_by": {
+        "$oid": "62c2f0bdbe0fe700130fdd80"
+      },
+      "is_locked": false,
+      "shared_params": {
+        "migration_directive": true,
+        "prefix_name": "jira",
+        "no_schema_migration": true,
+        "is_predefined_reports": true,
+        "tables": {
+          "no_schema": {
+            "predefined_group_users": {
+              "extract_method": "all",
+              "interval_time": "dont_split",
+              "target_table": "jira_group_users",
+              "last_days": 3,
+              "start_date": {
+                "$date": 1659398400000
+              },
+              "is_checked": true,
+              "time_period": "date_range",
+              "table_status": "tracked"
+            },
+            "predefined_project": {
+              "extract_method": "all",
+              "interval_time": "dont_split",
+              "target_table": "jira_project",
+              "last_days": 3,
+              "start_date": {
+                "$date": 1659398400000
+              },
+              "is_checked": true,
+              "time_period": "date_range",
+              "table_status": "tracked"
+            }
+          }
+        },
+        "report_key": "report",
+        "api_migration": true,
+        "target_id": "target_email",
+        "target_type": "target_email",
+        "send_to": [
+          "sveta@rivery.io"
+        ],
+        "notifications": {
+          "on_warning": {
+            
+          },
+          "on_failure": {
+            
+          },
+          "on_run_threshold": {
+            
+          }
+        },
+        "var_fz_bucket": "{aws_file_zone}",
+        "multi_tables_ui_generic": true,
+        "is_migration": true,
+        "custom_fz_default_bucket": "",
+        "increment_defaults": {
+          "time_period": "date_range",
+          "relative_delta": 30,
+          "last_days_back": 3
+        },
+        "add_custom_table_settings": true,
+        "fz_connection": {
+          
+        }
+      },
+      "river_date_updated": {
+        "$date": 1662017931894
+      },
+      "is_sub_river": false,
+      "river_name": "Jira | Test",
+      "source_type": "jira",
+      "river_date_inserted": {
+        "$date": 1662017931894
+      },
+      "is_scheduled": false,
+      "created_by": {
+        "$oid": "62c2f0bdbe0fe700130fdd80"
+      },
+      "river_type": "src_to_fz",
+      "cross_id": {
+        "$oid": "6310618b4c38430010918ed9"
+      },
+      "river_desc": "",
+      "_id": {
+        "$oid": "6310618b4c38430010918ed9"
+      },
+      "env_id": {
+        "$oid": "563f5b17b0a10e07a4ff4c33"
+      },
+      "updated_by_name": "Sveta Karakhanyan"
+    },
+    "tasks_definitions": [
+      {
+        "task_label": "data_loading",
+        "task_type_name": "jira to File Zone",
+        "env_id": {
+          "$oid": "563f5b17b0a10e07a4ff4c33"
+        },
+        "is_feeder_lock": false,
+        "created_by": {
+          "$oid": "62c2f0bdbe0fe700130fdd80"
+        },
+        "feeder_module": "{feeders_path}.jira_feeder",
+        "task_config": {
+          "connection_type": "jira",
+          "run_type": "multi_tables",
+          "datasource_id": "jira",
+          "quote": "\"",
+          "required_mapping_flag": true,
+          "delimiter": ",",
+          "fz_partition": "d",
+          "source_format": "NEWLINE_DELIMITED_JSON",
+          "fz_batched": true,
+          "fz_path": "Jira_Test_6310618b4c38430010918ed9",
+          "report": "issue",
+          "gzipTypeMust": null
+        },
+        "task_type_id": "jira2fz",
+        "task_process_module": "{processes_path}.api_generic_gcs",
+        "is_target_task": false,
+        "river_id": {
+          "$oid": "6310618b4c38430010918ed9"
+        },
+        "ordinal": 0,
+        "move_as_is": true,
+        "datasource_id": "jira",
+        "schedule": {
+          "endDate": {
+            
+          },
+          "isEnabled": false,
+          "sched": {
+            "hour": 7,
+            "min": 36,
+            "showCrontab": false,
+            "days": {
+              "days": 1
+            },
+            "month": {
+              "radioMon": 0,
+              "months": 1,
+              "days": 1,
+              "month": 1
+            },
+            "hours": {
+              "hours": 1,
+              "radioHour": 0
+            },
+            "year": {
+              "radioYear": 0,
+              "days": 1
+            },
+            "minutes": 15
+          },
+          "cronExp": "0 undefined 0/1 1/1 * ? *",
+          "currentTab": "Hourly"
+        },
+        "task_method": "api_master_v3",
+        "pull_translate": {
+          "get_groups": "get_groups",
+          "get_projects": "get_projects"
+        },
+        "connection_id": {
+          "$oid": "62028efbd15fe425d3283dee"
+        },
+        "version_id": {
+          "$oid": "6310618b4c38430010918edb"
+        },
+        "is_synchronized": true,
+        "retry_details": [
+          "task_definition.start_date",
+          "task_definition.end_date",
+          "task_definition.api_manager_data.api_query.interval_params.start_date",
+          "task_definition.api_manager_data.api_query.interval_params.end_date"
+        ],
+        "current_workers_running": 2,
+        "task_date_inserted": {
+          "$date": 1662017931896
+        },
+        "account": {
+          "$oid": "55bf7c4270fdca16cac18761"
+        },
+        "is_worker_lock": true,
+        "api_name": "jira",
+        "task_name": "jira to file zone",
+        "task_display_name": "Loading from jira Source to File Zone",
+        "pull_target": "api_master",
+        "_id": {
+          "$oid": "6310618b4c38430010918eda"
+        }
+      }
+    ],
+    "_id": {
+      "$oid": "6310618b4c38430010918ed9"
+    }
+  }

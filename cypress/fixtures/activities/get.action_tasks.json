@@ -1,0 +1,24 @@
+{
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b17b0a10e07a4ff4c33",
+    "river_cross_id": "62ab18a4372de5000f018956",
+    "run_id": "4f3b0c69b2a94bb4b518dcbd55bf8aa4",
+    "items": [
+      {
+        "duration": 2749,
+        "error_description": null,
+        "start_date_utc": "2022-08-22T08:08:19.340000",
+        "start_date_in_milliseconds": 1661155699340,
+        "end_date_utc": "2022-08-22T08:08:22.089000",
+        "end_date_in_milliseconds": 1661155702089,
+        "source": "actions",
+        "task_id": "62ab18a4372de5000f018957",
+        "task_name": "Actions Process",
+        "task_status": "succeeded",
+        "task_type": "actions",
+        "response_details": {
+          "response_status_code": 200
+        }
+      }
+    ]
+  }

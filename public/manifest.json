@@ -1,0 +1,20 @@
+{
+  "short_name": "Rivery.io",
+  "name": "Boomi Data Integration Dashboard ",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo-64.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#072B55",
+  "background_color": "#ffffff"
+}

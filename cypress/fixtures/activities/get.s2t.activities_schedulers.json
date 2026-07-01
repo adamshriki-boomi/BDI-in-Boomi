@@ -1,0 +1,32 @@
+{
+    "items": [
+      {
+        "run_group_id": "8783f1f8c8ff4ea393675b8ec3949ebb",
+        "status": "succeeded",
+        "units": 2.0,
+        "max_duration_in_milliseconds": 80000,
+        "run_date_epoch_milliseconds": 1662017951000,
+        "run_date_utc": "2022-09-01T07:39:11"
+      },
+      {
+        "run_group_id": "374a2f7981ae4d7380b2cc911fa2131d",
+        "status": "failed",
+        "units": 0,
+        "max_duration_in_milliseconds": 19000,
+        "run_date_epoch_milliseconds": 1661853958000,
+        "run_date_utc": "2022-09-01T07:20:18"
+      },
+      {
+        "run_group_id": "374adf7981ae4d7380b2cc911fa2131d",
+        "status": "running",
+        "units": 0,
+        "max_duration_in_milliseconds": 19000,
+        "run_date_epoch_milliseconds": 1661853958000,
+        "run_date_utc": "2022-09-01T07:20:18"
+      }
+    ],
+    "next_page": "",
+    "account_id": "55bf7c4270fdca16cac18761",
+    "environment_id": "563f5b17b0a10e07a4ff4c33",
+    "river_cross_id": "6310618b4c38430010918ed9"
+  }

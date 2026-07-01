@@ -1,0 +1,64 @@
+version: 0.1
+runson: ${matrix.os}
+globalTimeout: 180
+testSuiteTimeout: 180
+testSuiteStep: 120
+parallelism: 40
+autosplit: true
+concurrency: 40
+retryCount: 2
+retryOnFailure: true
+
+cacheKey: '{{ checksum "package.json" }}'
+cacheDirectories:
+  - node_modules
+  - cypressCache
+
+
+env:
+  CYPRESS_EMAIL: ${{.secrets.cypress_email}}
+  CYPRESS_PASSWORD: ${{.secrets.cypress_password}}
+  CYPRESS_USER_TYPE: "admin"
+  XDG_RUNTIME_DIR: "/tmp/runtime"
+  DISPLAY: ":99"
+  ALSA_CARD: "-1"
+
+matrix: # Removed stray 'os' from here
+  os: ["linux"]
+  config: ["dev-mocks", "prod"]
+  command: ["dev-mocks", "prod"]
+
+
+exclusionMatrix:
+  - config: ["dev-mocks"]            
+    command: ["prod"]         
+  - config: ["prod"]       
+    command: ["dev-mocks"] 
+
+background:
+  - npm run serve:build
+
+cypress: true
+cypressOps:
+  Build: "Rivery Hyperexecute Cypress Matrix Build ${BUILD_NUMBER}"
+  Tags: ["HYP-Cypress", "Linux", "Autosplit"]
+  BuildTags: ["HYP-Cypress-v10"]
+  Network: false
+  FullHar: false
+  video: true
+
+pre:
+  - mkdir -p /tmp/runtime
+  - chmod 700 /tmp/runtime
+  - npm install cypress@13.17.0 --save-dev
+  - npm install
+  - npm run build
+
+testDiscovery:
+  mode: dynamic
+  type: raw
+  shell: bash
+  command: find cypress/e2e/${matrix.command} -type f -name "*.feature"
+
+testRunnerCommand: npm run e2e:${matrix.config} -- --headed --browser chrome latest --spec $test
+jobLabel: [cypress_rivery full suite, cypress-v10, matrix, autosplit]

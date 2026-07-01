@@ -1,0 +1,12 @@
+.show-on-parent-hover {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+  :hover > & {
+    opacity: 1;
+  }
+}
+
+input.table-filter {
+  box-shadow: none !important;
+}

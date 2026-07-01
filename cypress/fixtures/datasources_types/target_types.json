@@ -1,0 +1,451 @@
+{
+  "next_page": "",
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 400,
+  "total_items": 15,
+  "items": [
+    {
+      "name": "Google BigQuery",
+      "target_type": "bq",
+      "api_name": "bigquery",
+      "datasource_type_id": "bq",
+      "connection_type": "gcloud",
+      "target_task_type_id": "fz2bq",
+      "logic_step_type": "big_query_sql",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true,
+        "dataframe_as_source": true,
+        "dataframe_as_target": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/bq.png",
+      "file_zone_settings": {
+        "target_type_id": "gcs",
+        "default_connection_definition": {},
+        "is_default": true,
+        "bucket": "{gcs_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Amazon S3",
+      "target_type": "s3",
+      "api_name": "s3",
+      "datasource_type_id": "s3",
+      "connection_type": "aws",
+      "target_task_type_id": "",
+      "logic_step_type": "",
+      "target_settings": {
+        "enable_cdc": true,
+        "dataframe_landing_zone": true,
+        "custom_fz_loading_modes": true,
+        "allowed_for_blueprint": true,
+        "is_new_interface": true
+      },
+      "segment": [],
+      "river_type_id": "src_to_fz",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/amazon-s3.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "{aws_file_zone}",
+        "is_connection": false,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Amazon Redshift",
+      "api_name": "redshift",
+      "target_type": "redshift",
+      "datasource_type_id": "redshift",
+      "connection_type": "redshift",
+      "target_task_type_id": "fz2redshift",
+      "logic_step_type": "redshift",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true,
+        "dataframe_as_source": true,
+        "dataframe_as_target": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_trgt",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/redshift.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {
+          "aws_access_key": "{secret}",
+          "aws_access_secret": "{secret}",
+          "region": "us-east-2",
+          "connection_type": "aws"
+        },
+        "is_default": true,
+        "bucket": "{aws_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Google Cloud Storage",
+      "target_type": "gcs",
+      "api_name": "gcs",
+      "datasource_type_id": "gcs",
+      "connection_type": "gcloud",
+      "target_task_type_id": "",
+      "logic_step_type": "",
+      "target_settings": {
+        "enable_cdc": true
+      },
+      "segment": [],
+      "river_type_id": "src_to_fz",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/gcs.png",
+      "file_zone_settings": {
+        "target_type_id": "gcs",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "{gcs_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Azure Blob Storage",
+      "target_type": "blob_storage",
+      "api_name": "blob_storage",
+      "datasource_type_id": "azureblob",
+      "connection_type": "blob_storage",
+      "target_task_type_id": "",
+      "logic_step_type": "",
+      "target_settings": {
+        "enable_cdc": true
+      },
+      "segment": [],
+      "river_type_id": "src_to_fz",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azureblob.png",
+      "file_zone_settings": {
+        "target_type_id": "blob_storage",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "{azure_file_zone}",
+        "is_connection": false,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Azure Data Lake",
+      "target_type": "azure_datalake",
+      "api_name": "azure_datalake",
+      "datasource_type_id": "azure_datalake",
+      "connection_type": "azure",
+      "target_task_type_id": "fz2adl",
+      "logic_step_type": "azure_datalake",
+      "target_settings": {},
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_datalake.png",
+      "file_zone_settings": {
+        "target_type_id": "blob_storage",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "",
+        "is_connection": false,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Send By Email",
+      "target_type": "target_email",
+      "api_name": "target_email",
+      "datasource_type_id": "target_email",
+      "connection_type": "target_email",
+      "target_task_type_id": "",
+      "logic_step_type": "",
+      "target_settings": {
+        "enable_cdc": false
+      },
+      "segment": [
+        "technical",
+        "not_technichal"
+      ],
+      "river_type_id": "src_to_fz",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/mail.png",
+      "file_zone_settings": {
+        "target_type_id": "email",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "",
+        "is_connection": false,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Snowflake",
+      "target_type": "snowflake",
+      "api_name": "snowflake",
+      "datasource_type_id": "snowflake",
+      "connection_type": "snowflake",
+      "target_task_type_id": "fz2snowflake",
+      "logic_step_type": "snowflake",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true,
+        "dataframe_as_source": true,
+        "dataframe_as_target": true,
+        "is_new_interface": true,
+        "allowed_for_blueprint": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_trgt",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/snowflake.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {
+          "aws_access_key": "AKIAIZIZNBLCW3CSXV4Q",
+          "aws_access_secret": "AQICAHiyT15wOIVZHyYujUaQA6nJRbRDk00DR1iSRdknyh4+zAHwE8u1HIY9upkX3f9o2DYoAAAAhzCBhAYJKoZIhvcNAQcGoHcwdQIBADBwBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDP95lZyOOe8IsohYFwIBEIBDK4zlWCnb+c989sSzTIyTMtU4q005HwkJmnV1USQtaUJidnUlBldbpG7duzHlEqSYOH+ALdHXCdKklmJsbgC8fF9JLA==",
+          "region": "us-east-1",
+          "connection_type": "aws"
+        },
+        "is_default": true,
+        "bucket": "{aws_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {
+          "blob_storage": {
+            "account_name": {
+              "new_field": "fz_account_name",
+              "is_decrypt": false
+            },
+            "account_key": {
+              "new_field": "fz_account_key",
+              "is_decrypt": true
+            }
+          }
+        },
+        "target_type_options": {
+          "available_fz_target_types": [
+            "s3",
+            "blob_storage"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Azure Synapse Analytics",
+      "target_type": "azure_sql_dwh",
+      "api_name": "azure_sql_dwh",
+      "datasource_type_id": "azure_sql_dwh",
+      "connection_type": "azure_sql_dwh",
+      "target_task_type_id": "fz2sql_dwh",
+      "logic_step_type": "azure_sql_dwh",
+      "target_settings": {
+        "enable_cdc": false,
+        "enable_sql_results": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_sql_dwh.png",
+      "file_zone_settings": {
+        "target_type_id": "blob_storage",
+        "default_connection_definition": {},
+        "is_default": true,
+        "bucket": "",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Treasure Data",
+      "target_type": "treasure_data",
+      "api_name": "treasure_data",
+      "datasource_type_id": "treasure_data",
+      "connection_type": "treasure_data",
+      "target_task_type_id": "",
+      "logic_step_type": "",
+      "target_settings": {
+        "enable_cdc": false
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_fz",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/treasure_data.png",
+      "file_zone_settings": {
+        "target_type_id": "treasure_data",
+        "default_connection_definition": {},
+        "is_default": false,
+        "bucket": "",
+        "is_connection": false,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Amazon RDS/Aurora for PostgreSQL",
+      "target_type": "postgres",
+      "apu_name": "postgres",
+      "datasource_type_id": "postgres_rds",
+      "connection_type": "postgres",
+      "target_task_type_id": "fz2postgres",
+      "logic_step_type": "postgres",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/pg.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {},
+        "is_default": true,
+        "bucket": "",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Firebolt",
+      "target_type": "firebolt",
+      "api_name": "firebolt",
+      "datasource_type_id": "firebolt",
+      "connection_type": "firebolt",
+      "target_task_type_id": "fz2firebolt",
+      "logic_step_type": "firebolt",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_trgt",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/firebolt.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {
+          "aws_access_key": "AKIAIZIZNBLCW3CSXV4Q",
+          "aws_access_secret": "AQICAHiyT15wOIVZHyYujUaQA6nJRbRDk00DR1iSRdknyh4+zAHwE8u1HIY9upkX3f9o2DYoAAAAhzCBhAYJKoZIhvcNAQcGoHcwdQIBADBwBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDP95lZyOOe8IsohYFwIBEIBDK4zlWCnb+c989sSzTIyTMtU4q005HwkJmnV1USQtaUJidnUlBldbpG7duzHlEqSYOH+ALdHXCdKklmJsbgC8fF9JLA==",
+          "region": "us-east-1",
+          "connection_type": "aws"
+        },
+        "is_default": true,
+        "bucket": "{aws_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Databricks SQL",
+      "target_type": "databricks",
+      "api_name": "databricks",
+      "datasource_type_id": "databricks",
+      "connection_type": "databricks",
+      "target_task_type_id": "fz2databricks",
+      "logic_step_type": "databricks",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_trgt",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/databricks.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {},
+        "is_default": true,
+        "bucket": "{aws_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Amazon Athena",
+      "target_type": "athena",
+      "api_name": "athena",
+      "datasource_type_id": "athena",
+      "connection_type": "athena",
+      "target_task_type_id": "fz2athena",
+      "logic_step_type": "athena",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true,
+        "dataframe_as_source": false,
+        "dataframe_as_target": false
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "src_to_trgt",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/athena.png",
+      "file_zone_settings": {
+        "target_type_id": "s3",
+        "default_connection_definition": {
+          "aws_access_key": "{secret}",
+          "aws_access_secret": "{secret}",
+          "region": "us-east-2",
+          "connection_type": "aws"
+        },
+        "is_default": true,
+        "bucket": "{aws_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    },
+    {
+      "name": "Azure SQL",
+      "target_type": "azure_sql",
+      "api_name": "azure_sql",
+      "datasource_type_id": "azure_sql",
+      "connection_type": "azure_sql",
+      "target_task_type_id": "fz2azure_sql",
+      "logic_step_type": "azure_sql",
+      "target_settings": {
+        "enable_cdc": true,
+        "enable_sql_results": true
+      },
+      "segment": [
+        "technical"
+      ],
+      "river_type_id": "",
+      "icon": "https://static-assets.eu-west-1.console.rivery.io/azure_sql.png",
+      "file_zone_settings": {
+        "target_type_id": "blob_storage",
+        "default_connection_definition": {},
+        "is_default": true,
+        "bucket": "{azure_file_zone}",
+        "is_connection": true,
+        "fields_mapping": {},
+        "target_type_options": {}
+      }
+    }
+  ]
+}

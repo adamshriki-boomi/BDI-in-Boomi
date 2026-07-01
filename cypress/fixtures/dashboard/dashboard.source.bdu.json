@@ -1,0 +1,31 @@
+{
+  "account_id": "account1",
+  "metric": "bdu",
+  "view": "source",
+  "data": [
+    { "run_date": 1772496000000, "datasource_id": "hubspot", "units": 45, "bdu": 45 },
+    { "run_date": 1772496000000, "datasource_id": "salesforce", "units": 60, "bdu": 60 },
+    { "run_date": 1772496000000, "datasource_id": "google_ads", "units": 30, "bdu": 30 },
+    { "run_date": 1772582400000, "datasource_id": "hubspot", "units": 52, "bdu": 52 },
+    { "run_date": 1772582400000, "datasource_id": "salesforce", "units": 70, "bdu": 70 },
+    { "run_date": 1772582400000, "datasource_id": "google_ads", "units": 38, "bdu": 38 },
+    { "run_date": 1772668800000, "datasource_id": "hubspot", "units": 48, "bdu": 48 },
+    { "run_date": 1772668800000, "datasource_id": "salesforce", "units": 65, "bdu": 65 },
+    { "run_date": 1772668800000, "datasource_id": "google_ads", "units": 37, "bdu": 37 },
+    { "run_date": 1772755200000, "datasource_id": "hubspot", "units": 50, "bdu": 50 },
+    { "run_date": 1772755200000, "datasource_id": "salesforce", "units": 68, "bdu": 68 },
+    { "run_date": 1772755200000, "datasource_id": "google_ads", "units": 37, "bdu": 37 },
+    { "run_date": 1772841600000, "datasource_id": "hubspot", "units": 55, "bdu": 55 },
+    { "run_date": 1772841600000, "datasource_id": "salesforce", "units": 75, "bdu": 75 },
+    { "run_date": 1772841600000, "datasource_id": "google_ads", "units": 40, "bdu": 40 },
+    { "run_date": 1772928000000, "datasource_id": "hubspot", "units": 58, "bdu": 58 },
+    { "run_date": 1772928000000, "datasource_id": "salesforce", "units": 78, "bdu": 78 },
+    { "run_date": 1772928000000, "datasource_id": "google_ads", "units": 40, "bdu": 40 },
+    { "run_date": 1773014400000, "datasource_id": "hubspot", "units": 52, "bdu": 52 },
+    { "run_date": 1773014400000, "datasource_id": "salesforce", "units": 70, "bdu": 70 },
+    { "run_date": 1773014400000, "datasource_id": "google_ads", "units": 38, "bdu": 38 },
+    { "run_date": 1773100800000, "datasource_id": "hubspot", "units": 30, "bdu": 30 },
+    { "run_date": 1773100800000, "datasource_id": "salesforce", "units": 40, "bdu": 40 },
+    { "run_date": 1773100800000, "datasource_id": "google_ads", "units": 20, "bdu": 20 }
+  ]
+}

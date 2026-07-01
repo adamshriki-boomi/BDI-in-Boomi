@@ -1,0 +1,67 @@
+{
+  "peacock.color": "#26114d",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.templates/**": true,
+  },
+  "conventionalCommits.scopes": [
+    "rivers",
+    "login"
+  ],
+  "eslint.lintTask.options": "--ext '*/**/*.{ts,tsx}'",
+  "eslint.workingDirectories": [
+    "components"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.associations": {
+    "*.env.development.*": "env",
+  },
+  "[typescriptreact]": {
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "cucumberautocomplete.steps": [
+    "cypress/e2e/dev-mocks/common/**/*.ts",
+    "cypress/e2e/dev-mocks/**/**/*.ts"
+ ],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#3b1a77",
+    "activityBar.activeBorder": "#9d4e22",
+    "activityBar.background": "#3b1a77",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#9d4e22",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#26114d",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#3b1a77",
+    "titleBar.activeBackground": "#26114d",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#26114d99",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "sash.hoverBorder": "#3b1a77",
+    "statusBarItem.remoteBackground": "#26114d",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799"
+  },
+}

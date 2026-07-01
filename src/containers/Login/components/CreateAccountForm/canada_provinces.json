@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Ontario",
+    "abbreviation": "ON"
+  },
+  {
+    "name": "Quebec",
+    "abbreviation": "QC"
+  },
+  {
+    "name": "Nova Scotia",
+    "abbreviation": "NS"
+  },
+  {
+    "name": "New Brunswick",
+    "abbreviation": "NB"
+  },
+  {
+    "name": "British Columbia",
+    "abbreviation": "BC"
+  },
+  {
+    "name": "Prince Edward Island",
+    "abbreviation": "PE"
+  },
+  {
+    "name": "Saskatchewan",
+    "abbreviation": "SK"
+  },
+  {
+    "name": "Alberta",
+    "abbreviation": "AB"
+  },
+  {
+    "name": "Manitoba",
+    "abbreviation": "MB"
+  },
+  {
+    "name": "Newfoundland and Labrador",
+    "abbreviation": "NL"
+  },
+  {
+    "name": "Nunavut",
+    "abbreviation": "NU"
+  },
+  {
+    "name": "Northwest Territories",
+    "abbreviation": "NT"
+  },
+  {
+    "name": "Yukon",
+    "abbreviation": "YT"
+  }
+]

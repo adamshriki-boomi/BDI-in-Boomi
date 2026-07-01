@@ -1,0 +1,34 @@
+[
+  {
+    "river_type_id": "src_to_trgt",
+    "_id": { "$oid": "55cc91589d869bb7db4d7522" },
+    "properties": {
+      "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwyb1iNm9HQcyHfKUj_NuAd02oaU-1S21et2JzSuRzdek2QdECjzTmb8",
+      "desc": "Loading from Source to Target",
+      "tooltip": "Pull data from a data source to a target table in the cloud",
+      "title": "Source to Target"
+    }
+  },
+  {
+    "target_datasource_type_id": "logic",
+    "river_type_id": "logic",
+    "_id": { "$oid": "56bca04fb6f99cb9cba2b051" },
+    "properties": {
+      "icon_url": "dist/images/riverTypes/logic.png ",
+      "desc": "Making ETL Operation on ODS for DWH loading",
+      "tooltip": "Create your own data flow based on data queries or other rivers.",
+      "title": "Logic River"
+    }
+  },
+  {
+    "target_datasource_type_id": "action",
+    "river_type_id": "actions",
+    "_id": { "$oid": "59342b9c075400e1c2964777" },
+    "properties": {
+      "icon_url": "dist/images/riverTypes/logic.png ",
+      "desc": "Get & Post data anywhere in the web",
+      "tooltip": "Get or post data to/from anywhere in the web.",
+      "title": "Action River"
+    }
+  }
+]

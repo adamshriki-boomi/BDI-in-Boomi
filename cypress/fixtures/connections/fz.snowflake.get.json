@@ -1,0 +1,21 @@
+{
+  "status": true,
+  "fz_target_type_id": "s3",
+  "Code": 200,
+  "targets_list": [
+    {
+      "datasource_type_id": "s3",
+      "connection_type": "aws",
+      "_id": "s3",
+      "fz_bucket": "{aws_file_zone}",
+      "name": "Amazon S3"
+    },
+    {
+      "datasource_type_id": "azureblob",
+      "connection_type": "blob_storage",
+      "_id": "blob_storage",
+      "fz_bucket": "{azure_file_zone}",
+      "name": "Azure Blob Storage"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "default_group": { "$oid": "607d304adc72cc001c48c153" },
+  "deleted_group": { "$oid": "60cb44cd828be2001d31c9c7" },
+  "rivers_affected": [
+    { "$oid": "60a38c153435ac001ce560db" },
+    { "$oid": "60a3a2bc3435ac001ce56120" }
+  ]
+}

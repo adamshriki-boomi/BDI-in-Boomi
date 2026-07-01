@@ -1,0 +1,314 @@
+{
+  "next_page": "",
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 400,
+  "total_items": 11,
+  "items": [
+    {
+      "data_source_section": {
+        "id": "sec_storage",
+        "name": "Storage & Files",
+        "description": "Storage type family",
+        "ordinal": 8,
+        "target_ordinal": 2
+      },
+      "data_source_types": [
+        "sharepoint",
+        "sftp",
+        "s3",
+        "gspreadsheet",
+        "gcs",
+        "ftp",
+        "email",
+        "azureblob"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_analytics",
+        "name": "Analytics",
+        "description": "Tracking and analytics services for application and business data. ",
+        "ordinal": 2,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "youtube_reporting",
+        "voluum",
+        "trendkite",
+        "social_studio",
+        "sensor_tower",
+        "sendgrid",
+        "picasso_labs",
+        "pendo",
+        "optimove",
+        "myaffiliates",
+        "moat",
+        "mixpanel",
+        "linkedin_social",
+        "kochava",
+        "ironsource",
+        "instagram_social",
+        "insight",
+        "helpscout",
+        "harvest",
+        "gplay",
+        "google_search_console",
+        "ganalytics",
+        "fb_social",
+        "crimson_hexagon",
+        "branch_io",
+        "appstore_apps",
+        "appsee",
+        "appflyer",
+        "amplitude",
+        "adquant",
+        "adobe_analytics"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_marketing",
+        "name": "Marketing",
+        "description": "Marketing - Online advertising technologies companies  - Publisher Ad Server / Advertisers agencies/ DSP / SSP.",
+        "ordinal": 1,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "yotpo",
+        "yandex",
+        "yahoo_ads",
+        "verta_media",
+        "twitter_ads",
+        "tiktok",
+        "tiger_pistol",
+        "the_trade_desk",
+        "taboola",
+        "surveymonkey",
+        "surveygizmo",
+        "streamrail",
+        "stack_adapt",
+        "spotx",
+        "socialbakers",
+        "snapchat_ads",
+        "sitescout",
+        "shareasale",
+        "sf_marketing",
+        "search_ads_360_reporting",
+        "search_ads",
+        "salesforce_audience",
+        "revcontent",
+        "reddit",
+        "pinterest",
+        "pepperjam",
+        "pardot",
+        "outbrain",
+        "openx",
+        "oath",
+        "mobileaction",
+        "mediamath",
+        "marketo",
+        "mailchimp",
+        "lkqd",
+        "linkedin",
+        "klaviyo_v3",
+        "klaviyo",
+        "keepcon",
+        "jwplayer_analytics",
+        "jwplayer",
+        "ix_audit_logs",
+        "innovid",
+        "impact_radius",
+        "hubspot",
+        "hivestack",
+        "hasoffers",
+        "gothamads",
+        "google_ads",
+        "gmp",
+        "gadwords",
+        "fb_audience",
+        "fb_ads",
+        "dv360",
+        "doubleclick_publisher",
+        "doubleclick",
+        "delta_projects",
+        "criteo_marketing",
+        "criteo",
+        "convertmedia",
+        "content_ad",
+        "cedato",
+        "callrail",
+        "brandwatch",
+        "bing_ads",
+        "avantlink",
+        "appreciate",
+        "appnexus",
+        "appleads",
+        "adroll",
+        "adobe_ads",
+        "adjust",
+        "adaptv",
+        "active_campaigns",
+        "hubspot_v3"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_crm",
+        "name": "CRM & Support",
+        "description": "Customer Relational Management",
+        "ordinal": 5,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "zendesk_talk",
+        "zendesk_chat",
+        "zendesk",
+        "sprinklr",
+        "servicenow",
+        "salesforce_v3",
+        "salesforce",
+        "sailthru",
+        "quickbooks",
+        "pipedrive",
+        "intercom",
+        "genesys",
+        "freshservice",
+        "dear_systems",
+        "customer_gauge"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_organization",
+        "name": "Business Operations",
+        "description": "Typical office data sources\n",
+        "ordinal": 4,
+        "target_ordinal": 3
+      },
+      "data_source_types": [
+        "monday",
+        "mavenlink",
+        "docebo",
+        "cellexpert",
+        "anaplan",
+        "airtable"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_payments",
+        "name": "Finance & Accounting",
+        "description": "Finance Sources & Billing payment services.",
+        "ordinal": 3,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "stripe",
+        "sapconcur",
+        "recurly",
+        "recharge",
+        "paypal_reports",
+        "nium",
+        "netsuite_restlets",
+        "netsuite_reporting",
+        "netsuite_analytics",
+        "netsuite",
+        "intacct",
+        "ecb",
+        "coupa",
+        "chargify",
+        "bluesnap",
+        "aws_billing",
+        "adaptive_insights"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_toolkit",
+        "name": "Engineering",
+        "description": "Tools and utils services on the cloud",
+        "ordinal": 10,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "webhook",
+        "rest",
+        "jira",
+        "connector_executor",
+        "6a3af8de46e761d4c1a78b4f"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_db",
+        "name": "Databases",
+        "description": "Databases",
+        "ordinal": 6,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "vertica",
+        "teradata",
+        "snowflake_source",
+        "sap_hana",
+        "redshift_src",
+        "redis",
+        "oracle",
+        "mysql",
+        "mssql",
+        "mongodb",
+        "mariadb",
+        "elasticsearch",
+        "datastore",
+        "couchbase",
+        "cassandra",
+        "bigquery",
+        "datahub",
+        "postgres"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_ecommerce",
+        "name": "E-commerce",
+        "description": "E-commerce",
+        "ordinal": 7,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "shopify",
+        "shiphero",
+        "nuviad",
+        "itunes_reporter",
+        "shopify_graphql"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_hr",
+        "name": "Human Resources",
+        "description": "",
+        "ordinal": 9,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "hibob",
+        "greenhouse",
+        "successfactors"
+      ]
+    },
+    {
+      "data_source_section": {
+        "id": "sec_boomi",
+        "name": "Boomi Platform",
+        "description": "Boomi Platform",
+        "ordinal": 11,
+        "target_ordinal": null
+      },
+      "data_source_types": [
+        "boomi_for_sap"
+      ]
+    }
+  ]
+}

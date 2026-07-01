@@ -1,0 +1,4 @@
+.phone-layout {
+  // 4.5rem because there might be 5 digits for area code
+  grid-template-columns: 4.5rem auto 1fr;
+}

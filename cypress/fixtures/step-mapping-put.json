@@ -1,0 +1,9 @@
+{
+  "errors": null,
+  "has_composite_fields": false,
+  "excluded_fields": null,
+  "mapping": null,
+  "request_status": "W",
+  "_id": { "$oid": "60eeccda115042513bd4c51b" },
+  "error_msg": null
+}

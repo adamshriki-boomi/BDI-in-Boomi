@@ -1,0 +1,122 @@
+{
+  "status": "SUCCESS",
+  "status_code": 200,
+  "message": "version restored successfully",
+  "data": {
+    "river_definitions": {
+      "account": { "$oid": "55bf7c4270fdca16cac18761" },
+      "group_id": { "_id": { "$oid": "607d304adc72cc001c48c153" } },
+      "updated_by": { "$oid": "60152e0b115042307858a5b5" },
+      "is_locked": false,
+      "shared_params": {
+        "notifications": {
+          "on_warning": {},
+          "on_failure": {},
+          "on_run_threshold": {}
+        },
+        "fz_connection": {}
+      },
+      "river_date_updated": { "$date": 1626164259658 },
+      "is_sub_river": false,
+      "version_id": { "$oid": "60ed4c2311504227bc5f795f" },
+      "source_type": "logic",
+      "river_date_inserted": { "$date": 1624814879297 },
+      "is_scheduled": false,
+      "river_name": "The Restored River \ud83e\udd84",
+      "river_type": "logic",
+      "cross_id": { "$oid": "60d8b51f1150423f4f79354c" },
+      "river_desc": "",
+      "_id": { "$oid": "60d8b51f1150423f4f79354c" },
+      "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+      "created_by": { "$oid": "60152e0b115042307858a5b5" }
+    },
+    "tasks_definitions": [
+      {
+        "task_type_name": "Logic Process",
+        "related": { "connections": [], "rivers": [] },
+        "global_keys": { "target_name": "Logic" },
+        "task_label": "logic",
+        "env_id": { "$oid": "563fa39cdf14e54426d464ea" },
+        "created_by": { "$oid": "60152e0b115042307858a5b5" },
+        "feeder_module": "{feeders_path}.logic_feeder",
+        "task_config": {
+          "logic_steps": [
+            {
+              "isParallel": false,
+              "isEnabled": true,
+              "container_running": "run_once",
+              "content": {
+                "block_type": "azure_sql_dwh",
+                "compression": "none",
+                "file_type": "csv",
+                "block_primary_type": "sql",
+                "connection_id": {},
+                "drop_after": false,
+                "target_type": "table",
+                "block_db_type": "big_query_sql",
+                "split_interval": "d",
+                "type": "RECORD",
+                "query_priority": "interactive",
+                "split_tables": "no",
+                "use_standard_sql": false,
+                "target_loading": "append",
+                "fields": []
+              },
+              "step_name": "Logic Step",
+              "nodes": []
+            }
+          ],
+          "condition_name_counter": 0,
+          "step_name_counter": 1,
+          "variables": {},
+          "fz_batched": true,
+          "container_name_counter": 0,
+          "datasource_id": "logic"
+        },
+        "task_type_id": "logic",
+        "task_process_module": "{processes_path}.logic_process",
+        "is_target_task": false,
+        "river_id": { "$oid": "60d8b51f1150423f4f79354c" },
+        "ordinal": 0,
+        "move_as_is": true,
+        "datasource_id": "logic",
+        "updated_by": { "$oid": "60152e0b115042307858a5b5" },
+        "schedule": {
+          "sched": {
+            "hour": 11,
+            "min": 16,
+            "year": { "radioYear": 0, "days": 1 },
+            "days": { "days": 1 },
+            "month": { "radioMon": 0, "months": 1, "days": 1, "month": 1 },
+            "hours": { "hours": 1, "radioHour": 0 },
+            "showCrontab": false,
+            "minutes": 15
+          },
+          "job_id": "60d8b51f1150423f4f79354d",
+          "isEnabled": false,
+          "cronExp": "0 0 0/1 * * * *",
+          "endDate": {}
+        },
+        "task_method": "logic_v3",
+        "pull_translate": {
+          "fields": "get_result_columns",
+          "datasets": "get_datasets",
+          "schemas": "get_schemas",
+          "results": "get_results",
+          "databases": "get_databases"
+        },
+        "connection_id": {},
+        "version_id": { "$oid": "60ed4c2311504227bc5f795f" },
+        "is_synchronized": true,
+        "task_date_inserted": { "$date": 1624814879302 },
+        "account": { "$oid": "55bf7c4270fdca16cac18761" },
+        "_id": { "$oid": "60d8b51f1150423f4f79354d" },
+        "is_deleted": false,
+        "task_name": "Logic process",
+        "task_display_name": "Logic Process",
+        "pull_target": "logic",
+        "task_date_updated": { "$date": 1626164259656 }
+      }
+    ]
+  }
+}

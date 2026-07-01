@@ -1,0 +1,10 @@
+{
+  "skip_table_mapping": null,
+  "request_status": "D",
+  "results_list": [],
+  "run_id": "7cf8298192194a9482fd8c88c5e498bd",
+  "is_start": null,
+  "_id": { "$oid": "61e1dec81d3e5e001e1aa756" },
+  "results": "fake-results-id",
+  "error_msg": null
+}

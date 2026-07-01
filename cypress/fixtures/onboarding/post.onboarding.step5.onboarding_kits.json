@@ -1,0 +1,13 @@
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "user_email": "johnDoe@rivery.io",
+    "onboarding": {
+      "know_rivery_step": {"onboarding_rivery_introduction": true, "onboarding_river_types": true},
+      "data_connections_step": null,
+      "data_pipeline_step": null,
+      "transform_and_orchestrate_step":null,
+      "pre_built_solutions_step": {"onboarding_kits": true},
+      "invite_member_step": null
+    }
+  }

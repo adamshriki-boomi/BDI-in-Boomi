@@ -1,0 +1,20 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+const SvgPlus = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width={12}
+    height={13}
+    viewBox="0 0 12 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M6 2.75C6.27614 2.75 6.5 2.97386 6.5 3.25V5.75H9C9.27614 5.75 9.5 5.97386 9.5 6.25C9.5 6.52614 9.27614 6.75 9 6.75H6.5V9.25C6.5 9.52614 6.27614 9.75 6 9.75C5.72386 9.75 5.5 9.52614 5.5 9.25V6.75H3C2.72386 6.75 2.5 6.52614 2.5 6.25C2.5 5.97386 2.72386 5.75 3 5.75H5.5V3.25C5.5 2.97386 5.72386 2.75 6 2.75Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+export default SvgPlus;

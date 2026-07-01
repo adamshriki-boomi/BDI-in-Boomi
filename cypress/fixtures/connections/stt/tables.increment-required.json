@@ -1,0 +1,70 @@
+{
+  "next_page": null,
+  "previous_page": null,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b62b0a10e18f0808895",
+  "current_page_size": 6,
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "id": "table_standard",
+      "increment_columns": [
+        { "name": "updated_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": false },
+        { "name": "id", "type": "INTEGER", "incremental_type": "runningnumber", "is_default": false }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_no_increment",
+      "no_increment": true,
+      "increment_columns": [],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_increment_required_single_col",
+      "increment_required": true,
+      "increment_columns": [
+        { "name": "created_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": false }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_increment_required_default_col",
+      "increment_required": true,
+      "increment_columns": [
+        { "name": "id", "type": "INTEGER", "incremental_type": "runningnumber", "is_default": false },
+        { "name": "updated_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": true }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    },
+    {
+      "id": "table_increment_required_date_range",
+      "increment_required": true,
+      "increment_defaults": {
+        "time_period": "date_range",
+        "relative_delta": 30,
+        "last_days_back": 0
+      },
+      "increment_columns": [
+        { "name": "id", "type": "INTEGER", "incremental_type": "runningnumber", "is_default": false },
+        { "name": "synced_at", "type": "DATETIME", "incremental_type": "datetime", "is_default": true }
+      ],
+      "updated_at": "2023-05-24T13:52:28.479000",
+      "table_type": "db",
+      "schema_name": "crown",
+      "database_properties": { "name": "employees", "type": "mysql" }
+    }
+  ]
+}

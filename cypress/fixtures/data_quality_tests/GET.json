@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "quality_test_1",
+    "data_quality_test_type_id": "dqt1",
+    "is_active": true,
+    "test_name": "Test Unique",
+    "test_schema": [ 
+      "engagement", 
+      "new_like_count"
+    ],
+    "test_type_name": "unique_values_test",
+    "updated_at": "2022-02-07T16:48:12.608000"
+  },
+  {
+    "_id": "quality_test_2",
+    "data_quality_test_type_id": "dqt1",
+    "is_active": false,
+    "test_name": "Awaken The Master",
+    "test_schema": ["new_like_count", 
+      "engagement"],
+    "test_type_name": "unique_values_test",
+    "updated_at": "2022-02-07T16:48:17.165000"
+  },
+  {
+    "_id": "quality_test_3",
+    "data_quality_test_type_id": "dqt2",
+    "is_active": true,
+    "test_name": "View The Top",
+    "test_schema": ["id", 
+      "total_invoice"],
+    "test_type_name": "not_null_test",
+    "updated_at": "2022-02-07T16:48:19.056000"
+  },
+  {
+    "_id": "quality_test_4",
+    "data_quality_test_type_id": "dqt2",
+    "is_active": true,
+    "test_name": "The Fire That burns",
+    "test_schema": ["id"],
+    "test_type_name": "not_null_test",
+    "updated_at": "2022-02-07T18:08:29.609000"
+  },
+  {
+    "_id": "quality_test__5",
+    "data_quality_test_type_id": "dqt1",
+    "is_active": true,
+    "test_name": "Rise Above",
+    "test_schema": ["new_like_count", 
+      "engagement"],
+    "test_type_name": "unique_values_test",
+    "updated_at": "2022-02-07T18:08:31.595000"
+  }
+]

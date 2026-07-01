@@ -1,0 +1,17 @@
+{
+  "ds_name":"snowflake",
+  "expired":"2023-01-02T10:41:32.330000+00:00",
+  "user_name": "Rivery username",
+  "properties":{
+    "snowflake":{
+      "connection_type":"snowflake",
+      "_id":"snowflake",
+      "description":"Cloud data warehouse which delivers simplicity, concurrency and preformence. ",
+      "name":"Snowflake",
+      "is_test_connection":true,
+      "connection_generic_pattern":true,
+      "doc_url":"https://docs.rivery.io/docs/connection-snowflake",
+      "icon":"https://static-assets.console.rivery.io/snowflake.png"
+    }
+  }
+}

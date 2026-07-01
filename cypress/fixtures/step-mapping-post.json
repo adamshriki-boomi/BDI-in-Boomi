@@ -1,0 +1,156 @@
+{
+  "errors": "",
+  "has_composite_fields": false,
+  "excluded_fields": [],
+  "mapping": {
+    "source": [
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "to_currency",
+        "name": "to_currency",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "title",
+        "name": "title",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "rate_unit",
+        "name": "rate_unit",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "time_format",
+        "name": "time_format",
+        "fields": []
+      },
+      {
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "fieldName": "rate",
+        "name": "rate",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "frequency",
+        "name": "frequency",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "from_currency",
+        "name": "from_currency",
+        "fields": []
+      },
+      {
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE",
+        "fieldName": "date",
+        "name": "date",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "from_currency_name",
+        "name": "from_currency_name",
+        "fields": []
+      },
+      {
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "fieldName": "to_currency_name",
+        "name": "to_currency_name",
+        "fields": []
+      }
+    ],
+    "target": [
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "to_currency",
+        "mode": "NULLABLE",
+        "name": "to_currency"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "title",
+        "mode": "NULLABLE",
+        "name": "title"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "rate_unit",
+        "mode": "NULLABLE",
+        "name": "rate_unit"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "time_format",
+        "mode": "NULLABLE",
+        "name": "time_format"
+      },
+      {
+        "fields": [],
+        "type": "FLOAT",
+        "fieldName": "rate",
+        "mode": "NULLABLE",
+        "name": "rate"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "frequency",
+        "mode": "NULLABLE",
+        "name": "frequency"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "from_currency",
+        "mode": "NULLABLE",
+        "name": "from_currency"
+      },
+      {
+        "name": "date",
+        "dateFormat": "yyyy-mm-dd HH:MM:SS",
+        "fields": [],
+        "fieldName": "date",
+        "mode": "NULLABLE",
+        "type": "TIMESTAMP"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "from_currency_name",
+        "mode": "NULLABLE",
+        "name": "from_currency_name"
+      },
+      {
+        "fields": [],
+        "type": "STRING",
+        "fieldName": "to_currency_name",
+        "mode": "NULLABLE",
+        "name": "to_currency_name"
+      }
+    ],
+    "is_source_mapping": true
+  },
+  "request_status": "D",
+  "_id": { "$oid": "60eec2f5115042514125dbcd" },
+  "error_msg": null
+}

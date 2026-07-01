@@ -1,0 +1,28 @@
+{
+  "next_page": "",
+  "previous_page": null,
+  "page": 1,
+  "current_page_size": 2,
+  "total_items": 2,
+  "account_id": "55bf7c4270fdca16cac18761",
+  "environment_id": "563f5b17b0a10e07a4ff4c33",
+  "connection_id": "629f1a45e85922000f0d82fa",
+  "items": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "is_key": true,
+      "can_increment": true,
+      "is_default_increment_column": false,
+      "updated_at": "2023-05-03T22:13:25.875000"
+    },
+    {
+      "name": "epoch",
+      "type": "FLOAT",
+      "is_key": false,
+      "can_increment": true,
+      "is_default_increment_column": false,
+      "updated_at": "2023-05-03T22:13:25.875000"
+    }
+  ]
+}

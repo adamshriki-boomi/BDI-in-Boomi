@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "account": {
+        "$oid": "60592cb111504212a314b6e2"
+      },
+      "environment_id": "sirilo4883",
+      "color": "#e1f1ff",
+      "variables": {
+        "variable123": "",
+        "aws_file_zone": "sirilo4883-rivery",
+        "gcs_file_zone": "sirilo4883-rivery",
+        "hours_offset": 0,
+        "Mail_Alert_Group": "mymail@TestSirilo4883.com",
+        "days_ago": 0
+      },
+      "environment_name": "Default",
+      "is_default": true,
+      "cross_id": {
+        "$oid": "faked-env-1"
+      },
+      "_id": {
+        "$oid": "faked-env-1"
+      }
+    },
+    {
+      "account": {
+        "$oid": "607ee20a115042074560b8bc"
+      },
+      "environment_id": "Nuclear",
+      "color": "#e1f1ff",
+      "variables": {
+        "aws_file_zone": "Nuclear-rivery",
+        "gcs_file_zone": "Nuclear-rivery",
+        "hours_offset": 0,
+        "Mail_Alert_Group": "lmpbwjrsmfmunb@nucleant.org",
+        "days_ago": 0
+      },
+      "environment_name": "Faked Env 2",
+      "is_default": true,
+      "cross_id": {
+        "$oid": "faked-env-2"
+      },
+      "_id": {
+        "$oid": "faked-env-2"
+      }
+    },
+    {
+      "account": {
+        "$oid": "607ee20a115042074560b8bc"
+      },
+      "environment_id": "Nuclear2",
+      "color": "#f1ccaa",
+      "variables": {
+        "variable123": "",
+        "aws_file_zone": "Nuclear-rivery",
+        "gcs_file_zone": "Nuclear-rivery",
+        "hours_offset": 0,
+        "Mail_Alert_Group": "lmpbwjrsmfmunb@nucleant.org",
+        "days_ago": 0
+      },
+      "environment_name": "Faked Env 3",
+      "is_default": true,
+      "cross_id": {
+        "$oid": "faked-env-3"
+      },
+      "_id": {
+        "$oid": "faked-env-3"
+      }
+    }
+  ]
+}
+  

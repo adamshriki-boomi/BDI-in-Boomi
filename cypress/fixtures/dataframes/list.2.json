@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "_id": "61bf29f5c2e403001dc01e02",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "last_data_frame",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/ffff"
+    },
+    {
+      "_id": "61bf29f5c2e403001dc01e0s",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "last_frame_2",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/zzzz"
+    },
+    {
+      "_id": "61bf29f5c2e403001dc01e0s",
+      "account_id": "55bf7c4270fdca16cac18761",
+      "environment_id": "563f5b17b0a10e07a4ff4c33",
+      "name": "last_frame_3",
+      "path": "rivery-default-fz-55bf7c4270fdca16cac18761/dataframe/zzzz"
+    }
+  ],
+  "next_page": "",
+  "current_page_size": 2
+}

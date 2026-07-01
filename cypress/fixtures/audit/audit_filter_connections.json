@@ -1,0 +1,21 @@
+{
+    "items": [
+        {
+            "account": "55bf7c4270fdca16cac18761", 
+            "additional_info": "{}", 
+            "entity_logical_key": "62666387a1912800111d023c", 
+            "entity_name": "Test connection", 
+            "entity_type": "connections", 
+            "env_id": "563f5b17b0a10e07a4ff4c33", 
+            "event_datetime": "2022-04-25 09:01:59.179000", 
+            "event_id": "8291e9a1ab9548ae9536c8335ae38be7", 
+            "event_initiator": "UI", 
+            "event_name": "create:connections", 
+            "event_result_status": 200, 
+            "event_time": 1650815419272, 
+            "event_type": "create", 
+            "user_id": "61e411c196e76e001df434ac", 
+            "user_name": "Inara"
+        }
+    ]
+}
