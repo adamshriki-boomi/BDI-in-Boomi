@@ -22,30 +22,7 @@ import agentStudioIcon from './assets/agent-studio.png';
  */
 
 const NAVY = 'var(--exo-palette-navy-80, #072b55)';
-const ACTIVE_TAB_BG = '#395577';
-const NAV_TEXT = '#b5bfcc';
 const USER_OUTLINE = '#8395aa';
-
-function Caret() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      aria-hidden="true"
-      style={{ flexShrink: 0 }}
-    >
-      <path
-        d="M4 6l4 4 4-4"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        fill="none"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 /** App-switcher waffle — a 3x3 grid of dots (matches the Figma "DotsNine"). */
 function NineDots() {
@@ -64,45 +41,6 @@ function NineDots() {
         )),
       )}
     </svg>
-  );
-}
-
-function Tab({
-  label,
-  active = false,
-  caret = false,
-  onClick,
-}: {
-  label: string;
-  active?: boolean;
-  caret?: boolean;
-  onClick?: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 4,
-        minHeight: 32,
-        minWidth: 48,
-        justifyContent: 'center',
-        padding: '4px 8px',
-        borderRadius: 4,
-        border: 'none',
-        cursor: 'pointer',
-        background: active ? ACTIVE_TAB_BG : 'transparent',
-        color: active ? '#ffffff' : NAV_TEXT,
-        fontSize: 14,
-        fontWeight: active ? 600 : 400,
-        whiteSpace: 'nowrap',
-      }}
-    >
-      <span style={{ padding: '0 4px' }}>{label}</span>
-      {caret ? <Caret /> : null}
-    </button>
   );
 }
 
@@ -146,7 +84,9 @@ export function ExoMasthead() {
         boxShadow: '0 4px 8px rgba(0,0,0,0.15)',
       }}
     >
-      {/* Left: logo lockup + primary nav */}
+      {/* Left: logo lockup (no primary nav tabs — the leftnav is the app's
+          navigation, so the masthead's Dashboard/Build/Deploy/Manage tabs are
+          intentionally omitted). */}
       <div
         style={{ display: 'flex', alignItems: 'center', gap: 24, minWidth: 0 }}
       >
@@ -185,13 +125,6 @@ export function ExoMasthead() {
             Data Integration
           </span>
         </button>
-
-        <nav style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-          <Tab label="Dashboard" active caret onClick={goHome} />
-          <Tab label="Build" />
-          <Tab label="Deploy" caret />
-          <Tab label="Manage" caret />
-        </nav>
       </div>
 
       {/* Right: action group */}
