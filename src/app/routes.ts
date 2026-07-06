@@ -121,6 +121,7 @@ export const supportedAppRoutes = [
 export const reactAppRoutes = [
   'dashboard',
   'rivers',
+  'connections',
   'settings',
   'billing',
   'consumption',

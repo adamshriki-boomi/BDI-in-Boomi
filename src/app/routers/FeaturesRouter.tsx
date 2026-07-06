@@ -4,6 +4,10 @@ import ActivitiesRiverView from 'containers/Activities/[id]';
 import { Activities } from 'containers/Activities/Activities';
 import { Settings } from 'containers/AppSettings/Settings';
 import AuditLog from 'containers/AuditLog/AuditLog';
+import {
+  Connections,
+  LegacyRouteConnections,
+} from 'containers/Connections/Connections';
 import { useEditorThemeEnhancer } from 'containers/River/RiverLogic/Logic/components/ScriptEditor/utils/providers/custom';
 import { LegacyRouteRiver } from 'containers/Rivers/LegacyRiver';
 import { RiverActionSelector } from 'containers/Rivers/RiverActionSelector';
@@ -158,18 +162,18 @@ export function FeaturesRouter() {
           component={LegacyDashboard}
         />
 
-        {/* <PrivateRoute
-        key="connections"
-        exact
-        path={AppRoutes.CONNECTIONS}
-        component={Connections}
+        <PrivateRoute
+          key="connections"
+          exact
+          path={AppRoutes.CONNECTIONS}
+          component={Connections}
         />
         <PrivateRoute
-        key="connections-legacy"
-        exact
-        path={LegacyRoutes.CONNECTIONS}
-        component={LegacyRouteConnections}
-      /> */}
+          key="connections-legacy"
+          exact
+          path={LegacyRoutes.CONNECTIONS}
+          component={LegacyRouteConnections}
+        />
       </Switch>
     </Suspense>
   );
