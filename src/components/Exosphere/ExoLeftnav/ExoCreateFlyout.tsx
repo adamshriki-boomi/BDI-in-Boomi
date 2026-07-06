@@ -17,10 +17,11 @@
  * Revisit if Exosphere ships a card-list picker.
  * ────────────────────────────────────────────────────────────
  */
-import type { ComponentType } from 'react';
+import { ExIcon, IconSize } from '@boomi/exosphere/dist/react/icon';
 import { RiverTypes } from 'api/types';
 import { RoutesBuilder } from 'app/routes';
-// REUSE: same catalog (title/description/icon/type) the Rivery drawer renders.
+// REUSE: same catalog (title/description/type) the Rivery drawer renders — the
+// illustrations are swapped for Exosphere ExIcons (ICON_BY_TYPE) to stay on-system.
 import { riverItems } from 'containers/Onboarding/components/Steps/Step1';
 // REUSE: same draft-river side-effect the Rivery Logic card fires.
 import { useRiverBuilder } from 'containers/River/hooks/useRiverLoader';
@@ -31,9 +32,20 @@ import { getCrossId } from 'utils/api.sanitizer';
 // REUSE: same per-river-type route builder.
 import { useRiverRouteBuilder } from 'utils/create-river.helpers';
 
+// One Exosphere icon per Data Flow type (replacing the off-system Rivery
+// illustrations). All are monochrome kebab icons that inherit the brand color.
+const ICON_BY_TYPE: Record<string, string> = {
+  [RiverTypes.SOURCE_TO_FZ]: 'hub-dataset', // the datasets/tables being moved
+  [RiverTypes.LOGIC]: 'code', // SQL + Python
+  [RiverTypes.ACTION]: 'Toolbox', // "build your own"
+  Kits: 'folder-group', // matches the leftnav Kits icon
+};
+
+// Hover lifts the card via border + shadow only (no background change) so the
+// grey icon badge stays visible.
 const CARD_STYLES =
-  '.exo-create-card{transition:background .15s,border-color .15s,box-shadow .15s}' +
-  '.exo-create-card:hover:not(:disabled){background:var(--exo-color-background-highlight,#eef2f6);' +
+  '.exo-create-card{transition:border-color .15s,box-shadow .15s}' +
+  '.exo-create-card:hover:not(:disabled){' +
   'border-color:var(--exo-color-background-action,#0b5cd7);' +
   'box-shadow:0 2px 8px var(--exo-color-shadow-weak,rgba(0,0,0,0.08))}' +
   '.exo-create-card:disabled{opacity:.6;cursor:not-allowed}';
@@ -111,10 +123,7 @@ export function ExoCreateFlyout({ onClose }: ExoCreateFlyoutProps) {
         }}
       >
         {riverItems.map(item => {
-          const Illustration = item.icon as ComponentType<{
-            width?: number;
-            height?: number;
-          }>;
+          const iconName = ICON_BY_TYPE[item.type as string] ?? 'values-flow';
           return (
             <button
               key={item.title}
@@ -140,15 +149,17 @@ export function ExoCreateFlyout({ onClose }: ExoCreateFlyoutProps) {
               <span
                 aria-hidden
                 style={{
-                  width: 84,
-                  height: 60,
+                  width: 48,
+                  height: 48,
+                  borderRadius: '50%',
+                  flexShrink: 0,
                   display: 'inline-flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  flexShrink: 0,
+                  background: 'var(--exo-color-background-secondary, #f5f5f5)',
                 }}
               >
-                <Illustration width={84} height={60} />
+                <ExIcon icon={iconName} size={IconSize.S} />
               </span>
               <span
                 style={{
