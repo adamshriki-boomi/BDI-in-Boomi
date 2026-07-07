@@ -35,10 +35,20 @@ export const minsAgo = (m: number) => NOW - m * MIN;
 export const hoursAgo = (h: number) => NOW - h * HOUR;
 export const daysAgo = (d: number) => NOW - d * DAY;
 
-/** Icon path forms (assets live in public/dist/images/dataSources/*.png). */
+/**
+ * Icon path forms (assets live in public/dist/images/dataSources/*.png).
+ *
+ * Prefix with the Vite base path so icons resolve both locally (base '/') and
+ * on GitHub Pages (base '/BDI-in-Boomi/'). `import.meta.env.BASE_URL` carries
+ * that prefix with a trailing slash — the same pattern src/app/App.tsx (router
+ * basename) and src/mocks/index.ts (MSW worker URL) use. Without it, absolute
+ * `/dist/...` paths 404 on Pages because the site is served from a sub-path.
+ */
 const ICON_DIR = 'dist/images/dataSources';
-export const iconUrl = (file: string) => `/${ICON_DIR}/${file}`; // <img src={...}> directly
-export const iconRel = (file: string) => `${ICON_DIR}/${file}`; // connections table adds leading "/"
+const BASE = import.meta.env.BASE_URL; // '/' locally, '/BDI-in-Boomi/' on Pages
+export const iconUrl = (file: string) => `${BASE}${ICON_DIR}/${file}`; // used as <Image src> directly
+export const iconRel = (file: string) =>
+  `${BASE}${ICON_DIR}/${file}`.replace(/^\//, ''); // connections table prepends "/"
 
 /**
  * Connector registry. `id`/`api_name` are the values used as `datasource_id` on
